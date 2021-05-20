@@ -25,12 +25,12 @@ or the [OPR Forum](http://forum.onepagerules.com/) if you need something.
 
 # How do I use these files?
 
-In order to use these files, you must manually add the index to Battlescribe and
+The data is hosted on the BSData Gallery.
+
+In order to use these files, you must manually add the Gallery to Battlescribe and
 then refresh the data.
 
-The index is hosted at:
-
-https://grimdark-future.s3.amazonaws.com/index.bsi
+You can also use Gallery for any other game systems you might want to use.
 
 ## Instructions
 
