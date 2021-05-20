@@ -9,4 +9,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-    - uses: BSData/publish-catpkg@v1
+    - uses: OnePageRules/publish-catpkg@v1
