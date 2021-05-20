@@ -1,0 +1,1904 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="99a3-5fe0-ccd2-58c8" name="Titan Lords" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="d755-5d69-2721-c11b" gameSystemRevision="19" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <publications>
+    <publication id="95ba-fba7-58ab-358d" name="Titan Lords v2.4"/>
+  </publications>
+  <entryLinks>
+    <entryLink id="e22b-1ee0-6c14-1911" name="Hell Mini-Titan" hidden="false" collective="false" import="true" targetId="4e55-daa7-4fd0-e51e" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="77eb-f58d-eb8f-8aeb" name="New CategoryLink" hidden="false" targetId="b820-6309-e900-c733" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="ec2a-e30f-fae6-e61b" name="Glaive Mini-Titan" hidden="false" collective="false" import="true" targetId="0a22-17b7-08ec-7754" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="0319-2ebe-3cf0-2748" name="New CategoryLink" hidden="false" targetId="b820-6309-e900-c733" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="b27a-6121-0c8e-5961" name="Gallant Titan" hidden="false" collective="false" import="true" targetId="5781-53b4-0257-6705" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="eab9-8e57-8dbb-d65e" name="New CategoryLink" hidden="false" targetId="7528-ccdf-679c-8613" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="216d-285d-d135-1391" name="Warden Titan" hidden="false" collective="false" import="true" targetId="2136-790c-06bf-3029" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="3152-c168-fbea-8550" name="New CategoryLink" hidden="false" targetId="7528-ccdf-679c-8613" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="5758-eab7-29b0-ae60" name="Preceptor Titan" hidden="false" collective="false" import="true" targetId="15ad-0d54-4768-3c03" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="8fcb-befd-e01a-aec9" name="New CategoryLink" hidden="false" targetId="7528-ccdf-679c-8613" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="f48e-694c-bad4-257b" name="Errant Titan" hidden="false" collective="false" import="true" targetId="d805-6eb8-836f-22a9" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="1f6e-b8ee-352a-3c24" name="New CategoryLink" hidden="false" targetId="7528-ccdf-679c-8613" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="9081-a62d-008b-7118" name="Castellan Titan" hidden="false" collective="false" import="true" targetId="28d7-3c82-b828-7730" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="9820-60ce-aa6c-7e16" name="New CategoryLink" hidden="false" targetId="7528-ccdf-679c-8613" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="e92e-ac86-c331-d337" name="Paladin Titan" hidden="false" collective="false" import="true" targetId="db47-7ac4-20e9-c520" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="2c08-0d59-f6f6-63a8" name="New CategoryLink" hidden="false" targetId="7528-ccdf-679c-8613" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="5ffd-4ea5-66e0-fc4f" name="Valiant Titan" hidden="false" collective="false" import="true" targetId="eff4-2c9c-8b76-305a" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="f587-47d9-af09-1895" name="New CategoryLink" hidden="false" targetId="7528-ccdf-679c-8613" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="2346-6d6a-a78d-a1c2" name="Crusader Titan" hidden="false" collective="false" import="true" targetId="2dfa-336b-699c-2168" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="ab05-1a0c-0304-7874" name="New CategoryLink" hidden="false" targetId="7528-ccdf-679c-8613" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="4e55-daa7-4fd0-e51e" name="Hell Mini-Titan" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="2dd8-53ec-8d43-ed9a" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
+        <infoLink id="8dad-801d-fbf7-eb43" name="Fear" hidden="false" targetId="d21e-0b0f-ebec-46da" type="rule"/>
+        <infoLink id="7f5b-23a8-0811-f34a" name="Fearless" hidden="false" targetId="fe6b-f29d-2128-a0b0" type="rule"/>
+        <infoLink id="7efa-4dff-b9fc-19d0" name="Hell Mini-Titan" hidden="false" targetId="8415-259d-1a5a-769a" type="profile"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="7279-44fd-e658-a056" name="Upgrade with one" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0dbc-c0ce-8903-816d" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="c841-5761-da17-6c4a" name="Light Machinegun" hidden="false" collective="false" import="true" targetId="6bf9-8992-7b02-5764" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="95d6-084a-0c09-b2c5" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="20.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="ed5f-b74a-668e-ef12" name="Fusion Rifle" hidden="false" collective="false" import="true" targetId="f389-e078-075e-fbff" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dea8-e39e-36f9-6ab6" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="25.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="5ca6-70cf-73cd-9fde" name="Upgrade with one" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="989c-39f9-80b9-f327" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="13e8-c60a-4985-9433" name="Extra Armor" hidden="false" collective="false" import="true" targetId="462a-e5e5-7157-2ff8" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f275-5c11-a30f-d6a3" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="200.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="6124-079f-7e35-cb03" name="Power Shields" hidden="false" collective="false" import="true" targetId="04a9-2c8e-a9fd-5146" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4049-87c5-f0d4-9a8d" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="70.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="5e76-d692-a7f2-9b34" name="Upgrade with" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="07e1-aeff-4fa6-c1f5" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="bd17-8645-02e1-594c" name="Veteran Mini-Titan" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="9d4c-4655-6362-84c0" name="Veteran Mini-Titan" hidden="false" targetId="115b-f90d-a9a7-2a1d" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="170.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="3dfe-764f-28ec-73c0" name="Hell Autocannon" hidden="false" collective="false" import="true" targetId="1333-ce1a-fcda-127d" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2654-ac7b-9bd9-96ce" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5fe0-8a4a-f3ce-9913" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="7f21-73d1-4aed-2097" name="Mini-Titan Stomp" hidden="false" collective="false" import="true" targetId="2529-0c0a-85e7-8f36" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2a2d-a7a8-6d9e-540a" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9c98-856e-346e-9ce6" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="480.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1333-ce1a-fcda-127d" name="Hell Autocannon" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="6f1d-6963-daa4-f664" name="Hell Autocannon" hidden="false" targetId="b986-f32f-1a15-45e5" type="profile"/>
+        <infoLink id="af7f-1ce5-9f60-1048" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2529-0c0a-85e7-8f36" name="Mini-Titan Stomp" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="8b4c-28b7-59f4-76a3" name="Mini-Titan Stomp" hidden="false" targetId="2be3-f8f9-30c4-4e0e" type="profile"/>
+        <infoLink id="7005-98df-1f96-916f" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="04a9-2c8e-a9fd-5146" name="Power Shields" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="1fbe-e828-cfbf-b284" name="Power Shields" hidden="false" targetId="73be-7852-3382-641c" type="profile"/>
+        <infoLink id="9460-3fde-0afb-3c26" name="Regeneration" hidden="false" targetId="dea8-a8f9-1865-4424" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ae90-4fd1-5576-2c07" name="Extra Armor" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="a8a7-c696-729b-18e7" name="Extra Armor" hidden="false" targetId="6402-1e5d-23f6-e405" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="462a-e5e5-7157-2ff8" name="Extra Armor" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="79d9-81c4-e9ca-c021" name="Extra Armor" hidden="false" targetId="65d2-d613-30cc-1f89" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0a22-17b7-08ec-7754" name="Glaive Mini-Titan" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="8e47-3d62-716c-f2f2" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
+        <infoLink id="bfd9-e015-3bb9-20ff" name="Fear" hidden="false" targetId="d21e-0b0f-ebec-46da" type="rule"/>
+        <infoLink id="38be-f536-9c8e-1c4f" name="Fearless" hidden="false" targetId="fe6b-f29d-2128-a0b0" type="rule"/>
+        <infoLink id="5bcf-7dfe-09c2-26b3" name="Glaive Mini-Titan" hidden="false" targetId="117b-97ef-0a2b-b931" type="profile"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="65c4-7ddc-01e0-02fc" name="Upgrade with one" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="87c4-d612-0b84-1a2c" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="96f2-64a7-10c2-988f" name="Light Machinegun" hidden="false" collective="false" import="true" targetId="6bf9-8992-7b02-5764" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aa46-983d-7510-f8e6" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="20.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="9ac8-a424-797f-c394" name="Fusion Rifle" hidden="false" collective="false" import="true" targetId="f389-e078-075e-fbff" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1740-1116-aa39-40fc" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="25.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="9c59-dd88-adb3-c79d" name="Upgrade with one" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4f35-117e-4b1f-f4a0" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="5389-e19e-db02-586b" name="Extra Armor" hidden="false" collective="false" import="true" targetId="462a-e5e5-7157-2ff8" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="74f5-553b-d294-cbff" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="200.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="b855-4840-bd21-0e7f" name="Power Shields" hidden="false" collective="false" import="true" targetId="04a9-2c8e-a9fd-5146" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e2fb-95ab-c64a-77a3" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="70.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="1dcb-0f05-40d4-7314" name="Upgrade with" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="56fb-89f6-2814-451d" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="d139-fc04-0a38-ea30" name="Veteran Mini-Titan" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="b856-2765-afc5-0b39" name="Veteran Mini-Titan" hidden="false" targetId="115b-f90d-a9a7-2a1d" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="170.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="8c8c-6705-0d16-4874" name="Fusion Blaster" hidden="false" collective="false" import="true" targetId="aca9-ba43-17d8-99c4" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="947f-6da1-f599-fe20" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="44ea-5881-ca38-11d3" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="0a93-ec03-1d1b-ef05" name="Mini-Titan Sword" hidden="false" collective="false" import="true" targetId="f948-8376-8941-3c18" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2105-a334-70dd-355c" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="05a1-f64b-c0eb-8660" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="510.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="aca9-ba43-17d8-99c4" name="Fusion Blaster" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="5362-305d-d7fa-3ac7" name="Fusion Blaster" hidden="false" targetId="c271-cb3f-cca9-0deb" type="profile"/>
+        <infoLink id="b18a-8b1f-7df3-f551" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+        <infoLink id="5b76-b1cf-0cff-21e2" name="Deadly(X)" hidden="false" targetId="377b-3864-960e-57ac" type="rule"/>
+        <infoLink id="774c-8fad-45a3-3b5a" name="Blast(X)" hidden="false" targetId="187f-6414-7037-a542" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f948-8376-8941-3c18" name="Mini-Titan Sword" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="8f53-a26b-6c1e-6087" name="Mini-Titan Sword" hidden="false" targetId="8d15-1def-2ddc-1735" type="profile"/>
+        <infoLink id="4136-a241-840b-86ea" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5781-53b4-0257-6705" name="Gallant Titan" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="de71-b20a-fa97-8150" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
+        <infoLink id="e1db-3d69-2f94-e109" name="Fear" hidden="false" targetId="d21e-0b0f-ebec-46da" type="rule"/>
+        <infoLink id="40f2-b09a-18e8-3772" name="Fearless" hidden="false" targetId="fe6b-f29d-2128-a0b0" type="rule"/>
+        <infoLink id="fdd7-7dbd-59c9-bd0d" name="Gallant Titan" hidden="false" targetId="ea86-b739-2a58-5e50" type="profile"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="56a6-5e0f-0419-5128" name="Upgrade with" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a30d-6d9e-f67c-8953" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="594d-647b-e709-ec71" name="Light Machinegun" hidden="false" collective="false" import="true" targetId="6bf9-8992-7b02-5764" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ca4c-af7f-c643-52b0" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="20.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="5981-26a5-592d-0e50" name="Fusion Rifle" hidden="false" collective="false" import="true" targetId="f389-e078-075e-fbff" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ada1-6894-b84e-dc45" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="25.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="388c-4229-1710-4469" name="Upgrade with" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="32d5-c4d0-cfa5-cba7" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="d46d-5d2b-ae0b-7d6d" name="Veteran Titan" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="81c2-4503-91d7-a8e1" name="Veteran Titan" hidden="false" targetId="56c6-bd0d-f5e5-5be6" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="680.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="50c5-be20-e6f3-94d3" name="Upgrade with one" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="467c-389c-1be4-4725" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="e535-0ae7-0117-992e" name="Missile Pod" hidden="false" collective="false" import="true" targetId="081a-c37a-d943-e3b6" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4b02-9655-0a75-e6ff" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="90.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="d4b2-6107-0971-b902" name="Twin AA-Cannon" hidden="false" collective="false" import="true" targetId="3f8b-5098-c8b9-5cd2" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="00a6-a400-9fdd-96f1" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="80.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="2d00-3322-735a-2bf2" name="Rocket Pod" hidden="false" collective="false" import="true" targetId="dae3-4749-3a9c-461e" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="efdb-fa17-e2c3-e4b5" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="60.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="bce8-9e1a-8236-cd72" name="Upgrade with one" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="83f8-0e42-0c23-3563" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="0636-e3b1-65ed-3b7c" name="Extra Armor" hidden="false" collective="false" import="true" targetId="ae90-4fd1-5576-2c07" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0617-b63f-319f-137e" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="395.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="cead-d9cb-943b-6ee6" name="Power Shields" hidden="false" collective="false" import="true" targetId="04a9-2c8e-a9fd-5146" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1c68-09f5-0547-d92f" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="145.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="99c0-9b4d-a151-0f68" name="Titan Energy Fist" hidden="false" collective="false" import="true" targetId="31f3-534f-e068-2bf3" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2916-c4e3-8a11-6b09" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2a96-3a04-c591-8a73" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="4b97-8138-7b08-c856" name="Titan Sword" hidden="false" collective="false" import="true" targetId="9819-4203-a0de-01f8" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2b41-c859-8fcb-33a9" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6fca-4807-a64d-8241" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="bbd1-0c22-6732-c7f9" name="Titan Stomp" hidden="false" collective="false" import="true" targetId="3d08-c767-9657-bb03" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0515-08ee-6c0b-d3f7" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1975-8fd1-34af-4f60" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="765.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="dae3-4749-3a9c-461e" name="Rocket Pod" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="8c66-dff3-21c5-5c9e" name="Rocket Pod" hidden="false" targetId="b83a-a1bc-a612-4f50" type="profile"/>
+        <infoLink id="4477-d89c-5e5e-d709" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="081a-c37a-d943-e3b6" name="Missile Pod" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="8f99-2b4d-cee5-610f" name="Missile Pod" hidden="false" targetId="5f05-d881-58b9-eae2" type="profile"/>
+        <infoLink id="8874-05e7-ac58-631d" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+        <infoLink id="4da7-d1e5-91dc-64e0" name="Indirect" hidden="false" targetId="587a-b92c-a265-06c4" type="rule"/>
+        <infoLink id="6947-c09c-3f76-cc87" name="Blast(X)" hidden="false" targetId="187f-6414-7037-a542" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="31f3-534f-e068-2bf3" name="Titan Energy Fist" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="8a04-f7cd-d480-c7ca" name="Titan Energy Fist" hidden="false" targetId="c257-d721-9ded-fd45" type="profile"/>
+        <infoLink id="1323-c950-a9a4-a02a" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+        <infoLink id="14fb-695c-ecaa-12da" name="Deadly(X)" hidden="false" targetId="377b-3864-960e-57ac" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9819-4203-a0de-01f8" name="Titan Sword" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="f476-2fd5-147e-1ab2" name="Titan Sword" hidden="false" targetId="82f5-8909-71b9-e9d6" type="profile"/>
+        <infoLink id="d3d1-b813-b5ec-2afe" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2136-790c-06bf-3029" name="Warden Titan" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="4c16-471e-8b83-e8ad" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
+        <infoLink id="6a14-80d0-3b92-9afb" name="Fear" hidden="false" targetId="d21e-0b0f-ebec-46da" type="rule"/>
+        <infoLink id="00ed-ccc9-9c61-61a4" name="Fearless" hidden="false" targetId="fe6b-f29d-2128-a0b0" type="rule"/>
+        <infoLink id="9b81-1496-c968-3064" name="Warden Titan" hidden="false" targetId="d1fe-d17b-c5f3-5010" type="profile"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="411b-13a1-d161-2fbe" name="Upgrade with" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9a70-2a1c-8a67-a8b9" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="5f1a-9977-80d3-d865" name="Veteran Titan" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="5905-b3ac-53aa-e5bd" name="Veteran Titan" hidden="false" targetId="56c6-bd0d-f5e5-5be6" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="680.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="2ee6-09f0-8150-4d3b" name="Upgrade with" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2125-3a5a-6346-38ac" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="90f3-00e8-a2a9-7c1f" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="9d46-6483-d3d7-3244" name="Machinegun" hidden="false" collective="false" import="true" targetId="6bf9-8992-7b02-5764" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="015b-7d92-6161-d862" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="20.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="45c6-f460-b891-89c0" name="Fusion Rifle" hidden="false" collective="false" import="true" targetId="f389-e078-075e-fbff" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e832-2736-7ee6-8ab6" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="25.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="b4ef-4fde-110e-dfa3" name="Upgrade with one" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6695-4cef-222b-753c" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="6486-3249-b8fb-5104" name="Extra Armor" hidden="false" collective="false" import="true" targetId="ae90-4fd1-5576-2c07" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b2b8-c377-6ba2-817f" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="395.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="cd68-f27d-7192-aa6e" name="Power Shields" hidden="false" collective="false" import="true" targetId="04a9-2c8e-a9fd-5146" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3d2f-91ce-620c-144d" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="145.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="18b4-89e5-7455-8b35" name="Upgrade with one" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fc10-d792-51d5-7ed7" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="b04e-38ae-01ee-5747" name="Missile Pod" hidden="false" collective="false" import="true" targetId="081a-c37a-d943-e3b6" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6a45-e6f9-ef99-dfb4" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="90.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="2cf9-d556-4a44-c413" name="Twin AA-Cannon" hidden="false" collective="false" import="true" targetId="3f8b-5098-c8b9-5cd2" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1b72-2829-19fa-210f" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="80.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="e68f-bee7-db0c-f87c" name="Rocket Pod" hidden="false" collective="false" import="true" targetId="dae3-4749-3a9c-461e" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="af0b-98de-ab3c-6087" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="60.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="5f25-c70b-1c6a-b70f" name="Gatling Cannon" hidden="false" collective="false" import="true" targetId="54ef-a365-79cb-0c50" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="daf2-6edc-3bf0-1c3f" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ae4b-718b-1bea-339f" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="a8f4-f2b0-7acf-2a89" name="Titan Sword" hidden="false" collective="false" import="true" targetId="9819-4203-a0de-01f8" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5ecb-16c7-8284-c84c" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c548-1370-e77d-a0cb" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="1409-9c4e-f868-1d90" name="Titan Stomp" hidden="false" collective="false" import="true" targetId="3d08-c767-9657-bb03" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1230-b7eb-28e5-800f" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bea9-2676-8017-6480" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="910.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="54ef-a365-79cb-0c50" name="Gatling Cannon" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="e5a8-b323-7e85-69d3" name="Gatling Cannon" hidden="false" targetId="736d-1694-09ed-f3f9" type="profile"/>
+        <infoLink id="a56a-894b-867a-2c5d" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+        <infoLink id="4651-f120-f616-f0d5" name="Rending" hidden="false" targetId="9726-accd-9015-f6f6" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="15ad-0d54-4768-3c03" name="Preceptor Titan" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="bfcb-32c5-2813-3905" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
+        <infoLink id="2080-fb5a-985c-9881" name="Fear" hidden="false" targetId="d21e-0b0f-ebec-46da" type="rule"/>
+        <infoLink id="4dbb-2bca-9e46-7733" name="Fearless" hidden="false" targetId="fe6b-f29d-2128-a0b0" type="rule"/>
+        <infoLink id="a5a9-4f4d-7968-c895" name="Preceptor Titan" hidden="false" targetId="41c2-44bf-3645-90f8" type="profile"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="ec55-1449-2c86-6590" name="CCW" hidden="false" collective="false" import="true" defaultSelectionEntryId="b68a-b126-755a-a629">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c4b4-7a1d-ee74-9d66" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="971c-1f30-340f-20ea" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="b68a-b126-755a-a629" name="Titan Sword" hidden="false" collective="false" import="true" targetId="9819-4203-a0de-01f8" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4d07-a707-bdd7-f91c" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="b45f-7fce-69a4-0ba4" name="Titan Energy Fist" hidden="false" collective="false" import="true" targetId="31f3-534f-e068-2bf3" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1f72-ee70-cb66-5225" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="20.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="c5bb-9a94-5f06-bc8a" name="Upgrade with one" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d6a3-b530-c6dd-71cb" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="cd18-576c-d942-357c" name="Laser Machinegun" hidden="false" collective="false" import="true" targetId="47f2-79ad-f2c9-d7b0" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a1f7-e50d-a522-4023" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="35.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="d955-2925-d26c-9d83" name="Light Machinegun" hidden="false" collective="false" import="true" targetId="6bf9-8992-7b02-5764" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1b80-b7c2-6a6b-9f96" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="20.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="c271-ddd0-dc64-4622" name="Fusion Rifle" hidden="false" collective="false" import="true" targetId="f389-e078-075e-fbff" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="852f-4ace-857a-4f69" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="25.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="2980-756d-9368-f298" name="Upgrade with" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cc6d-a704-6bef-4981" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="19c1-1ccc-fc77-465b" name="Light Machinegun" hidden="false" collective="false" import="true" targetId="6bf9-8992-7b02-5764" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3242-c0e5-3693-f0ca" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="20.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="a0ca-019d-27b4-c045" name="Fusion Rifle" hidden="false" collective="false" import="true" targetId="f389-e078-075e-fbff" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3f53-071c-204d-93c1" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="25.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="5ca8-757d-93f0-80e0" name="Upgrade with" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cdba-07ac-92b2-d046" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="a5a8-f277-1048-e1d8" name="Veteran Titan" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="3cc0-bdd1-377a-3020" name="Veteran Titan" hidden="false" targetId="56c6-bd0d-f5e5-5be6" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="680.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="ebf7-c1d1-a507-85b9" name="Upgrade with one" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4506-6e69-f3e0-2d85" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="928b-05bc-aa7c-6582" name="Extra Armor" hidden="false" collective="false" import="true" targetId="ae90-4fd1-5576-2c07" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6ce9-1a70-7d9d-4837" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="395.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="32b7-6a8b-6cfb-506a" name="Power Shields" hidden="false" collective="false" import="true" targetId="04a9-2c8e-a9fd-5146" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1c8d-1ddb-69af-5a20" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="145.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="7e08-e180-b183-d13e" name="Upgrade with one" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ff68-427e-8da2-8d96" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="4652-4c59-aaa7-9443" name="Missile Pod" hidden="false" collective="false" import="true" targetId="081a-c37a-d943-e3b6" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9735-27c4-4c06-b2b4" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="90.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="8e0b-ee20-71ca-3796" name="Twin AA-Cannon" hidden="false" collective="false" import="true" targetId="3f8b-5098-c8b9-5cd2" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a2b1-6160-ed4a-3475" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="80.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="e559-caf6-e4c2-e757" name="Rocket Pod" hidden="false" collective="false" import="true" targetId="dae3-4749-3a9c-461e" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4085-1852-762f-9970" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="60.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="d231-d822-0ab7-de1b" name="Pulse Laser" hidden="false" collective="false" import="true" targetId="640a-3620-0cba-dc5d" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3dcc-fe35-9fce-23b6" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1702-3175-a00d-9b77" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="3f83-34e7-be56-ea70" name="Titan Stomp" hidden="false" collective="false" import="true" targetId="3d08-c767-9657-bb03" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c853-1922-26bc-655b" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bde5-63a3-c8e0-abfd" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="910.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="640a-3620-0cba-dc5d" name="Pulse Laser" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="fcc0-cb10-e379-62e0" name="Pulse Laser" hidden="false" targetId="3fa9-384c-832f-d63e" type="profile"/>
+        <infoLink id="ebfc-a0bf-ef85-0701" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+        <infoLink id="fba0-fe2f-05ee-f453" name="Deadly(X)" hidden="false" targetId="377b-3864-960e-57ac" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="47f2-79ad-f2c9-d7b0" name="Laser Machinegun" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="6df7-94b5-0d70-5ddb" name="Laser Machinegun" hidden="false" targetId="c3ee-bea4-70a6-66f2" type="profile"/>
+        <infoLink id="a24a-4051-5475-f928" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d805-6eb8-836f-22a9" name="Errant Titan" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="10fd-ed22-0fcc-b0fe" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
+        <infoLink id="469c-8529-a6be-ddc2" name="Fear" hidden="false" targetId="d21e-0b0f-ebec-46da" type="rule"/>
+        <infoLink id="7d55-f92e-a0bf-aaa2" name="Fearless" hidden="false" targetId="fe6b-f29d-2128-a0b0" type="rule"/>
+        <infoLink id="534c-307e-526f-b851" name="Errant Titan" hidden="false" targetId="ddf6-7d52-dfc7-4dbf" type="profile"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="8d3b-4ec1-e116-66eb" name="Upgrade with" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0275-5384-5ce4-02e0" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="8f33-776e-c646-f3d8" name="Light Machinegun" hidden="false" collective="false" import="true" targetId="6bf9-8992-7b02-5764" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4068-1fb8-433c-ad9a" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="20.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="edd2-e0ff-41ef-6359" name="Fusion Rifle" hidden="false" collective="false" import="true" targetId="f389-e078-075e-fbff" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fdc9-01b8-f4cf-b72b" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="25.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="ff67-7290-bd9c-0585" name="Upgrade with" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4563-7828-6b1e-93a5" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="8190-2f97-d67c-1603" name="Veteran Titan" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="e44c-e71f-5060-b414" name="Veteran Titan" hidden="false" targetId="56c6-bd0d-f5e5-5be6" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="680.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="eeb1-83df-106b-507e" name="Upgrade with one" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d860-fd46-22b0-9346" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="a42b-4cbd-0b45-15df" name="Missile Pod" hidden="false" collective="false" import="true" targetId="081a-c37a-d943-e3b6" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2883-14fa-f843-6ab7" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="90.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="f304-156b-11f8-49ce" name="Twin AA-Cannon" hidden="false" collective="false" import="true" targetId="3f8b-5098-c8b9-5cd2" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f888-2d16-8127-65bf" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="80.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="06df-01cd-9707-b74f" name="Rocket Pod" hidden="false" collective="false" import="true" targetId="dae3-4749-3a9c-461e" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="609e-2e30-2361-047d" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="60.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="695f-5018-366e-1a7f" name="Upgrade with one" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cea1-3272-1683-6318" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="ca5c-2f0f-211a-e4bc" name="Extra Armor" hidden="false" collective="false" import="true" targetId="ae90-4fd1-5576-2c07" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7dc1-6f5f-3406-454d" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="395.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="9f8d-e3d4-6a69-6fbc" name="Power Shields" hidden="false" collective="false" import="true" targetId="04a9-2c8e-a9fd-5146" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="df44-3220-c9fa-196c" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="145.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="208a-df8e-8c5c-9b6c" name="Fusion Cannon" hidden="false" collective="false" import="true" targetId="0e7d-982c-cee0-052a" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a56e-183a-1ddc-a133" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1e3f-724e-9b7f-c192" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="7fbe-4fbd-75b0-922c" name="Titan Sword" hidden="false" collective="false" import="true" targetId="9819-4203-a0de-01f8" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="373f-3dff-0f9e-8185" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7e19-3348-6d9c-4a7e" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="c63b-6281-27e8-089a" name="Titan Stomp" hidden="false" collective="false" import="true" targetId="3d08-c767-9657-bb03" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ce95-8dcc-aac6-750e" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="02bf-bb8f-c7cb-52ee" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="945.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7e92-0783-18ae-aa53" name="Plasma Battle Cannon" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="6ccc-d7c1-8494-4a49" name="Plasma Battle cannon" hidden="false" targetId="b4a4-2026-a234-b5b9" type="profile"/>
+        <infoLink id="ffda-f8e5-eb89-3d4b" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+        <infoLink id="25de-5996-c2a7-018a" name="Blast(X)" hidden="false" targetId="187f-6414-7037-a542" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="309d-b9d9-b81e-2290" name="Volcano Cannon" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="0f77-daee-964c-dd84" name="Volcano Cannon" hidden="false" targetId="5bfa-8e83-5c6c-5e56" type="profile"/>
+        <infoLink id="1a43-4aa9-11b2-8d8d" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+        <infoLink id="9b2a-176f-87ef-3557" name="Blast(X)" hidden="false" targetId="187f-6414-7037-a542" type="rule"/>
+        <infoLink id="53e4-85be-48cf-4c61" name="Deadly(X)" hidden="false" targetId="377b-3864-960e-57ac" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="28d7-3c82-b828-7730" name="Castellan Titan" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="c061-0417-cef1-7c80" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
+        <infoLink id="38af-31a5-60f4-8d9e" name="Fear" hidden="false" targetId="d21e-0b0f-ebec-46da" type="rule"/>
+        <infoLink id="78fc-cf07-39f5-7929" name="Fearless" hidden="false" targetId="fe6b-f29d-2128-a0b0" type="rule"/>
+        <infoLink id="1610-f393-0e5a-3448" name="Impact(X)" hidden="false" targetId="0c08-1729-0be7-c286" type="rule"/>
+        <infoLink id="2bd5-1da3-4fb3-1a99" name="Catellan Titan" hidden="false" targetId="34a2-0ef3-92a0-f36c" type="profile"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="f8fe-8c35-e9ef-978a" name="Upgrade with" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e424-0d6b-7a35-9030" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="edf9-b69f-b0e8-c1d3" name="Light Machinegun" hidden="false" collective="false" import="true" targetId="6bf9-8992-7b02-5764" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6821-df10-c583-7ae0" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="20.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="2e71-2b84-70af-28bb" name="Fusion Rifle" hidden="false" collective="false" import="true" targetId="f389-e078-075e-fbff" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="16f2-c16e-0fef-70a0" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="25.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="f621-e7ef-f22f-2326" name="Upgrade with" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7707-9e1b-6657-bcc7" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="4c04-7d28-d03e-3100" name="Veteran Titan" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="73b7-ac16-9dd1-0472" name="Veteran Titan" hidden="false" targetId="56c6-bd0d-f5e5-5be6" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="680.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="a7bc-9e0d-91ec-c452" name="Upgrade with one" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9f1c-c682-1ca5-7171" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="d692-ab4c-c58f-aac3" name="Missile Pod" hidden="false" collective="false" import="true" targetId="081a-c37a-d943-e3b6" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ab73-a679-6ca9-294e" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="90.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="056f-f54b-05cf-4dcc" name="Twin AA-Cannon" hidden="false" collective="false" import="true" targetId="3f8b-5098-c8b9-5cd2" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b575-2858-a138-216d" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="80.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="5f74-c7a0-0629-bf27" name="Rocket Pod" hidden="false" collective="false" import="true" targetId="dae3-4749-3a9c-461e" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e77f-b61c-d380-d460" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="60.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="4308-1766-4085-ee47" name="Upgrade with one" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="737a-c9ae-f7ca-f7e2" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="a98c-dae2-a1e4-72df" name="Extra Armor" hidden="false" collective="false" import="true" targetId="ae90-4fd1-5576-2c07" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dfce-3b2c-16f6-1621" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="395.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="0010-a632-a053-0fc4" name="Power Shields" hidden="false" collective="false" import="true" targetId="04a9-2c8e-a9fd-5146" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="29e0-b899-8763-d83a" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="145.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="1695-0158-a97d-9f09" name="Upgrade with" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b733-3ac8-9194-ed67" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="dbf3-61e4-456e-e370" name="2x Twin Fusion Rifles" hidden="false" collective="false" import="true" type="upgrade">
+              <entryLinks>
+                <entryLink id="e59e-1b5b-d79c-7f0d" name="Twin Fusion Rifle" hidden="false" collective="false" import="true" targetId="3fb5-656b-ea36-5cf5" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e551-34e8-6dd3-f09b" type="max"/>
+                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0959-d77d-cf3c-6058" type="min"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="50.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="8ac9-7945-2dbf-f923" name="Upgrade with one" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="26a6-dd4c-4733-44cd" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="1fb6-60e6-60bd-1a02" name="2x Twin Siege Cannons" hidden="false" collective="false" import="true" type="upgrade">
+              <entryLinks>
+                <entryLink id="2a24-0471-a2ce-01d3" name="Twin Siege Cannon" hidden="false" collective="false" import="true" targetId="5539-67b4-c26e-a233" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f73a-70f0-09cb-ef81" type="max"/>
+                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="89b7-5281-1d97-656d" type="min"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="380.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="562e-3b1d-e54c-22e0" name="2x Twin Shield Missiles" hidden="false" collective="false" import="true" type="upgrade">
+              <entryLinks>
+                <entryLink id="2a0e-2c41-534a-366d" name="Twin Shield Missiles" hidden="false" collective="false" import="true" targetId="b3e3-728c-096e-bfb9" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b845-2dfa-efc7-a86d" type="max"/>
+                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ea43-9cde-8789-7e9e" type="min"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="380.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="c854-e68b-097d-817a" name="Upgrade with one" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bec0-ca11-9a8a-c56a" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="8e03-f576-21d1-0af7" name="Twin Shield Missiles" hidden="false" collective="false" import="true" targetId="b3e3-728c-096e-bfb9" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0aae-9db6-85f9-c0d2" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="190.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="8a2e-a46a-41ea-bcc8" name="Twin Siege Cannon" hidden="false" collective="false" import="true" targetId="5539-67b4-c26e-a233" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eecc-2239-45e2-24af" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="190.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="59a7-25fc-7895-70b5" name="Plasma Battle Cannon" hidden="false" collective="false" import="true" targetId="7e92-0783-18ae-aa53" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4edb-5582-18e1-e31a" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9647-7663-ee2e-acd1" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="61c6-9a7b-477c-632f" name="Titan Stomp" hidden="false" collective="false" import="true" targetId="3d08-c767-9657-bb03" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d34d-21af-ccd2-c6c6" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7433-dd83-7133-c68b" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="96ab-8dd0-c921-e41a" name="Volcano Cannon" hidden="false" collective="false" import="true" targetId="309d-b9d9-b81e-2290" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0285-6553-8380-5f9d" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a639-7291-b175-c14e" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="945.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3d08-c767-9657-bb03" name="Titan Stomp" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="3cf3-f5b3-bae7-b061" name="Titan Stomp" hidden="false" targetId="0ff6-ddf0-3778-622c" type="profile"/>
+        <infoLink id="22f5-09db-3cae-ab75" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5539-67b4-c26e-a233" name="Twin Siege Cannon" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="f7b8-f66e-4ba8-ec76" name="Twin Siege Cannon" hidden="false" targetId="6bdc-7539-54d3-5dfd" type="profile"/>
+        <infoLink id="1744-caf5-beab-7947" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+        <infoLink id="3b02-14db-e3f9-aa69" name="Blast(X)" hidden="false" targetId="187f-6414-7037-a542" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b3e3-728c-096e-bfb9" name="Twin Shield Missiles" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="4e7c-f6f0-7088-204d" name="Twin Shield Missiles" hidden="false" targetId="12b2-ecf9-3f12-8180" type="profile"/>
+        <infoLink id="4add-3820-da30-75cc" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+        <infoLink id="fb58-f766-e39f-8e63" name="Deadly(X)" hidden="false" targetId="377b-3864-960e-57ac" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="db47-7ac4-20e9-c520" name="Paladin Titan" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="2dc1-5626-b7f4-da3c" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
+        <infoLink id="8ae1-4bac-cdcf-de26" name="Fear" hidden="false" targetId="d21e-0b0f-ebec-46da" type="rule"/>
+        <infoLink id="9e12-8144-efac-5936" name="Fearless" hidden="false" targetId="fe6b-f29d-2128-a0b0" type="rule"/>
+        <infoLink id="362f-e2f4-e54e-4559" name="Paladin Titan" hidden="false" targetId="fbb9-239a-932f-74f6" type="profile"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="71ce-35cb-12fa-44b0" name="Upgrade with" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="23f5-ef50-d250-f638" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="c535-4dc5-d47b-386e" name="Veteran Titan" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="e209-cfc6-57dc-4201" name="Veteran Titan" hidden="false" targetId="56c6-bd0d-f5e5-5be6" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="680.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="fd2c-e0bc-9d84-06e7" name="Upgrade with" hidden="false" collective="false" import="true" defaultSelectionEntryId="244d-4181-ddae-d9f7">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dcd5-d35e-687f-cba8" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c2a5-d32b-c37b-7dbd" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="244d-4181-ddae-d9f7" name="Light Machinegun" hidden="false" collective="false" import="true" targetId="6bf9-8992-7b02-5764" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2523-2a1a-8eb2-2964" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="20.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="edad-fe68-631b-4d54" name="Fusion Rifle" hidden="false" collective="false" import="true" targetId="f389-e078-075e-fbff" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4f52-4cd6-a4b8-cb4c" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="25.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="0ebd-7978-d23d-9511" name="Upgrade with one" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="00c1-b6c1-5e95-e6c1" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="8a55-4f34-5095-f875" name="Extra Armor" hidden="false" collective="false" import="true" targetId="ae90-4fd1-5576-2c07" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5e9a-427a-b4b0-915b" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="395.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="bc30-e19a-8384-22ec" name="Power Shields" hidden="false" collective="false" import="true" targetId="04a9-2c8e-a9fd-5146" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4778-64d6-2e3b-c2f4" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="145.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="b040-eb05-f4c6-a5ff" name="Upgrade with one" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f8bc-435f-4e6a-1882" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="b80d-b8ed-52dd-0f0d" name="Missile Pod" hidden="false" collective="false" import="true" targetId="081a-c37a-d943-e3b6" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7e0b-8f60-4de4-5c52" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="90.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="5ee9-4d26-910d-41db" name="Twin AA-Cannon" hidden="false" collective="false" import="true" targetId="3f8b-5098-c8b9-5cd2" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="15cf-73a5-8b0e-2d70" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="80.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="73e5-1d66-0aa5-0478" name="Rocket Pod" hidden="false" collective="false" import="true" targetId="dae3-4749-3a9c-461e" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6fdb-b07c-0042-cf4e" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="60.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="fee3-8a49-b5bc-0c16" name="Rapid Battle Cannon" hidden="false" collective="false" import="true" targetId="5d40-5070-e533-3e75" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6da4-36a1-3b03-81e5" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9c32-700b-21a4-65bd" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="d597-2f1e-c3b8-c1ea" name="Titan Sword" hidden="false" collective="false" import="true" targetId="9819-4203-a0de-01f8" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e887-64b4-75b6-c90d" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3d88-6349-a192-77d9" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="cd27-7e8a-a289-6ab2" name="Titan Stomp" hidden="false" collective="false" import="true" targetId="3d08-c767-9657-bb03" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ceb6-d5a4-44a7-02bc" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2ca0-fbf2-0b5e-6707" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="965.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5d40-5070-e533-3e75" name="Rapid Battle Cannon" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="4a4f-6569-aa99-6bda" name="Rapid Battle Cannon" hidden="false" targetId="5a52-87c2-28cc-d398" type="profile"/>
+        <infoLink id="3b4d-0e49-1564-8581" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+        <infoLink id="44ee-afb4-9c0a-4bdc" name="Blast(X)" hidden="false" targetId="187f-6414-7037-a542" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="eff4-2c9c-8b76-305a" name="Valiant Titan" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="76c7-b55c-8de0-d3a3" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
+        <infoLink id="79f3-40b4-1d69-d3a8" name="Fear" hidden="false" targetId="d21e-0b0f-ebec-46da" type="rule"/>
+        <infoLink id="d020-a1bc-2caf-54fe" name="Fearless" hidden="false" targetId="fe6b-f29d-2128-a0b0" type="rule"/>
+        <infoLink id="863a-3961-7d6f-a61c" name="Valiant Titan" hidden="false" targetId="af27-3a56-a20e-3b76" type="profile"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="36d4-8a7c-278c-45e9" name="Upgrade with" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fb8d-2c78-ca6c-7d07" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="e699-e4d1-fc50-eeb7" name="Light Machinegun" hidden="false" collective="false" import="true" targetId="6bf9-8992-7b02-5764" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2fe6-a470-5e33-2dfb" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="20.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="e13f-ef61-aae0-c033" name="Fusion Rifle" hidden="false" collective="false" import="true" targetId="f389-e078-075e-fbff" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5db2-e2e2-fc0c-161d" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="25.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="d17e-013b-054d-4d36" name="Upgrade with" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="18e9-4694-1c2e-60a5" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="4c88-c9a8-f594-8037" name="Veteran Titan" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="a62c-3800-db17-b85e" name="Veteran Titan" hidden="false" targetId="56c6-bd0d-f5e5-5be6" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="680.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="c5c5-1442-52f4-8f28" name="Upgrade with one" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cec9-8ff6-637d-0aab" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="57c7-cd71-9b58-051d" name="Missile Pod" hidden="false" collective="false" import="true" targetId="081a-c37a-d943-e3b6" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8cb2-042c-3abf-3c72" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="90.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="2b6f-76ba-63b6-1ec8" name="Twin AA-Cannon" hidden="false" collective="false" import="true" targetId="3f8b-5098-c8b9-5cd2" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="87a2-06de-3fe0-94a3" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="80.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="88d4-efaa-fe97-8e21" name="Rocket Pod" hidden="false" collective="false" import="true" targetId="dae3-4749-3a9c-461e" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="82f6-4fd8-5d61-ab38" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="60.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="e762-953f-cc43-38b1" name="Upgrade with one" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="89fa-f67d-e684-dee6" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="a52f-3f24-e438-ab5b" name="Extra Armor" hidden="false" collective="false" import="true" targetId="ae90-4fd1-5576-2c07" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="deab-9dac-58d5-aee0" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="395.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="67a1-8f28-4be9-cda3" name="Power Shields" hidden="false" collective="false" import="true" targetId="04a9-2c8e-a9fd-5146" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6d36-b397-c308-d950" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="145.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="89c1-5caf-bae8-d5be" name="Upgrade with" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ccaa-30f0-6278-ca86" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="66e4-c318-0100-9dfb" name="2x Twin Fusion Rifles" hidden="false" collective="false" import="true" type="upgrade">
+              <entryLinks>
+                <entryLink id="a3b1-93f8-20d9-bbe9" name="Twin Fusion Rifle" hidden="false" collective="false" import="true" targetId="3fb5-656b-ea36-5cf5" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c28a-7f54-7ede-4347" type="max"/>
+                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9e3e-0d55-7c01-dd32" type="min"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="50.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="0894-d61d-c64f-63de" name="Upgrade with one" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ff80-f5c5-09bc-0586" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="a331-319c-632c-6c69" name="2x Twin Siege Cannons" hidden="false" collective="false" import="true" type="upgrade">
+              <entryLinks>
+                <entryLink id="4197-ad07-3a18-b55a" name="Twin Siege Cannon" hidden="false" collective="false" import="true" targetId="5539-67b4-c26e-a233" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2e2e-025f-0283-211d" type="max"/>
+                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="22cf-f399-32ac-a561" type="min"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="380.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="e177-34ef-a991-f7a2" name="2x Twin Shield Missiles" hidden="false" collective="false" import="true" type="upgrade">
+              <entryLinks>
+                <entryLink id="f65d-aa1a-9daf-b9cc" name="Twin Shield Missiles" hidden="false" collective="false" import="true" targetId="b3e3-728c-096e-bfb9" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2707-ba6e-729c-e5c5" type="max"/>
+                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0cea-a27c-0ff7-f4a3" type="min"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="380.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="f28b-3807-51ca-004c" name="Upgrade with one" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8f66-d848-3923-ed12" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="1b74-ee1a-b86a-a469" name="Twin Shield Missiles" hidden="false" collective="false" import="true" targetId="b3e3-728c-096e-bfb9" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="34e6-f6ab-699a-64dc" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="190.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="ac47-4d72-8971-eda0" name="Twin Siege Cannon" hidden="false" collective="false" import="true" targetId="5539-67b4-c26e-a233" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d294-8c05-1a19-d04e" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="190.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="d459-7de4-b605-e920" name="Harpoon Cannon" hidden="false" collective="false" import="true" targetId="9d94-c927-0f5d-e837" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e2ed-ac34-08ed-0879" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eb52-4f30-055a-4eea" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="c7d5-0be2-312d-ea7f" name="Titan Stomp" hidden="false" collective="false" import="true" targetId="3d08-c767-9657-bb03" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c01b-aa01-ff4e-8834" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b936-d06b-5883-5a2a" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="3f1d-9c5f-ad70-71f5" name="Triple Flamethrower Cannon" hidden="false" collective="false" import="true" targetId="74b5-f6e3-4057-c8d0" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0846-694e-3054-f943" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="55ef-89f5-ea71-9984" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="1005.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9d94-c927-0f5d-e837" name="Harpoon Cannon" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="dcd0-ddfc-441f-a8a9" name="Harpoon Cannon" hidden="false" targetId="46a0-6673-f7cd-3caf" type="profile"/>
+        <infoLink id="5e7d-3d9f-1911-100e" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+        <infoLink id="389c-d9b8-086f-55a0" name="Deadly(X)" hidden="false" targetId="377b-3864-960e-57ac" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="74b5-f6e3-4057-c8d0" name="Triple Flamethrower Cannon" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="5a12-bfbc-f23b-72dd" name="Triple Flamethrower Cannon" hidden="false" targetId="b151-14fe-bf79-14ea" type="profile"/>
+        <infoLink id="48f3-087a-f365-2aca" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2dfa-336b-699c-2168" name="Crusader Titan" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="075c-83c4-4f5b-3136" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
+        <infoLink id="f46f-dce2-8f0f-5689" name="Fear" hidden="false" targetId="d21e-0b0f-ebec-46da" type="rule"/>
+        <infoLink id="6e75-24f4-7397-cf2b" name="Fearless" hidden="false" targetId="fe6b-f29d-2128-a0b0" type="rule"/>
+        <infoLink id="b817-75f5-5b26-d1d6" name="Crusader Titan" hidden="false" targetId="6dbd-f2c6-4874-2e88" type="profile"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="0aee-5b81-13ff-3c26" name="Upgrade with" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="62ca-5947-f3e9-fc6f" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="bdb3-91cd-9f9b-1a53" name="Veteran Titan" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="d95b-3bd5-c99f-b244" name="Veteran Titan" hidden="false" targetId="56c6-bd0d-f5e5-5be6" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="680.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="b1f1-e8a1-46eb-8c51" name="Upgrade with" hidden="false" collective="false" import="true" defaultSelectionEntryId="89e4-4f40-8c3c-076c">
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="752f-aaea-a281-3f3b" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3d93-5ffb-615f-b28f" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="89e4-4f40-8c3c-076c" name="Light Machinegun" hidden="false" collective="false" import="true" targetId="6bf9-8992-7b02-5764" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e23a-6364-2eb5-3c43" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="20.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="6911-0f72-27e7-8b78" name="Fusion Rifle" hidden="false" collective="false" import="true" targetId="f389-e078-075e-fbff" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="098c-3c00-4783-0a8d" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="25.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="8750-694c-67ff-5ec7" name="Upgrade with one" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="45af-2ca2-2b4d-1836" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="2def-c6a0-9f88-03de" name="Extra Armor" hidden="false" collective="false" import="true" targetId="ae90-4fd1-5576-2c07" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="957e-4e50-4c6d-54eb" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="395.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="6ef0-afb5-b5cf-2269" name="Power Shields" hidden="false" collective="false" import="true" targetId="04a9-2c8e-a9fd-5146" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="da29-f4bd-f27a-5624" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="145.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="6335-4272-8e7b-b1ba" name="Upgrade with one" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e255-fbae-0be4-1b1c" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="14fb-42d0-39e1-81c7" name="Missile Pod" hidden="false" collective="false" import="true" targetId="081a-c37a-d943-e3b6" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2ced-df42-8fe7-a486" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="90.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="db09-6e43-4dc8-03f4" name="Twin AA-Cannon" hidden="false" collective="false" import="true" targetId="3f8b-5098-c8b9-5cd2" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cc32-ea9d-6224-cbf2" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="80.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="532d-7918-db1b-5430" name="Rocket Pod" hidden="false" collective="false" import="true" targetId="dae3-4749-3a9c-461e" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9fc6-1967-c172-99fa" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="60.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="b662-7b66-f857-7e4d" name="Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="10ed-0929-72f1-a561">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="57ea-6ea1-8b39-d3ff" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ba6f-365b-c4d3-09fb" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="db81-3568-1889-195d" name="Fusion Cannon" hidden="false" collective="false" import="true" targetId="9a2d-2097-e3db-8bbf" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a454-1251-fb2c-82a6" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="55.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="10ed-0929-72f1-a561" name="Gatling Cannon" hidden="false" collective="false" import="true" targetId="54ef-a365-79cb-0c50" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="16cd-2dd6-642b-7267" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="68be-4051-48c1-aaec" name="Rapid Battle Cannon" hidden="false" collective="false" import="true" targetId="5d40-5070-e533-3e75" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2970-ce77-f36f-a165" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8c68-deda-dee5-9079" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="7dbb-0426-b2b2-0156" name="Titan Stomp" hidden="false" collective="false" import="true" targetId="3d08-c767-9657-bb03" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3d89-343b-0b1c-0a27" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ff5c-2fab-b12b-061f" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="1105.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0e7d-982c-cee0-052a" name="Fusion Cannon" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="bd61-9420-b750-f045" name="Fusion Cannon" hidden="false" targetId="ae62-6a51-6482-33ce" type="profile"/>
+        <infoLink id="bbe2-9d02-0541-82da" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+        <infoLink id="4b50-5138-08eb-97d5" name="Blast(X)" hidden="false" targetId="187f-6414-7037-a542" type="rule"/>
+        <infoLink id="0ed2-cd12-685c-71e8" name="Deadly(X)" hidden="false" targetId="377b-3864-960e-57ac" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedRules>
+    <rule id="56c6-bd0d-f5e5-5be6" name="Veteran Titan" hidden="false">
+      <description>This model gets +1 to its attack rolls for melee and shooting.</description>
+    </rule>
+    <rule id="115b-f90d-a9a7-2a1d" name="Veteran Mini-Titan" hidden="false">
+      <description>This model gets +1 to its attack rolls for melee and shooting.</description>
+    </rule>
+  </sharedRules>
+  <sharedProfiles>
+    <profile id="8415-259d-1a5a-769a" name="Hell Mini-Titan" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+      <characteristics>
+        <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">3+</characteristic>
+        <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">2+</characteristic>
+        <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Fear, Fearless, Tough(12)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="117b-97ef-0a2b-b931" name="Glaive Mini-Titan" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+      <characteristics>
+        <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">3+</characteristic>
+        <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">2+</characteristic>
+        <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Fear, Fearless, Tough(12)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="ea86-b739-2a58-5e50" name="Gallant Titan" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+      <characteristics>
+        <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">3+</characteristic>
+        <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">2+</characteristic>
+        <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Fear, Fearless, Tough(24)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="d1fe-d17b-c5f3-5010" name="Warden Titan" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+      <characteristics>
+        <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">3+</characteristic>
+        <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">2+</characteristic>
+        <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Fear, Fearless, Tough(24)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="41c2-44bf-3645-90f8" name="Preceptor Titan" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+      <characteristics>
+        <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">3+</characteristic>
+        <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">2+</characteristic>
+        <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Fear, Fearless, Tough(24)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="ddf6-7d52-dfc7-4dbf" name="Errant Titan" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+      <characteristics>
+        <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">3+</characteristic>
+        <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">2+</characteristic>
+        <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Fear, Fearless, Tough(24)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="34a2-0ef3-92a0-f36c" name="Catellan Titan" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+      <characteristics>
+        <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">3+</characteristic>
+        <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">2+</characteristic>
+        <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Fear, Fearless, Tough(24)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="fbb9-239a-932f-74f6" name="Paladin Titan" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+      <characteristics>
+        <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">3+</characteristic>
+        <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">2+</characteristic>
+        <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Fear, Fearless, Tough(24)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="af27-3a56-a20e-3b76" name="Valiant Titan" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+      <characteristics>
+        <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">3+</characteristic>
+        <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">2+</characteristic>
+        <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Fear, Fearless, Tough(24)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="6dbd-f2c6-4874-2e88" name="Crusader Titan" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+      <characteristics>
+        <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">3+</characteristic>
+        <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">2+</characteristic>
+        <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Fear, Fearless, Tough(24)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="b986-f32f-1a15-45e5" name="Hell Autocannon" hidden="false" typeId="3c71-da94-e5b3-d7c8" typeName="Ranged Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="79f4-5578-c041-f866">48&quot;</characteristic>
+        <characteristic name="Attacks" typeId="4633-0aa3-94f7-3be7">A4</characteristic>
+        <characteristic name="Special Rules" typeId="9fb1-424b-834c-5e7d">AP(2)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="2be3-f8f9-30c4-4e0e" name="Mini-Titan Stomp" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+      <characteristics>
+        <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A2</characteristic>
+        <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">AP(1)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="c271-cb3f-cca9-0deb" name="Fusion Blaster" hidden="false" typeId="3c71-da94-e5b3-d7c8" typeName="Ranged Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="79f4-5578-c041-f866">24&quot;</characteristic>
+        <characteristic name="Attacks" typeId="4633-0aa3-94f7-3be7">A1</characteristic>
+        <characteristic name="Special Rules" typeId="9fb1-424b-834c-5e7d">AP(4), Blast(3), Deadly(6)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="8d15-1def-2ddc-1735" name="Mini-Titan Sword" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+      <characteristics>
+        <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A3</characteristic>
+        <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">AP(2)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="c257-d721-9ded-fd45" name="Titan Energy Fist" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+      <characteristics>
+        <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A3</characteristic>
+        <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">AP(4), Deadly(3)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="82f5-8909-71b9-e9d6" name="Titan Sword" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+      <characteristics>
+        <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A3</characteristic>
+        <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">AP(4)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="736d-1694-09ed-f3f9" name="Gatling Cannon" hidden="false" typeId="3c71-da94-e5b3-d7c8" typeName="Ranged Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="79f4-5578-c041-f866">36&quot;</characteristic>
+        <characteristic name="Attacks" typeId="4633-0aa3-94f7-3be7">A12</characteristic>
+        <characteristic name="Special Rules" typeId="9fb1-424b-834c-5e7d">AP(1), Rending</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="3fa9-384c-832f-d63e" name="Pulse Laser" hidden="false" typeId="3c71-da94-e5b3-d7c8" typeName="Ranged Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="79f4-5578-c041-f866">36&quot;</characteristic>
+        <characteristic name="Attacks" typeId="4633-0aa3-94f7-3be7">A5</characteristic>
+        <characteristic name="Special Rules" typeId="9fb1-424b-834c-5e7d">AP(4), Deadly(3)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="b4a4-2026-a234-b5b9" name="Plasma Battle cannon" hidden="false" typeId="3c71-da94-e5b3-d7c8" typeName="Ranged Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="79f4-5578-c041-f866">48&quot;</characteristic>
+        <characteristic name="Attacks" typeId="4633-0aa3-94f7-3be7">A1</characteristic>
+        <characteristic name="Special Rules" typeId="9fb1-424b-834c-5e7d">AP(2), Blast(6)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="5bfa-8e83-5c6c-5e56" name="Volcano Cannon" hidden="false" typeId="3c71-da94-e5b3-d7c8" typeName="Ranged Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="79f4-5578-c041-f866">48&quot;</characteristic>
+        <characteristic name="Attacks" typeId="4633-0aa3-94f7-3be7">A1</characteristic>
+        <characteristic name="Special Rules" typeId="9fb1-424b-834c-5e7d">AP(4), Blast(3), Deadly(3)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="0ff6-ddf0-3778-622c" name="Titan Stomp" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+      <characteristics>
+        <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A4</characteristic>
+        <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">AP(2)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="5a52-87c2-28cc-d398" name="Rapid Battle Cannon" hidden="false" typeId="3c71-da94-e5b3-d7c8" typeName="Ranged Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="79f4-5578-c041-f866">48&quot;</characteristic>
+        <characteristic name="Attacks" typeId="4633-0aa3-94f7-3be7">A2</characteristic>
+        <characteristic name="Special Rules" typeId="9fb1-424b-834c-5e7d">AP(3), Blast(6)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="46a0-6673-f7cd-3caf" name="Harpoon Cannon" hidden="false" typeId="3c71-da94-e5b3-d7c8" typeName="Ranged Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="79f4-5578-c041-f866">12&quot;</characteristic>
+        <characteristic name="Attacks" typeId="4633-0aa3-94f7-3be7">A1</characteristic>
+        <characteristic name="Special Rules" typeId="9fb1-424b-834c-5e7d">AP(4), Deadly(12)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="b151-14fe-bf79-14ea" name="Triple Flamethrower Cannon" hidden="false" typeId="3c71-da94-e5b3-d7c8" typeName="Ranged Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="79f4-5578-c041-f866">18&quot;</characteristic>
+        <characteristic name="Attacks" typeId="4633-0aa3-94f7-3be7">A18</characteristic>
+        <characteristic name="Special Rules" typeId="9fb1-424b-834c-5e7d">AP(2)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="b83a-a1bc-a612-4f50" name="Rocket Pod" hidden="false" typeId="3c71-da94-e5b3-d7c8" typeName="Ranged Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="79f4-5578-c041-f866">48&quot;</characteristic>
+        <characteristic name="Attacks" typeId="4633-0aa3-94f7-3be7">A3</characteristic>
+        <characteristic name="Special Rules" typeId="9fb1-424b-834c-5e7d">AP(3)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="5f05-d881-58b9-eae2" name="Missile Pod" hidden="false" typeId="3c71-da94-e5b3-d7c8" typeName="Ranged Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="79f4-5578-c041-f866">48&quot;</characteristic>
+        <characteristic name="Attacks" typeId="4633-0aa3-94f7-3be7">A1</characteristic>
+        <characteristic name="Special Rules" typeId="9fb1-424b-834c-5e7d">AP(1), Blast(6), Indirect</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="73be-7852-3382-641c" name="Power Shields" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Equipment">
+      <characteristics>
+        <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">Regeneration</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="6402-1e5d-23f6-e405" name="Extra Armor" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Equipment">
+      <characteristics>
+        <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">Tough(+12)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="c3ee-bea4-70a6-66f2" name="Laser Machinegun" hidden="false" typeId="3c71-da94-e5b3-d7c8" typeName="Ranged Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="79f4-5578-c041-f866">36&quot;</characteristic>
+        <characteristic name="Attacks" typeId="4633-0aa3-94f7-3be7">A3</characteristic>
+        <characteristic name="Special Rules" typeId="9fb1-424b-834c-5e7d">AP(2)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="6bdc-7539-54d3-5dfd" name="Twin Siege Cannon" hidden="false" typeId="3c71-da94-e5b3-d7c8" typeName="Ranged Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="79f4-5578-c041-f866">48&quot;</characteristic>
+        <characteristic name="Attacks" typeId="4633-0aa3-94f7-3be7">A2</characteristic>
+        <characteristic name="Special Rules" typeId="9fb1-424b-834c-5e7d">AP(2), Blast(6)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="12b2-ecf9-3f12-8180" name="Twin Shield Missiles" hidden="false" typeId="3c71-da94-e5b3-d7c8" typeName="Ranged Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="79f4-5578-c041-f866">48&quot;</characteristic>
+        <characteristic name="Attacks" typeId="4633-0aa3-94f7-3be7">A2</characteristic>
+        <characteristic name="Special Rules" typeId="9fb1-424b-834c-5e7d">AP(4), Deadly(6)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="65d2-d613-30cc-1f89" name="Extra Armor" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Equipment">
+      <characteristics>
+        <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">Tough(+6)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="ae62-6a51-6482-33ce" name="Fusion Cannon" hidden="false" typeId="3c71-da94-e5b3-d7c8" typeName="Ranged Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="79f4-5578-c041-f866">36&quot;</characteristic>
+        <characteristic name="Attacks" typeId="4633-0aa3-94f7-3be7">A1</characteristic>
+        <characteristic name="Special Rules" typeId="9fb1-424b-834c-5e7d">AP(4), Blast(3), Deadly(6)</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+</catalogue>

@@ -1,0 +1,36 @@
+name: CI
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+    
+    - name: Setup .NET Core
+      uses: actions/setup-dotnet@v1
+      with:
+        dotnet-version: 2.1
+     
+    - name: Install Wham
+      run: dotnet tool install wham --global --version 0.11.0
+      
+    - name: Build Index
+      run:  wham publish -a zip bsi -s . -o ./index --repo-name https://grimdark-future.s3.amazonaws.com/index.bsi -f index
+  
+    - name: Publish
+      if: github.event_name == 'push' && github.ref == 'refs/heads/master'
+      uses: jakejarvis/s3-sync-action@master
+      with:
+        args: --acl public-read --follow-symlinks --delete
+      env:
+        AWS_S3_BUCKET: ${{ secrets.AWS_S3_BUCKET }}
+        AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+        AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        SOURCE_DIR: './index'  
+
