@@ -11,7 +11,7 @@ jobs:
       - name: Checkout ChatOps repo
         uses: actions/checkout@v2
         with:
-          repository: BSData/chatops
+          repository: OnePageRules/chatops
           path: chatops
       - name: /command dispatch
         uses: peter-evans/slash-command-dispatch@v2
