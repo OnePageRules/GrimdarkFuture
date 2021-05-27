@@ -1,4 +1,4 @@
-## Mobile
+## Android
 
 1. Open Battlescribe.
 
