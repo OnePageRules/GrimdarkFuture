@@ -8,7 +8,7 @@
 
 3. Click on the big orange plus at the bottom right.
 
-![](./images/android2.png)
+![](./images/android2.PNG)
 
 4. Click the small plus at the top right on the Select Repositories page.
 
