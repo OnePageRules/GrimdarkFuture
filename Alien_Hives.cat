@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="df4c-bebc-a82e-f430" name="Alien Hives" revision="4" battleScribeVersion="2.03" library="false" gameSystemId="d755-5d69-2721-c11b" gameSystemRevision="19" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="df4c-bebc-a82e-f430" name="Alien Hives" revision="5" battleScribeVersion="2.03" library="false" gameSystemId="d755-5d69-2721-c11b" gameSystemRevision="19" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <readme>27/05/21 - Updated to include v2.10</readme>
   <publications>
     <publication id="3518-c2b3-bfde-3ff1" name="Alien Hives v2.9"/>
   </publications>
@@ -4039,7 +4040,7 @@
       <selectionEntries>
         <selectionEntry id="bf3b-be3e-97dd-b6a0" name="Show Spells" hidden="false" collective="false" import="true" type="upgrade">
           <infoLinks>
-            <infoLink id="af2c-4167-c405-4fda" name="Drive Swarm" hidden="false" targetId="b6f9-c08f-ce8e-349f" type="profile"/>
+            <infoLink id="af2c-4167-c405-4fda" name="Animate Flora" hidden="false" targetId="b6f9-c08f-ce8e-349f" type="profile"/>
             <infoLink id="ce84-122e-1198-695d" name="Infuse Life" hidden="false" targetId="6a62-5e67-4d62-9fd8" type="profile"/>
             <infoLink id="8546-2629-10b5-2afb" name="Overwhelm" hidden="false" targetId="8bd3-f59f-92a2-647c" type="profile"/>
             <infoLink id="fd3e-dd0f-c5b7-6cfe" name="Psychic Blast" hidden="false" targetId="f8b3-90ca-878c-8da4" type="profile"/>
@@ -4226,7 +4227,7 @@
       <description>This unit may transport up to 11 models, or use all of its transport capacity to carry one Carnivo-Rex, Psycho-Rex or Toxico-Rex.</description>
     </rule>
     <rule id="74c2-7341-acbc-48a9" name="Psychic Barrier" publicationId="3518-c2b3-bfde-3ff1" hidden="false">
-      <description>This model may block spells as if it had the Psychic special rule. If it is a Psychic then it gets +1 to spell block rolls.</description>
+      <description>This model may block spells as if it had the Psychic(2) special rule. If it is a Psychic then it gets +1 to spell block rolls.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
@@ -4862,7 +4863,7 @@
     </profile>
     <profile id="961e-5970-1890-3f9d" name="Psychic Barrier" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Equipment">
       <characteristics>
-        <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">This model may block spells as if it had the Psychic special rule. If it is a Psychic then it gets +1 to spell block rolls.</characteristic>
+        <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">This model may block spells as if it had the Psychic(2) special rule. If it is a Psychic then it gets +1 to spell block rolls.</characteristic>
       </characteristics>
     </profile>
     <profile id="38bb-6b5a-6cfe-99d0" name="Piercing Claws" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
