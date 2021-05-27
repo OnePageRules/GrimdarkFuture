@@ -36,9 +36,9 @@ You can also use Gallery for any other game systems you might want to use.
 
 [Instructions for Desktop](./desktop.md)
 
-[Instructions for Android](./Android.md)
+[Instructions for Android](./android.md)
 
-[Instructions for iOS](./mobile.md)
+[Instructions for iOS](./ios.md)
 
 # How can I help?
 
