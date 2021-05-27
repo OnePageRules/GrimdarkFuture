@@ -12,11 +12,11 @@
 
 4. Click the small plus at the top right on the Select Repositories page.
 
-![](./images/android3.png)
+![](./images/android3.PNG)
 
 4. Enter the following URL in the repository source URL - https://github.com/BSData/gallery/releases/latest/download/bsdata.catpkg-gallery.json and click OK.
 
-![](./images/android4.png)
+![](./images/android4.PNG)
 
 5. On the Manage Data screen, select BSData, then hit the big orange plus.
 
