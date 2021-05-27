@@ -6,11 +6,11 @@
 
 ![](./images/mobile1.png)
 
-3. Click on the big orange plus at the bottom right.
+3. Tap on the big orange plus at the bottom right.
 
 ![](./images/android2.PNG)
 
-4. Click the small plus at the top right on the Select Repositories page.
+4. Tap the small plus at the top right on the Select Repositories page.
 
 ![](./images/android3.PNG)
 
@@ -18,10 +18,16 @@
 
 ![](./images/android4.PNG)
 
-5. On the Manage Data screen, select BSData, then hit the big orange plus.
+5. On the Manage Data screen, you should now see two light grey entries, "Battlescribe Data" and "BSData".
 
-6. Select Grimdark Future from the list, then tap the back arrow in the top left.
+![](./images/android5.PNG)
 
-7. You should be prompted to update your data, but if not, select "Refresh data" to pull the files down.
+6. Tap the big orange plus, then select BSData at the top.
+
+![](./images/android6.PNG)
+
+7. Select Grimdark Future from the list, then tap the back arrow in the top left.
+
+8. You should be prompted to update your data, but if not, select "Refresh data" to pull the files down.
 
 ![](./images/mobile4.png)
