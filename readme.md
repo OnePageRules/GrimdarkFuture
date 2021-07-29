@@ -71,7 +71,7 @@ table!
 
 ### What's Done
 
-| Army | Version | Progress |
+| Army | Version | Author|
 |---|---|---|
 |Game System|v2.10|Done|
 |Alien Hives|v2.9|Done|
@@ -85,7 +85,7 @@ table!
 |Havoc Brothers|Main v2.11 - Disciples v2.15|Done|
 |High Elf Fleets|v2.10|Done|
 |Human Defense Force|v2.13|Done|
-|Human Inquisition|2.7|Done|
+|Human Inquisition|2.8|Darguth|
 |Infected Colonies|v2.4|Done|
 |Machine Cult|v2.10|Done|
 |Machine Cult Defilers|v2.5|Done|

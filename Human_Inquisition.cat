@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="01fd-3d07-904a-c359" name="Human Inquisition" revision="4" battleScribeVersion="2.03" library="false" gameSystemId="d755-5d69-2721-c11b" gameSystemRevision="19" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="01fd-3d07-904a-c359" name="Human Inquisition" revision="5" battleScribeVersion="2.03" authorName="Darguth" authorContact="" library="false" gameSystemId="d755-5d69-2721-c11b" gameSystemRevision="19" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
-    <publication id="41ea-f39b-0c06-e87e" name="Human Inquisition v2.7"/>
+    <publication id="41ea-f39b-0c06-e87e" name="Human Inquisition v2.8"/>
   </publications>
   <entryLinks>
     <entryLink id="f24a-886e-aa81-bcfd" name="Inquisitor" hidden="false" collective="false" import="true" targetId="9207-494e-aee2-1484" type="selectionEntry">
