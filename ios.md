@@ -9,7 +9,7 @@
 
 ![](./images/mobile2.png)
 
-4. Enter the index URL and select OK
+4. Enter the index URL (https://github.com/onepagerules/GrimDarkFuture/releases/latest/download/GrimDarkFuture.latest.bsi) and select OK
 
 ![](./images/mobile3.png)
 
