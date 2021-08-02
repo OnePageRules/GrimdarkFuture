@@ -335,14 +335,10 @@
           </characteristics>
         </profile>
       </profiles>
-      <rules>
-        <rule id="823d-d751-9044-6103" name="Beacon" publicationId="41ea-f39b-0c06-e87e" hidden="false">
-          <description>Friendly units using Ambush may ignore distance restrictions from enemies if they are within 12” of this model.</description>
-        </rule>
-      </rules>
       <infoLinks>
         <infoLink id="3f95-d050-ad11-a41b" name="Pistol" hidden="false" targetId="12e1-e98e-4814-6d75" type="profile"/>
         <infoLink id="6f16-687a-ebc6-0794" name="CCW (A2)" hidden="false" targetId="a133-fbbf-5794-de55" type="profile"/>
+        <infoLink id="4e0d-ae12-b0d9-aa40" name="Beacon" hidden="false" targetId="53a3-3de9-ecf5-94d2" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="ca05-dad9-6be4-f072" name="New CategoryLink" hidden="false" targetId="dfbf-5076-f148-2f58" primary="true"/>
@@ -360,6 +356,45 @@
               </constraints>
               <costs>
                 <cost name="pts" typeId="567f-6468-66c6-2ea2" value="45.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a84b-1ad5-f566-99b9" name="Crusaders" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="589d-514e-f57d-a8a5" name="Crusaders" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">4+</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">4+</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Shield Wall</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="87fa-25b0-20b1-a490" name="Energy Sword" hidden="false" targetId="d26d-a459-c183-3009" type="profile"/>
+        <infoLink id="3791-e316-ab6e-1e3d" name="Shield Wall" hidden="false" targetId="6ed2-849d-5493-df0d" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="2faa-cdda-40d2-6855" name="New CategoryLink" hidden="false" targetId="dfbf-5076-f148-2f58" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="5e6b-cf46-4937-12be" name="* Unit Size *" hidden="false" collective="false" import="true" defaultSelectionEntryId="adcf-83d3-96dc-9938">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ef5a-7c96-7cf0-c553" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="adcf-83d3-96dc-9938" name="Crusaders [3]" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aaf6-ec96-c505-37b7" type="min"/>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="93c6-21e5-fa78-7884" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="70.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -922,6 +957,14 @@
       </selectionEntryGroups>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
+  <sharedRules>
+    <rule id="53a3-3de9-ecf5-94d2" name="Beacon" publicationId="41ea-f39b-0c06-e87e" hidden="false">
+      <description>Friendly units using Ambush may ignore distance restrictions from enemies if they are within 12” of this model.</description>
+    </rule>
+    <rule id="6ed2-849d-5493-df0d" name="Shield Wall" publicationId="41ea-f39b-0c06-e87e" hidden="false">
+      <description>Enemies get -1 to hit when they attack units where all models have this rule.</description>
+    </rule>
+  </sharedRules>
   <sharedInfoGroups>
     <infoGroup id="5538-0c43-e9d4-b0b6" name="Psychic Spells" hidden="false">
       <profiles>
