@@ -325,6 +325,50 @@
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="427e-3dcd-a08b-4c38" name="Mystics" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="3ab9-d440-c40d-2fc2" name="Mystics" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">5+</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">5+</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Beacon</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="823d-d751-9044-6103" name="Beacon" publicationId="41ea-f39b-0c06-e87e" hidden="false">
+          <description>Friendly units using Ambush may ignore distance restrictions from enemies if they are within 12” of this model.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="3f95-d050-ad11-a41b" name="Pistol" hidden="false" targetId="12e1-e98e-4814-6d75" type="profile"/>
+        <infoLink id="6f16-687a-ebc6-0794" name="CCW (A2)" hidden="false" targetId="a133-fbbf-5794-de55" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="ca05-dad9-6be4-f072" name="New CategoryLink" hidden="false" targetId="dfbf-5076-f148-2f58" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="2371-e97e-f9dd-30cc" name="* Unit Size *" hidden="false" collective="false" import="true" defaultSelectionEntryId="11b0-a843-bea0-671e">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6f2b-062a-5c52-9bad" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="11b0-a843-bea0-671e" name="Mystics [3]" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8898-7381-95c4-dd2d" type="min"/>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3c12-6aaa-c0e0-f5bf" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="45.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
     <selectionEntry id="2b61-e0ba-7313-2413" name="Needle Pistol" hidden="false" collective="false" import="true" type="upgrade">
