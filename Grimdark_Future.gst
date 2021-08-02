@@ -771,10 +771,10 @@
 
 At the beginning of any round after the first you may place the model anywhere on the table over 9” away from enemy units.
 
-If both players have units with Ambush they must roll-off to see who deploys first.</description>
+If both players have units with Ambush they must roll-off to see who deploys first, and then alternate in placing them.</description>
     </rule>
     <rule id="1875-13ee-b0ef-5a65" name="Anti-Air" publicationId="d755-5d69-pubN65537" hidden="false">
-      <description>When shooting at enemy Aircraft models firing this weapon don’t count as being an extra 12” away and don’t get –1 to hit rolls.</description>
+      <description>When shooting at enemy Aircraft models firing this weapon don’t count as being an extra 12” away and don’t get the penalty of -1 to hit rolls.</description>
     </rule>
     <rule id="f84f-fda5-e478-455d" name="AP(X)" publicationId="d755-5d69-pubN65537" hidden="false">
       <description>Enemy units taking hits from weapons with this special rule get -X to Defense rolls.</description>
@@ -806,7 +806,7 @@ Note that wounds suffered by that model don’t carry over to other models if it
       <description>Whenever a model with this special rule charges it deals X automatic hits.</description>
     </rule>
     <rule id="587a-b92c-a265-06c4" name="Indirect" publicationId="d755-5d69-pubN65537" hidden="false">
-      <description>Weapons with this special rule may shoot at enemies that are not within line of sight, however they get –1 to hit when shooting after moving.</description>
+      <description>Weapons with this special rule may shoot at enemies that are not in line of sight and ignore cover from sight obstructions, however they get -1 to hit when shooting after moving.</description>
     </rule>
     <rule id="2c45-0e1e-fec5-8dbb" name="Poison" publicationId="d755-5d69-pubN65537" hidden="false">
       <description>Whenever you roll an unmodified to hit result of 6 whilst firing this weapon that hit is multiplied by 3.</description>
@@ -814,30 +814,30 @@ Note that wounds suffered by that model don’t carry over to other models if it
     <rule id="ba47-b43b-18f8-97c1" name="Psychic(X)" publicationId="d755-5d69-pubN65537" hidden="false">
       <description>Models with this special rule may cast one spell at any point during their activation before attacking.
 
-To cast a spell pick one from the psychic’s army list, pick a target in line of sight, and roll D6+X. If the result is equal to or higher than the number in brackets then you may resolve the spell’s effects.
+To cast a spell select one from the psychic’s army list, pick a target in line of sight, and roll D6+X. If the result is equal to or higher than the number in brackets then you may resolve the spell’s effects.
 
 Enemy psychics within 18” and line of sight may also roll D6+X at the same time, and if the result is higher than that of the casting psychic, then the spell’s effects are blocked instead.
 
-Note that a psychic may only either try to cast a spell or try to block a spell each round.</description>
+Note that each psychic may only either try to cast a spell or try to block a spell each round.</description>
     </rule>
     <rule id="dea8-a8f9-1865-4424" name="Regeneration" publicationId="d755-5d69-pubN65537" hidden="false">
-      <description>Whenever this model takes wounds roll one die for each. On a 5+ the wound is ignored.</description>
+      <description>Whenever this model takes wounds, roll one die for each. On a 5+ the wound is ignored.</description>
     </rule>
     <rule id="9726-accd-9015-f6f6" name="Rending" publicationId="d755-5d69-pubN65537" hidden="false">
       <description>Whenever you roll an unmodified to hit result of 6 whilst using this weapon that hit counts as having AP(4) and it ignores the Regeneration rule.</description>
     </rule>
     <rule id="7bc7-a892-49bc-ad88" name="Scout" publicationId="d755-5d69-pubN65537" hidden="false">
-      <description>After all other units have been deployed models with scout may deploy within 24” of the player’s table edge (instead of 12”).
+      <description>After all other units have been deployed models with scout may be deployed and then moved by up to 12”, ignoring terrain.
 
-If both players have units with Scout they must roll-off to see who deploys first.</description>
+If both players have units with Scout they must roll-off to see who goes first, and then alternate in placing them.</description>
     </rule>
     <rule id="394b-1b64-d270-f49e" name="Slow" publicationId="d755-5d69-pubN65537" hidden="false">
       <description>Units with this special rule move 4” when using Advance actions and 8” when using Rush or Charge actions.</description>
     </rule>
     <rule id="2943-e3f6-fb44-ae13" name="Sniper" publicationId="d755-5d69-pubN65537" hidden="false">
-      <description>Models firing this weapon count as having Quality 2+ when rolling to hit.
+      <description>Models firing weapons with this special rule count as having Quality 2+ when rolling to hit, and the attacker may pick one model from the target unit as its target.
 
-This weapon ignores cover and the attacker may pick which model from the target unit is hit when shooting.</description>
+Note that shooting is resolved as if the target was a unit of 1.</description>
     </rule>
     <rule id="1b59-5d31-4675-c926" name="Stealth" publicationId="d755-5d69-pubN65537" hidden="false">
       <description>Enemies targeting this unit get –1 to hit when shooting at it.</description>
@@ -850,7 +850,9 @@ This weapon ignores cover and the attacker may pick which model from the target 
 
 If a model with Tough joins a unit without it then you must remove regular models as casualties before starting to accumulate wounds on the model with Tough.
 
-When a unit with multiple Tough models takes wounds you must accumulate them on a single model until it is killed before starting to accumulate them on another.</description>
+When a unit with multiple Tough models takes wounds you must accumulate them on the tough model with most wounds until it is killed before starting to accumulate them on another.
+
+Note that heroes must still be assigned wounds last.</description>
     </rule>
     <rule id="3460-57e3-8a15-7977" name="Transport(X)" publicationId="d755-5d69-pubN65537" hidden="false">
       <description>Models with this special rule may transport up to X models in their cargo.
@@ -862,7 +864,7 @@ If a unit is inside of a Transport when it is destroyed then it must take a Dang
     <rule id="5065-c3a4-a9cf-db27" name="Hero" publicationId="d755-5d69-pubN65537" hidden="false">
       <description>Models with this special rule may be deployed as part of one other friendly unit at the beginning of the game.
 
-When rolling morale tests units may use the hero’s Quality value and when rolling to block use the Defense of the hero&apos;s unit until all non-hero models are killed.</description>
+When rolling morale tests units may use the hero’s Quality value and when rolling to block use the Defense of the hero’s unit until all non-hero models are killed.</description>
     </rule>
     <rule id="187f-6a03-5b99-a4db" name="Aircraft" publicationId="d755-5d69-pubN65537" hidden="false">
       <description>These models fly far above the battlefield and can’t physically interact with any other models or terrain, nor can they be moved in base contact with.
