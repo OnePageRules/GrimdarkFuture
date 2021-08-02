@@ -71,33 +71,33 @@ table!
 
 ### What's Done
 
-| Army | Version | Progress |
+| Army | Version | Author|
 |---|---|---|
-|Game System|v2.10|Done|
-|Alien Hives|v2.9|Done|
-|Battle Brothers|Main v2.12 - Prime v2.14 - Detachments v2.14|Done|
-|Battle Sisters|v2.9|Done|
-|Custodian Brothers|v2.1|Done|
-|Dark Elf Raiders|v2.7|Done|
-|Dwarf Guilds|v2.6|Done|
-|Elven Jesters|v2.7|Done|
-|Feudal Guard|v2.8|Done|
-|Havoc Brothers|Main v2.11 - Disciples v2.15|Done|
-|High Elf Fleets|v2.10|Done|
-|Human Defense Force|v2.13|Done|
-|Human Inquisition|2.7|Done|
-|Infected Colonies|v2.4|Done|
-|Machine Cult|v2.10|Done|
-|Machine Cult Defilers|v2.5|Done|
-|Orc Marauders|v2.12|Done|
-|Ratmen Clans|v2.6|Done|
-|Rebel Guerrillas|v2.5|Done|
-|Robot Legions|v2.12|Done|
-|Soul-Snatcher Cults|v2.8|Done|
-|TAO Coalition|v2.11|Done|
-|Titan Lords|v2.4|Done|
-|Vile Rattus Cult|v2.5|Done|
-|Wormhole Daemons|v2.9|Done|
+|Game System|v2.10|Darguth|
+|Alien Hives|v2.9|Darguth|
+|Battle Brothers|Main v2.12 - Prime v2.14 - Detachments v2.14|no active author|
+|Battle Sisters|v2.9|no active author|
+|Custodian Brothers|v2.1|no active author|
+|Dark Elf Raiders|v2.7|no active author|
+|Dwarf Guilds|v2.6|Darguth|
+|Elven Jesters|v2.7|Darguth|
+|Feudal Guard|v2.8|no active author|
+|Havoc Brothers|Main v2.11 - Disciples v2.15|no active author|
+|High Elf Fleets|v2.10|Darguth|
+|Human Defense Force|v2.13|Darguth|
+|Human Inquisition|2.7|Darguth|
+|Infected Colonies|v2.4|no active author|
+|Machine Cult|v2.10|Darguth|
+|Machine Cult Defilers|v2.5|no active author|
+|Orc Marauders|v2.12|Darguth|
+|Ratmen Clans|v2.6|no active author|
+|Rebel Guerrillas|v2.5|no active author|
+|Robot Legions|v2.12|no active author|
+|Soul-Snatcher Cults|v2.8|Darguth|
+|TAO Coalition|v2.11|Darguth|
+|Titan Lords|v2.4|no active author|
+|Vile Rattus Cult|v2.5|no active author|
+|Wormhole Daemons|v2.9|no active author|
 
 
 
