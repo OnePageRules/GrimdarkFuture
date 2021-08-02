@@ -73,28 +73,28 @@ table!
 
 | Army | Version | Author|
 |---|---|---|
-|Game System|v2.10|Darguth|
-|Alien Hives|v2.9|Darguth|
+|Game System|v2.12|Darguth|
+|Alien Hives|v2.9|Kelbesq|
 |Battle Brothers|Main v2.12 - Prime v2.14 - Detachments v2.14|no active author|
 |Battle Sisters|v2.9|no active author|
 |Custodian Brothers|v2.1|no active author|
 |Dark Elf Raiders|v2.7|no active author|
 |Dwarf Guilds|v2.6|Darguth|
-|Elven Jesters|v2.7|Darguth|
-|Feudal Guard|v2.8|no active author|
+|Elven Jesters|v2.7|Risingstudios|
+|Feudal Guard|v2.8|strongbif|
 |Havoc Brothers|Main v2.11 - Disciples v2.15|no active author|
 |High Elf Fleets|v2.10|Darguth|
 |Human Defense Force|v2.13|Darguth|
 |Human Inquisition|2.8|Darguth|
 |Infected Colonies|v2.4|no active author|
-|Machine Cult|v2.10|Darguth|
-|Machine Cult Defilers|v2.5|no active author|
+|Machine Cult|v2.10|Kelbesq|
+|Machine Cult Defilers|v2.5|Kelbesq|
 |Orc Marauders|v2.12|Darguth|
 |Ratmen Clans|v2.6|no active author|
 |Rebel Guerrillas|v2.5|no active author|
-|Robot Legions|v2.12|no active author|
+|Robot Legions|v2.12|Risingstudios|
 |Soul-Snatcher Cults|v2.8|Darguth|
-|TAO Coalition|v2.11|Darguth|
+|TAO Coalition|v2.11|Kelbesq|
 |Titan Lords|v2.4|no active author|
 |Vile Rattus Cult|v2.5|no active author|
 |Wormhole Daemons|v2.9|no active author|
