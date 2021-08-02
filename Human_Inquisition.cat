@@ -546,6 +546,52 @@
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="746c-eb13-e16e-e360" name="Cult Assassins" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="0ff7-f5cf-849a-0e81" name="Cult Assassins" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">3+</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">5+</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Regeneration</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="618f-f21a-33f9-982c" name="2x Energy Swords" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+          <characteristics>
+            <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A2</characteristic>
+            <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">AP(1), Rending</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="f521-b85a-1a56-a930" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+        <infoLink id="1e0b-a4de-3a6d-4797" name="Rending" hidden="false" targetId="9726-accd-9015-f6f6" type="rule"/>
+        <infoLink id="2895-40e7-8191-72f1" name="Regeneration" hidden="false" targetId="dea8-a8f9-1865-4424" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="aaba-7b50-da2b-ef08" name="New CategoryLink" hidden="false" targetId="dfbf-5076-f148-2f58" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="028a-0970-5a95-044b" name="* Unit Size *" hidden="false" collective="false" import="true" defaultSelectionEntryId="3b4f-816f-7833-97fd">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fbac-0308-7f83-5b8b" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="3b4f-816f-7833-97fd" name="Cult Assassins [3]" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b578-d9ff-1ffa-1672" type="min"/>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f2ae-2d76-a653-98a9" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="110.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
     <selectionEntry id="2b61-e0ba-7313-2413" name="Needle Pistol" hidden="false" collective="false" import="true" type="upgrade">
