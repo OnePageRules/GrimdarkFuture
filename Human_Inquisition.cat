@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="01fd-3d07-904a-c359" name="Human Inquisition" revision="5" battleScribeVersion="2.03" authorName="Darguth" authorContact="" library="false" gameSystemId="d755-5d69-2721-c11b" gameSystemRevision="19" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="01fd-3d07-904a-c359" name="Human Inquisition" revision="6" battleScribeVersion="2.03" authorName="Darguth" authorContact="" library="false" gameSystemId="d755-5d69-2721-c11b" gameSystemRevision="20" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="41ea-f39b-0c06-e87e" name="Human Inquisition v2.8"/>
   </publications>
@@ -170,7 +170,7 @@
         <profile id="1a5f-72c7-c4ee-f83d" name="Combat Knife" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
           <characteristics>
             <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A4</characteristic>
-            <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022"></characteristic>
+            <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022"/>
           </characteristics>
         </profile>
       </profiles>
@@ -710,6 +710,9 @@
       <infoLinks>
         <infoLink id="0b65-1b6a-8de9-d911" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="7c75-c9b4-0f3f-7c57" name="Show Spells" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -718,6 +721,9 @@
       <infoLinks>
         <infoLink id="5faf-de05-0e1a-75a7" name="Psychic Spells" hidden="false" targetId="5538-0c43-e9d4-b0b6" type="infoGroup"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
@@ -841,6 +847,13 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="461b-85ed-8b65-377e" type="max"/>
               </constraints>
+              <profiles>
+                <profile id="6112-dfed-d2dd-4d4d" name="Forbidden Lore (Psychic(1))" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Upgrade">
+                  <characteristics>
+                    <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">Psychic(1)</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
               <infoLinks>
                 <infoLink id="17ca-9e20-9b10-647c" name="Psychic(X)" hidden="false" targetId="ba47-b43b-18f8-97c1" type="rule"/>
               </infoLinks>
@@ -868,7 +881,7 @@
           <selectionEntries>
             <selectionEntry id="efc3-e315-8035-f4ef" name="Alien Hunter" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="4e5a-d801-a134-a1bd" name="Alien Hunter" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Equipment">
+                <profile id="4e5a-d801-a134-a1bd" name="Alien Hunter" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Upgrade">
                   <characteristics>
                     <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">The hero and his unit count as having the Furious rule.</characteristic>
                   </characteristics>
@@ -883,7 +896,7 @@
             </selectionEntry>
             <selectionEntry id="f32d-d730-41b6-e8ee" name="Daemon Hunter" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="dc1c-b317-4907-4207" name="Daemon Hunter" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Equipment">
+                <profile id="dc1c-b317-4907-4207" name="Daemon Hunter" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Upgrade">
                   <characteristics>
                     <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">Enemy units can’t use Ambush within 18” of the hero.</characteristic>
                   </characteristics>
@@ -895,7 +908,7 @@
             </selectionEntry>
             <selectionEntry id="6545-985f-a00d-8d34" name="Witch Hunter" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="52ce-2e7e-1f2f-164a" name="Witch Hunter" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Equipment">
+                <profile id="52ce-2e7e-1f2f-164a" name="Witch Hunter" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Upgrade">
                   <characteristics>
                     <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">This model may block spells as if it had the Psychic(2) special rule. If it is a Psychic then it gets +2 to spell block rolls.</characteristic>
                   </characteristics>

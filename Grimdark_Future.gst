@@ -27,7 +27,7 @@
         <characteristicType id="7a54-240f-72ef-5022" name="Special Rules"/>
       </characteristicTypes>
     </profileType>
-    <profileType id="a964-43c6-d8f5-e47f" name="Upgrade">
+    <profileType id="a964-43c6-d8f5-e47f" name="Enhancement">
       <characteristicTypes>
         <characteristicType id="189e-687a-bec2-51ad" name="Special Rules"/>
       </characteristicTypes>
@@ -881,12 +881,12 @@ When an Aircraft is activated it must move a full 18” to 36” in a straight l
     </rule>
   </sharedRules>
   <sharedProfiles>
-    <profile id="2432-e2b3-c2c4-9482" name="Psychic(1)" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Upgrade">
+    <profile id="2432-e2b3-c2c4-9482" name="Psychic(1)" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Enhancement">
       <characteristics>
         <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">Psychic(1)</characteristic>
       </characteristics>
     </profile>
-    <profile id="3e8c-01f9-834d-a443" name="Psychic(2)" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Upgrade">
+    <profile id="3e8c-01f9-834d-a443" name="Psychic(2)" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Enhancement">
       <characteristics>
         <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">Psychic(2)</characteristic>
       </characteristics>
@@ -1165,7 +1165,7 @@ When an Aircraft is activated it must move a full 18” to 36” in a straight l
         <characteristic name="Special Rules" typeId="9fb1-424b-834c-5e7d">Blast(3), Indirect</characteristic>
       </characteristics>
     </profile>
-    <profile id="264c-3d01-4b6d-fb09" name="Dozer Blade" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Upgrade">
+    <profile id="264c-3d01-4b6d-fb09" name="Dozer Blade" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Enhancement">
       <characteristics>
         <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">Strider</characteristic>
       </characteristics>
@@ -1219,7 +1219,7 @@ When an Aircraft is activated it must move a full 18” to 36” in a straight l
         <characteristic name="Special Rules" typeId="9fb1-424b-834c-5e7d"/>
       </characteristics>
     </profile>
-    <profile id="cdae-0f78-03a5-6bc8" name="Psychic(3)" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Upgrade">
+    <profile id="cdae-0f78-03a5-6bc8" name="Psychic(3)" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Enhancement">
       <characteristics>
         <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">Psychic(3)</characteristic>
       </characteristics>
