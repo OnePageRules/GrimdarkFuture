@@ -435,6 +435,14 @@
         <infoLink id="0b65-1b6a-8de9-d911" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
       </infoLinks>
     </selectionEntry>
+    <selectionEntry id="7c75-c9b4-0f3f-7c57" name="Show Spells" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="56f4-9b72-ff49-7e59" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="5faf-de05-0e1a-75a7" name="Psychic Spells" hidden="false" targetId="5538-0c43-e9d4-b0b6" type="infoGroup"/>
+      </infoLinks>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="427c-2bdd-fb71-bc45" name="Upgrade List A" hidden="false" collective="false" import="true">
@@ -558,7 +566,6 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="461b-85ed-8b65-377e" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="53b5-eb04-b77c-c096" name="Psychic Spells" hidden="false" targetId="5538-0c43-e9d4-b0b6" type="infoGroup"/>
                 <infoLink id="17ca-9e20-9b10-647c" name="Psychic(X)" hidden="false" targetId="ba47-b43b-18f8-97c1" type="rule"/>
               </infoLinks>
               <costs>
@@ -566,6 +573,17 @@
               </costs>
             </selectionEntry>
           </selectionEntries>
+          <entryLinks>
+            <entryLink id="6235-4ba6-ccca-fa83" name="Show Spells" hidden="false" collective="false" import="true" targetId="7c75-c9b4-0f3f-7c57" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4237-c4e3-9346-9b93" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+          </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="553a-e974-0824-fd64" name="Upgrade with one:" hidden="false" collective="false" import="true">
           <constraints>
