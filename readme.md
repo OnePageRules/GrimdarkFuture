@@ -85,7 +85,7 @@ table!
 |Havoc Brothers|Main v2.11 - Disciples v2.15|no active author|
 |High Elf Fleets|v2.10|Darguth|
 |Human Defense Force|v2.13|Darguth|
-|Human Inquisition|2.7|Darguth|
+|Human Inquisition|2.8|Darguth|
 |Infected Colonies|v2.4|no active author|
 |Machine Cult|v2.10|Darguth|
 |Machine Cult Defilers|v2.5|no active author|
