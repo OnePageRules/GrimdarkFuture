@@ -60,8 +60,58 @@
       <entryLinks>
         <entryLink id="d700-2a10-be7d-5154" name="Upgrade List B" hidden="false" collective="false" import="true" targetId="4c75-d0b3-fbdc-314f" type="selectionEntryGroup"/>
       </entryLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
   </selectionEntries>
+  <sharedSelectionEntries>
+    <selectionEntry id="2b61-e0ba-7313-2413" name="Needle Pistol" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="64bd-e6bd-6f7b-624e" name="Needle Pistol" hidden="false" typeId="3c71-da94-e5b3-d7c8" typeName="Ranged Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="79f4-5578-c041-f866">12&quot;</characteristic>
+            <characteristic name="Attacks" typeId="4633-0aa3-94f7-3be7">A1</characteristic>
+            <characteristic name="Special Rules" typeId="9fb1-424b-834c-5e7d">Poison</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="5565-a021-87ae-bac6" name="Poison" hidden="false" targetId="2c45-0e1e-fec5-8dbb" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="5844-7a04-d4d3-a0ec" name="Incinerator" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="bbcf-674a-f7da-2755" name="Incinerator" hidden="false" typeId="3c71-da94-e5b3-d7c8" typeName="Ranged Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="79f4-5578-c041-f866">12&quot;</characteristic>
+            <characteristic name="Attacks" typeId="4633-0aa3-94f7-3be7">A6</characteristic>
+            <characteristic name="Special Rules" typeId="9fb1-424b-834c-5e7d">AP(2)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="4768-13a4-dfb0-0e96" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="4dc1-94f9-44cc-f452" name="Daemon Hammer" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="f96e-dbeb-2670-c0b1" name="Daemon Hammer" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+          <characteristics>
+            <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A2</characteristic>
+            <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">AP(4), Deadly(3)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="324b-792a-b6e1-180d" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+        <infoLink id="6626-546d-7ff1-19b7" name="Deadly(X)" hidden="false" targetId="377b-3864-960e-57ac" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="20.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="427c-2bdd-fb71-bc45" name="Upgrade List A" hidden="false" collective="false" import="true">
       <selectionEntryGroups>
@@ -80,6 +130,41 @@
             <entryLink id="a5e9-54cd-3f69-ecff" name="Assault Rifle" hidden="false" collective="false" import="true" targetId="a1da-51ac-5a8f-8f95" type="selectionEntry">
               <costs>
                 <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="9267-f697-ef55-9bdd" name="Flamethrower" hidden="false" collective="false" import="true" targetId="ebb4-9dca-acaa-4dcf" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="10.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="f000-ec4b-aa5f-e487" name="Storm Rifle" hidden="false" collective="false" import="true" targetId="696d-b8cf-37bb-c9bf" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="10.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="99ba-33de-ba8f-8ed7" name="Plasma Rifle" hidden="false" collective="false" import="true" targetId="4cb4-c780-e943-646a" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="10.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="32e3-ec5e-5be6-2efc" name="Fusion Rifle" hidden="false" collective="false" import="true" targetId="f389-e078-075e-fbff" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="15.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="bbd9-95d3-25c3-e6a7" name="Fusion Pistol" hidden="false" collective="false" import="true" targetId="2071-4cb6-f32c-5d11" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="10.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="a299-5b79-5d3c-79bf" name="Needle Pistol" hidden="false" collective="false" import="true" targetId="2b61-e0ba-7313-2413" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="8901-4f16-bf71-1e4f" name="Incinerator" hidden="false" collective="false" import="true" targetId="5844-7a04-d4d3-a0ec" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="15.0"/>
               </costs>
             </entryLink>
           </entryLinks>
@@ -106,6 +191,11 @@
                 <cost name="pts" typeId="567f-6468-66c6-2ea2" value="15.0"/>
               </costs>
             </entryLink>
+            <entryLink id="2f81-b163-19bf-c6e6" name="Fusion Rifle" hidden="false" collective="false" import="true" targetId="f389-e078-075e-fbff" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="25.0"/>
+              </costs>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="f433-e83d-7ec8-9289" name="Replace CCW:" hidden="false" collective="false" import="true" defaultSelectionEntryId="4571-4ef6-8e3b-7b28">
@@ -113,28 +203,24 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5a0c-d146-19fa-d10e" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9520-f52f-a2e7-1149" type="max"/>
           </constraints>
-          <selectionEntries>
-            <selectionEntry id="8e3c-edd1-7e0b-d3ad" name="Daemon Hammer" hidden="false" collective="false" import="true" type="upgrade">
-              <profiles>
-                <profile id="2234-487d-ce5d-ced3" name="Daemon Hammer" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
-                  <characteristics>
-                    <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A2</characteristic>
-                    <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">AP(4), Deadly(3)</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <infoLinks>
-                <infoLink id="380e-9023-2e61-9891" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
-                <infoLink id="71f8-64be-11a5-75e1" name="Deadly(X)" hidden="false" targetId="377b-3864-960e-57ac" type="rule"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="20.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
           <entryLinks>
             <entryLink id="4571-4ef6-8e3b-7b28" name="CCW (A2)" hidden="false" collective="false" import="true" targetId="2cf5-bae0-bd1b-c205" type="selectionEntry"/>
-            <entryLink id="a5ce-e2af-91cc-2ebd" name="Energy Sword" hidden="false" collective="false" import="true" targetId="b085-6801-9084-46f0" type="selectionEntry">
+            <entryLink id="a5ce-e2af-91cc-2ebd" name="Energy Hammer" hidden="false" collective="false" import="true" targetId="ee08-0414-e5c3-908f" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="10.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="c595-2d27-bcab-8197" name="Energy Fist" hidden="false" collective="false" import="true" targetId="ffff-7bb4-119c-0f59" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="10.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="6516-44a1-a569-5156" name="Daemon Hammer" hidden="false" collective="false" import="true" targetId="4dc1-94f9-44cc-f452" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="15.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="7501-8ce7-0357-5a83" name="Energy Sword" hidden="false" collective="false" import="true" targetId="b085-6801-9084-46f0" type="selectionEntry">
               <costs>
                 <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
               </costs>
@@ -163,11 +249,13 @@
           </constraints>
           <selectionEntries>
             <selectionEntry id="efc3-e315-8035-f4ef" name="Alien Hunter" hidden="false" collective="false" import="true" type="upgrade">
-              <rules>
-                <rule id="f51a-425a-410e-cee4" name="Alien Hunter" publicationId="41ea-f39b-0c06-e87e" hidden="false">
-                  <description>The hero and his unit count as having the Furious rule.</description>
-                </rule>
-              </rules>
+              <profiles>
+                <profile id="4e5a-d801-a134-a1bd" name="Alien Hunter" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Equipment">
+                  <characteristics>
+                    <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">The hero and his unit count as having the Furious rule.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
               <infoLinks>
                 <infoLink id="2674-37e2-5102-a33d" name="Furious" hidden="false" targetId="ded5-4f1f-c61d-4659" type="rule"/>
               </infoLinks>
@@ -183,6 +271,21 @@
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="10.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="6545-985f-a00d-8d34" name="Witch Hunter" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="52ce-2e7e-1f2f-164a" name="Witch Hunter" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Equipment">
+                  <characteristics>
+                    <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">This model may block spells as if it had the Psychic(2) special rule. If it is a Psychic then it gets +2 to spell block rolls.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="5ba3-c3af-f293-f589" name="Psychic(X)" hidden="false" targetId="ba47-b43b-18f8-97c1" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="567f-6468-66c6-2ea2" value="10.0"/>
               </costs>
@@ -256,10 +359,10 @@
   <sharedInfoGroups>
     <infoGroup id="5538-0c43-e9d4-b0b6" name="Psychic Spells" hidden="false">
       <profiles>
-        <profile id="94b9-34e9-982c-82f5" name="1. Foresight" hidden="false" typeId="57dc-caf6-641d-327b" typeName="Psychic Power">
+        <profile id="94b9-34e9-982c-82f5" name="4. Expel" hidden="false" typeId="57dc-caf6-641d-327b" typeName="Psychic Power">
           <characteristics>
-            <characteristic name="Roll" typeId="86f2-adcb-3afd-566c">4+</characteristic>
-            <characteristic name="Details" typeId="e490-3d41-dc85-9d0f">Target friendly unit within 12” gets +1 to hit next time it shoots.</characteristic>
+            <characteristic name="Roll" typeId="86f2-adcb-3afd-566c">5+</characteristic>
+            <characteristic name="Details" typeId="e490-3d41-dc85-9d0f">Target enemy unit within 12” takes 1 automatic hit with AP(4) and Deadly(3).</characteristic>
           </characteristics>
         </profile>
         <profile id="5efb-77c6-2aa3-7cf6" name="2. Flame Breath" hidden="false" typeId="57dc-caf6-641d-327b" typeName="Psychic Power">
@@ -274,16 +377,16 @@
             <characteristic name="Details" typeId="e490-3d41-dc85-9d0f">Target friendly unit within 12” gets Regeneration next time it takes wounds.</characteristic>
           </characteristics>
         </profile>
-        <profile id="bcaa-512f-8fcb-6fb9" name="1. Foresight" hidden="false" typeId="57dc-caf6-641d-327b" typeName="Psychic Power">
+        <profile id="bcaa-512f-8fcb-6fb9" name="5. Psychic Speed" hidden="false" typeId="57dc-caf6-641d-327b" typeName="Psychic Power">
           <characteristics>
-            <characteristic name="Roll" typeId="86f2-adcb-3afd-566c">4+</characteristic>
-            <characteristic name="Details" typeId="e490-3d41-dc85-9d0f">Target friendly unit within 12” gets +1 to hit next time it shoots.</characteristic>
+            <characteristic name="Roll" typeId="86f2-adcb-3afd-566c">6+</characteristic>
+            <characteristic name="Details" typeId="e490-3d41-dc85-9d0f">Target friendly unit within 12” may immediately move by up to 6”.</characteristic>
           </characteristics>
         </profile>
-        <profile id="e4a4-06a8-a1a3-30e3" name="1. Foresight" hidden="false" typeId="57dc-caf6-641d-327b" typeName="Psychic Power">
+        <profile id="e4a4-06a8-a1a3-30e3" name="6. Tempest" hidden="false" typeId="57dc-caf6-641d-327b" typeName="Psychic Power">
           <characteristics>
-            <characteristic name="Roll" typeId="86f2-adcb-3afd-566c">4+</characteristic>
-            <characteristic name="Details" typeId="e490-3d41-dc85-9d0f">Target friendly unit within 12” gets +1 to hit next time it shoots.</characteristic>
+            <characteristic name="Roll" typeId="86f2-adcb-3afd-566c">6+</characteristic>
+            <characteristic name="Details" typeId="e490-3d41-dc85-9d0f">Target enemy unit within 6” takes 1 automatic hit per model.</characteristic>
           </characteristics>
         </profile>
         <profile id="e612-a645-2407-9386" name="1. Foresight" hidden="false" typeId="57dc-caf6-641d-327b" typeName="Psychic Power">
