@@ -501,6 +501,51 @@
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="a1cb-bb41-2ba6-5c7b" name="Psychics" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="0788-185c-0541-2eb1" name="Psychics" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">5+</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">5+</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Psychic(1)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="d569-2c14-1b6d-62a5" name="Pistol" hidden="false" targetId="12e1-e98e-4814-6d75" type="profile"/>
+        <infoLink id="cb1b-41a6-b351-3825" name="CCW (A2)" hidden="false" targetId="a133-fbbf-5794-de55" type="profile"/>
+        <infoLink id="cfae-27f4-cad8-ce1a" name="Psychic(X)" hidden="false" targetId="ba47-b43b-18f8-97c1" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="0653-1004-a209-ac3e" name="New CategoryLink" hidden="false" targetId="dfbf-5076-f148-2f58" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="dcc7-6ac2-4711-a72c" name="* Unit Size *" hidden="false" collective="false" import="true" defaultSelectionEntryId="cf12-621d-1b3a-cf92">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="49e7-408e-5e7f-94eb" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="cf12-621d-1b3a-cf92" name="Psychics [3]" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b9e5-684f-d8bf-1afb" type="min"/>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dd9e-2e24-7e25-e1a4" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="95.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="0e21-82a7-57e9-c1ce" name="Options" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="1f29-2129-d54b-16ab" name="Show Spells" hidden="false" collective="false" import="true" targetId="7c75-c9b4-0f3f-7c57" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
     <selectionEntry id="2b61-e0ba-7313-2413" name="Needle Pistol" hidden="false" collective="false" import="true" type="upgrade">
