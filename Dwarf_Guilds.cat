@@ -103,6 +103,35 @@
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="55.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="9d6b-f88e-fb8d-48ce" name="Rune Master" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="ea43-cea2-04ec-6f4c" name="Rune Master" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">3+</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">3+</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Hero, Psychic(1), Slow, Tough(3)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="a2b7-01c5-2943-a786" name="Psychic(X)" hidden="false" targetId="ba47-b43b-18f8-97c1" type="rule"/>
+        <infoLink id="02cc-d727-5349-f54e" name="Hero" hidden="false" targetId="5065-c3a4-a9cf-db27" type="rule"/>
+        <infoLink id="4332-8fd4-45d8-e4a1" name="Slow" hidden="false" targetId="394b-1b64-d270-f49e" type="rule"/>
+        <infoLink id="7cc2-988b-a607-3252" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
+        <infoLink id="d049-7ce8-a45b-8b64" name="Psychic Spells (Dwarf Guilds)" hidden="false" targetId="b0ca-cf90-a910-15e7" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="a34e-f8de-cb33-9e4f" name="New CategoryLink" hidden="false" targetId="4b4e-fbe0-5211-ae65" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="f702-783c-7178-dbe2" name="Upgrade List A" hidden="false" collective="false" import="true" targetId="be30-aec4-bcc3-9830" type="selectionEntryGroup"/>
+        <entryLink id="d619-6e6f-1cf3-e3c5" name="Upgrade List B" hidden="false" collective="false" import="true" targetId="05aa-8e12-6eb7-3c0c" type="selectionEntryGroup"/>
+        <entryLink id="6d86-1b4c-32c1-b581" name="Upgrade List D" hidden="false" collective="false" import="true" targetId="85b4-64e8-a4b0-fe1a" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="65.0"/>
+      </costs>
+    </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
     <selectionEntry id="a860-ad05-ac59-7253" name="Heavy Pistol" hidden="false" collective="false" import="true" type="upgrade">
@@ -369,6 +398,20 @@
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
+    <selectionEntryGroup id="85b4-64e8-a4b0-fe1a" name="Upgrade List D" hidden="false" collective="false" import="true" defaultSelectionEntryId="ec13-7832-faa4-ac68">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="880a-3c60-76a7-b29b" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ed32-ecbd-af6c-cf0a" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="ec13-7832-faa4-ac68" name="Psychic(1)" hidden="false" collective="false" import="true" type="upgrade"/>
+        <selectionEntry id="bcd4-9015-72a7-f1ec" name="Psychic(2)" hidden="false" collective="false" import="true" type="upgrade">
+          <costs>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="15.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>
     <rule id="02aa-a54a-ba59-0336" name="Battle Lore" publicationId="b11f-bac7-7853-99a1" hidden="false">
@@ -388,6 +431,15 @@
     </rule>
     <rule id="387f-5c28-e935-2683" name="Shield Wall" publicationId="b11f-bac7-7853-99a1" hidden="false">
       <description>Enemies get -1 to hit when they attack units where all models have this rule.</description>
+    </rule>
+    <rule id="b0ca-cf90-a910-15e7" name="Psychic Spells (Dwarf Guilds)" publicationId="b11f-bac7-7853-99a1" hidden="false">
+      <description>
+- Spite Rune (4+): Target enemy unit within 12” gets -1 to hit in melee next time it fights.
+- Smiting Rune (4+): Target enemy unit within 12” takes 4 automatic hits.
+- Battle Rune (5+): Target friendly unit within 12” gets +6” next time it moves.
+- Breaking Rune (5+): Target enemy model within 12” takes 2 automatic hits with AP(2).
+- Drill Rune (6+): Target piece of terrain within 6” may be moved by up to 6” in any direction or may be removed from play.
+- Cleaving Rune (6+): Target 2 enemy units within 12” take 6 automatic hits each.</description>
     </rule>
   </sharedRules>
 </catalogue>
