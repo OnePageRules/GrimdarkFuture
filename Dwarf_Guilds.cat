@@ -76,6 +76,33 @@
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="75.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="ddf3-0ae3-82c0-e687" name="Engineer" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="fbcf-9257-8e8d-28a7" name="Engineer" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">3+</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">3+</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Hero, Repair, Slow, Tough(3)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="8a3b-a6e7-aa11-6a6a" name="Repair" hidden="false" targetId="38bb-90cb-2a0f-71aa" type="rule"/>
+        <infoLink id="618f-7705-171a-bdcc" name="Hero" hidden="false" targetId="5065-c3a4-a9cf-db27" type="rule"/>
+        <infoLink id="318b-919d-0737-1d8c" name="Slow" hidden="false" targetId="394b-1b64-d270-f49e" type="rule"/>
+        <infoLink id="57c5-6bd8-c6af-28b6" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="505d-524d-acb0-7beb" name="New CategoryLink" hidden="false" targetId="4b4e-fbe0-5211-ae65" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="3e1f-f4cc-3c32-ff6a" name="Upgrade List A" hidden="false" collective="false" import="true" targetId="be30-aec4-bcc3-9830" type="selectionEntryGroup"/>
+        <entryLink id="58a1-c282-de85-5dc6" name="Upgrade List B" hidden="false" collective="false" import="true" targetId="05aa-8e12-6eb7-3c0c" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="55.0"/>
+      </costs>
+    </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
     <selectionEntry id="a860-ad05-ac59-7253" name="Heavy Pistol" hidden="false" collective="false" import="true" type="upgrade">
