@@ -11,7 +11,7 @@
       <description>The hero and his unit get +1 to hit when shooting.</description>
     </rule>
     <rule id="38bb-90cb-2a0f-71aa" name="Repair" publicationId="b11f-bac7-7853-99a1" hidden="false">
-      <description>Once per turn, if within 2&quot; of a unit with Tough, roll one die. On a 4+ you may repair one wound from the target.</description>
+      <description>Once per turn, if within 2” of a unit with Tough, roll one die. On a 2+ you may repair 1 wound from the target.</description>
     </rule>
     <rule id="9b2d-06a5-7a64-7bdf" name="Slayer" publicationId="b11f-bac7-7853-99a1" hidden="false">
       <description>This model gets AP(+2) when fighting units with Tough(3) or higher.</description>
@@ -20,7 +20,7 @@
       <description>The hero may ignore the Slow rule.</description>
     </rule>
     <rule id="387f-5c28-e935-2683" name="Shield Wall" publicationId="b11f-bac7-7853-99a1" hidden="false">
-      <description>Enemy units get -1 to all attack rolls when targeting this model.</description>
+      <description>Enemies get -1 to hit when they attack units where all models have this rule.</description>
     </rule>
   </sharedRules>
 </catalogue>
