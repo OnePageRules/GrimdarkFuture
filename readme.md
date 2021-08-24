@@ -81,7 +81,7 @@ table!
 |Dark Elf Raiders|v2.7|no active author|
 |Dwarf Guilds|v2.6|Darguth|
 |Elven Jesters|v2.7|Risingstudios|
-|Feudal Guard|v2.8|strongbif|
+|Feudal Guard|v2.9|strongbif|
 |Havoc Brothers|Main v2.11 - Disciples v2.15|no active author|
 |High Elf Fleets|v2.10|Darguth|
 |Human Defense Force|v2.13|Darguth|

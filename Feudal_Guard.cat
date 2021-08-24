@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="8db1-f4ac-7eea-154c" name="Feudal Guard" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="d755-5d69-2721-c11b" gameSystemRevision="19" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="8db1-f4ac-7eea-154c" name="Feudal Guard" revision="4" battleScribeVersion="2.03" authorName="strongbif" authorContact="Discord - strongbif#6616" library="false" gameSystemId="d755-5d69-2721-c11b" gameSystemRevision="20" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
-    <publication id="f8eb-4993-a2c1-a585" name="Feudal Guard v2.8" shortName=""/>
+    <publication id="f8eb-4993-a2c1-a585" name="Feudal Guard v2.9" shortName=""/>
   </publications>
   <entryLinks>
     <entryLink id="a0cd-978f-e2c8-221c" name="General" hidden="false" collective="false" import="true" targetId="e3e4-703b-bbd6-dd17" type="selectionEntry">
@@ -1880,6 +1880,9 @@
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
@@ -2170,7 +2173,7 @@
     </rule>
   </sharedRules>
   <sharedProfiles>
-    <profile id="8c38-07d5-a717-f16d" name="Feudal Steed" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Equipment">
+    <profile id="8c38-07d5-a717-f16d" name="Feudal Steed" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Enhancement">
       <characteristics>
         <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">Fast, Impact(1)</characteristic>
       </characteristics>
@@ -2181,17 +2184,17 @@
         <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">AP(1), Impact(1)</characteristic>
       </characteristics>
     </profile>
-    <profile id="7946-149e-1c2e-4fcb" name="Purity Scroll" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Equipment">
+    <profile id="7946-149e-1c2e-4fcb" name="Purity Scroll" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Enhancement">
       <characteristics>
         <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">Purity Scroll</characteristic>
       </characteristics>
     </profile>
-    <profile id="2968-bd9c-78d5-1d8e" name="Commander" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Equipment">
+    <profile id="2968-bd9c-78d5-1d8e" name="Commander" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Enhancement">
       <characteristics>
         <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">Commander</characteristic>
       </characteristics>
     </profile>
-    <profile id="0a13-a273-6ba9-ee47" name="Bird of Prey" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Equipment">
+    <profile id="0a13-a273-6ba9-ee47" name="Bird of Prey" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Enhancement">
       <characteristics>
         <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">Bird of Prey</characteristic>
       </characteristics>
@@ -2203,17 +2206,17 @@
         <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Fearless, Hero, Tough(3)</characteristic>
       </characteristics>
     </profile>
-    <profile id="a329-8015-8671-605a" name="Honor Doctrine" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Equipment">
+    <profile id="a329-8015-8671-605a" name="Honor Doctrine" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Enhancement">
       <characteristics>
         <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">Honor Doctrine</characteristic>
       </characteristics>
     </profile>
-    <profile id="4d1d-b4c4-aca4-8f65" name="Tactical Console" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Equipment">
+    <profile id="4d1d-b4c4-aca4-8f65" name="Tactical Console" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Enhancement">
       <characteristics>
         <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">Tactical Console</characteristic>
       </characteristics>
     </profile>
-    <profile id="c412-d5c0-877c-2a5c" name="Forbidden Lore" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Equipment">
+    <profile id="c412-d5c0-877c-2a5c" name="Forbidden Lore" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Enhancement">
       <characteristics>
         <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">Psychic(1)</characteristic>
       </characteristics>
@@ -2268,12 +2271,12 @@
         <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Fearless</characteristic>
       </characteristics>
     </profile>
-    <profile id="957f-55cb-792c-a3a8" name="Bayonets" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Equipment">
+    <profile id="957f-55cb-792c-a3a8" name="Bayonets" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Enhancement">
       <characteristics>
         <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">AP(1) in melee.</characteristic>
       </characteristics>
     </profile>
-    <profile id="d14c-11c1-49e1-9fac" name="Field Radio" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Equipment">
+    <profile id="d14c-11c1-49e1-9fac" name="Field Radio" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Enhancement">
       <characteristics>
         <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">Field Radio</characteristic>
       </characteristics>
@@ -2367,12 +2370,12 @@
         <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">AP(2)</characteristic>
       </characteristics>
     </profile>
-    <profile id="eeb2-598a-c66f-8675" name="Light Shield" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Equipment">
+    <profile id="eeb2-598a-c66f-8675" name="Light Shield" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Enhancement">
       <characteristics>
         <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">Defense +1 in melee</characteristic>
       </characteristics>
     </profile>
-    <profile id="3eab-ee62-9ab2-b911" name="Heavy Shield" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Equipment">
+    <profile id="3eab-ee62-9ab2-b911" name="Heavy Shield" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Enhancement">
       <characteristics>
         <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">Defense +1</characteristic>
       </characteristics>
@@ -2471,12 +2474,12 @@
         <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">AP(3)</characteristic>
       </characteristics>
     </profile>
-    <profile id="6a3e-be3f-7c19-1664" name="Heavy Shield" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Equipment">
+    <profile id="6a3e-be3f-7c19-1664" name="Heavy Shield" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Enhancement">
       <characteristics>
         <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">Tough(+3)</characteristic>
       </characteristics>
     </profile>
-    <profile id="8c2b-eaeb-2c72-845d" name="Overcharged Engine" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Equipment">
+    <profile id="8c2b-eaeb-2c72-845d" name="Overcharged Engine" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Enhancement">
       <characteristics>
         <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">Overcharged Engine</characteristic>
       </characteristics>
