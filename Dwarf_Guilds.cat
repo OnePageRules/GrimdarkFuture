@@ -852,6 +852,47 @@
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="ec0d-2534-6cab-e92c" name="Elites" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="9783-4f30-ec7d-3387" name="Elites" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">3+</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">3+</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Fearless, Slow</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="a3ad-3278-d035-d46c" name="Slow" hidden="false" targetId="394b-1b64-d270-f49e" type="rule"/>
+        <infoLink id="4f80-042b-623c-4370" name="Fearless" hidden="false" targetId="fe6b-f29d-2128-a0b0" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="0285-2de7-edb3-e819" name="New CategoryLink" hidden="false" targetId="dfbf-5076-f148-2f58" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="bb67-31d4-b16d-6d6c" name="* Unit Size *" hidden="false" collective="false" import="true" defaultSelectionEntryId="8e77-935b-134c-3d2d">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d450-e5f0-6683-00df" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="8e77-935b-134c-3d2d" name="Elites [5]" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f67b-943c-f9b3-b48d" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="90.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="ee17-c118-27b0-01e5" name="Upgrade List J" hidden="false" collective="false" import="true" targetId="db66-fca5-2aec-28de" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
     <selectionEntry id="a860-ad05-ac59-7253" name="Heavy Pistol" hidden="false" collective="false" import="true" type="upgrade">
@@ -1384,7 +1425,22 @@
           </constraints>
           <entryLinks>
             <entryLink id="8f23-fd7e-3bc7-4de6" name="CCW (A2)" hidden="false" collective="false" import="true" targetId="2cf5-bae0-bd1b-c205" type="selectionEntry"/>
-            <entryLink id="0606-335a-8e9f-4aaa" name="Upgrade List A (Hammers)" hidden="false" collective="false" import="true" targetId="59fd-e3fa-9162-a7af" type="selectionEntryGroup">
+            <entryLink id="03e3-c431-f5fb-50b7" name="Drill Hammer" hidden="false" collective="false" import="true" targetId="f42e-c3d1-8cf4-7d12" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="9aa6-a1b2-d932-f6ad" name="Heat Hammer" hidden="false" collective="false" import="true" targetId="d92e-0953-b74d-7052" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="3dcd-6058-be23-090c" name="Plasma Hammer" hidden="false" collective="false" import="true" targetId="416e-145f-82d7-f4fa" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="9a89-ca57-b12e-4d01" name="Shock Hammer" hidden="false" collective="false" import="true" targetId="091d-26e8-3ac2-2276" type="selectionEntry">
               <costs>
                 <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
               </costs>
@@ -1609,29 +1665,104 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntryGroup>
-    <selectionEntryGroup id="59fd-e3fa-9162-a7af" name="Upgrade List A (Hammers)" hidden="false" collective="false" import="true">
-      <entryLinks>
-        <entryLink id="6f12-1fb7-f4d5-d76f" name="Shock Hammer" hidden="false" collective="false" import="true" targetId="091d-26e8-3ac2-2276" type="selectionEntry">
+    <selectionEntryGroup id="db66-fca5-2aec-28de" name="Upgrade List J" hidden="false" collective="false" import="true" defaultSelectionEntryId="e4cc-ec48-342c-c746">
+      <modifiers>
+        <modifier type="set" field="bf3b-e882-92d1-7d88" value="10.0">
+          <conditions>
+            <condition field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="342b-02d5-30be-5ebe" value="10.0">
+          <conditions>
+            <condition field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="342b-02d5-30be-5ebe" type="min"/>
+        <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bf3b-e882-92d1-7d88" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="e4cc-ec48-342c-c746" name="Heavy Hammer" hidden="false" collective="false" import="true" type="upgrade">
+          <profiles>
+            <profile id="b4d6-04c6-500a-5d67" name="Heavy Hammer" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+              <characteristics>
+                <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A2</characteristic>
+                <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">AP(1)</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="9406-ceff-616a-25a4" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry id="c1f1-0bdc-4b07-2ccc" name="Shock Hammer" hidden="false" collective="false" import="true" type="upgrade">
+          <profiles>
+            <profile id="fff2-37ac-9992-cf16" name="Shock Hammer" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+              <characteristics>
+                <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A4</characteristic>
+                <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">AP(1)</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="6012-2667-52fc-4be1" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
           </costs>
-        </entryLink>
-        <entryLink id="92b3-80f6-14d9-6a06" name="Drill Hammer" hidden="false" collective="false" import="true" targetId="f42e-c3d1-8cf4-7d12" type="selectionEntry">
+        </selectionEntry>
+        <selectionEntry id="9ee6-be9e-4fa2-cd93" name="Heat Hammer" hidden="false" collective="false" import="true" type="upgrade">
+          <profiles>
+            <profile id="1688-2a8a-03c9-c66a" name="Heat Hammer" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+              <characteristics>
+                <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A2</characteristic>
+                <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">AP(1), Rending</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="0c15-15ea-fae9-1640" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+            <infoLink id="d0be-b7a9-094f-1464" name="Rending" hidden="false" targetId="9726-accd-9015-f6f6" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
           </costs>
-        </entryLink>
-        <entryLink id="aa2f-a604-803c-e689" name="Heat Hammer" hidden="false" collective="false" import="true" targetId="d92e-0953-b74d-7052" type="selectionEntry">
+        </selectionEntry>
+        <selectionEntry id="6b6a-929f-7dc6-011d" name="Plasma Hammer" hidden="false" collective="false" import="true" type="upgrade">
+          <profiles>
+            <profile id="84d0-98a4-e28d-cd95" name="Plasma Hammer" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+              <characteristics>
+                <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A2</characteristic>
+                <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">AP(3)</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="65c3-f1c4-450f-abaf" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
           </costs>
-        </entryLink>
-        <entryLink id="d2e6-e5f5-0047-acba" name="Plasma Hammer" hidden="false" collective="false" import="true" targetId="416e-145f-82d7-f4fa" type="selectionEntry">
+        </selectionEntry>
+        <selectionEntry id="aec2-c4f1-4ed9-ad9d" name="Drill Hammer" hidden="false" collective="false" import="true" type="upgrade">
+          <profiles>
+            <profile id="176d-bfbb-4e6d-05c8" name="Drill Hammer" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+              <characteristics>
+                <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A2</characteristic>
+                <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">AP(1), Deadly(3)</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="1de0-c5c4-b966-ab7e" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+            <infoLink id="b00c-e0da-2c3a-f08f" name="Deadly(X)" hidden="false" targetId="377b-3864-960e-57ac" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
           </costs>
-        </entryLink>
-      </entryLinks>
+        </selectionEntry>
+      </selectionEntries>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>
