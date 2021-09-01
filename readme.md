@@ -92,7 +92,7 @@ table!
 |Orc Marauders|v2.12|Darguth|
 |Ratmen Clans|v2.6|no active author|
 |Rebel Guerrillas|v2.5|no active author|
-|Robot Legions|v2.12|Risingstudios|
+|Robot Legions|v2.18|nicolasconnault|
 |Soul-Snatcher Cults|v2.8|Darguth|
 |TAO Coalition|v2.11|Kelbesq|
 |Titan Lords|v2.4|no active author|
