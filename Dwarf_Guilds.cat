@@ -1419,6 +1419,57 @@
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="305.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="c9dc-d787-7e41-7e6a" name="Battle Tank" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="366c-cc20-f030-e408" name="Battle Tank" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">4+</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">2+</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Fast, Impact(6), Tough(12)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="35fb-3635-c337-0c35" name="Fast" hidden="false" targetId="f6ca-56fe-a21c-08fa" type="rule"/>
+        <infoLink id="75ca-7d2c-2580-0ea6" name="Impact(X)" hidden="false" targetId="0c08-1729-0be7-c286" type="rule"/>
+        <infoLink id="9842-1686-5e20-5edd" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="3180-48a6-e2c7-b533" name="New CategoryLink" hidden="false" targetId="b820-6309-e900-c733" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="dd6c-5a5b-4f3a-f31f" name="Upgrade List D" hidden="false" collective="false" import="true" defaultSelectionEntryId="2f6b-a6ec-48ef-7c36">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3581-8426-7a43-0968" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b9db-200e-c08a-8204" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="2f6b-a6ec-48ef-7c36" name="Flamethrower Cannon" hidden="false" collective="false" import="true" targetId="f587-2140-510e-48b8" type="selectionEntry"/>
+            <entryLink id="9cfc-6ffa-f95c-2c1b" name="Twin Heavy Fusion Rifle" hidden="false" collective="false" import="true" targetId="7837-57e0-d13e-35ab" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="50.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="c9a3-f667-ef09-bdd4" name="Quad Machinegun" hidden="false" collective="false" import="true" targetId="95ba-d575-9f5f-9ba8" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="60.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="ce07-c402-277f-ac05" name="Battle Cannon" hidden="false" collective="false" import="true" targetId="2a96-365b-4ad8-7cfd" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="70.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="749b-1ddd-9beb-dfd5" name="Upgrade List A (Vehicles)" hidden="false" collective="false" import="true" targetId="b333-ee65-41cd-4f02" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="260.0"/>
+      </costs>
+    </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
     <selectionEntry id="a860-ad05-ac59-7253" name="Heavy Pistol" hidden="false" collective="false" import="true" type="upgrade">
@@ -1539,6 +1590,20 @@
       <costs>
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
       </costs>
+    </selectionEntry>
+    <selectionEntry id="95ba-d575-9f5f-9ba8" name="Quad Machinegun" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="164b-8465-8b2e-e2e9" name="Quad Machinegun" hidden="false" typeId="3c71-da94-e5b3-d7c8" typeName="Ranged Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="79f4-5578-c041-f866">36&quot;</characteristic>
+            <characteristic name="Attacks" typeId="4633-0aa3-94f7-3be7">A12</characteristic>
+            <characteristic name="Special Rules" typeId="9fb1-424b-834c-5e7d">AP(1)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="0a0d-da8f-5cd2-79fd" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+      </infoLinks>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
