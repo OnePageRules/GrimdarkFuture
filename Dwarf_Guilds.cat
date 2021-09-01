@@ -936,6 +936,49 @@
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="4bed-e511-3a4b-c645" name="Sniper Team" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="81c1-20ec-b803-167a" name="Sniper Team" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">4+</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">5+</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Scout, Slow, Stealth</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="cfdc-6958-c253-f1fb" name="Stealth" hidden="false" targetId="1b59-5d31-4675-c926" type="rule"/>
+        <infoLink id="83ab-fcf8-d256-a1c4" name="Slow" hidden="false" targetId="394b-1b64-d270-f49e" type="rule"/>
+        <infoLink id="ef5c-f6b8-69f6-9852" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+        <infoLink id="4d94-6961-b522-73d4" name="CCW (A1)" hidden="false" targetId="149b-6881-3b3f-3972" type="profile"/>
+        <infoLink id="89e3-dee0-8898-271b" name="Sniper Rifle" hidden="false" targetId="2581-6c6d-d8a9-c61e" type="profile"/>
+        <infoLink id="cca6-f0fd-5221-996b" name="Sniper" hidden="false" targetId="2943-e3f6-fb44-ae13" type="rule"/>
+        <infoLink id="bdfb-784e-a532-31e1" name="Scout" hidden="false" targetId="7bc7-a892-49bc-ad88" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="a1ab-48e9-565c-d085" name="New CategoryLink" hidden="false" targetId="dfbf-5076-f148-2f58" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="8fe1-d580-8126-5a18" name="* Unit Size *" hidden="false" collective="false" import="true" defaultSelectionEntryId="2603-d9dc-cdd5-016c">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2ddb-b956-5414-8753" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="2603-d9dc-cdd5-016c" name="Sniper Team [3]" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bd02-c32d-f57f-8d06" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="90.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
     <selectionEntry id="a860-ad05-ac59-7253" name="Heavy Pistol" hidden="false" collective="false" import="true" type="upgrade">
