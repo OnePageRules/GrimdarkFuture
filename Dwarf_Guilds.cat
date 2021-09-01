@@ -1351,6 +1351,74 @@
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="175.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="3ef2-1153-221d-bf4d" name="Assault Drill" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="9731-b46d-e3df-b466" name="Assault Drill" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">4+</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">2+</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Ambush, Fast, Impact(6), Tough(12), Transport(11)</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="2dc5-7822-48f2-3bcd" name="Tunneling Drill" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+          <characteristics>
+            <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A8</characteristic>
+            <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">AP(4)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="eebc-5cb5-a816-5199" name="Transport(X)" hidden="false" targetId="3460-57e3-8a15-7977" type="rule"/>
+        <infoLink id="377e-8275-a024-8037" name="Fast" hidden="false" targetId="f6ca-56fe-a21c-08fa" type="rule"/>
+        <infoLink id="8570-143d-2d8f-63b0" name="Impact(X)" hidden="false" targetId="0c08-1729-0be7-c286" type="rule"/>
+        <infoLink id="31a6-9c89-18a7-1669" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
+        <infoLink id="6821-6448-93a9-1adf" name="Ambush" hidden="false" targetId="859e-e070-e91c-26e1" type="rule"/>
+        <infoLink id="b7af-8a54-f0ee-68e6" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="7626-1de0-f1a8-3da6" name="New CategoryLink" hidden="false" targetId="b820-6309-e900-c733" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="48de-a8ba-641b-d341" name="Upgrade with:" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3332-0d64-44e5-fe46" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="0d61-8afb-ced0-d4d7" name="2x Heavy Flamethrowers" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="74c0-4c84-128f-d81b" name="Heavy Flamethrower" hidden="false" targetId="a5d8-f3e8-cea1-7ea2" type="profile"/>
+                <infoLink id="9029-954f-8b31-c29b" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="25.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="0cd6-98b5-0e35-28ee" name="2x Plasma Cannons" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="073b-4db0-4927-b5f4" name="Plasma Cannon" hidden="false" targetId="02ee-587a-682f-9447" type="profile"/>
+                <infoLink id="94b6-aed8-5951-2d09" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+                <infoLink id="c7e2-37f0-400a-c5c7" name="Blast(X)" hidden="false" targetId="187f-6414-7037-a542" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="55.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="ac8c-ad46-9d9d-3434" name="2x Twin Heavy Machineguns" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="f9eb-8adc-f0bd-92ed" name="Twin Heavy Machinegun" hidden="false" targetId="cf32-7ef8-6e43-092c" type="profile"/>
+                <infoLink id="fe34-9047-b67a-cbea" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="80.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="305.0"/>
+      </costs>
+    </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
     <selectionEntry id="a860-ad05-ac59-7253" name="Heavy Pistol" hidden="false" collective="false" import="true" type="upgrade">
