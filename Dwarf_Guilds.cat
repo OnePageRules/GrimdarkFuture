@@ -168,10 +168,144 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
+        <selectionEntryGroup id="7a9e-74a7-0bdd-b6c0" name="Upgrade List A - Upgrade Path" hidden="false" collective="false" import="true" defaultSelectionEntryId="b090-c8c6-b6ad-b2fe">
+          <modifiers>
+            <modifier type="set" field="6939-c72f-aa27-c95a" value="2.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="07ee-8ba3-1a49-d723" value="2.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="07ee-8ba3-1a49-d723" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6939-c72f-aa27-c95a" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="b090-c8c6-b6ad-b2fe" name="Assault Rifle &amp; CCW(A1)" hidden="false" collective="false" import="true" type="upgrade">
+              <selectionEntryGroups>
+                <selectionEntryGroup id="1b00-13cb-feac-197e" name="Replace Assault Rifle:" hidden="false" collective="false" import="true" defaultSelectionEntryId="bffb-f487-4fd0-4793">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="89c0-5fb1-0f9b-3adb" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d2f6-bf1a-dc3e-6214" type="max"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink id="bffb-f487-4fd0-4793" name="Assault Rifle" hidden="false" collective="false" import="true" targetId="a1da-51ac-5a8f-8f95" type="selectionEntry"/>
+                    <entryLink id="f710-21ec-6dc4-5c3a" name="Shotgun" hidden="false" collective="false" import="true" targetId="9ee5-5c13-dfef-ff7c" type="selectionEntry"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+                <selectionEntryGroup id="3677-4537-f782-8008" name="Replace CCW(A1):" hidden="false" collective="false" import="true" defaultSelectionEntryId="e56f-541f-a843-7a4b">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dd32-eaa8-11a3-fd16" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="58b7-157a-9899-2d95" type="max"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink id="e56f-541f-a843-7a4b" name="CCW (A1)" hidden="false" collective="false" import="true" targetId="4761-1567-afe2-c2ed" type="selectionEntry"/>
+                    <entryLink id="ef1d-7d45-780a-3bd1" name="Heat Hammer" hidden="false" collective="false" import="true" targetId="d92e-0953-b74d-7052" type="selectionEntry">
+                      <costs>
+                        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink id="ae3f-425b-4ffe-a109" name="Drill Hammer" hidden="false" collective="false" import="true" targetId="f42e-c3d1-8cf4-7d12" type="selectionEntry">
+                      <costs>
+                        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink id="8cf7-6606-81cc-3687" name="Plasma Hammer" hidden="false" collective="false" import="true" targetId="416e-145f-82d7-f4fa" type="selectionEntry">
+                      <costs>
+                        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink id="b9d6-4519-b14e-b966" name="Shock Hammer" hidden="false" collective="false" import="true" targetId="091d-26e8-3ac2-2276" type="selectionEntry">
+                      <costs>
+                        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
+                      </costs>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntry>
+            <selectionEntry id="87d7-49f9-9dc8-cc8d" name="Pistol &amp; CCW(A2)" hidden="false" collective="false" import="true" type="upgrade">
+              <selectionEntryGroups>
+                <selectionEntryGroup id="4b96-c9f1-b3a6-b424" name="Replace Pistol:" hidden="false" collective="false" import="true" defaultSelectionEntryId="2101-fe69-9880-7fd2">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f1eb-f6ca-668a-fdc6" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b523-ae20-f7af-7397" type="max"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink id="2101-fe69-9880-7fd2" name="Pistol" hidden="false" collective="false" import="true" targetId="bb7e-64f2-5ded-f697" type="selectionEntry"/>
+                    <entryLink id="3eeb-02e0-f6b8-2385" name="Storm Rifle" hidden="false" collective="false" import="true" targetId="696d-b8cf-37bb-c9bf" type="selectionEntry">
+                      <costs>
+                        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="10.0"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink id="c169-dc92-42be-08a2" name="Heavy Pistol" hidden="false" collective="false" import="true" targetId="a860-ad05-ac59-7253" type="selectionEntry">
+                      <costs>
+                        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink id="d727-b2a5-b3c9-4d46" name="Burst Pistol" hidden="false" collective="false" import="true" targetId="0ed4-ef80-745b-fbcd" type="selectionEntry">
+                      <costs>
+                        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="10.0"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink id="091a-a087-999d-a4f3" name="Plasma Pistol" hidden="false" collective="false" import="true" targetId="b4bf-2a04-6bf7-a1e0" type="selectionEntry">
+                      <costs>
+                        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="10.0"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink id="9e21-7f3e-fd5a-b6a0" name="Combat Shield" hidden="false" collective="false" import="true" targetId="0660-5a85-0f36-0ea6" type="selectionEntry">
+                      <costs>
+                        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="10.0"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink id="d26b-9564-f977-d78f" name="Shotgun" hidden="false" collective="false" import="true" targetId="9ee5-5c13-dfef-ff7c" type="selectionEntry">
+                      <costs>
+                        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
+                      </costs>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntryGroup>
+                <selectionEntryGroup id="6b36-772c-e967-a3d9" name="Replace CCW(A2):" hidden="false" collective="false" import="true" defaultSelectionEntryId="5400-6e58-4c88-3f86">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="df20-c88a-4a32-767f" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="505f-d7f0-c711-f4d9" type="max"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink id="5400-6e58-4c88-3f86" name="CCW (A2)" hidden="false" collective="false" import="true" targetId="2cf5-bae0-bd1b-c205" type="selectionEntry"/>
+                    <entryLink id="267c-1d2e-591e-1e79" name="Heat Hammer" hidden="false" collective="false" import="true" targetId="d92e-0953-b74d-7052" type="selectionEntry">
+                      <costs>
+                        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink id="8afe-e833-4720-bdae" name="Drill Hammer" hidden="false" collective="false" import="true" targetId="f42e-c3d1-8cf4-7d12" type="selectionEntry">
+                      <costs>
+                        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink id="17d2-5726-33a3-f184" name="Plasma Hammer" hidden="false" collective="false" import="true" targetId="416e-145f-82d7-f4fa" type="selectionEntry">
+                      <costs>
+                        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink id="3a56-1379-577b-487f" name="Shock Hammer" hidden="false" collective="false" import="true" targetId="091d-26e8-3ac2-2276" type="selectionEntry">
+                      <costs>
+                        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
+                      </costs>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="1154-3bde-0808-7d02" name="Upgrade List A (Units)" hidden="false" collective="false" import="true" targetId="aeb1-052b-eb33-c84f" type="selectionEntryGroup"/>
-        <entryLink id="68d1-ca4f-6c00-3a44" name="Upgrade List E" hidden="false" collective="false" import="true" targetId="fed3-673c-e205-666c" type="selectionEntryGroup"/>
+        <entryLink id="d916-a1b3-f2ca-89fa" name="Upgrade List E" hidden="false" collective="false" import="true" targetId="fed3-673c-e205-666c" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
@@ -211,9 +345,173 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
+        <selectionEntryGroup id="3954-b081-ddcb-e8e0" name="Upgrade List A - Upgrade Path" hidden="false" collective="false" import="true" defaultSelectionEntryId="5e37-29e9-e2c5-8646">
+          <modifiers>
+            <modifier type="set" field="a9c3-dca1-41d1-7728" value="2.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="11d3-9a13-177e-f229" value="2.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="11d3-9a13-177e-f229" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a9c3-dca1-41d1-7728" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="5e37-29e9-e2c5-8646" name="Assault Rifle &amp; CCW(A1)" hidden="false" collective="false" import="true" type="upgrade">
+              <selectionEntryGroups>
+                <selectionEntryGroup id="7fac-499b-2304-964d" name="Replace Assault Rifle:" hidden="false" collective="false" import="true" defaultSelectionEntryId="f30f-4110-6802-84bf">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="88b7-eadf-4d9f-efc6" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="18c9-99f0-f80e-1bea" type="max"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink id="f30f-4110-6802-84bf" name="Assault Rifle" hidden="false" collective="false" import="true" targetId="a1da-51ac-5a8f-8f95" type="selectionEntry"/>
+                    <entryLink id="8fdf-40ca-911f-8927" name="Heavy Machinegun" hidden="false" collective="false" import="true" targetId="4481-49a4-e4f7-925b" type="selectionEntry">
+                      <costs>
+                        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="20.0"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink id="989e-c876-42f7-e0d9" name="Heavy Flamethrower" hidden="false" collective="false" import="true" targetId="b4cc-bca2-fafc-9825" type="selectionEntry">
+                      <costs>
+                        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="15.0"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink id="5b07-f4d9-a20a-c717" name="Plasma Cannon" hidden="false" collective="false" import="true" targetId="05e9-6fae-2a04-8820" type="selectionEntry">
+                      <costs>
+                        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="30.0"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink id="2782-cd25-717a-c8a3" name="Missile Launcher" hidden="false" collective="false" import="true" targetId="ff1b-714c-6353-221d" type="selectionEntry">
+                      <costs>
+                        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="30.0"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink id="4e24-57ca-009a-c5e8" name="Heavy Fusion Rifle" hidden="false" collective="false" import="true" targetId="a5f5-d44a-03b0-9a99" type="selectionEntry">
+                      <costs>
+                        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="40.0"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink id="dcc3-3391-9758-1270" name="Laser Cannon" hidden="false" collective="false" import="true" targetId="1f20-2b60-f100-bed0" type="selectionEntry">
+                      <costs>
+                        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="40.0"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink id="fa60-0a1c-cf60-a54d" name="Shotgun" hidden="false" collective="false" import="true" targetId="9ee5-5c13-dfef-ff7c" type="selectionEntry"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+                <selectionEntryGroup id="552e-4199-ead5-09d4" name="Replace CCW(A1):" hidden="false" collective="false" import="true" defaultSelectionEntryId="6d4b-046e-cdce-5430">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="456b-5059-5c85-3a29" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="62cd-ba51-ae5a-f79b" type="max"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink id="6d4b-046e-cdce-5430" name="CCW (A1)" hidden="false" collective="false" import="true" targetId="4761-1567-afe2-c2ed" type="selectionEntry"/>
+                    <entryLink id="4a14-8700-e7f7-72ab" name="Heat Hammer" hidden="false" collective="false" import="true" targetId="d92e-0953-b74d-7052" type="selectionEntry">
+                      <costs>
+                        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink id="d996-e2a6-e7d8-75c6" name="Drill Hammer" hidden="false" collective="false" import="true" targetId="f42e-c3d1-8cf4-7d12" type="selectionEntry">
+                      <costs>
+                        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink id="54af-17fc-7626-9570" name="Plasma Hammer" hidden="false" collective="false" import="true" targetId="416e-145f-82d7-f4fa" type="selectionEntry">
+                      <costs>
+                        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink id="4f26-68a6-b8a3-7d93" name="Shock Hammer" hidden="false" collective="false" import="true" targetId="091d-26e8-3ac2-2276" type="selectionEntry">
+                      <costs>
+                        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
+                      </costs>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntry>
+            <selectionEntry id="0ccc-e156-f34a-cfe2" name="Pistol &amp; CCW(A2)" hidden="false" collective="false" import="true" type="upgrade">
+              <selectionEntryGroups>
+                <selectionEntryGroup id="0c6f-0833-ebe3-f5c1" name="Replace Pistol:" hidden="false" collective="false" import="true" defaultSelectionEntryId="2194-adbd-ccd1-5060">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="27ee-6506-c2a8-aea9" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cfa8-a03c-778d-d2eb" type="max"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink id="2194-adbd-ccd1-5060" name="Pistol" hidden="false" collective="false" import="true" targetId="bb7e-64f2-5ded-f697" type="selectionEntry"/>
+                    <entryLink id="9568-b90e-cbed-3f13" name="Storm Rifle" hidden="false" collective="false" import="true" targetId="696d-b8cf-37bb-c9bf" type="selectionEntry">
+                      <costs>
+                        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="10.0"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink id="e011-5b41-2b2c-2cf8" name="Heavy Pistol" hidden="false" collective="false" import="true" targetId="a860-ad05-ac59-7253" type="selectionEntry">
+                      <costs>
+                        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink id="7d39-8948-defc-1a24" name="Burst Pistol" hidden="false" collective="false" import="true" targetId="0ed4-ef80-745b-fbcd" type="selectionEntry">
+                      <costs>
+                        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="10.0"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink id="f61f-d48d-947d-9873" name="Plasma Pistol" hidden="false" collective="false" import="true" targetId="b4bf-2a04-6bf7-a1e0" type="selectionEntry">
+                      <costs>
+                        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="10.0"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink id="bdc9-3058-e0fc-b2d9" name="Combat Shield" hidden="false" collective="false" import="true" targetId="0660-5a85-0f36-0ea6" type="selectionEntry">
+                      <costs>
+                        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="10.0"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink id="1408-cf0b-f68b-9763" name="Shotgun" hidden="false" collective="false" import="true" targetId="9ee5-5c13-dfef-ff7c" type="selectionEntry">
+                      <costs>
+                        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
+                      </costs>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntryGroup>
+                <selectionEntryGroup id="56a8-a284-66a4-fc34" name="Replace CCW(A2):" hidden="false" collective="false" import="true" defaultSelectionEntryId="190e-a573-621a-67d6">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="036f-1da1-4b48-3105" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="39cf-79d1-5b4c-2cce" type="max"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink id="190e-a573-621a-67d6" name="CCW (A2)" hidden="false" collective="false" import="true" targetId="2cf5-bae0-bd1b-c205" type="selectionEntry"/>
+                    <entryLink id="fb5e-3e50-1bec-46a0" name="Heat Hammer" hidden="false" collective="false" import="true" targetId="d92e-0953-b74d-7052" type="selectionEntry">
+                      <costs>
+                        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink id="5ffa-698d-082e-66e4" name="Drill Hammer" hidden="false" collective="false" import="true" targetId="f42e-c3d1-8cf4-7d12" type="selectionEntry">
+                      <costs>
+                        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink id="b23e-bf98-b1eb-7f22" name="Plasma Hammer" hidden="false" collective="false" import="true" targetId="416e-145f-82d7-f4fa" type="selectionEntry">
+                      <costs>
+                        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink id="e245-d9d0-b4ef-3f5f" name="Shock Hammer" hidden="false" collective="false" import="true" targetId="091d-26e8-3ac2-2276" type="selectionEntry">
+                      <costs>
+                        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
+                      </costs>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="bb0e-f7c3-24cf-6abb" name="Upgrade List A (Units)" hidden="false" collective="false" import="true" targetId="aeb1-052b-eb33-c84f" type="selectionEntryGroup"/>
         <entryLink id="976a-6213-84bc-3fe8" name="Upgrade List F" hidden="false" collective="false" import="true" targetId="7c3e-72ac-6a14-fbc3" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
@@ -353,6 +651,207 @@
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="a3b4-85f6-822e-5292" name="Veterans" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="60ce-0a08-5775-314a" name="Veterans" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">3+</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">3+</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Slow</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="be99-a458-c32a-e56c" name="Slow" hidden="false" targetId="394b-1b64-d270-f49e" type="rule"/>
+        <infoLink id="36cf-643c-828a-04e2" name="CCW (A1)" hidden="false" targetId="149b-6881-3b3f-3972" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="31c2-20b9-d273-0577" name="New CategoryLink" hidden="false" targetId="dfbf-5076-f148-2f58" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="199b-8030-8f83-1c7c" name="* Unit Size *" hidden="false" collective="false" import="true" defaultSelectionEntryId="c01a-cf8b-52d3-ca9f">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2ec7-a245-b38b-334c" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="c01a-cf8b-52d3-ca9f" name="Veterans [5]" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="79e6-087a-66ee-fe94" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="70.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="974f-7c6f-7b10-e230" name="Upgrade List A - Upgrade Path" hidden="false" collective="false" import="true" defaultSelectionEntryId="7337-c81e-fcfa-5963">
+          <modifiers>
+            <modifier type="set" field="da9b-aede-b033-4293" value="2.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="7981-e33a-5d69-f716" value="2.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="da9b-aede-b033-4293" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7981-e33a-5d69-f716" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="7337-c81e-fcfa-5963" name="Assault Rifle &amp; CCW(A1)" hidden="false" collective="false" import="true" type="upgrade">
+              <selectionEntryGroups>
+                <selectionEntryGroup id="8dcb-0251-0444-608f" name="Replace Assault Rifle:" hidden="false" collective="false" import="true" defaultSelectionEntryId="f759-e0e0-5c7b-20f5">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f907-e44d-46d9-39a7" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fe31-a7d9-b545-3d7b" type="max"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink id="f759-e0e0-5c7b-20f5" name="Assault Rifle" hidden="false" collective="false" import="true" targetId="a1da-51ac-5a8f-8f95" type="selectionEntry"/>
+                    <entryLink id="8b30-4f13-e958-e78e" name="Heavy Flamethrower" hidden="false" collective="false" import="true" targetId="b4cc-bca2-fafc-9825" type="selectionEntry">
+                      <costs>
+                        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="15.0"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink id="33c4-2237-3a12-6429" name="Heavy Machinegun" hidden="false" collective="false" import="true" targetId="4481-49a4-e4f7-925b" type="selectionEntry">
+                      <costs>
+                        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="25.0"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink id="eff2-1de0-27b0-fbf5" name="Plasma Cannon" hidden="false" collective="false" import="true" targetId="05e9-6fae-2a04-8820" type="selectionEntry">
+                      <costs>
+                        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="30.0"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink id="3b97-1cb4-c146-b2e2" name="Missile Launcher" hidden="false" collective="false" import="true" targetId="ff1b-714c-6353-221d" type="selectionEntry">
+                      <costs>
+                        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="35.0"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink id="ea05-621a-ddab-145d" name="Heavy Fusion Rifle" hidden="false" collective="false" import="true" targetId="a5f5-d44a-03b0-9a99" type="selectionEntry">
+                      <costs>
+                        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="45.0"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink id="30d5-7ad3-aab2-8cd3" name="Shotgun" hidden="false" collective="false" import="true" targetId="9ee5-5c13-dfef-ff7c" type="selectionEntry"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+                <selectionEntryGroup id="7ae1-e884-ee8b-9d0c" name="Replace CCW(A1):" hidden="false" collective="false" import="true" defaultSelectionEntryId="66ff-f839-2287-cb78">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1318-a13a-e063-8df3" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6fa5-769f-ebcc-d20a" type="max"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink id="66ff-f839-2287-cb78" name="CCW (A1)" hidden="false" collective="false" import="true" targetId="4761-1567-afe2-c2ed" type="selectionEntry"/>
+                    <entryLink id="d035-74f9-b86b-5c63" name="Heat Hammer" hidden="false" collective="false" import="true" targetId="d92e-0953-b74d-7052" type="selectionEntry">
+                      <costs>
+                        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink id="5ebd-1cc1-6adc-35fe" name="Drill Hammer" hidden="false" collective="false" import="true" targetId="f42e-c3d1-8cf4-7d12" type="selectionEntry">
+                      <costs>
+                        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink id="fcc0-7bca-766e-cbd0" name="Plasma Hammer" hidden="false" collective="false" import="true" targetId="416e-145f-82d7-f4fa" type="selectionEntry">
+                      <costs>
+                        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink id="19b1-6079-6d7d-3de1" name="Shock Hammer" hidden="false" collective="false" import="true" targetId="091d-26e8-3ac2-2276" type="selectionEntry">
+                      <costs>
+                        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
+                      </costs>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntry>
+            <selectionEntry id="10de-577b-af63-61aa" name="Pistol &amp; CCW(A2)" hidden="false" collective="false" import="true" type="upgrade">
+              <selectionEntryGroups>
+                <selectionEntryGroup id="9e34-c46c-6950-f598" name="Replace Pistol:" hidden="false" collective="false" import="true" defaultSelectionEntryId="0983-6ff1-1e2c-477b">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5716-3ae9-d1b1-d272" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="95ec-12ea-7beb-82c4" type="max"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink id="0983-6ff1-1e2c-477b" name="Pistol" hidden="false" collective="false" import="true" targetId="bb7e-64f2-5ded-f697" type="selectionEntry"/>
+                    <entryLink id="b97c-b371-3c6e-0b65" name="Storm Rifle" hidden="false" collective="false" import="true" targetId="696d-b8cf-37bb-c9bf" type="selectionEntry">
+                      <costs>
+                        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="10.0"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink id="6718-eb7f-d4d0-c2f7" name="Heavy Pistol" hidden="false" collective="false" import="true" targetId="a860-ad05-ac59-7253" type="selectionEntry">
+                      <costs>
+                        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink id="9a3a-8665-3847-eaf9" name="Burst Pistol" hidden="false" collective="false" import="true" targetId="0ed4-ef80-745b-fbcd" type="selectionEntry">
+                      <costs>
+                        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="10.0"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink id="c55d-e595-a9bf-55d9" name="Plasma Pistol" hidden="false" collective="false" import="true" targetId="b4bf-2a04-6bf7-a1e0" type="selectionEntry">
+                      <costs>
+                        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="10.0"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink id="dcda-459f-8b26-dcad" name="Combat Shield" hidden="false" collective="false" import="true" targetId="0660-5a85-0f36-0ea6" type="selectionEntry">
+                      <costs>
+                        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="10.0"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink id="aec0-78d6-cdf0-4c45" name="Shotgun" hidden="false" collective="false" import="true" targetId="9ee5-5c13-dfef-ff7c" type="selectionEntry">
+                      <costs>
+                        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
+                      </costs>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntryGroup>
+                <selectionEntryGroup id="a44c-be1f-f1a8-90f7" name="Replace CCW(A2):" hidden="false" collective="false" import="true" defaultSelectionEntryId="5d5c-dfc5-7503-1a24">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4db7-589f-2122-9296" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e035-b66d-6475-d62a" type="max"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink id="5d5c-dfc5-7503-1a24" name="CCW (A2)" hidden="false" collective="false" import="true" targetId="2cf5-bae0-bd1b-c205" type="selectionEntry"/>
+                    <entryLink id="6eb6-7c6f-7fcf-14f1" name="Heat Hammer" hidden="false" collective="false" import="true" targetId="d92e-0953-b74d-7052" type="selectionEntry">
+                      <costs>
+                        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink id="9840-1564-23a0-f24a" name="Drill Hammer" hidden="false" collective="false" import="true" targetId="f42e-c3d1-8cf4-7d12" type="selectionEntry">
+                      <costs>
+                        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink id="857c-e4bf-b9e2-62b1" name="Plasma Hammer" hidden="false" collective="false" import="true" targetId="416e-145f-82d7-f4fa" type="selectionEntry">
+                      <costs>
+                        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink id="2699-c86f-9d8d-1f6a" name="Shock Hammer" hidden="false" collective="false" import="true" targetId="091d-26e8-3ac2-2276" type="selectionEntry">
+                      <costs>
+                        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
+                      </costs>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="8764-23b1-1353-d5af" name="Upgrade List I" hidden="false" collective="false" import="true" targetId="2673-3889-923f-9030" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
     <selectionEntry id="a860-ad05-ac59-7253" name="Heavy Pistol" hidden="false" collective="false" import="true" type="upgrade">
@@ -476,10 +975,13 @@
         <infoLink id="a2e9-be98-e870-2f87" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
         <infoLink id="901c-0d3e-de81-3aff" name="Deadly(X)" hidden="false" targetId="377b-3864-960e-57ac" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
-    <selectionEntryGroup id="be30-aec4-bcc3-9830" name="Upgrade List A (Heroes)" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="be30-aec4-bcc3-9830" name="Upgrade List A" hidden="false" collective="false" import="true">
       <selectionEntryGroups>
         <selectionEntryGroup id="f488-56d7-cc45-0819" name="Replace one Assault Rifle:" hidden="false" collective="false" import="true" defaultSelectionEntryId="1a1f-5972-fc26-3a03">
           <constraints>
@@ -682,146 +1184,6 @@
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
-    <selectionEntryGroup id="aeb1-052b-eb33-c84f" name="Upgrade List A (Units - Rifles)" hidden="false" collective="false" import="true">
-      <selectionEntryGroups>
-        <selectionEntryGroup id="1894-9ddf-233e-0741" name="Replace Assault Rifle:" hidden="false" collective="false" import="true" defaultSelectionEntryId="16b1-5104-e99d-6a24">
-          <modifiers>
-            <modifier type="set" field="5ad9-8509-f6fe-495e" value="2.0">
-              <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="greaterThan"/>
-              </conditions>
-            </modifier>
-            <modifier type="set" field="21b8-0717-bc4a-07f2" value="2.0">
-              <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="greaterThan"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="21b8-0717-bc4a-07f2" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5ad9-8509-f6fe-495e" type="max"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="16b1-5104-e99d-6a24" name="Assault Rifle" hidden="false" collective="false" import="true" type="upgrade">
-              <infoLinks>
-                <infoLink id="14f7-ed27-10c8-fda5" name="Assault Rifle" hidden="false" targetId="e313-290f-cb18-c4ea" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-          <entryLinks>
-            <entryLink id="6be6-c0b9-9438-ee66" name="Pistol" hidden="false" collective="false" import="true" targetId="bb7e-64f2-5ded-f697" type="selectionEntry"/>
-            <entryLink id="f306-0dc0-ffcb-444b" name="Plasma Pistol" hidden="false" collective="false" import="true" targetId="b4bf-2a04-6bf7-a1e0" type="selectionEntry">
-              <costs>
-                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="10.0"/>
-              </costs>
-            </entryLink>
-            <entryLink id="da64-f034-8d29-ce95" name="Heavy Pistol" hidden="false" collective="false" import="true" targetId="a860-ad05-ac59-7253" type="selectionEntry">
-              <costs>
-                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
-              </costs>
-            </entryLink>
-            <entryLink id="1c87-2b7c-230d-73cf" name="Burst Pistol" hidden="false" collective="false" import="true" targetId="0ed4-ef80-745b-fbcd" type="selectionEntry">
-              <costs>
-                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="10.0"/>
-              </costs>
-            </entryLink>
-            <entryLink id="391c-3f14-2f01-e1d7" name="Storm Rifle" hidden="false" collective="false" import="true" targetId="696d-b8cf-37bb-c9bf" type="selectionEntry">
-              <costs>
-                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="10.0"/>
-              </costs>
-            </entryLink>
-            <entryLink id="0236-9c97-8ae0-c1a1" name="Combat Shield" hidden="false" collective="false" import="true" targetId="0660-5a85-0f36-0ea6" type="selectionEntry">
-              <costs>
-                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="10.0"/>
-              </costs>
-            </entryLink>
-            <entryLink id="f23c-3cb7-45c9-2099" name="Shotgun" hidden="false" collective="false" import="true" targetId="9ee5-5c13-dfef-ff7c" type="selectionEntry">
-              <modifiers>
-                <modifier type="set" field="567f-6468-66c6-2ea2" value="0.0">
-                  <conditions>
-                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cb60-a15a-0909-b52d" type="instanceOf"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
-              <costs>
-                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
-              </costs>
-            </entryLink>
-          </entryLinks>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="5fda-edd0-2bf4-3bd8" name="Replace CCW:" hidden="false" collective="false" import="true" defaultSelectionEntryId="3fcb-d3b2-fdb3-7556">
-          <modifiers>
-            <modifier type="set" field="ef59-fe6f-e215-18c9" value="2.0">
-              <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="greaterThan"/>
-              </conditions>
-            </modifier>
-            <modifier type="set" field="fc95-b17e-2d92-a2f3" value="2.0">
-              <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="greaterThan"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ef59-fe6f-e215-18c9" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fc95-b17e-2d92-a2f3" type="max"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="3fcb-d3b2-fdb3-7556" name="CCW (A1)" hidden="false" collective="false" import="true" targetId="4761-1567-afe2-c2ed" type="selectionEntry">
-              <modifiers>
-                <modifier type="set" field="hidden" value="true">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="16b1-5104-e99d-6a24" type="equalTo"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
-            </entryLink>
-            <entryLink id="9456-0fd2-0cb0-a6aa" name="CCW (A2)" hidden="true" collective="false" import="true" targetId="2cf5-bae0-bd1b-c205" type="selectionEntry">
-              <modifiers>
-                <modifier type="set" field="hidden" value="false">
-                  <conditionGroups>
-                    <conditionGroup type="or">
-                      <conditions>
-                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b4bf-2a04-6bf7-a1e0" type="greaterThan"/>
-                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="696d-b8cf-37bb-c9bf" type="greaterThan"/>
-                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0660-5a85-0f36-0ea6" type="greaterThan"/>
-                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a860-ad05-ac59-7253" type="greaterThan"/>
-                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0ed4-ef80-745b-fbcd" type="greaterThan"/>
-                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9ee5-5c13-dfef-ff7c" type="greaterThan"/>
-                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="bb7e-64f2-5ded-f697" type="greaterThan"/>
-                      </conditions>
-                    </conditionGroup>
-                  </conditionGroups>
-                </modifier>
-              </modifiers>
-            </entryLink>
-            <entryLink id="99cc-02e3-1097-beb6" name="Plasma Hammer" hidden="false" collective="false" import="true" targetId="416e-145f-82d7-f4fa" type="selectionEntry">
-              <costs>
-                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
-              </costs>
-            </entryLink>
-            <entryLink id="c9bc-1767-17a3-94df" name="Heat Hammer" hidden="false" collective="false" import="true" targetId="d92e-0953-b74d-7052" type="selectionEntry">
-              <costs>
-                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
-              </costs>
-            </entryLink>
-            <entryLink id="5a89-ff2f-b0d0-920d" name="Shock Hammer" hidden="false" collective="false" import="true" targetId="091d-26e8-3ac2-2276" type="selectionEntry">
-              <costs>
-                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
-              </costs>
-            </entryLink>
-            <entryLink id="c23f-7303-ae1d-1f77" name="Drill Hammer" hidden="false" collective="false" import="true" targetId="f42e-c3d1-8cf4-7d12" type="selectionEntry">
-              <costs>
-                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
-              </costs>
-            </entryLink>
-          </entryLinks>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-    </selectionEntryGroup>
     <selectionEntryGroup id="fed3-673c-e205-666c" name="Upgrade List E" hidden="false" collective="false" import="true">
       <selectionEntryGroups>
         <selectionEntryGroup id="410c-e019-5fe0-e54d" name="Replace Assault Rifles" hidden="false" collective="false" import="true" defaultSelectionEntryId="a0fc-9dd6-23c5-d8a1">
@@ -1022,22 +1384,7 @@
           </constraints>
           <entryLinks>
             <entryLink id="8f23-fd7e-3bc7-4de6" name="CCW (A2)" hidden="false" collective="false" import="true" targetId="2cf5-bae0-bd1b-c205" type="selectionEntry"/>
-            <entryLink id="ea51-1ea1-37a5-2c67" name="Plasma Hammer" hidden="false" collective="false" import="true" targetId="416e-145f-82d7-f4fa" type="selectionEntry">
-              <costs>
-                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
-              </costs>
-            </entryLink>
-            <entryLink id="5950-2df8-737c-0471" name="Heat Hammer" hidden="false" collective="false" import="true" targetId="d92e-0953-b74d-7052" type="selectionEntry">
-              <costs>
-                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
-              </costs>
-            </entryLink>
-            <entryLink id="0606-335a-8e9f-4aaa" name="Shock Hammer" hidden="false" collective="false" import="true" targetId="091d-26e8-3ac2-2276" type="selectionEntry">
-              <costs>
-                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
-              </costs>
-            </entryLink>
-            <entryLink id="ab30-b022-f0d2-0613" name="Drill Hammer" hidden="false" collective="false" import="true" targetId="f42e-c3d1-8cf4-7d12" type="selectionEntry">
+            <entryLink id="0606-335a-8e9f-4aaa" name="Upgrade List A (Hammers)" hidden="false" collective="false" import="true" targetId="59fd-e3fa-9162-a7af" type="selectionEntryGroup">
               <costs>
                 <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
               </costs>
@@ -1210,6 +1557,81 @@
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="2673-3889-923f-9030" name="Upgrade List I" hidden="false" collective="false" import="true">
+      <selectionEntryGroups>
+        <selectionEntryGroup id="152b-7065-22c9-936e" name="Replace Assault Rifles:" hidden="false" collective="false" import="true" defaultSelectionEntryId="c874-d935-13c0-5a2f">
+          <modifiers>
+            <modifier type="set" field="582e-3cc4-6564-a664" value="8.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="2950-fe9d-49c8-63b5" value="8.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2950-fe9d-49c8-63b5" type="min"/>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="582e-3cc4-6564-a664" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="c874-d935-13c0-5a2f" name="Assault Rifle" hidden="false" collective="false" import="true" targetId="a1da-51ac-5a8f-8f95" type="selectionEntry"/>
+            <entryLink id="913b-475e-0181-c6ba" name="Shotgun" hidden="false" collective="false" import="true" targetId="9ee5-5c13-dfef-ff7c" type="selectionEntry"/>
+            <entryLink id="8111-a363-38d9-fda7" name="Heavy Flamethrower" hidden="false" collective="false" import="true" targetId="b4cc-bca2-fafc-9825" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="15.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="e131-34ee-37e5-3095" name="Heavy Machinegun" hidden="false" collective="false" import="true" targetId="4481-49a4-e4f7-925b" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="25.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="9b66-b61e-6ddf-0925" name="Plasma Cannon" hidden="false" collective="false" import="true" targetId="05e9-6fae-2a04-8820" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="30.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="80c4-3296-c831-426b" name="Missile Launcher" hidden="false" collective="false" import="true" targetId="ff1b-714c-6353-221d" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="35.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="3c63-a2de-5d30-fc12" name="Heavy Fusion Rifle" hidden="false" collective="false" import="true" targetId="a5f5-d44a-03b0-9a99" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="45.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="59fd-e3fa-9162-a7af" name="Upgrade List A (Hammers)" hidden="false" collective="false" import="true">
+      <entryLinks>
+        <entryLink id="6f12-1fb7-f4d5-d76f" name="Shock Hammer" hidden="false" collective="false" import="true" targetId="091d-26e8-3ac2-2276" type="selectionEntry">
+          <costs>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="92b3-80f6-14d9-6a06" name="Drill Hammer" hidden="false" collective="false" import="true" targetId="f42e-c3d1-8cf4-7d12" type="selectionEntry">
+          <costs>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="aa2f-a604-803c-e689" name="Heat Hammer" hidden="false" collective="false" import="true" targetId="d92e-0953-b74d-7052" type="selectionEntry">
+          <costs>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="d2e6-e5f5-0047-acba" name="Plasma Hammer" hidden="false" collective="false" import="true" targetId="416e-145f-82d7-f4fa" type="selectionEntry">
+          <costs>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
+          </costs>
+        </entryLink>
+      </entryLinks>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>
