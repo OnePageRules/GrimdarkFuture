@@ -1503,30 +1503,6 @@
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="b95c-d98c-b118-1ef0" name="Engine Upgrades" hidden="false" collective="false" import="true">
-          <selectionEntries>
-            <selectionEntry id="5e25-0fa8-cfcf-cb9c" name="Artillery Cannon" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3907-f39a-84d2-096a" type="max"/>
-              </constraints>
-              <profiles>
-                <profile id="ba47-5778-9061-e8b1" name="Artillery Cannon" hidden="false" typeId="3c71-da94-e5b3-d7c8" typeName="Ranged Weapon">
-                  <characteristics>
-                    <characteristic name="Range" typeId="79f4-5578-c041-f866">48&quot;</characteristic>
-                    <characteristic name="Attacks" typeId="4633-0aa3-94f7-3be7">A1</characteristic>
-                    <characteristic name="Special Rules" typeId="9fb1-424b-834c-5e7d">AP(4), Blast(6), Indirect</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <infoLinks>
-                <infoLink id="743a-64f1-3494-b891" name="Indirect" hidden="false" targetId="587a-b92c-a265-06c4" type="rule"/>
-                <infoLink id="c6a3-c10f-0976-bdfb" name="Blast(X)" hidden="false" targetId="187f-6414-7037-a542" type="rule"/>
-                <infoLink id="004b-c37f-6b30-3c0a" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="135.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
           <selectionEntryGroups>
             <selectionEntryGroup id="fd36-7158-bf9a-c866" name="Upgrade with one:" hidden="false" collective="false" import="true">
               <constraints>
@@ -1591,6 +1567,16 @@
               </selectionEntries>
             </selectionEntryGroup>
           </selectionEntryGroups>
+          <entryLinks>
+            <entryLink id="6601-c3e9-310b-9000" name="Artillery Cannon" hidden="false" collective="false" import="true" targetId="75b3-178b-772a-d787" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3b6f-0e2d-952c-5e96" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="135.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="a1fc-8e83-c67b-f1d8" name="Carriage Upgrades" hidden="false" collective="false" import="true">
           <selectionEntryGroups>
@@ -1662,45 +1648,19 @@
                     <cost name="pts" typeId="567f-6468-66c6-2ea2" value="120.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="2b67-ecac-5a2e-d783" name="Ballistic Missiles" hidden="false" collective="false" import="true" type="upgrade">
-                  <profiles>
-                    <profile id="c202-6ab7-6743-2001" name="Ballistic Missiles" hidden="false" typeId="3c71-da94-e5b3-d7c8" typeName="Ranged Weapon">
-                      <characteristics>
-                        <characteristic name="Range" typeId="79f4-5578-c041-f866">48&quot;</characteristic>
-                        <characteristic name="Attacks" typeId="4633-0aa3-94f7-3be7">A1</characteristic>
-                        <characteristic name="Special Rules" typeId="9fb1-424b-834c-5e7d">AP(4), Blast(12), Indirect</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                  <infoLinks>
-                    <infoLink id="9601-16a8-a5ec-dfa6" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
-                    <infoLink id="2917-505d-5b6b-a664" name="Blast(X)" hidden="false" targetId="187f-6414-7037-a542" type="rule"/>
-                    <infoLink id="97d2-912a-b059-b871" name="Indirect" hidden="false" targetId="587a-b92c-a265-06c4" type="rule"/>
-                  </infoLinks>
-                  <costs>
-                    <cost name="pts" typeId="567f-6468-66c6-2ea2" value="270.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="d423-f1c4-1c82-1b7a" name="2x Twin Shard Mortars" hidden="false" collective="false" import="true" type="upgrade">
-                  <profiles>
-                    <profile id="03db-f39a-b58c-95d4" name="Twin Shard Mortar" hidden="false" typeId="3c71-da94-e5b3-d7c8" typeName="Ranged Weapon">
-                      <characteristics>
-                        <characteristic name="Range" typeId="79f4-5578-c041-f866">48&quot;</characteristic>
-                        <characteristic name="Attacks" typeId="4633-0aa3-94f7-3be7">A4</characteristic>
-                        <characteristic name="Special Rules" typeId="9fb1-424b-834c-5e7d">Blast(3), Indirect, Rending</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                  <infoLinks>
-                    <infoLink id="ea92-b2e6-2f36-b17e" name="Blast(X)" hidden="false" targetId="187f-6414-7037-a542" type="rule"/>
-                    <infoLink id="2fcf-e415-dd06-95b4" name="Indirect" hidden="false" targetId="587a-b92c-a265-06c4" type="rule"/>
-                    <infoLink id="9fd8-054d-4e57-3f35" name="Rending" hidden="false" targetId="9726-accd-9015-f6f6" type="rule"/>
-                  </infoLinks>
-                  <costs>
-                    <cost name="pts" typeId="567f-6468-66c6-2ea2" value="270.0"/>
-                  </costs>
-                </selectionEntry>
               </selectionEntries>
+              <entryLinks>
+                <entryLink id="254f-e3a2-e517-fa4a" name="2x Twin Shard Mortars" hidden="false" collective="false" import="true" targetId="3f58-6fa1-da96-8ca3" type="selectionEntry">
+                  <costs>
+                    <cost name="pts" typeId="567f-6468-66c6-2ea2" value="270.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="b47d-abbf-e461-137b" name="Ballistic Missiles" hidden="false" collective="false" import="true" targetId="9c61-ba2f-9280-2e59" type="selectionEntry">
+                  <costs>
+                    <cost name="pts" typeId="567f-6468-66c6-2ea2" value="270.0"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
         </selectionEntryGroup>
@@ -1881,6 +1841,80 @@
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="285.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="5f7a-f6a6-995f-0047" name="Artillery" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="033c-bc8a-3a6a-89f8" name="Artillery" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">4+</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">2+</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Slow, Tough(6)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="f318-89b6-0aa2-1963" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
+        <infoLink id="d846-553a-4a92-cadf" name="Slow" hidden="false" targetId="394b-1b64-d270-f49e" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="346f-09ee-d610-3754" name="New CategoryLink" hidden="false" targetId="3089-78fc-94cc-28a2" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="3574-0298-e71b-723e" name="Replace Twin Heavy Fusion Rifle:" hidden="false" collective="false" import="true" defaultSelectionEntryId="1daa-028c-3c78-33fd">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b421-3f07-7a63-0e6a" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="78f7-befe-c2c0-ebb9" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="2903-0e8b-b781-9056" name="2x Twin AA-Cannons" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="857f-8936-11be-40bf" name="Twin AA-Cannon" hidden="false" targetId="9517-6537-8037-ca3e" type="profile"/>
+                <infoLink id="527b-15a8-2e45-ceb7" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+                <infoLink id="77db-7926-c56f-c4ae" name="Anti-Air" hidden="false" targetId="1875-13ee-b0ef-5a65" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="50.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <entryLinks>
+            <entryLink id="1daa-028c-3c78-33fd" name="Twin Heavy Fusion Rifle" hidden="false" collective="false" import="true" targetId="7837-57e0-d13e-35ab" type="selectionEntry"/>
+            <entryLink id="8c2d-461e-edc5-1fab" name="Quad Machinegun" hidden="false" collective="false" import="true" targetId="95ba-d575-9f5f-9ba8" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="10.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="b5f1-5ada-9526-eaf3" name="Artillery Cannon" hidden="false" collective="false" import="true" targetId="75b3-178b-772a-d787" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="65.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="c487-8189-47e2-38d4" name="Triple-Thunder Cannon" hidden="false" collective="false" import="true" targetId="00ac-2cea-0334-8618" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="65.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="88cd-c168-d566-37b4" name="Eagle Rockets" hidden="false" collective="false" import="true" targetId="089c-d2bc-10c8-a6fb" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="110.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="b45b-e28e-fb92-9b70" name="2x Twin Shard Mortars" hidden="false" collective="false" import="true" targetId="3f58-6fa1-da96-8ca3" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="200.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="aa11-ea23-2a54-8e1c" name="Ballistic Missiles" hidden="false" collective="false" import="true" targetId="9c61-ba2f-9280-2e59" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="200.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="170.0"/>
+      </costs>
+    </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
     <selectionEntry id="a860-ad05-ac59-7253" name="Heavy Pistol" hidden="false" collective="false" import="true" type="upgrade">
@@ -2015,6 +2049,95 @@
       <infoLinks>
         <infoLink id="0a0d-da8f-5cd2-79fd" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
       </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="75b3-178b-772a-d787" name="Artillery Cannon" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="95d6-4b00-c6a8-0f75" name="Artillery Cannon" hidden="false" typeId="3c71-da94-e5b3-d7c8" typeName="Ranged Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="79f4-5578-c041-f866">48&quot;</characteristic>
+            <characteristic name="Attacks" typeId="4633-0aa3-94f7-3be7">A1</characteristic>
+            <characteristic name="Special Rules" typeId="9fb1-424b-834c-5e7d">AP(4), Blast(6), Indirect</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="1529-2dc3-4d84-e33d" name="Indirect" hidden="false" targetId="587a-b92c-a265-06c4" type="rule"/>
+        <infoLink id="05df-8529-3263-d1bd" name="Blast(X)" hidden="false" targetId="187f-6414-7037-a542" type="rule"/>
+        <infoLink id="969e-73a6-e345-f332" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="135.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="00ac-2cea-0334-8618" name="Triple-Thunder Cannon" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="941d-ca00-77dd-832c" name="Triple-Thunder Cannon" hidden="false" typeId="3c71-da94-e5b3-d7c8" typeName="Ranged Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="79f4-5578-c041-f866">48&quot;</characteristic>
+            <characteristic name="Attacks" typeId="4633-0aa3-94f7-3be7">A3</characteristic>
+            <characteristic name="Special Rules" typeId="9fb1-424b-834c-5e7d">AP(2), Blast(3), Indirect</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="9c09-d499-af45-335b" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+        <infoLink id="24ef-d09b-0966-170f" name="Blast(X)" hidden="false" targetId="187f-6414-7037-a542" type="rule"/>
+        <infoLink id="8299-0538-3379-c9df" name="Indirect" hidden="false" targetId="587a-b92c-a265-06c4" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="089c-d2bc-10c8-a6fb" name="Eagle Rockets" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="7675-03b1-cc90-75fe" name="Eagle Rockets" hidden="false" typeId="3c71-da94-e5b3-d7c8" typeName="Ranged Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="79f4-5578-c041-f866">48&quot;</characteristic>
+            <characteristic name="Attacks" typeId="4633-0aa3-94f7-3be7">A2</characteristic>
+            <characteristic name="Special Rules" typeId="9fb1-424b-834c-5e7d">AP(2), Blast(6), Indirect</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="280e-2280-e349-cf44" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+        <infoLink id="a37a-fdb7-ec12-61d8" name="Blast(X)" hidden="false" targetId="187f-6414-7037-a542" type="rule"/>
+        <infoLink id="cf12-589b-7d93-df82" name="Indirect" hidden="false" targetId="587a-b92c-a265-06c4" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="9c61-ba2f-9280-2e59" name="Ballistic Missiles" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="ec7b-8677-d38f-900e" name="Ballistic Missiles" hidden="false" typeId="3c71-da94-e5b3-d7c8" typeName="Ranged Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="79f4-5578-c041-f866">48&quot;</characteristic>
+            <characteristic name="Attacks" typeId="4633-0aa3-94f7-3be7">A1</characteristic>
+            <characteristic name="Special Rules" typeId="9fb1-424b-834c-5e7d">AP(4), Blast(12), Indirect</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="cdde-2320-8d1d-bf04" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+        <infoLink id="62fb-2531-6065-ed62" name="Blast(X)" hidden="false" targetId="187f-6414-7037-a542" type="rule"/>
+        <infoLink id="f740-28ad-e10b-0c1f" name="Indirect" hidden="false" targetId="587a-b92c-a265-06c4" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="270.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3f58-6fa1-da96-8ca3" name="2x Twin Shard Mortars" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="f446-23e8-63bb-c819" name="Twin Shard Mortar" hidden="false" typeId="3c71-da94-e5b3-d7c8" typeName="Ranged Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="79f4-5578-c041-f866">48&quot;</characteristic>
+            <characteristic name="Attacks" typeId="4633-0aa3-94f7-3be7">A4</characteristic>
+            <characteristic name="Special Rules" typeId="9fb1-424b-834c-5e7d">Blast(3), Indirect, Rending</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="e8b6-b0dc-ca3a-89ce" name="Blast(X)" hidden="false" targetId="187f-6414-7037-a542" type="rule"/>
+        <infoLink id="280a-2f80-befa-a645" name="Indirect" hidden="false" targetId="587a-b92c-a265-06c4" type="rule"/>
+        <infoLink id="681e-13c7-a1d6-a53c" name="Rending" hidden="false" targetId="9726-accd-9015-f6f6" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="270.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
