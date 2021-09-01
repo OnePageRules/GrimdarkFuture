@@ -893,6 +893,49 @@
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="4484-4a8d-f57a-e150" name="Power Suits" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="0442-7803-77e6-c110" name="Power Suits" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">3+</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">3+</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Ambush, Slow, Tough(3)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="1337-39e0-395f-b349" name="Slow" hidden="false" targetId="394b-1b64-d270-f49e" type="rule"/>
+        <infoLink id="96eb-5f19-45e0-2ba6" name="Ambush" hidden="false" targetId="859e-e070-e91c-26e1" type="rule"/>
+        <infoLink id="8c9e-c8c7-d5f5-89ec" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="9043-25f6-5c48-b10f" name="New CategoryLink" hidden="false" targetId="dfbf-5076-f148-2f58" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="c6e1-453a-8c3b-9b2f" name="* Unit Size *" hidden="false" collective="false" import="true" defaultSelectionEntryId="4ad4-689a-2008-fd27">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="da53-ac0c-d3f2-3c82" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="4ad4-689a-2008-fd27" name="Power Suits [5]" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b1e6-cf22-28a6-3294" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="280.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="f5fb-cc34-c576-7e8e" name="Upgrade List J" hidden="false" collective="false" import="true" targetId="db66-fca5-2aec-28de" type="selectionEntryGroup"/>
+        <entryLink id="73e9-df5e-1c61-2668" name="Upgrade List K" hidden="false" collective="false" import="true" targetId="2e84-8f85-7627-7fa4" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
     <selectionEntry id="a860-ad05-ac59-7253" name="Heavy Pistol" hidden="false" collective="false" import="true" type="upgrade">
@@ -927,15 +970,9 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="0660-5a85-0f36-0ea6" name="Combat Shield" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles>
-        <profile id="e520-fd95-a9f4-d175" name="Combat Shield" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Enhancement">
-          <characteristics>
-            <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">Shield Wall</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
       <infoLinks>
         <infoLink id="786e-63e9-fee5-7d12" name="Shield Wall" hidden="false" targetId="387f-5c28-e935-2683" type="rule"/>
+        <infoLink id="3cc0-62ed-486c-d5b2" name="Combat Shield" hidden="false" targetId="aa62-345f-a999-eb41" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
@@ -1764,6 +1801,111 @@
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
+    <selectionEntryGroup id="2e84-8f85-7627-7fa4" name="Upgrade List K" hidden="false" collective="false" import="true">
+      <selectionEntryGroups>
+        <selectionEntryGroup id="d797-e337-93ba-d007" name="Replace all Pistols:" hidden="false" collective="false" import="true" defaultSelectionEntryId="68f7-40df-d915-d72d">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8920-189c-4309-efa6" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8a48-102e-e1db-7734" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="68f7-40df-d915-d72d" name="Pistols" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="567f-6468-66c6-2ea2" value="20.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <infoLinks>
+                <infoLink id="1d55-761a-e337-15df" name="Pistol" hidden="false" targetId="12e1-e98e-4814-6d75" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="10.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="afe0-d8ca-3699-2cc7" name="Storm Rifles" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="567f-6468-66c6-2ea2" value="60.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <infoLinks>
+                <infoLink id="cee7-ded2-f439-ada7" name="Storm Rifle" hidden="false" targetId="ebf6-9e34-7e8f-e18e" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="30.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="8beb-3640-7fe1-b944" name="Combat Shields" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="567f-6468-66c6-2ea2" value="100.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <infoLinks>
+                <infoLink id="eb92-b994-1edc-7f0d" name="Combat Shield" hidden="false" targetId="aa62-345f-a999-eb41" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="50.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="6fd3-1fe7-04f5-566c" name="Replace Storm Rifles:" hidden="false" collective="false" import="true">
+          <modifiers>
+            <modifier type="set" field="b400-51f4-1708-be37" value="2.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="afe0-d8ca-3699-2cc7" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b400-51f4-1708-be37" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="416a-eb40-4458-f527" name="Heavy Machinegun" hidden="false" collective="false" import="true" targetId="4481-49a4-e4f7-925b" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="20.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="225f-7fd4-b786-8d49" name="Heavy Fusion Rifle" hidden="false" collective="false" import="true" targetId="a5f5-d44a-03b0-9a99" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="40.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="5b77-42f3-f287-04be" name="Upgrade a model with:" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="51f9-d49b-8172-959d" name="Missile Launcher" hidden="false" collective="false" import="true" targetId="ff1b-714c-6353-221d" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="7cad-7227-844a-ae02" value="2.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7cad-7227-844a-ae02" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="40.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>
     <rule id="02aa-a54a-ba59-0336" name="Battle Lore" publicationId="b11f-bac7-7853-99a1" hidden="false">
@@ -1794,4 +1936,11 @@
 - Cleaving Rune (6+): Target 2 enemy units within 12” take 6 automatic hits each.</description>
     </rule>
   </sharedRules>
+  <sharedProfiles>
+    <profile id="aa62-345f-a999-eb41" name="Combat Shield" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Enhancement">
+      <characteristics>
+        <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">Shield Wall</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
 </catalogue>
