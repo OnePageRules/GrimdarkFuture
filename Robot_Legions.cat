@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="1ef1-1f77-62c2-8cc5" name="Robot Legions" revision="6" battleScribeVersion="2.03" library="false" gameSystemId="d755-5d69-2721-c11b" gameSystemRevision="19" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="1ef1-1f77-62c2-8cc5" name="Robot Legions" revision="7" battleScribeVersion="2.03" library="false" gameSystemId="d755-5d69-2721-c11b" gameSystemRevision="20" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="14f7-853d-2d82-efca" name="Robot Legions v2.12"/>
+    <publication id="9e11-5792-d0c9-6571" name="Robot Legions v2.18"/>
   </publications>
   <entryLinks>
     <entryLink id="02a4-8be6-717e-8eec" name="Annihilator Overseer" hidden="false" collective="false" import="true" targetId="29c0-92c6-c1da-02e9" type="selectionEntry">
@@ -148,6 +149,22 @@
       <categoryLinks>
         <categoryLink id="2ab3-9dea-05e6-9df0" name="New CategoryLink" hidden="false" targetId="3089-78fc-94cc-28a2" primary="true"/>
       </categoryLinks>
+    </entryLink>
+    <entryLink id="7158-a1a8-f2c4-8786" name="Chained Tyrant Monolith" publicationId="9e11-5792-d0c9-6571" hidden="false" collective="false" import="true" targetId="2b02-e971-892e-55c5" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="16f2-d343-b2c2-36be" name="Vehicles: Super-Heavy" hidden="false" targetId="7528-ccdf-679c-8613" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="725.0"/>
+      </costs>
+    </entryLink>
+    <entryLink id="1a4c-e735-7815-a39d" name="Technoward Monolith" hidden="false" collective="false" import="true" targetId="508b-b110-ab6b-b7da" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="beb5-92c9-512a-9cc3" name="New CategoryLink" hidden="false" targetId="7528-ccdf-679c-8613" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="395.0"/>
+      </costs>
     </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
@@ -495,7 +512,7 @@
         <infoLink id="e01c-a675-7bb3-8dbe" name="Ambush" hidden="false" targetId="859e-e070-e91c-26e1" type="rule"/>
       </infoLinks>
       <entryLinks>
-        <entryLink id="b6de-af28-4c4f-5379" name="Weapons - Overseers" hidden="false" collective="false" import="true" targetId="1c26-fa61-7552-1580" type="selectionEntryGroup"/>
+        <entryLink id="b6de-af28-4c4f-5379" name="Weapons - Annihilator Overseers" hidden="false" collective="false" import="true" targetId="7294-bd8d-7820-1f14" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="205.0"/>
@@ -578,7 +595,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="60a7-8801-37cf-f3b7" type="max"/>
               </constraints>
               <profiles>
-                <profile id="876f-693a-5655-98bc" name="Bot-Master" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Equipment">
+                <profile id="876f-693a-5655-98bc" name="Bot-Master" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Enhancement">
                   <characteristics>
                     <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">Psychic(1)</characteristic>
                   </characteristics>
@@ -693,7 +710,7 @@
             </selectionEntryGroup>
           </selectionEntryGroups>
           <entryLinks>
-            <entryLink id="ffd9-5f61-af35-9ccd" name="Spells" hidden="false" collective="false" import="true" targetId="0da2-7341-2e9d-0184" type="selectionEntryGroup"/>
+            <entryLink id="ffd9-5f61-af35-9ccd" name="Psychic Spells" hidden="false" collective="false" import="true" targetId="0da2-7341-2e9d-0184" type="selectionEntryGroup"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -926,15 +943,14 @@
                         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
                       </costs>
                     </selectionEntry>
-                    <selectionEntry id="4f8a-9d2c-2068-4321" name="Hyper Swords &amp; Shields" hidden="false" collective="false" import="true" type="upgrade">
+                    <selectionEntry id="4f8a-9d2c-2068-4321" name="Hyper Swords &amp; Combat Shields" hidden="false" collective="false" import="true" type="upgrade">
                       <infoLinks>
                         <infoLink id="236d-1dd8-a270-aa11" name="Hyper Sword" hidden="false" targetId="36eb-a4e0-dcc3-b292" type="profile"/>
                         <infoLink id="6df7-587b-a0a2-ae1c" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
                         <infoLink id="9072-1c9b-04e7-775f" name="Rending" hidden="false" targetId="9726-accd-9015-f6f6" type="rule"/>
-                        <infoLink id="b707-1c21-253d-1b84" name="Shields" hidden="false" targetId="b3fe-c618-103c-62c3" type="profile"/>
                       </infoLinks>
                       <costs>
-                        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="10.0"/>
+                        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="20.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -1234,7 +1250,7 @@
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6ef5-d042-d189-ad90" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="06a4-8c1a-d28e-679f" name="Ambush" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Equipment">
+                        <profile id="06a4-8c1a-d28e-679f" name="Ambush" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Enhancement">
                           <characteristics>
                             <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">Ambush</characteristic>
                           </characteristics>
@@ -1310,7 +1326,7 @@
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e7ab-4096-076c-bfb3" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="de30-e7fe-51ab-7057" name="Ambush" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Equipment">
+                        <profile id="de30-e7fe-51ab-7057" name="Ambush" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Enhancement">
                           <characteristics>
                             <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">Ambush</characteristic>
                           </characteristics>
@@ -1380,7 +1396,7 @@
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6906-ac87-f268-21e6" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="a782-ecbc-d82a-1f9e" name="Hunter" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Equipment">
+                        <profile id="a782-ecbc-d82a-1f9e" name="Hunter" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Enhancement">
                           <characteristics>
                             <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">Hunter</characteristic>
                           </characteristics>
@@ -1417,7 +1433,7 @@
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9eb9-858d-8454-2c34" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="b46d-125c-103b-1a9b" name="Hunter" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Equipment">
+                        <profile id="b46d-125c-103b-1a9b" name="Hunter" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Enhancement">
                           <characteristics>
                             <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">Hunter</characteristic>
                           </characteristics>
@@ -1771,6 +1787,9 @@
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="ef75-9008-6047-2762" name="Upgrade List M" hidden="false" collective="false" import="true" targetId="e045-2c29-2316-f685" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="380.0"/>
       </costs>
@@ -1823,7 +1842,7 @@
         <entryLink id="3514-8115-018f-6345" name="Upgrade List A (Vehicles)" hidden="false" collective="false" import="true" targetId="d4d3-1d6d-4256-fff9" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="275.0"/>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="255.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b713-20f8-db4a-39e6" name="Support Platform" hidden="false" collective="false" import="true" type="upgrade">
@@ -1849,14 +1868,22 @@
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
+        <selectionEntryGroup id="4edd-0dc7-cdfd-783f" name="Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="eaeb-c82c-7214-2081">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="56fb-4313-e29b-9a40" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d991-9b48-f552-72c7" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="eaeb-c82c-7214-2081" name="Twin Flux Cannon" hidden="false" collective="false" import="true" targetId="0863-82bf-6c6d-80fe" type="selectionEntry"/>
+            <entryLink id="61c9-cfd1-3618-8e09" name="Overseer Pilot" hidden="false" collective="false" import="true" targetId="653f-0160-4c26-93d9" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="-80.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="45cf-f13c-1ae8-afe2" name="Twin Flux Cannon" hidden="false" collective="false" import="true" targetId="0863-82bf-6c6d-80fe" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8055-7cbc-3fb0-bace" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8427-7c39-fab9-36c7" type="min"/>
-          </constraints>
-        </entryLink>
         <entryLink id="6d7b-cb5e-5e5c-1a20" name="Upgrade List A (Vehicles)" hidden="false" collective="false" import="true" targetId="d4d3-1d6d-4256-fff9" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
@@ -1902,9 +1929,21 @@
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
+        <selectionEntryGroup id="7c10-7f4c-177c-d73a" name="Upgrade with:" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="8080-a87f-bd8e-8a9f" name="Repair Bots" hidden="false" collective="false" import="true" targetId="54c5-492c-a9da-8cd7" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f3df-53f5-755e-b5e8" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="70.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="5359-efcf-e051-40f9" name="Walker Stomp" hidden="false" collective="false" import="true" targetId="e18f-ec22-461d-b19b" type="selectionEntry">
+        <entryLink id="5359-efcf-e051-40f9" name="Stomp (Walker)" hidden="false" collective="false" import="true" targetId="e18f-ec22-461d-b19b" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8eab-3efe-e793-4851" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ef41-9e37-134c-e379" type="min"/>
@@ -1916,7 +1955,6 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d4c0-67bd-82f7-0300" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="ce66-8b73-8a1e-ace2" name="Upgrade List A (Vehicles)" hidden="false" collective="false" import="true" targetId="d4d3-1d6d-4256-fff9" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="380.0"/>
@@ -1935,14 +1973,6 @@
       <selectionEntryGroups>
         <selectionEntryGroup id="8888-6479-ed93-e066" name="Upgrade with any:" hidden="false" collective="false" import="true">
           <entryLinks>
-            <entryLink id="475b-5834-c62e-3a83" name="Repair Bots" hidden="false" collective="false" import="true" targetId="54c5-492c-a9da-8cd7" type="selectionEntry">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3454-37f4-d4a8-d8b1" type="max"/>
-              </constraints>
-              <costs>
-                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="70.0"/>
-              </costs>
-            </entryLink>
             <entryLink id="90a7-5634-3553-8992" name="Bot Fabricator" hidden="false" collective="false" import="true" targetId="efc3-6909-d742-7212" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3e19-e94e-5267-fc2d" type="max"/>
@@ -1987,6 +2017,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f9a1-83db-da84-6e98" type="min"/>
           </constraints>
         </entryLink>
+        <entryLink id="8e7a-5436-af75-4c81" name="Upgrade List A (Vehicles)" hidden="false" collective="false" import="true" targetId="d4d3-1d6d-4256-fff9" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="200.0"/>
@@ -2132,14 +2163,22 @@
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
+        <selectionEntryGroup id="6918-d35e-a5e3-be11" name="Replace Destruction Pulse:" hidden="false" collective="false" import="true" defaultSelectionEntryId="a808-25b9-e84d-c2ba">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="050d-5ecc-4372-58c2" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ab53-b77e-3ef4-99dd" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="a01d-76bd-ddde-3c64" name="Nanobot Wraith-Shard (Fortress of Destruction)" hidden="false" collective="false" import="true" targetId="015e-9651-1647-0a4a" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="-10.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="a808-25b9-e84d-c2ba" name="Destruction Pulse" hidden="false" collective="false" import="true" targetId="0b4c-bd97-1292-b97b" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="b1c7-5b7c-46e6-55ca" name="Destruction Pulse" hidden="false" collective="false" import="true" targetId="0b4c-bd97-1292-b97b" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="80c2-7565-1459-16f4" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5aac-ccc2-bf18-341f" type="min"/>
-          </constraints>
-        </entryLink>
         <entryLink id="f693-4222-8cb3-bf25" name="4x Heavy Flux Cannons" hidden="false" collective="false" import="true" targetId="099e-b3e1-bffc-2de9" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e162-9d04-5e0c-9661" type="min"/>
@@ -2177,7 +2216,7 @@
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6512-5a89-2906-5604" name="Hyper Sword" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="6512-5a89-2906-5604" name="2x Hyper Sword" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="2d8e-fb10-9069-34e7" name="Hyper Sword" hidden="false" targetId="36eb-a4e0-dcc3-b292" type="profile"/>
         <infoLink id="d86c-6c1c-5e87-db1e" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
@@ -2413,6 +2452,7 @@
         <infoLink id="adb5-5475-9a30-f0fa" name="Slow" hidden="false" targetId="394b-1b64-d270-f49e" type="rule"/>
         <infoLink id="72fe-38a1-e21f-51a1" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
         <infoLink id="242e-1708-af44-6ee8" name="Hero" hidden="false" targetId="5065-c3a4-a9cf-db27" type="rule"/>
+        <infoLink id="83df-d588-6291-f70a" name="Royal March" hidden="false" targetId="0345-99fe-23da-37c5" type="rule"/>
       </infoLinks>
       <entryLinks>
         <entryLink id="2ab4-3753-414a-3bcd" name="Heavy Reaper Rifle" hidden="false" collective="false" import="true" targetId="fc81-597e-755c-a4c1" type="selectionEntry">
@@ -2429,7 +2469,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="105.0"/>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="165.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b67a-69f3-7867-0e1a" name="2x Armblades" hidden="false" collective="false" import="true" type="upgrade">
@@ -2530,7 +2570,7 @@
           </constraints>
         </entryLink>
         <entryLink id="aecd-83e0-f193-9230" name="Upgrade List A (Vehicles)" hidden="false" collective="false" import="true" targetId="d4d3-1d6d-4256-fff9" type="selectionEntryGroup"/>
-        <entryLink id="fc0a-cf2a-10b0-58df" name="Upgrade List D (Vehicles)" hidden="false" collective="false" import="true" targetId="2438-abc5-63e6-1e24" type="selectionEntryGroup"/>
+        <entryLink id="fc0a-cf2a-10b0-58df" name="Upgrade List C (Vehicles)" hidden="false" collective="false" import="true" targetId="2438-abc5-63e6-1e24" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="190.0"/>
@@ -2542,6 +2582,9 @@
         <infoLink id="00aa-22f4-d7c9-7464" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
         <infoLink id="bfb2-3d3f-b7ff-5775" name="Flux" hidden="false" targetId="f3f7-52df-ba4d-7507" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="af1a-e65c-1551-01a6" name="Destroyer Robot Snakes" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
@@ -2569,6 +2612,9 @@
                   </constraints>
                 </entryLink>
               </entryLinks>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="37a0-99b1-da9e-e073" name="Combined Unit [6 models]" hidden="false" collective="false" import="true" type="upgrade">
               <entryLinks>
@@ -2596,6 +2642,9 @@
         <infoLink id="9b59-8f90-1702-6c76" name="Disintegration Pistol" hidden="false" targetId="307d-9371-f61e-d2a7" type="profile"/>
         <infoLink id="6470-7326-de45-be5d" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="37a4-6737-e8e3-a32d" name="Tri-Scorpion Pistoleer" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
@@ -2630,6 +2679,9 @@
         <infoLink id="e2f7-25e2-408d-f3b9" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
         <infoLink id="1cd9-0267-8d14-c8a4" name="Blast(X)" hidden="false" targetId="187f-6414-7037-a542" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="683a-f1fa-20b0-e5b5" name="Heavy Annihilator" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
@@ -2641,7 +2693,7 @@
         <infoLink id="94df-606f-98d6-6554" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
       </infoLinks>
       <entryLinks>
-        <entryLink id="3cbe-dcb2-6086-00ab" name="Upgrade List M" hidden="false" collective="false" import="true" targetId="e045-2c29-2316-f685" type="selectionEntryGroup"/>
+        <entryLink id="3cbe-dcb2-6086-00ab" name="Upgrade List N" hidden="false" collective="false" import="true" targetId="fdd2-b339-b326-4651" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="265.0"/>
@@ -2653,6 +2705,9 @@
         <infoLink id="5bef-ec64-5728-cab2" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
         <infoLink id="643f-501b-8e6c-22ed" name="Blast(X)" hidden="false" targetId="187f-6414-7037-a542" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="9f46-79e8-3435-0ed1" name="Heavy Doom Blaster" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
@@ -2660,6 +2715,208 @@
         <infoLink id="ae08-06ec-f6a4-5d2e" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
         <infoLink id="c964-2152-22e6-4eb6" name="Blast(X)" hidden="false" targetId="187f-6414-7037-a542" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2b02-e971-892e-55c5" name="Chained Tyrant Monolith" hidden="false" collective="false" import="true" type="model">
+      <infoLinks>
+        <infoLink id="967f-00d3-782d-aeaa" name="Monolith Beam" hidden="false" targetId="e8a1-e41f-2b71-18e0" type="profile"/>
+        <infoLink id="51da-2e4a-8268-2896" name="Stomp (Tyrant Monolith)" hidden="false" targetId="220d-cd34-88e0-7fb9" type="profile"/>
+        <infoLink id="08d7-7648-6ddd-2725" name="Crushing Legs (Tyrant monolith)" hidden="false" targetId="3973-497a-0940-455a" type="profile"/>
+        <infoLink id="6089-0279-211a-8dfd" name="Fear" hidden="false" targetId="d21e-0b0f-ebec-46da" type="rule"/>
+        <infoLink id="d7a6-ad91-decf-57d9" name="Fearless" hidden="false" targetId="fe6b-f29d-2128-a0b0" type="rule"/>
+        <infoLink id="14b0-8bfc-a798-512c" name="Psychic Master" hidden="false" targetId="c300-2489-cfe0-02d9" type="rule"/>
+        <infoLink id="e8de-731b-d322-1cc3" name="Strider" hidden="false" targetId="9dea-b566-200a-0605" type="rule"/>
+        <infoLink id="f61b-5914-48dc-b4fd" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
+        <infoLink id="6ee7-c714-69c0-f96a" name="Chained Tyrant Monolith" hidden="false" targetId="a897-dee5-19e1-d2de" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="7e49-c513-f2ae-3ebd" name="Vehicles: Super-Heavy" hidden="false" targetId="7528-ccdf-679c-8613" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="fd05-9cd3-72da-dc72" name="Upgrade with:" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="cfe2-ffda-ab5e-6c28" name="Repair Bots" hidden="false" collective="false" import="true" targetId="54c5-492c-a9da-8cd7" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8a32-0a62-c885-f66b" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="110.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="6cdd-f3c5-0f48-e675" name="Psychic Spells" hidden="false" collective="false" import="true" targetId="0da2-7341-2e9d-0184" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="725.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="508b-b110-ab6b-b7da" name="Technoward Monolith" hidden="false" collective="false" import="true" type="model">
+      <infoLinks>
+        <infoLink id="6233-36d9-2d00-f07a" name="Monolith Beam" hidden="false" targetId="e8a1-e41f-2b71-18e0" type="profile"/>
+        <infoLink id="79ca-e646-2795-81b0" name="Stomp (Technoward Monolith)" hidden="false" targetId="1542-1da7-4d8d-0267" type="profile"/>
+        <infoLink id="67be-aa4a-8e0d-36dd" name="Crushing Legs (Technoward monolith)" hidden="false" targetId="639e-ce37-2dbe-3303" type="profile"/>
+        <infoLink id="f100-ff0f-e158-bc26" name="Fear" hidden="false" targetId="d21e-0b0f-ebec-46da" type="rule"/>
+        <infoLink id="2a05-97a5-afef-28c8" name="Fearless" hidden="false" targetId="fe6b-f29d-2128-a0b0" type="rule"/>
+        <infoLink id="c8be-8055-20d4-af79" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
+        <infoLink id="44d6-7cc6-c23b-d034" name="Psychic Warden" hidden="false" targetId="0915-4552-f0bc-a423" type="rule"/>
+        <infoLink id="4791-7cbf-5cb8-7255" name="Strider" hidden="false" targetId="9dea-b566-200a-0605" type="rule"/>
+        <infoLink id="2193-13f1-1ea0-0110" name="Technoward Monolith" hidden="false" targetId="34bc-161e-d55c-7a89" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="730b-3312-07ba-07a3" name="Vehicles: Super-Heavy" hidden="false" targetId="7528-ccdf-679c-8613" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="ca9f-d63f-f8ad-5a3a" name="Upgrade with:" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="9eaa-722e-fc5e-5b93" name="Repair Bots" hidden="false" collective="false" import="true" targetId="54c5-492c-a9da-8cd7" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7a04-7b6a-242d-e15e" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="35.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="395.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="698f-fa61-fb78-783f" name="Hyper Sword" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="0732-b29f-a720-abc5" name="Hyper Sword" hidden="false" targetId="36eb-a4e0-dcc3-b292" type="profile"/>
+        <infoLink id="519c-dc17-68a3-e6f0" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+        <infoLink id="08c7-2154-3a0f-48d1" name="Rending" hidden="false" targetId="9726-accd-9015-f6f6" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="59e3-5006-336e-c00d" name="CCW (A3) and Heavy Gauss Cannon" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="b98b-7c15-7225-3ee7" name="CCW (A3)" hidden="false" targetId="6793-53e1-ded6-c405" type="profile"/>
+        <infoLink id="0d7d-4d29-b491-0f5c" name="Heavy Gauss Cannon" hidden="false" targetId="cbe8-a6d1-2a44-1648" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="65.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="653f-0160-4c26-93d9" name="Overseer Pilot" hidden="false" collective="false" import="true" type="upgrade">
+      <selectionEntryGroups>
+        <selectionEntryGroup id="3176-ebcd-9e32-387b" name="Upgrade with:" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="1eef-c213-895b-b744" name="Royal March Order" hidden="false" collective="false" import="true" targetId="d39b-a824-2be5-f7bd" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fe3a-44b1-f296-e3a5" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="60.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="1d00-fc6c-9699-d2df" name="Upgrade with one:" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="499e-a5b4-9477-364a" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="614b-2bb6-409f-26cf" name="Wrist-Mounted Flamer" hidden="false" collective="false" import="true" targetId="dcaa-64b5-db42-71d4" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="10.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="eb85-6c51-9fc2-81a4" name="Wrist-Mounted Laser Cannon" hidden="false" collective="false" import="true" targetId="e03e-df8a-e0fd-44df" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="95.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="aca1-f139-b9bc-661f" name="Weapon" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e294-c30f-bd0a-cc94" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2183-d3ef-1e65-b3e9" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="243a-835d-cfff-0271" name="Staff-Shot &amp; Staff" hidden="false" collective="false" import="true" type="upgrade">
+              <entryLinks>
+                <entryLink id="df73-d562-6939-51a7" name="Staff" hidden="false" collective="false" import="true" targetId="1816-fdb9-4af5-af75" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c5cc-ae69-f58d-67a0" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4707-2aee-23d1-6b7d" type="max"/>
+                  </constraints>
+                </entryLink>
+                <entryLink id="6ea0-fd95-bec3-efae" name="Staff-Shot" hidden="false" collective="false" import="true" targetId="45d4-9624-76b4-9980" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fd9a-7624-0079-b3fa" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3859-5870-44d7-adbf" type="max"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <entryLinks>
+            <entryLink id="cd3d-395a-6f3c-15e4" name="Void Sword" hidden="false" collective="false" import="true" targetId="9885-451d-043e-5304" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="021f-82c4-9dc7-447e" name="War Scythe" hidden="false" collective="false" import="true" targetId="393e-f2e9-68bf-d7e4" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="10.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="afd6-2a90-5cfa-49cc" name="Hyper Sword" hidden="false" collective="false" import="true" targetId="698f-fa61-fb78-783f" type="selectionEntry"/>
+            <entryLink id="51c2-4e9b-d97e-f601" name="Phase Glaive" hidden="false" collective="false" import="true" targetId="d502-b94c-9c93-ae9b" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4ec3-6a9c-861a-03b1" name="Royal March" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="4d66-bb29-1762-8380" name="Royal March" hidden="false" targetId="0345-99fe-23da-37c5" type="rule"/>
+        <infoLink id="2cd4-6177-469d-c947" name="Royal March" hidden="false" targetId="5048-f321-dfe1-deef" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d39b-a824-2be5-f7bd" name="Royal March Order" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="3bac-da75-7f59-00cf" name="Royal March Order" hidden="false" targetId="fd11-6c1c-499a-ef94" type="rule"/>
+        <infoLink id="8c92-b0fa-fc82-7309" name="Royal March Order" hidden="false" targetId="c1d8-9ab7-3cd9-177b" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="015e-9651-1647-0a4a" name="Nanobot Wraith-Shard" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="4252-7887-3313-51ce" name="Nanobot Wraith-Shard (Fortress of Destruction)" hidden="false" targetId="a11e-c504-182a-dc4c" type="profile"/>
+        <infoLink id="85d5-d84f-0ca8-06c6" name="Psychic(X)" hidden="false" targetId="ba47-b43b-18f8-97c1" type="rule"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink id="5884-4509-b576-f60f" name="Psychic Spells" hidden="false" collective="false" import="true" targetId="0da2-7341-2e9d-0184" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
@@ -2739,7 +2996,7 @@
                 <cost name="pts" typeId="567f-6468-66c6-2ea2" value="10.0"/>
               </costs>
             </entryLink>
-            <entryLink id="4893-7cc5-4d5a-0787" name="Hyper Sword" hidden="false" collective="false" import="true" targetId="6512-5a89-2906-5604" type="selectionEntry"/>
+            <entryLink id="4893-7cc5-4d5a-0787" name="2x Hyper Sword" hidden="false" collective="false" import="true" targetId="6512-5a89-2906-5604" type="selectionEntry"/>
             <entryLink id="1eae-d9a4-f88d-ea90" name="Phase Glaive" hidden="false" collective="false" import="true" targetId="d502-b94c-9c93-ae9b" type="selectionEntry">
               <costs>
                 <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
@@ -2749,7 +3006,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntryGroup>
-    <selectionEntryGroup id="429b-9f60-0419-5e00" name="Upgrade List K (single unit)" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="429b-9f60-0419-5e00" name="Upgrade List L (single unit)" hidden="false" collective="false" import="true">
       <selectionEntryGroups>
         <selectionEntryGroup id="cb29-b409-6e86-59fb" name="Replace one 2x Arm Blades:" hidden="false" collective="false" import="true" defaultSelectionEntryId="3eb6-987c-e239-eb66">
           <constraints>
@@ -2782,7 +3039,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntryGroup>
-    <selectionEntryGroup id="e981-6061-8d1f-e648" name="Upgrade List K (combined unit)" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="e981-6061-8d1f-e648" name="Upgrade List L (combined unit)" hidden="false" collective="false" import="true">
       <selectionEntryGroups>
         <selectionEntryGroup id="857a-45ed-b7d9-dfbf" name="Replace two 2x Arm Blades:" hidden="false" collective="false" import="true" defaultSelectionEntryId="8dde-743a-b3ed-ec45">
           <constraints>
@@ -2817,16 +3074,28 @@
     </selectionEntryGroup>
     <selectionEntryGroup id="e045-2c29-2316-f685" name="Upgrade List M" hidden="false" collective="false" import="true">
       <selectionEntryGroups>
-        <selectionEntryGroup id="7be9-8428-cf46-540b" name="Replace Heavy Gauss Cannon:" hidden="false" collective="false" import="true" defaultSelectionEntryId="20d6-6cf2-5425-b73b">
+        <selectionEntryGroup id="7be9-8428-cf46-540b" name="Replace One Gauss Cannon:" hidden="false" collective="false" import="true" defaultSelectionEntryId="20d6-6cf2-5425-b73b">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0b16-be65-3319-8cfa" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c1aa-6eb6-46e0-5f17" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="20d6-6cf2-5425-b73b" name="Heavy Gauss Cannon" hidden="false" collective="false" import="true" targetId="142b-1f39-dfd5-cf03" type="selectionEntry"/>
-            <entryLink id="f162-b4f5-a7b2-2fb6" name="Exterminator Cannon" hidden="false" collective="false" import="true" targetId="856d-7681-0d24-a3a7" type="selectionEntry">
+            <entryLink id="20d6-6cf2-5425-b73b" name="Heavy Gauss Cannon" hidden="false" collective="false" import="true" targetId="142b-1f39-dfd5-cf03" type="selectionEntry">
               <costs>
-                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="35.0"/>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="55.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="f162-b4f5-a7b2-2fb6" name="Gauss Cannon" hidden="false" collective="false" import="true" targetId="2807-e0ef-102a-26cd" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="2e93-2da8-a085-33d5" name="Replace all Gauss Cannons" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="c3e4-7caa-7342-cd4d" name="2x Hyper Sword" hidden="false" collective="false" import="true" targetId="6512-5a89-2906-5604" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e2c8-d836-c036-f919" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="25.0"/>
               </costs>
             </entryLink>
           </entryLinks>
@@ -2849,7 +3118,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntryGroup>
-    <selectionEntryGroup id="2438-abc5-63e6-1e24" name="Upgrade List D (Vehicles)" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="2438-abc5-63e6-1e24" name="Upgrade List C (Vehicles)" hidden="false" collective="false" import="true">
       <selectionEntryGroups>
         <selectionEntryGroup id="77b9-4663-fac1-9bf3" name="Replace 2x Atom Beam:" hidden="false" collective="false" import="true" defaultSelectionEntryId="53f4-b7fe-3d04-f21a">
           <constraints>
@@ -2866,17 +3135,15 @@
                   </constraints>
                 </entryLink>
               </entryLinks>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <entryLinks>
             <entryLink id="bb22-1522-41ca-79ee" name="Doom Blaster" hidden="false" collective="false" import="true" targetId="5fc1-e080-02bc-d4cb" type="selectionEntry">
               <costs>
-                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="30.0"/>
-              </costs>
-            </entryLink>
-            <entryLink id="1a58-f93c-596a-8f8a" name="Heavy Doom Blaster" hidden="false" collective="false" import="true" targetId="9f46-79e8-3435-0ed1" type="selectionEntry">
-              <costs>
-                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="80.0"/>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="20.0"/>
               </costs>
             </entryLink>
           </entryLinks>
@@ -2900,6 +3167,96 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntryGroup>
+    <selectionEntryGroup id="fdd2-b339-b326-4651" name="Upgrade List N" hidden="false" collective="false" import="true">
+      <selectionEntryGroups>
+        <selectionEntryGroup id="fd5d-6030-6926-5142" name="Replace Heavy Gauss Cannon:" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3aa9-3aeb-fa64-d21c" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bc96-bba0-6ef9-5e34" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="5408-224b-90a0-5181" name="Heavy Gauss Cannon" hidden="false" collective="false" import="true" targetId="142b-1f39-dfd5-cf03" type="selectionEntry"/>
+            <entryLink id="5342-d5e2-5008-b55c" name="Exterminator Cannon" hidden="false" collective="false" import="true" targetId="856d-7681-0d24-a3a7" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="35.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="e27c-595d-f3d3-8cf3" name="Upgrade" hidden="false" collective="false" import="true"/>
+    <selectionEntryGroup id="7294-bd8d-7820-1f14" name="Weapons - Annihilator Overseers" hidden="false" collective="false" import="true">
+      <selectionEntryGroups>
+        <selectionEntryGroup id="28a2-2b19-4b07-581e" name="Upgrade with one:" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="19d8-8858-d578-7cb9" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="1433-d84b-9669-a5d1" name="Wrist-Mounted Flamer" hidden="false" collective="false" import="true" targetId="dcaa-64b5-db42-71d4" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="10.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="63f4-5241-9b00-730d" name="Wrist-Mounted Laser Cannon" hidden="false" collective="false" import="true" targetId="e03e-df8a-e0fd-44df" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="95.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="2197-9d82-6bff-2b1d" name="Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="d3fc-3c3b-d67c-6bb7">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="757b-879d-6d67-cdcc" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d9f8-f36c-6c04-4f11" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="d3fc-3c3b-d67c-6bb7" name="Staff-Shot &amp; Staff" hidden="false" collective="false" import="true" type="upgrade">
+              <entryLinks>
+                <entryLink id="34d7-b2b9-2fa5-2c8d" name="Staff" hidden="false" collective="false" import="true" targetId="1816-fdb9-4af5-af75" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="54a2-a9b8-c69f-7795" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8d6a-8c38-9297-aeb1" type="max"/>
+                  </constraints>
+                </entryLink>
+                <entryLink id="b27f-0e88-1ca3-b3fb" name="Staff-Shot" hidden="false" collective="false" import="true" targetId="45d4-9624-76b4-9980" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0f0e-ee44-d5c3-149c" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="49f1-2a12-c283-1ecc" type="max"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <entryLinks>
+            <entryLink id="2c71-bf62-7c85-460c" name="Void Sword" hidden="false" collective="false" import="true" targetId="9885-451d-043e-5304" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="e4ef-0389-a578-2486" name="War Scythe" hidden="false" collective="false" import="true" targetId="393e-f2e9-68bf-d7e4" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="10.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="c761-9b59-c228-49a0" name="CCW (A3) and Heavy Gauss Cannon" hidden="false" collective="false" import="true" targetId="59e3-5006-336e-c00d" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="65.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="7a3b-0242-5036-b6db" name="Phase Glaive" hidden="false" collective="false" import="true" targetId="d502-b94c-9c93-ae9b" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="c958-ed40-c992-bccc" name="2x Hyper Sword" hidden="false" collective="false" import="true" targetId="6512-5a89-2906-5604" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>
     <rule id="f3f7-52df-ba4d-7507" name="Flux" publicationId="14f7-853d-2d82-efca" hidden="false">
@@ -2910,6 +3267,30 @@
     </rule>
     <rule id="68cf-94ce-01a0-a6c5" name="Repair" publicationId="14f7-853d-2d82-efca" hidden="false">
       <description>Once per turn, if within 2&quot; of a unit with Tough, roll one die. On a 4+ you may repair 1 wound from the target.</description>
+    </rule>
+    <rule id="2fdd-5905-dcb6-9ec8" name="Bot Fabricator" publicationId="9e11-5792-d0c9-6571" hidden="false">
+      <description>When this unit is activated place 1 Bot Swarm fully within 6” of this unit.</description>
+    </rule>
+    <rule id="f51a-752a-2ed9-a97e" name="Gloom-Protocol" publicationId="9e11-5792-d0c9-6571" hidden="false">
+      <description>This model may block spells as if it had the Psychic(2) special rule.</description>
+    </rule>
+    <rule id="c300-2489-cfe0-02d9" name="Psychic Master" publicationId="9e11-5792-d0c9-6571" hidden="false">
+      <description>This model counts as having the Psychic(3) rule, and may cast or block up to three spells each round, however for every unmodified result of 1 it takes 3 wounds.</description>
+    </rule>
+    <rule id="0915-4552-f0bc-a423" name="Psychic Warden" publicationId="9e11-5792-d0c9-6571" hidden="false">
+      <description>Whenever a model within 6” would take wounds from Psychic Master, you may put those wounds on this model instead.</description>
+    </rule>
+    <rule id="d075-c11a-1182-0638" name="Reanimator" publicationId="9e11-5792-d0c9-6571" hidden="false">
+      <description>When this unit is activated pick one friendly unit within 12”, which may ignore wounds from Regeneration on 4+ next time it takes wounds.</description>
+    </rule>
+    <rule id="0345-99fe-23da-37c5" name="Royal March" publicationId="9e11-5792-d0c9-6571" hidden="false">
+      <description>The hero and his unit may ignore the Slow special rule.</description>
+    </rule>
+    <rule id="c724-1a53-5440-b0f6" name="Shield Wall" publicationId="9e11-5792-d0c9-6571" hidden="false">
+      <description>Enemies get -1 to hit when they attack units where all models have this rule.</description>
+    </rule>
+    <rule id="fd11-6c1c-499a-ef94" name="Royal March Order" publicationId="9e11-5792-d0c9-6571" hidden="false">
+      <description>When the hero is activated pick one friendly unit within 12”, which may ignore the Slow special rule next time it moves.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
@@ -3128,7 +3509,7 @@
     </profile>
     <profile id="0d51-8fe8-c32b-05ac" name="Doom Cannon" hidden="false" typeId="3c71-da94-e5b3-d7c8" typeName="Ranged Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="79f4-5578-c041-f866">48&quot;</characteristic>
+        <characteristic name="Range" typeId="79f4-5578-c041-f866">36&quot;</characteristic>
         <characteristic name="Attacks" typeId="4633-0aa3-94f7-3be7">A1</characteristic>
         <characteristic name="Special Rules" typeId="9fb1-424b-834c-5e7d">AP(4), Blast(3)</characteristic>
       </characteristics>
@@ -3201,7 +3582,7 @@
         <characteristic name="Special Rules" typeId="9fb1-424b-834c-5e7d">AP(4), Deadly(6)</characteristic>
       </characteristics>
     </profile>
-    <profile id="b3fe-c618-103c-62c3" name="Shield" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Equipment">
+    <profile id="b3fe-c618-103c-62c3" name="Shield" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Enhancement">
       <characteristics>
         <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">Stealth</characteristic>
       </characteristics>
@@ -3213,7 +3594,7 @@
         <characteristic name="Special Rules" typeId="9fb1-424b-834c-5e7d">AP(1)</characteristic>
       </characteristics>
     </profile>
-    <profile id="b4d6-0cdd-ded9-39ec" name="Jetpack" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Equipment">
+    <profile id="b4d6-0cdd-ded9-39ec" name="Jetpack" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Enhancement">
       <characteristics>
         <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">Ambush, Flying</characteristic>
       </characteristics>
@@ -3259,7 +3640,7 @@
         <characteristic name="Special Rules" typeId="9fb1-424b-834c-5e7d">AP(4), Deadly(6)</characteristic>
       </characteristics>
     </profile>
-    <profile id="47bf-d656-83f5-994d" name="Repair Bots" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Equipment">
+    <profile id="47bf-d656-83f5-994d" name="Repair Bots" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Enhancement">
       <characteristics>
         <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">Regeneration</characteristic>
       </characteristics>
@@ -3300,12 +3681,12 @@
         <characteristic name="Details" typeId="e490-3d41-dc85-9d0f">Target enemy unit within 18&quot; gets -2 to hit next time it shoots.</characteristic>
       </characteristics>
     </profile>
-    <profile id="ec23-5cb5-1b9d-eb39" name="Bot Fabricator" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Equipment">
+    <profile id="ec23-5cb5-1b9d-eb39" name="Bot Fabricator" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Enhancement">
       <characteristics>
         <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">When this unit is activated place 1 Bot Swarm fully within 6&quot; of this unit.</characteristic>
       </characteristics>
     </profile>
-    <profile id="4efd-f915-c0bc-2550" name="Darkness-Protocol" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Equipment">
+    <profile id="4efd-f915-c0bc-2550" name="Darkness-Protocol" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Enhancement">
       <characteristics>
         <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">The hero and his unit get the Ambush special rule.</characteristic>
       </characteristics>
@@ -3324,17 +3705,17 @@
         <characteristic name="Special Rules" typeId="9fb1-424b-834c-5e7d">AP(1)</characteristic>
       </characteristics>
     </profile>
-    <profile id="5807-4462-48b0-0645" name="Gloom-Protocol" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Equipment">
+    <profile id="5807-4462-48b0-0645" name="Gloom-Protocol" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Enhancement">
       <characteristics>
         <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">This model may block spells as if it had the Psychic special rule. If it is a Psychic then it gets +1 to spell block rolls.</characteristic>
       </characteristics>
     </profile>
-    <profile id="6f3e-82f9-e413-fde7" name="Nightmare-Protocol" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Equipment">
+    <profile id="6f3e-82f9-e413-fde7" name="Nightmare-Protocol" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Enhancement">
       <characteristics>
         <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">Fear</characteristic>
       </characteristics>
     </profile>
-    <profile id="eded-a403-2c32-b8c2" name="Regen-Protocol" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Equipment">
+    <profile id="eded-a403-2c32-b8c2" name="Regen-Protocol" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Enhancement">
       <characteristics>
         <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">The hero and his unit may ignore wounds from Regeneration on 4+.</characteristic>
       </characteristics>
@@ -3449,9 +3830,9 @@
         <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022"/>
       </characteristics>
     </profile>
-    <profile id="3973-497a-0940-455a" name="Crushing Legs" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+    <profile id="3973-497a-0940-455a" name="Crushing Legs (Tyrant monolith)" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
       <characteristics>
-        <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A3</characteristic>
+        <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A6</characteristic>
         <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">AP(1)</characteristic>
       </characteristics>
     </profile>
@@ -3546,7 +3927,7 @@
         <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">AP(4)</characteristic>
       </characteristics>
     </profile>
-    <profile id="cbe2-4418-25e4-6c8e" name="Plasmabots" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Equipment">
+    <profile id="cbe2-4418-25e4-6c8e" name="Plasmabots" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Enhancement">
       <characteristics>
         <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">Rending</characteristic>
       </characteristics>
@@ -3565,7 +3946,7 @@
         <characteristic name="Special Rules" typeId="9fb1-424b-834c-5e7d">AP(1)</characteristic>
       </characteristics>
     </profile>
-    <profile id="86e1-a6ed-cafc-d09e" name="Reanimator" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Equipment">
+    <profile id="86e1-a6ed-cafc-d09e" name="Reanimator" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Enhancement">
       <characteristics>
         <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">When this unit is activated pick one firendly unit within 12&quot;, which may ignroe wounds from Regeneration on 4+ next time it takes wounds.</characteristic>
       </characteristics>
@@ -3616,7 +3997,7 @@
       <characteristics>
         <characteristic name="Range" typeId="79f4-5578-c041-f866">24&quot;</characteristic>
         <characteristic name="Attacks" typeId="4633-0aa3-94f7-3be7">A1</characteristic>
-        <characteristic name="Special Rules" typeId="9fb1-424b-834c-5e7d">AP(2), Blast(6)</characteristic>
+        <characteristic name="Special Rules" typeId="9fb1-424b-834c-5e7d">AP(2), Blast(3)</characteristic>
       </characteristics>
     </profile>
     <profile id="ff16-677d-89cf-ea37" name="Heavy Doom Blaster" hidden="false" typeId="3c71-da94-e5b3-d7c8" typeName="Ranged Weapon">
@@ -3624,6 +4005,66 @@
         <characteristic name="Range" typeId="79f4-5578-c041-f866">48&quot;</characteristic>
         <characteristic name="Attacks" typeId="4633-0aa3-94f7-3be7">A1</characteristic>
         <characteristic name="Special Rules" typeId="9fb1-424b-834c-5e7d">AP(4), Blast(6)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="e8a1-e41f-2b71-18e0" name="Monolith Beam" hidden="false" typeId="3c71-da94-e5b3-d7c8" typeName="Ranged Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="79f4-5578-c041-f866">24&apos;&apos;</characteristic>
+        <characteristic name="Attacks" typeId="4633-0aa3-94f7-3be7">A1</characteristic>
+        <characteristic name="Special Rules" typeId="9fb1-424b-834c-5e7d">AP(4), Deadly(6)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="1542-1da7-4d8d-0267" name="Stomp (Technoward Monolith)" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+      <characteristics>
+        <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A2</characteristic>
+        <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">AP(1)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="220d-cd34-88e0-7fb9" name="Stomp (Tyrant Monolith)" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+      <characteristics>
+        <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A3</characteristic>
+        <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">AP(2)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="91c2-8c8d-450a-ab05" name="Crushing Legs" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+      <characteristics>
+        <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A3</characteristic>
+        <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">AP(1)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="639e-ce37-2dbe-3303" name="Crushing Legs (Technoward monolith)" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+      <characteristics>
+        <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A3</characteristic>
+        <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">AP(1)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="5048-f321-dfe1-deef" name="Royal March" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Enhancement">
+      <characteristics>
+        <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">Royal March</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="c1d8-9ab7-3cd9-177b" name="Royal March Order" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Enhancement">
+      <characteristics>
+        <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">Royal March Order</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="34bc-161e-d55c-7a89" name="Technoward Monolith" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+      <characteristics>
+        <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">3</characteristic>
+        <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">2</characteristic>
+        <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Fear, Fearless, Strider, Psychic Warden, Tough(12)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="a897-dee5-19e1-d2de" name="Chained Tyrant Monolith" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+      <characteristics>
+        <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">3</characteristic>
+        <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">2</characteristic>
+        <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Fear, Fearless, Strider, Psychic Master, Tough(18)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="a11e-c504-182a-dc4c" name="Nanobot Wraith-Shard (Fortress of Destruction)" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Enhancement">
+      <characteristics>
+        <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">Psychic(3)</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
