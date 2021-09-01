@@ -1915,6 +1915,63 @@
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="170.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="b598-6dc3-4cc2-ca9d" name="Dwarf Gunship" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="1fba-ee5f-3716-fa7d" name="Dwarf Gunship" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">4+</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">2+</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Aircraft, Tough(6)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="2e32-7958-14fe-c177" name="Aircraft" hidden="false" targetId="187f-6a03-5b99-a4db" type="rule"/>
+        <infoLink id="ff88-6486-9844-57b2" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="ab61-13bd-3671-8128" name="New CategoryLink" hidden="false" targetId="d5d5-ffb2-9922-2414" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="a2db-e1fe-585a-850c" name="Replace Twin Minigun:" hidden="false" collective="false" import="true" defaultSelectionEntryId="7727-f3de-b858-6aab">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7d61-8d79-07a8-ddc2" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bbaa-44aa-b3cb-7367" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="7727-f3de-b858-6aab" name="Twin Minigun" hidden="false" collective="false" import="true" targetId="a8f7-27d2-59eb-c865" type="selectionEntry"/>
+            <entryLink id="a741-dcd0-1484-8553" name="Twin Laser Cannon" hidden="false" collective="false" import="true" targetId="d271-2d81-e640-0040" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="110.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="5841-033b-e948-673d" name="Twin Autocannon" hidden="false" collective="false" import="true" targetId="3640-bb26-8a54-047c" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="10.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="ec14-74ae-5226-94e2" name="Twin Heavy Machinegun" hidden="false" collective="false" import="true" targetId="dae8-3106-6a96-228c" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="558a-69aa-6784-fdbb" name="Battle Cannon" hidden="false" collective="false" import="true" targetId="2a96-365b-4ad8-7cfd" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1d65-d13a-f185-fb48" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="90.0"/>
+          </costs>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="160.0"/>
+      </costs>
+    </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
     <selectionEntry id="a860-ad05-ac59-7253" name="Heavy Pistol" hidden="false" collective="false" import="true" type="upgrade">
