@@ -1324,6 +1324,33 @@
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="165.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="1739-0ba5-22a1-8b92" name="APC" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="22e5-3413-e2a7-5767" name="APC" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">4+</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">2+</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Fast, Impact(6), Tough(6), Transport(11)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="4c34-8509-6b98-c981" name="Fast" hidden="false" targetId="f6ca-56fe-a21c-08fa" type="rule"/>
+        <infoLink id="f767-30a0-adac-b91a" name="Impact(X)" hidden="false" targetId="0c08-1729-0be7-c286" type="rule"/>
+        <infoLink id="7ec8-56ee-348c-80c3" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
+        <infoLink id="19a2-cab0-c194-670a" name="Transport(X)" hidden="false" targetId="3460-57e3-8a15-7977" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="17cd-9d1e-a736-8a5d" name="New CategoryLink" hidden="false" targetId="b820-6309-e900-c733" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="0ccd-f68d-bce3-272b" name="Upgrade List A (Vehicles)" hidden="false" collective="false" import="true" targetId="b333-ee65-41cd-4f02" type="selectionEntryGroup"/>
+        <entryLink id="c45f-0083-4f3a-b4dd" name="Upgrade List B (Vehicles)" hidden="false" collective="false" import="true" targetId="cac7-5ef9-ffda-b945" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="175.0"/>
+      </costs>
+    </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
     <selectionEntry id="a860-ad05-ac59-7253" name="Heavy Pistol" hidden="false" collective="false" import="true" type="upgrade">
