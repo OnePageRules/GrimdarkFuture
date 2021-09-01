@@ -1210,6 +1210,93 @@
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="ad0d-dd2c-232c-b3ef" name="Dwarf Trike" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="66ec-8aa5-c6f6-61a4" name="Dwarf Trike" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">4+</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">4+</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Fast, Impact(3), Tough(3)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="e515-2570-3f4c-376a" name="Fast" hidden="false" targetId="f6ca-56fe-a21c-08fa" type="rule"/>
+        <infoLink id="3b62-63cc-69d0-fa36" name="Impact(X)" hidden="false" targetId="0c08-1729-0be7-c286" type="rule"/>
+        <infoLink id="c6e6-138e-3c65-d282" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
+        <infoLink id="60f3-3ce0-f208-9e17" name="Assault Rifle" hidden="false" targetId="e313-290f-cb18-c4ea" type="profile"/>
+        <infoLink id="89e1-28b6-b206-b3c4" name="CCW (A1)" hidden="false" targetId="149b-6881-3b3f-3972" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="5326-9f68-1cf3-9d79" name="New CategoryLink" hidden="false" targetId="3089-78fc-94cc-28a2" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="4b18-553a-9f46-b097" name="Heavy Pintle Mount" hidden="false" collective="false" import="true" defaultSelectionEntryId="ea4e-debf-8fb2-ccc9">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="827a-fcc3-c693-6249" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d4ab-a607-1fc7-fccd" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="ea4e-debf-8fb2-ccc9" name="Heavy Flamethrower" hidden="false" collective="false" import="true" targetId="b4cc-bca2-fafc-9825" type="selectionEntry"/>
+            <entryLink id="09e6-1cc4-353c-d021" name="Heavy Fusion Rifle" hidden="false" collective="false" import="true" targetId="a5f5-d44a-03b0-9a99" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="25.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="4566-5765-1627-a4df" name="Autocannon" hidden="false" collective="false" import="true" targetId="9557-8f54-7c72-fe96" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="10.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="c374-3b23-a503-47fd" name="Plasma Cannon" hidden="false" collective="false" import="true" targetId="05e9-6fae-2a04-8820" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="15.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="a161-97f3-6cdb-2d4a" name="Missile Launcher" hidden="false" collective="false" import="true" targetId="ff1b-714c-6353-221d" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="15.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="4042-7d13-25d8-6995" name="Laser Cannon" hidden="false" collective="false" import="true" targetId="1f20-2b60-f100-bed0" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="25.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="c546-38cd-6b16-6597" name="Heavy Machinegun" hidden="false" collective="false" import="true" targetId="4481-49a4-e4f7-925b" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="3004-74f7-7b1a-dbc6" name="Upgrade with:" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="b127-ee7d-bc62-92fb" name="Explosive Keg" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2c99-c55a-f44f-4484" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="dcc9-4719-22af-a34a" name="Explosive Keg" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Enhancement">
+                  <characteristics>
+                    <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">Impact(+3)</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="74c6-fea9-1583-5c53" name="Impact(X)" hidden="false" targetId="0c08-1729-0be7-c286" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="10.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="70.0"/>
+      </costs>
+    </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
     <selectionEntry id="a860-ad05-ac59-7253" name="Heavy Pistol" hidden="false" collective="false" import="true" type="upgrade">
