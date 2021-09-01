@@ -979,6 +979,48 @@
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="aa2e-1151-eeb8-d9e0" name="Weapon Teams" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="ebfa-a83c-b3e1-1486" name="Weapon Teams" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">4+</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">4+</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Slow, Tough(3)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="c483-7eaf-331a-f6aa" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
+        <infoLink id="793f-ff5d-b08d-33f2" name="Slow" hidden="false" targetId="394b-1b64-d270-f49e" type="rule"/>
+        <infoLink id="4be7-fe0b-f5ad-2cb0" name="CCW (A1)" hidden="false" targetId="149b-6881-3b3f-3972" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="a8f7-7f68-d666-208b" name="New CategoryLink" hidden="false" targetId="dfbf-5076-f148-2f58" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="f7c3-69b4-6c9b-de82" name="* Unit Size *" hidden="false" collective="false" import="true" defaultSelectionEntryId="0e9f-a01e-6bf3-3756">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7868-b73e-42f3-a153" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="0e9f-a01e-6bf3-3756" name="Weapon Teams [3]" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9435-ed5c-2df4-1d20" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="155.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="2657-2c60-f643-fb5a" name="Upgrade List L" hidden="false" collective="false" import="true" targetId="f506-b3ce-babe-d82f" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
     <selectionEntry id="a860-ad05-ac59-7253" name="Heavy Pistol" hidden="false" collective="false" import="true" type="upgrade">
@@ -1943,6 +1985,51 @@
               </constraints>
               <costs>
                 <cost name="pts" typeId="567f-6468-66c6-2ea2" value="40.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="f506-b3ce-babe-d82f" name="Upgrade List L" hidden="false" collective="false" import="true">
+      <selectionEntryGroups>
+        <selectionEntryGroup id="5f5f-276a-b037-47d6" name="Replace Heavy Machineguns:" hidden="false" collective="false" import="true" defaultSelectionEntryId="0d2e-3833-03cd-1630">
+          <modifiers>
+            <modifier type="set" field="f9e7-9e4b-a573-3ee0" value="6.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="106a-b355-ab72-40f7" value="6.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="106a-b355-ab72-40f7" type="min"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f9e7-9e4b-a573-3ee0" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="0d2e-3833-03cd-1630" name="Heavy Machinegun" hidden="false" collective="false" import="true" targetId="4481-49a4-e4f7-925b" type="selectionEntry"/>
+            <entryLink id="2ffd-084a-2943-a3d8" name="Missile Launcher" hidden="false" collective="false" import="true" targetId="ff1b-714c-6353-221d" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="10.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="55a5-521d-31d4-3ae1" name="Autocannon" hidden="false" collective="false" import="true" targetId="9557-8f54-7c72-fe96" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="834f-de4b-54d1-bd0b" name="Laser Cannon" hidden="false" collective="false" import="true" targetId="1f20-2b60-f100-bed0" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="15.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="8490-898f-fc47-8df7" name="Mortar" hidden="false" collective="false" import="true" targetId="5726-d775-71fa-e9fd" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
               </costs>
             </entryLink>
           </entryLinks>
