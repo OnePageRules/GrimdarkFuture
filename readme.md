@@ -96,7 +96,7 @@ table!
 |Soul-Snatcher Cults|v2.8|Darguth|
 |TAO Coalition|v2.11|Kelbesq|
 |Titan Lords|v2.4|no active author|
-|Vile Rattus Cult|v2.5|no active author|
+|Vile Rattus Cult|v2.6|nicolasconnault|
 |Wormhole Daemons|v2.9|no active author|
 
 
