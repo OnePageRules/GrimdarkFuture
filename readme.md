@@ -73,13 +73,13 @@ table!
 
 | Army | Version | Author|
 |---|---|---|
-|Game System|v2.12|Darguth|
+|Game System|v2.13|Darguth|
 |Alien Hives|v2.9|Kelbesq|
 |Battle Brothers|Main v2.12 - Prime v2.14 - Detachments v2.14|no active author|
 |Battle Sisters|v2.9|no active author|
 |Custodian Brothers|v2.1|no active author|
 |Dark Elf Raiders|v2.7|no active author|
-|Dwarf Guilds|v2.6|Darguth|
+|Dwarf Guilds|v2.7|Darguth|
 |Elven Jesters|v2.7|Risingstudios|
 |Feudal Guard|v2.8|strongbif|
 |Havoc Brothers|Main v2.11 - Disciples v2.15|no active author|
