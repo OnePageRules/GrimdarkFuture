@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="f600-0926-eecd-eca5" name="Havoc Brothers" revision="10" battleScribeVersion="2.03" library="false" gameSystemId="d755-5d69-2721-c11b" gameSystemRevision="19" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="f600-0926-eecd-eca5" name="Havoc Brothers" revision="11" battleScribeVersion="2.03" library="false" gameSystemId="d755-5d69-2721-c11b" gameSystemRevision="20" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="0087-62dd-65cd-178c" name="Havoc Brothers v2.11"/>
     <publication id="a23a-0fd7-52cd-e3da" name="Havoc Brother Disciples v2.15"/>
@@ -467,6 +467,12 @@
         <categoryLink id="1c85-37e2-d741-71f1" name="New CategoryLink" hidden="false" targetId="4b4e-fbe0-5211-ae65" primary="true"/>
       </categoryLinks>
     </entryLink>
+    <entryLink id="8520-9e58-b0c9-aafc" name="Furies" hidden="false" collective="false" import="true" targetId="6340-55a5-8f50-2dbb" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7fb4-9c9d-e275-a50b" name="New CategoryLink" hidden="false" targetId="dfbf-5076-f148-2f58" primary="true"/>
+        <categoryLink id="489e-c1cd-bf31-171d" name="New CategoryLink" hidden="false" targetId="dfbf-5076-f148-2f58" primary="false"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="2dd9-d655-8bcb-de91" name="Havoc Lord" hidden="false" collective="false" import="true" type="upgrade">
@@ -621,7 +627,6 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="db69-8e54-8e20-1236" name="Psychic Spells" hidden="false" collective="false" import="true" targetId="a980-ff5d-be72-2597" type="selectionEntryGroup"/>
         <entryLink id="444a-fd8b-3cb8-a4cb" name="Disciples of Change - Stealth" hidden="false" collective="false" import="true" targetId="7629-d874-3b78-b264" type="selectionEntry">
           <costs>
             <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
@@ -637,7 +642,7 @@
             <cost name="pts" typeId="567f-6468-66c6-2ea2" value="20.0"/>
           </costs>
         </entryLink>
-        <entryLink id="d7c4-51bf-068f-c87c" name="Disciple of War" hidden="false" collective="false" import="true" targetId="9558-155f-0e94-f06b" type="selectionEntry">
+        <entryLink id="d7c4-51bf-068f-c87c" name="Disciples of War" hidden="false" collective="false" import="true" targetId="9558-155f-0e94-f06b" type="selectionEntry">
           <costs>
             <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
           </costs>
@@ -665,6 +670,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ac5d-9305-c3c9-2a12" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="9c4c-5ac0-a5e2-db15" name="Psychic Spells (Havoc Brothers)" hidden="false" targetId="5a16-f0e9-40d1-8909" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
               </costs>
@@ -681,6 +689,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2d98-c78c-8a41-24fd" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="db33-4253-836a-97bb" name="Psychic Spells (Disciples of Change)" hidden="false" targetId="3b59-0eac-e5d8-8b51" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
               </costs>
@@ -689,6 +700,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e1c0-8d65-ec56-706f" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="620f-9a3c-a39f-8f11" name="Psychic Spells (Disciples of Lust)" hidden="false" targetId="821a-72ad-c668-8254" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
               </costs>
@@ -697,6 +711,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="445f-fa38-37d8-de0f" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="0b29-a0ac-ed8a-7c85" name="Psychic Spells (Disciples of Plague)" hidden="false" targetId="fef2-6bba-bfaf-ba8c" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
               </costs>
@@ -704,19 +721,6 @@
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
-      <costs>
-        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="25a7-41c2-879b-ecf6" name="Psychic Spells - Havoc Brothers" hidden="false" collective="false" import="true" type="upgrade">
-      <infoLinks>
-        <infoLink id="81cf-8e5d-0c81-2a39" name="Daemon Fog" hidden="false" targetId="a424-e882-4a55-7b05" type="profile"/>
-        <infoLink id="1ed1-2427-e40b-6397" name="Warp Passage" hidden="false" targetId="e469-73a6-04c9-4a03" type="profile"/>
-        <infoLink id="537e-e35d-cf14-b51a" name="Havoc Terror" hidden="false" targetId="dea2-181d-6a2f-3878" type="profile"/>
-        <infoLink id="52e5-61cf-4e54-c43b" name="Havoc Trauma" hidden="false" targetId="aadc-d258-2581-6922" type="profile"/>
-        <infoLink id="5be9-b0ac-0be8-5934" name="Cursed Sludge" hidden="false" targetId="6b32-f1b3-32f9-44e3" type="profile"/>
-        <infoLink id="f0f6-55fd-26f4-059e" name="Dark Sight" hidden="false" targetId="c632-b67c-39ea-9ecb" type="profile"/>
-      </infoLinks>
       <costs>
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
       </costs>
@@ -741,9 +745,6 @@
               <infoLinks>
                 <infoLink id="7cf0-a850-7bb8-e343" name="Psychic(3)" hidden="false" targetId="cdae-0f78-03a5-6bc8" type="profile"/>
               </infoLinks>
-              <entryLinks>
-                <entryLink id="2a4a-91e3-0995-7b4f" name="Psychic Spells" hidden="false" collective="false" import="true" targetId="a980-ff5d-be72-2597" type="selectionEntryGroup"/>
-              </entryLinks>
               <costs>
                 <cost name="pts" typeId="567f-6468-66c6-2ea2" value="50.0"/>
               </costs>
@@ -755,9 +756,6 @@
               <infoLinks>
                 <infoLink id="f2ea-2b61-e058-b123" name="Psychic(1)" hidden="false" targetId="2432-e2b3-c2c4-9482" type="profile"/>
               </infoLinks>
-              <entryLinks>
-                <entryLink id="6ff9-7fe8-c11b-d2fd" name="Psychic Spells" hidden="false" collective="false" import="true" targetId="a980-ff5d-be72-2597" type="selectionEntryGroup"/>
-              </entryLinks>
               <costs>
                 <cost name="pts" typeId="567f-6468-66c6-2ea2" value="20.0"/>
               </costs>
@@ -769,9 +767,6 @@
               <infoLinks>
                 <infoLink id="0ca4-59d5-4937-d427" name="Psychic(2)" hidden="false" targetId="3e8c-01f9-834d-a443" type="profile"/>
               </infoLinks>
-              <entryLinks>
-                <entryLink id="2179-8e00-7c36-9fe9" name="Psychic Spells" hidden="false" collective="false" import="true" targetId="a980-ff5d-be72-2597" type="selectionEntryGroup"/>
-              </entryLinks>
               <costs>
                 <cost name="pts" typeId="567f-6468-66c6-2ea2" value="35.0"/>
               </costs>
@@ -794,7 +789,7 @@
             <cost name="pts" typeId="567f-6468-66c6-2ea2" value="30.0"/>
           </costs>
         </entryLink>
-        <entryLink id="780a-73ff-b5b9-614c" name="Disciples of Change - Stealth" hidden="false" collective="false" import="true" targetId="7629-d874-3b78-b264" type="selectionEntry">
+        <entryLink id="780a-73ff-b5b9-614c" name="Disciples of Change" hidden="false" collective="false" import="true" targetId="7629-d874-3b78-b264" type="selectionEntry">
           <costs>
             <cost name="pts" typeId="567f-6468-66c6-2ea2" value="10.0"/>
           </costs>
@@ -889,7 +884,7 @@
                 <cost name="pts" typeId="567f-6468-66c6-2ea2" value="10.0"/>
               </costs>
             </entryLink>
-            <entryLink id="61ee-9aea-7352-0ebd" name="Light Machinegun" hidden="false" collective="false" import="true" targetId="6bf9-8992-7b02-5764" type="selectionEntry">
+            <entryLink id="61ee-9aea-7352-0ebd" name="Machinegun" hidden="false" collective="false" import="true" targetId="6bf9-8992-7b02-5764" type="selectionEntry">
               <costs>
                 <cost name="pts" typeId="567f-6468-66c6-2ea2" value="15.0"/>
               </costs>
@@ -907,6 +902,11 @@
             <entryLink id="1aee-8fb1-b644-8c80" name="Sniper Rifle" hidden="false" collective="false" import="true" targetId="77e0-0bbf-54ae-e813" type="selectionEntry">
               <costs>
                 <cost name="pts" typeId="567f-6468-66c6-2ea2" value="20.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="42fe-dc46-b07c-0e6a" name="Grenade Launcher" hidden="false" collective="false" import="true" targetId="e089-6dd6-ec4e-12e6" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
               </costs>
             </entryLink>
           </entryLinks>
@@ -1178,7 +1178,7 @@
     </selectionEntry>
     <selectionEntry id="3d91-5186-b8ee-b0b8" name="Havoc Brother (Leader)" hidden="false" collective="false" import="true" type="upgrade">
       <entryLinks>
-        <entryLink id="ed95-e3c5-f5ec-9b7f" name="Weapons - Havoc Heroes" hidden="false" collective="false" import="true" targetId="be92-5004-a020-9be7" type="selectionEntryGroup"/>
+        <entryLink id="ed95-e3c5-f5ec-9b7f" name="Weapons - Havoc Leaders" hidden="false" collective="false" import="true" targetId="be92-5004-a020-9be7" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
@@ -1186,7 +1186,7 @@
     </selectionEntry>
     <selectionEntry id="d297-07fc-1bc5-fbf7" name="Havoc Brothers" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="0a5d-15e1-f6e4-3867" name="Havoc Brothers" hidden="false" targetId="fc5d-ecf8-b919-176f" type="profile"/>
+        <infoLink id="0a5d-15e1-f6e4-3867" name="Havoc Brother" hidden="false" targetId="fc5d-ecf8-b919-176f" type="profile"/>
       </infoLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="098e-2dd1-3f94-a2f5" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="1350-281d-398f-a52e">
@@ -1239,22 +1239,22 @@
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <entryLinks>
-                <entryLink id="0485-e88a-74fd-f455" name="Disciples of Change - Stealth" hidden="false" collective="false" import="true" targetId="7629-d874-3b78-b264" type="selectionEntry">
+                <entryLink id="0485-e88a-74fd-f455" name="Disciples of Change" hidden="false" collective="false" import="true" targetId="7629-d874-3b78-b264" type="selectionEntry">
                   <costs>
                     <cost name="pts" typeId="567f-6468-66c6-2ea2" value="10.0"/>
                   </costs>
                 </entryLink>
-                <entryLink id="d2fe-3f5a-95a6-caf1" name="Disciples of Lust - Fast" hidden="false" collective="false" import="true" targetId="3a98-2ab1-bdbc-4b40" type="selectionEntry">
+                <entryLink id="d2fe-3f5a-95a6-caf1" name="Disciples of Lust" hidden="false" collective="false" import="true" targetId="3a98-2ab1-bdbc-4b40" type="selectionEntry">
                   <costs>
                     <cost name="pts" typeId="567f-6468-66c6-2ea2" value="40.0"/>
                   </costs>
                 </entryLink>
-                <entryLink id="e802-5ed3-2df2-4449" name="Disciples of Plague - Regeneration" hidden="false" collective="false" import="true" targetId="7bb7-1ed0-8260-6e07" type="selectionEntry">
+                <entryLink id="e802-5ed3-2df2-4449" name="Disciples of Plague" hidden="false" collective="false" import="true" targetId="7bb7-1ed0-8260-6e07" type="selectionEntry">
                   <costs>
                     <cost name="pts" typeId="567f-6468-66c6-2ea2" value="30.0"/>
                   </costs>
                 </entryLink>
-                <entryLink id="e6bb-f1cf-1bbc-7180" name="Disciples of War - Furious" hidden="false" collective="false" import="true" targetId="9558-155f-0e94-f06b" type="selectionEntry">
+                <entryLink id="e6bb-f1cf-1bbc-7180" name="Disciples of War" hidden="false" collective="false" import="true" targetId="9558-155f-0e94-f06b" type="selectionEntry">
                   <costs>
                     <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
                   </costs>
@@ -1308,7 +1308,7 @@
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <entryLinks>
-                <entryLink id="fa39-a01b-1ed4-34e8" name="Disciples of Change - Stealth" hidden="false" collective="false" import="true" targetId="7629-d874-3b78-b264" type="selectionEntry">
+                <entryLink id="fa39-a01b-1ed4-34e8" name="Disciples of Change" hidden="false" collective="false" import="true" targetId="7629-d874-3b78-b264" type="selectionEntry">
                   <costs>
                     <cost name="pts" typeId="567f-6468-66c6-2ea2" value="20.0"/>
                   </costs>
@@ -1431,7 +1431,7 @@
           <selectionEntries>
             <selectionEntry id="8ec2-f93c-f26c-f283" name="Single Unit [5 models]" hidden="false" collective="false" import="true" type="upgrade">
               <selectionEntryGroups>
-                <selectionEntryGroup id="d74d-ffbe-59a8-9788" name="Havoc Brothers" hidden="false" collective="false" import="true">
+                <selectionEntryGroup id="d74d-ffbe-59a8-9788" name="Havoc Brothers" hidden="false" collective="false" import="true" defaultSelectionEntryId="972c-47b8-135a-f143">
                   <constraints>
                     <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="08e7-13a5-9be3-37ce" type="min"/>
                     <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dd99-2d06-bdab-33e1" type="max"/>
@@ -1547,7 +1547,7 @@
     </selectionEntry>
     <selectionEntry id="192d-9373-b723-1938" name="Possessed Brothers" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="fb44-9450-1a1d-9923" name="Possessed Brothers" hidden="false" targetId="08a6-0ea5-37ef-1c33" type="profile"/>
+        <infoLink id="fb44-9450-1a1d-9923" name="Possessed Brother" hidden="false" targetId="08a6-0ea5-37ef-1c33" type="profile"/>
         <infoLink id="3110-7d7f-f573-69f3" name="Fast" hidden="false" targetId="f6ca-56fe-a21c-08fa" type="rule"/>
         <infoLink id="3f71-09ea-3fa9-295b" name="Mutations" hidden="false" targetId="15b4-82cd-ca9a-4b75" type="rule"/>
       </infoLinks>
@@ -1853,51 +1853,9 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="683b-670e-bd56-e709" name="Talon Raptor (Leader)" hidden="false" collective="false" import="true" type="upgrade">
-      <selectionEntryGroups>
-        <selectionEntryGroup id="f869-13cc-d59f-74dd" name="Melee Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="31fa-5415-a292-a89b">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="69bf-78de-9991-9959" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="91ed-1b6e-cf44-e9d2" type="max"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="31fa-5415-a292-a89b" name="CCW (A2)" hidden="false" collective="false" import="true" targetId="2cf5-bae0-bd1b-c205" type="selectionEntry"/>
-            <entryLink id="cff4-77da-0f60-80ce" name="Energy Sword" hidden="false" collective="false" import="true" targetId="b085-6801-9084-46f0" type="selectionEntry">
-              <costs>
-                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
-              </costs>
-            </entryLink>
-            <entryLink id="f7a6-fa68-31e3-eb62" name="Energy Fist" hidden="false" collective="false" import="true" targetId="ffff-7bb4-119c-0f59" type="selectionEntry">
-              <costs>
-                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="10.0"/>
-              </costs>
-            </entryLink>
-            <entryLink id="1135-7f42-3483-b902" name="Energy Hammer" hidden="false" collective="false" import="true" targetId="ee08-0414-e5c3-908f" type="selectionEntry">
-              <costs>
-                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="10.0"/>
-              </costs>
-            </entryLink>
-          </entryLinks>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="53d2-c98e-2dd7-5120" name="Ranged Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="b2bf-d4a8-e62c-7c9e">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6949-7a54-301c-9949" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cf0d-7768-8f50-5784" type="max"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="b2bf-d4a8-e62c-7c9e" name="Pistol" hidden="false" collective="false" import="true" targetId="bb7e-64f2-5ded-f697" type="selectionEntry"/>
-            <entryLink id="8765-cd20-f28e-e8cd" name="Plasma Pistol" hidden="false" collective="false" import="true" targetId="b4bf-2a04-6bf7-a1e0" type="selectionEntry">
-              <costs>
-                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
-              </costs>
-            </entryLink>
-            <entryLink id="758c-1563-f1d6-93a7" name="Twin Assault Rifle" hidden="false" collective="false" import="true" targetId="e098-3b64-3d3c-33c2" type="selectionEntry">
-              <costs>
-                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
-              </costs>
-            </entryLink>
-          </entryLinks>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="afca-5bf7-c65d-7352" name="Weapons - Havoc Leaders" hidden="false" collective="false" import="true" targetId="be92-5004-a020-9be7" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
       </costs>
@@ -1965,18 +1923,8 @@
                           <entryLinks>
                             <entryLink id="60a0-1d86-0f44-19e3" name="Talon Raptor (2x Energy Claws)" hidden="false" collective="false" import="true" targetId="0804-032d-25bc-5c4d" type="selectionEntry">
                               <constraints>
-                                <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a434-74b8-4e9e-632f" type="min"/>
+                                <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a434-74b8-4e9e-632f" type="min"/>
                                 <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8fcc-0f3f-85e9-2097" type="max"/>
-                              </constraints>
-                            </entryLink>
-                            <entryLink id="cb01-e901-305a-661c" name="Talon Raptor (Leader)" hidden="false" collective="false" import="true" targetId="683b-670e-bd56-e709" type="selectionEntry">
-                              <constraints>
-                                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fd4d-659a-ea8d-6345" type="max"/>
-                              </constraints>
-                            </entryLink>
-                            <entryLink id="f61f-f074-f645-dbd7" name="Talon Raptor (Special Weapon)" hidden="false" collective="false" import="true" targetId="1f07-d7b2-7a49-43e1" type="selectionEntry">
-                              <constraints>
-                                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d86e-f910-8b40-f553" type="max"/>
                               </constraints>
                             </entryLink>
                           </entryLinks>
@@ -2071,18 +2019,8 @@
                           <entryLinks>
                             <entryLink id="c0bd-b980-e35a-a8af" name="Talon Raptor (2x Energy Claws)" hidden="false" collective="false" import="true" targetId="0804-032d-25bc-5c4d" type="selectionEntry">
                               <constraints>
-                                <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="669c-d650-1b37-c387" type="min"/>
+                                <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="669c-d650-1b37-c387" type="min"/>
                                 <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6a24-1576-5063-b628" type="max"/>
-                              </constraints>
-                            </entryLink>
-                            <entryLink id="aa93-3cb3-e213-69e8" name="Talon Raptor (Leader)" hidden="false" collective="false" import="true" targetId="683b-670e-bd56-e709" type="selectionEntry">
-                              <constraints>
-                                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="965d-ceed-c684-0ddd" type="max"/>
-                              </constraints>
-                            </entryLink>
-                            <entryLink id="f771-2203-b48c-a4e6" name="Talon Raptor (Special Weapon)" hidden="false" collective="false" import="true" targetId="1f07-d7b2-7a49-43e1" type="selectionEntry">
-                              <constraints>
-                                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5359-3b6c-3ddf-d58f" type="max"/>
                               </constraints>
                             </entryLink>
                           </entryLinks>
@@ -2150,13 +2088,12 @@
     </selectionEntry>
     <selectionEntry id="c5d0-2717-5c9a-dcec" name="Havoc Destroyer" hidden="false" collective="false" import="true" type="upgrade">
       <selectionEntryGroups>
-        <selectionEntryGroup id="d44a-69a9-7360-6d8c" name="Melee Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="aa89-bdd2-b11e-159a">
+        <selectionEntryGroup id="d44a-69a9-7360-6d8c" name="Melee Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="5ce2-41d9-31e4-3103">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6e35-043d-f8a4-dcdd" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c5ab-e92c-b9e5-60f7" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="aa89-bdd2-b11e-159a" name="Energy Sword" hidden="false" collective="false" import="true" targetId="b085-6801-9084-46f0" type="selectionEntry"/>
             <entryLink id="08c7-2bea-de41-605d" name="Energy Fist" hidden="false" collective="false" import="true" targetId="ffff-7bb4-119c-0f59" type="selectionEntry">
               <costs>
                 <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
@@ -2167,6 +2104,7 @@
                 <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
               </costs>
             </entryLink>
+            <entryLink id="5ce2-41d9-31e4-3103" name="Energy Sword" hidden="false" collective="false" import="true" targetId="b085-6801-9084-46f0" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="8f81-243b-4eef-7660" name="Ranged Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="640e-a11b-1593-5360">
@@ -2314,12 +2252,7 @@
                             <entryLink id="f823-9ccd-30c6-51d0" name="Havoc Destroyer (2x Energy Claws)" hidden="false" collective="false" import="true" targetId="808f-355f-ae5f-a331" type="selectionEntry">
                               <constraints>
                                 <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f82b-9263-516d-107d" type="max"/>
-                                <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1c48-7af0-acaf-0dad" type="min"/>
-                              </constraints>
-                            </entryLink>
-                            <entryLink id="5ac0-3246-9e0d-c173" name="Havoc Destroyer (Heavy Weapon)" hidden="false" collective="false" import="true" targetId="6ba3-c42f-d0bc-3468" type="selectionEntry">
-                              <constraints>
-                                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f786-6ab3-77e0-76d2" type="max"/>
+                                <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1c48-7af0-acaf-0dad" type="min"/>
                               </constraints>
                             </entryLink>
                           </entryLinks>
@@ -2404,11 +2337,6 @@
                               <constraints>
                                 <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c442-8951-fe2a-a565" type="max"/>
                                 <constraint field="selections" scope="parent" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f712-8a5d-6874-2220" type="min"/>
-                              </constraints>
-                            </entryLink>
-                            <entryLink id="b6ed-a4ee-106a-d7ca" name="Havoc Destroyer (Heavy Weapon)" hidden="false" collective="false" import="true" targetId="6ba3-c42f-d0bc-3468" type="selectionEntry">
-                              <constraints>
-                                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ccbd-42f2-ca9e-1a32" type="max"/>
                               </constraints>
                             </entryLink>
                           </entryLinks>
@@ -3016,7 +2944,7 @@
         <entryLink id="8dc5-4703-c94b-fdc8" name="Weapon - Pintle Mount" hidden="false" collective="false" import="true" targetId="3d25-4a02-17cd-cf75" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="345.0"/>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="295.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="fb8d-6e1e-4bb4-0d54" name="Demolition Cannon" hidden="false" collective="false" import="true" type="upgrade">
@@ -3038,7 +2966,7 @@
         <infoLink id="61bb-aa0d-9b78-2621" name="Transport(X)" hidden="false" targetId="3460-57e3-8a15-7977" type="rule"/>
       </infoLinks>
       <entryLinks>
-        <entryLink id="beef-382f-eeb0-7008" name="Heavy Machinegun" hidden="false" collective="false" import="true" targetId="4481-49a4-e4f7-925b" type="selectionEntry">
+        <entryLink id="beef-382f-eeb0-7008" name="Twin Heavy Machinegun" hidden="false" collective="false" import="true" targetId="dae8-3106-6a96-228c" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="633e-bfad-5903-6fe9" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f54e-804e-3d9a-f21a" type="min"/>
@@ -3046,7 +2974,7 @@
         </entryLink>
         <entryLink id="c881-c7bc-4dfb-c835" name="Upgrades - Vehicles" hidden="false" collective="false" import="true" targetId="348a-7513-a763-2377" type="selectionEntryGroup"/>
         <entryLink id="435e-f2a4-99ac-99a3" name="Weapon - Pintle Mount" hidden="false" collective="false" import="true" targetId="3d25-4a02-17cd-cf75" type="selectionEntryGroup"/>
-        <entryLink id="9755-f11e-be6a-1cbf" name="2x Laser Cannons" hidden="false" collective="false" import="true" targetId="8ce2-9296-d695-dd48" type="selectionEntry">
+        <entryLink id="9755-f11e-be6a-1cbf" name="2x Twin Laser Cannons" hidden="false" collective="false" import="true" targetId="8ce2-9296-d695-dd48" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7998-cdf0-020b-1590" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0658-be39-dc8d-8ef2" type="min"/>
@@ -3589,7 +3517,7 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6dbf-ee69-2769-821d" type="max"/>
       </constraints>
       <profiles>
-        <profile id="a8b8-aaea-e1b7-5614" name="Disciples of War" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Equipment">
+        <profile id="a8b8-aaea-e1b7-5614" name="Disciples of War" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Enhancement">
           <characteristics>
             <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">Furious</characteristic>
           </characteristics>
@@ -3869,7 +3797,7 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="01dc-0c53-234d-f7ec" type="max"/>
       </constraints>
       <profiles>
-        <profile id="799c-1946-f640-3e27" name="Disciples of Change" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Equipment">
+        <profile id="799c-1946-f640-3e27" name="Disciples of Change" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Enhancement">
           <characteristics>
             <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">Stealth</characteristic>
           </characteristics>
@@ -3877,19 +3805,6 @@
       </profiles>
       <infoLinks>
         <infoLink id="4828-9777-18de-88d7" name="Stealth" hidden="false" targetId="1b59-5d31-4675-c926" type="rule"/>
-      </infoLinks>
-      <costs>
-        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="cf6b-c8e5-e35e-3a11" name="Psychic Spells - Disciples of Change" hidden="false" collective="false" import="true" type="upgrade">
-      <infoLinks>
-        <infoLink id="50f2-efd8-b8a3-548c" name="Cursed Mutagen" hidden="false" targetId="8ed6-a07d-d41a-b483" type="profile"/>
-        <infoLink id="6ddf-2b2d-5817-bfee" name="Blessed  Mutagen" hidden="false" targetId="db0f-b5fb-5241-5e54" type="profile"/>
-        <infoLink id="2868-9f88-4afb-bb9f" name="Inferno" hidden="false" targetId="4764-c61e-6963-b573" type="profile"/>
-        <infoLink id="3f64-a3e4-2fad-80f4" name="Breath of Change" hidden="false" targetId="0d61-563f-2e55-4700" type="profile"/>
-        <infoLink id="c78a-02a8-c423-e333" name="Fire Storm" hidden="false" targetId="1da3-abec-9477-2338" type="profile"/>
-        <infoLink id="1450-3315-fd8b-2880" name="Bolt of Change" hidden="false" targetId="c469-2db5-74c5-1ad6" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
@@ -3935,7 +3850,7 @@
             <cost name="pts" typeId="567f-6468-66c6-2ea2" value="20.0"/>
           </costs>
         </entryLink>
-        <entryLink id="58e3-61ff-af95-2149" name="Weapons - Havoc Leaders" hidden="false" collective="false" import="true" targetId="be92-5004-a020-9be7" type="selectionEntryGroup"/>
+        <entryLink id="58e3-61ff-af95-2149" name="Weapons - Change Leaders" hidden="false" collective="false" import="true" targetId="70ec-5d76-1dc4-a8bd" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="70.0"/>
@@ -3943,7 +3858,7 @@
     </selectionEntry>
     <selectionEntry id="7e17-5a1e-78ae-28a6" name="Sorcerer of Change" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="a7ae-382b-084b-c32d" name="Sorceror of Change" hidden="false" targetId="fe3b-7299-3b9f-befd" type="profile"/>
+        <infoLink id="a7ae-382b-084b-c32d" name="Sorcerer of Change" hidden="false" targetId="fe3b-7299-3b9f-befd" type="profile"/>
         <infoLink id="a80c-3bf3-ebb8-a2cb" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
         <infoLink id="1b8c-d615-82fe-aee5" name="Hero" hidden="false" targetId="5065-c3a4-a9cf-db27" type="rule"/>
         <infoLink id="add8-45d4-90ad-04e5" name="Psychic(X)" hidden="false" targetId="ba47-b43b-18f8-97c1" type="rule"/>
@@ -3974,14 +3889,6 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="4b30-9933-75fe-7b82" name="Show Spells" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2853-d74f-1789-c682" type="max"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="182f-99ab-f50f-ae48" name="Psychic Spells - Disciples of Change" hidden="false" collective="false" import="true" targetId="cf6b-c8e5-e35e-3a11" type="selectionEntry"/>
-          </entryLinks>
-        </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="6913-5fbb-ce70-ef19" name="Disc of Change" hidden="false" collective="false" import="true" targetId="0019-22fc-f668-0735" type="selectionEntry">
@@ -3992,7 +3899,7 @@
             <cost name="pts" typeId="567f-6468-66c6-2ea2" value="15.0"/>
           </costs>
         </entryLink>
-        <entryLink id="2c1d-9c37-a88f-c893" name="Weapons - Havoc Leaders" hidden="false" collective="false" import="true" targetId="be92-5004-a020-9be7" type="selectionEntryGroup"/>
+        <entryLink id="2c1d-9c37-a88f-c893" name="Weapons - Change Leaders" hidden="false" collective="false" import="true" targetId="70ec-5d76-1dc4-a8bd" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="90.0"/>
@@ -4140,16 +4047,6 @@
                         <infoLink id="cc5c-fed8-1c38-f29a" name="Psychic(X)" hidden="false" targetId="ba47-b43b-18f8-97c1" type="rule"/>
                         <infoLink id="04ad-d907-bf89-5ba5" name="Psychic(1)" hidden="false" targetId="2432-e2b3-c2c4-9482" type="profile"/>
                       </infoLinks>
-                      <selectionEntryGroups>
-                        <selectionEntryGroup id="25c2-9f86-24ce-00f8" name="Show Spells" hidden="false" collective="false" import="true">
-                          <constraints>
-                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="66e5-7b5e-7c5e-e8d5" type="max"/>
-                          </constraints>
-                          <entryLinks>
-                            <entryLink id="2598-c159-d1ea-0404" name="Change Brothers Psychic Spells" hidden="false" collective="false" import="true" targetId="cf6b-c8e5-e35e-3a11" type="selectionEntry"/>
-                          </entryLinks>
-                        </selectionEntryGroup>
-                      </selectionEntryGroups>
                       <costs>
                         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="20.0"/>
                       </costs>
@@ -4207,16 +4104,6 @@
                         <infoLink id="432d-e5a1-6239-bb32" name="Psychic(X)" hidden="false" targetId="ba47-b43b-18f8-97c1" type="rule"/>
                         <infoLink id="228c-e9b7-e36d-c44d" name="Psychic(1)" hidden="false" targetId="2432-e2b3-c2c4-9482" type="profile"/>
                       </infoLinks>
-                      <selectionEntryGroups>
-                        <selectionEntryGroup id="fdbf-23b3-c82e-e805" name="Show Spells" hidden="false" collective="false" import="true">
-                          <constraints>
-                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1c8d-329e-6f12-f04a" type="max"/>
-                          </constraints>
-                          <entryLinks>
-                            <entryLink id="2415-50d5-28dc-f6a5" name="Change Brothers Psychic Spells" hidden="false" collective="false" import="true" targetId="cf6b-c8e5-e35e-3a11" type="selectionEntry"/>
-                          </entryLinks>
-                        </selectionEntryGroup>
-                      </selectionEntryGroups>
                       <costs>
                         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="20.0"/>
                       </costs>
@@ -4282,7 +4169,7 @@
             </entryLink>
             <entryLink id="c581-b875-a9bb-6ee6" name="Reaper Minigun" hidden="false" collective="false" import="true" targetId="df65-ce53-c014-7808" type="selectionEntry">
               <costs>
-                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="20.0"/>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="15.0"/>
               </costs>
             </entryLink>
           </entryLinks>
@@ -4365,16 +4252,6 @@
                         <infoLink id="fd2b-28e7-44bf-02d3" name="Psychic(X)" hidden="false" targetId="ba47-b43b-18f8-97c1" type="rule"/>
                         <infoLink id="e781-d2d0-b99f-a7ce" name="Psychic(1)" hidden="false" targetId="2432-e2b3-c2c4-9482" type="profile"/>
                       </infoLinks>
-                      <selectionEntryGroups>
-                        <selectionEntryGroup id="afed-6372-c97a-61c4" name="Show Spells" hidden="false" collective="false" import="true">
-                          <constraints>
-                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2609-d72d-0b18-08bb" type="max"/>
-                          </constraints>
-                          <entryLinks>
-                            <entryLink id="9e8c-399d-b8ed-3c77" name="Change Brothers Psychic Spells" hidden="false" collective="false" import="true" targetId="cf6b-c8e5-e35e-3a11" type="selectionEntry"/>
-                          </entryLinks>
-                        </selectionEntryGroup>
-                      </selectionEntryGroups>
                       <costs>
                         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="20.0"/>
                       </costs>
@@ -4437,16 +4314,6 @@
                         <infoLink id="bf80-3b24-f931-b59d" name="Psychic(X)" hidden="false" targetId="ba47-b43b-18f8-97c1" type="rule"/>
                         <infoLink id="8e91-ffba-9633-2dcc" name="Psychic(1)" hidden="false" targetId="2432-e2b3-c2c4-9482" type="profile"/>
                       </infoLinks>
-                      <selectionEntryGroups>
-                        <selectionEntryGroup id="1e7d-1fa8-bd7d-3ec0" name="Show Spells" hidden="false" collective="false" import="true">
-                          <constraints>
-                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="25c4-dbf6-fdce-e751" type="max"/>
-                          </constraints>
-                          <entryLinks>
-                            <entryLink id="47ab-9a46-47ec-3aed" name="Change Brothers Psychic Spells" hidden="false" collective="false" import="true" targetId="cf6b-c8e5-e35e-3a11" type="selectionEntry"/>
-                          </entryLinks>
-                        </selectionEntryGroup>
-                      </selectionEntryGroups>
                       <costs>
                         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="20.0"/>
                       </costs>
@@ -4596,19 +4463,6 @@
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="165.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="332b-5350-7449-e802" name="Psychic Spells - Disciples of Lust" hidden="false" collective="false" import="true" type="upgrade">
-      <infoLinks>
-        <infoLink id="af31-734e-6b3e-7b26" name="Pleasure" hidden="false" targetId="583a-52e3-b4a9-4b81" type="profile"/>
-        <infoLink id="9338-d8a1-233d-feca" name="Ecstasy" hidden="false" targetId="39ae-6960-48c0-067b" type="profile"/>
-        <infoLink id="e86a-66ab-5ce3-c1c6" name="Overload" hidden="false" targetId="65ab-7cc4-dca3-ceae" type="profile"/>
-        <infoLink id="cfd1-4b9a-fe3a-c6f8" name="Pain" hidden="false" targetId="8d8e-68ab-4d17-cd2d" type="profile"/>
-        <infoLink id="a9c6-0620-56d7-f419" name="Seizure" hidden="false" targetId="f0c3-4d19-7091-b7d2" type="profile"/>
-        <infoLink id="8c9c-c958-298d-4a56" name="Frenzy" hidden="false" targetId="d96c-43bf-fb97-2ef2" type="profile"/>
-      </infoLinks>
-      <costs>
-        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="3a98-2ab1-bdbc-4b40" name="Disciples of Lust" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
@@ -4621,7 +4475,7 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f332-1233-5fc8-080c" type="max"/>
       </constraints>
       <profiles>
-        <profile id="6bb4-729f-9ee7-8fcf" name="Disciples of Lust" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Equipment">
+        <profile id="6bb4-729f-9ee7-8fcf" name="Disciples of Lust" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Enhancement">
           <characteristics>
             <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">Fast</characteristic>
           </characteristics>
@@ -4646,7 +4500,7 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1543-0bab-1890-122d" type="max"/>
       </constraints>
       <profiles>
-        <profile id="c8ab-b2f9-3071-3fea" name="Disciples of Lust" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Equipment">
+        <profile id="c8ab-b2f9-3071-3fea" name="Disciples of Lust" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Enhancement">
           <characteristics>
             <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">Lust Speed</characteristic>
           </characteristics>
@@ -4699,7 +4553,7 @@
             <cost name="pts" typeId="567f-6468-66c6-2ea2" value="60.0"/>
           </costs>
         </entryLink>
-        <entryLink id="78ac-2ae4-4a98-c1df" name="Weapons - Havoc Leaders" hidden="false" collective="false" import="true" targetId="be92-5004-a020-9be7" type="selectionEntryGroup"/>
+        <entryLink id="78ac-2ae4-4a98-c1df" name="Weapons - Lust Leaders" hidden="false" collective="false" import="true" targetId="68be-f405-b132-d510" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="75.0"/>
@@ -4866,7 +4720,7 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5a71-47ee-4afe-5ca1" type="max"/>
       </constraints>
       <profiles>
-        <profile id="cc2b-88de-8355-d0db" name="Disciples of Plague" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Equipment">
+        <profile id="cc2b-88de-8355-d0db" name="Disciples of Plague" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Enhancement">
           <characteristics>
             <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">Regeneration</characteristic>
           </characteristics>
@@ -4874,19 +4728,6 @@
       </profiles>
       <infoLinks>
         <infoLink id="c007-7b7a-15f8-7177" name="Regeneration" hidden="false" targetId="dea8-a8f9-1865-4424" type="rule"/>
-      </infoLinks>
-      <costs>
-        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="4b4f-08a4-e8e8-a7f8" name="Psychic Spells - Disciples of Plague" hidden="false" collective="false" import="true" type="upgrade">
-      <infoLinks>
-        <infoLink id="5605-e37e-1015-9419" name="Muscular Atrophy" hidden="false" targetId="0df6-c154-b62a-532d" type="profile"/>
-        <infoLink id="90c0-bbce-3f53-6f1c" name="Rot Wave" hidden="false" targetId="13b9-4cb5-208d-a828" type="profile"/>
-        <infoLink id="2ef9-36b6-d564-dfcb" name="Contagious Poison" hidden="false" targetId="0100-6a82-a8b0-de12" type="profile"/>
-        <infoLink id="abf6-55b3-5e9f-5440" name="Poison Wind" hidden="false" targetId="243d-7c8f-9926-ad91" type="profile"/>
-        <infoLink id="0c01-d0dc-fa59-703d" name="Toxic Blades" hidden="false" targetId="5587-72c4-1170-1982" type="profile"/>
-        <infoLink id="da06-ca84-38ad-7be6" name="Blessed Virus" hidden="false" targetId="57a2-b00b-9212-486e" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
@@ -5142,16 +4983,6 @@
         <infoLink id="b306-1663-4f87-b35a" name="Psychic(X)" hidden="false" targetId="ba47-b43b-18f8-97c1" type="rule"/>
         <infoLink id="5564-d833-a436-2ba3" name="Regeneration" hidden="false" targetId="dea8-a8f9-1865-4424" type="rule"/>
       </infoLinks>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="51bf-e697-1d07-8e24" name="Show Spells" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9c80-4ef9-e78b-3a23" type="max"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="1620-317c-eb65-8a6d" name="Psychic Spells - Disciples of Plague" hidden="false" collective="false" import="true" targetId="4b4f-08a4-e8e8-a7f8" type="selectionEntry"/>
-          </entryLinks>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
       <entryLinks>
         <entryLink id="bb18-4998-f3a4-d609" name="Heavy Plague Pistol" hidden="false" collective="false" import="true" targetId="7626-2700-2c4b-befc" type="selectionEntry">
           <constraints>
@@ -5421,6 +5252,9 @@
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="7367-be82-a175-dfb1" name="Blessing of Plague" hidden="false" collective="false" import="true" targetId="8dca-0af3-ed95-073e" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="96ab-e92c-8e35-962b" type="max"/>
+          </constraints>
           <costs>
             <cost name="pts" typeId="567f-6468-66c6-2ea2" value="65.0"/>
           </costs>
@@ -6357,7 +6191,7 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="033b-0c5b-f6d4-ce93" type="max"/>
       </constraints>
       <profiles>
-        <profile id="8a28-b574-1796-4155" name="Disciples of War" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Equipment">
+        <profile id="8a28-b574-1796-4155" name="Disciples of War" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Enhancement">
           <characteristics>
             <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">Frenzy</characteristic>
           </characteristics>
@@ -6382,9 +6216,10 @@
     </selectionEntry>
     <selectionEntry id="8798-d74b-8fe9-b3a7" name="Havoc Biker Specialist" hidden="false" collective="false" import="true" type="upgrade">
       <selectionEntryGroups>
-        <selectionEntryGroup id="f2a7-b2e9-575f-4d7f" name="Weapon" hidden="false" collective="true" import="true" defaultSelectionEntryId="9c3d-9d8f-69ed-f5d8">
+        <selectionEntryGroup id="f2a7-b2e9-575f-4d7f" name="Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="9c3d-9d8f-69ed-f5d8">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="deaa-8f33-b236-dd5e" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="256b-4ada-2cde-6688" type="max"/>
           </constraints>
           <entryLinks>
             <entryLink id="a1d5-b73f-f4b4-d0d9" name="Flamethrower" hidden="false" collective="false" import="true" targetId="ebb4-9dca-acaa-4dcf" type="selectionEntry">
@@ -6406,7 +6241,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="293e-7390-9da2-a063" name="CCW (A1)" hidden="false" collective="false" import="true" targetId="b521-2bfc-867e-4ea1" type="selectionEntry">
+        <entryLink id="293e-7390-9da2-a063" name="CCW (A1)" hidden="false" collective="false" import="true" targetId="4761-1567-afe2-c2ed" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="52d2-22c1-ef89-47ad" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f385-9bdd-1b5f-07ec" type="min"/>
@@ -6436,9 +6271,9 @@
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8ce2-9296-d695-dd48" name="2x Laser Cannons" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="8ce2-9296-d695-dd48" name="2x Twin Laser Cannons" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="ce08-d0a6-4c84-7a46" name="2x Laser Cannons" hidden="false" targetId="d9b7-c98e-fcb9-5641" type="profile"/>
+        <infoLink id="ce08-d0a6-4c84-7a46" name="2x Twin Laser Cannons" hidden="false" targetId="d1f5-7793-0532-1fc6" type="profile"/>
         <infoLink id="fbc2-44d0-0ec4-f4af" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
         <infoLink id="9989-9e4a-5052-8cc4" name="Deadly(X)" hidden="false" targetId="377b-3864-960e-57ac" type="rule"/>
       </infoLinks>
@@ -6619,16 +6454,6 @@
         <infoLink id="6cce-3554-b23c-9077" name="Psychic(X)" hidden="false" targetId="ba47-b43b-18f8-97c1" type="rule"/>
         <infoLink id="7027-a778-1daf-637b" name="Hero" hidden="false" targetId="5065-c3a4-a9cf-db27" type="rule"/>
       </infoLinks>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="c2e7-58ec-fe77-dc19" name="Show Spells" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f34d-3ab5-3e0c-5c02" type="max"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="08fb-3711-4a17-c2f7" name="Change Brothers Psychic Spells" hidden="false" collective="false" import="true" targetId="cf6b-c8e5-e35e-3a11" type="selectionEntry"/>
-          </entryLinks>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
       <entryLinks>
         <entryLink id="86cc-d05d-15f9-fb5a" name="Titanic Volgue" hidden="false" collective="false" import="true" targetId="c878-ed7e-5537-0457" type="selectionEntry">
           <constraints>
@@ -6710,14 +6535,6 @@
               </costs>
             </selectionEntry>
           </selectionEntries>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="525d-3dd5-990a-f441" name="Show Spells" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="26e1-cb38-143c-6654" type="max"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="153b-4ded-70d1-98f5" name="Change Brothers Psychic Spells" hidden="false" collective="false" import="true" targetId="cf6b-c8e5-e35e-3a11" type="selectionEntry"/>
-          </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
@@ -7395,47 +7212,66 @@
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
       </costs>
     </selectionEntry>
-  </sharedSelectionEntries>
-  <sharedSelectionEntryGroups>
-    <selectionEntryGroup id="a980-ff5d-be72-2597" name="Psychic Spells" page="" hidden="false" collective="false" import="true">
+    <selectionEntry id="6340-55a5-8f50-2dbb" name="Furies" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="2423-059c-6172-0f97" name="Fury" hidden="false" targetId="d206-6259-8e36-0060" type="profile"/>
+        <infoLink id="b35b-a070-505c-7ce2" name="Flying" hidden="false" targetId="adc6-ddd5-223d-29b1" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="89f3-b341-1c5a-d01a" name="New CategoryLink" hidden="false" targetId="dfbf-5076-f148-2f58" primary="true"/>
+      </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="9082-92c5-1acb-2764" name="Show Spells" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="eacd-af40-29d4-84a2" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="a21c-9d36-dad1-bb20">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3d83-fae8-210a-46f2" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="04fc-0ae6-337f-0258" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dec4-d9c8-a52b-1799" type="max"/>
           </constraints>
-          <entryLinks>
-            <entryLink id="35f7-ac30-d348-a7fc" name="Psychic Spells - Disciples of Plague" hidden="false" collective="false" import="true" targetId="4b4f-08a4-e8e8-a7f8" type="selectionEntry">
-              <modifiers>
-                <modifier type="set" field="hidden" value="true">
-                  <conditions>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="dd22-34b3-9945-ceac" type="equalTo"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
-            </entryLink>
-            <entryLink id="ccab-5576-b805-a65b" name="Psychic Spells - Disciples of Lust" hidden="false" collective="false" import="true" targetId="332b-5350-7449-e802" type="selectionEntry">
-              <modifiers>
-                <modifier type="set" field="hidden" value="true">
-                  <conditions>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e00c-c91c-a81d-92d6" type="equalTo"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
-            </entryLink>
-            <entryLink id="4e4e-86b9-4750-c2c6" name="Psychic Spells - Disciples of Change" hidden="false" collective="false" import="true" targetId="cf6b-c8e5-e35e-3a11" type="selectionEntry">
-              <modifiers>
-                <modifier type="set" field="hidden" value="true">
-                  <conditions>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ce70-f4cd-47d9-9c4d" type="equalTo"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
-            </entryLink>
-            <entryLink id="d254-eb18-bee9-5369" name="Psychic Spells - Havoc Brothers" hidden="false" collective="false" import="true" targetId="25a7-41c2-879b-ecf6" type="selectionEntry"/>
-          </entryLinks>
+          <selectionEntries>
+            <selectionEntry id="6d83-d3ba-fc6c-497a" name="Combined Unit [10 models]" hidden="false" collective="false" import="true" type="upgrade">
+              <entryLinks>
+                <entryLink id="6968-5845-064b-b0e7" name="2x CCWs (A2)" hidden="false" collective="false" import="true" targetId="96b2-7d8b-a2b9-aa9e" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b45b-7b62-282c-7b0a" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8199-c6f2-fdca-de94" type="min"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="95.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="a21c-9d36-dad1-bb20" name="Single Unit [5 models]" hidden="false" collective="false" import="true" type="upgrade">
+              <entryLinks>
+                <entryLink id="ef10-f3be-665d-3503" name="2x CCWs (A2)" hidden="false" collective="false" import="true" targetId="96b2-7d8b-a2b9-aa9e" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="62be-daeb-f28c-204a" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f38b-4ccc-2c6d-cc55" type="min"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
-    </selectionEntryGroup>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="95.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a3bf-b05e-3add-a8b0" name="2x Laser Cannons" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="370c-4359-5ba5-1d95" name="2x Laser Cannons" hidden="false" targetId="d9b7-c98e-fcb9-5641" type="profile"/>
+        <infoLink id="633c-eeb6-0817-534d" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+        <infoLink id="b817-7957-cf58-a0dd" name="Deadly(X)" hidden="false" targetId="377b-3864-960e-57ac" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedSelectionEntryGroups>
     <selectionEntryGroup id="be92-5004-a020-9be7" name="Weapons - Havoc Leaders" hidden="false" collective="false" import="true" defaultSelectionEntryId="5067-8698-9778-9b9f">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0ce7-9101-9f8c-5f37" type="min"/>
@@ -7602,6 +7438,17 @@
             <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="aa49-8b2e-7cfd-b372" name="2x Energy Claws" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3e84-71f8-e3e9-86c4" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="5cea-e190-4652-a35f" name="2x Energy Claws" hidden="false" targetId="8931-ca0a-5517-eaee" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="10.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
     <selectionEntryGroup id="ced6-55ea-9cda-74b1" name="Upgrades - Havoc Heroes" hidden="false" collective="false" import="true">
@@ -7723,6 +7570,291 @@
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
+    <selectionEntryGroup id="70ec-5d76-1dc4-a8bd" name="Weapons - Change Leaders" hidden="false" collective="false" import="true" defaultSelectionEntryId="309a-c5db-861c-b7f1">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4390-95ce-e31b-4db4" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="643f-7c61-0985-590e" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="309a-c5db-861c-b7f1" name="Assault Rifle &amp; CCW" hidden="false" collective="false" import="true" type="upgrade">
+          <selectionEntryGroups>
+            <selectionEntryGroup id="e2d9-c0f8-104f-f8ca" name="Melee Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="4601-374c-05bb-7e44">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="af9f-53c7-b880-7b6e" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="978e-ec51-e3c9-6619" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="4601-374c-05bb-7e44" name="CCW (A1)" hidden="false" collective="false" import="true" targetId="4761-1567-afe2-c2ed" type="selectionEntry"/>
+                <entryLink id="5c9b-2082-6cef-3de6" name="Energy Sword" hidden="false" collective="false" import="true" targetId="b085-6801-9084-46f0" type="selectionEntry">
+                  <costs>
+                    <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="41a8-d8f4-8c4a-c1a0" name="Energy Fist" hidden="false" collective="false" import="true" targetId="ffff-7bb4-119c-0f59" type="selectionEntry">
+                  <costs>
+                    <cost name="pts" typeId="567f-6468-66c6-2ea2" value="10.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="b42e-b544-91bb-5acc" name="Energy Hammer" hidden="false" collective="false" import="true" targetId="ee08-0414-e5c3-908f" type="selectionEntry">
+                  <costs>
+                    <cost name="pts" typeId="567f-6468-66c6-2ea2" value="10.0"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="6d28-ab9a-5642-3776" name="Assault Rifle Attachment:" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2a22-162f-5a3b-b1fb" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="5467-bc13-3b96-70ad" name="Plasma Rifle" hidden="false" collective="false" import="true" targetId="4cb4-c780-e943-646a" type="selectionEntry">
+                  <costs>
+                    <cost name="pts" typeId="567f-6468-66c6-2ea2" value="15.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="9839-a1c9-9f93-8bbb" name="Flamethrower" hidden="false" collective="false" import="true" targetId="ebb4-9dca-acaa-4dcf" type="selectionEntry">
+                  <costs>
+                    <cost name="pts" typeId="567f-6468-66c6-2ea2" value="15.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="d214-295f-f00a-1bc7" name="Fusion Rifle" hidden="false" collective="false" import="true" targetId="f389-e078-075e-fbff" type="selectionEntry">
+                  <costs>
+                    <cost name="pts" typeId="567f-6468-66c6-2ea2" value="25.0"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <entryLinks>
+            <entryLink id="03dc-d69f-8e4a-3a63" name="Assault Rifle" hidden="false" collective="false" import="true" targetId="a1da-51ac-5a8f-8f95" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f9cd-3736-7db1-e626" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5920-bf49-b5e5-f5ca" type="min"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <costs>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="e3b3-63df-2534-faf8" name="Other Ranged Weapon &amp; CCW" hidden="false" collective="false" import="true" type="upgrade">
+          <selectionEntryGroups>
+            <selectionEntryGroup id="3c1e-905c-b41f-c012" name="Melee Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="92f6-550f-38b2-f62c">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1b9a-48cb-fc53-7c73" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a266-8a66-dd5f-4468" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="92f6-550f-38b2-f62c" name="CCW (A2)" hidden="false" collective="false" import="true" targetId="2cf5-bae0-bd1b-c205" type="selectionEntry"/>
+                <entryLink id="f3b1-ed01-4aad-8f43" name="Energy Sword" hidden="false" collective="false" import="true" targetId="b085-6801-9084-46f0" type="selectionEntry">
+                  <costs>
+                    <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="c943-6ac1-c8ce-8e56" name="Energy Fist" hidden="false" collective="false" import="true" targetId="ffff-7bb4-119c-0f59" type="selectionEntry">
+                  <costs>
+                    <cost name="pts" typeId="567f-6468-66c6-2ea2" value="10.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="9825-5227-f2c4-b10c" name="Energy Hammer" hidden="false" collective="false" import="true" targetId="ee08-0414-e5c3-908f" type="selectionEntry">
+                  <costs>
+                    <cost name="pts" typeId="567f-6468-66c6-2ea2" value="10.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="cdf4-c66c-7e25-e3fd" name="Lust Whip" hidden="false" collective="false" import="true" targetId="1a6f-456a-913d-dd00" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fd88-9313-6150-e8c2" type="notInstanceOf"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <costs>
+                    <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="7de3-cb13-e8d6-c85e" name="Ranged Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="602b-543a-d75f-3b35">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="563c-7e2e-94fe-788c" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eac6-2262-b915-a557" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="602b-543a-d75f-3b35" name="Pistol" hidden="false" collective="false" import="true" targetId="bb7e-64f2-5ded-f697" type="selectionEntry"/>
+                <entryLink id="e27a-b957-202e-33aa" name="Plasma Pistol" hidden="false" collective="false" import="true" targetId="b4bf-2a04-6bf7-a1e0" type="selectionEntry">
+                  <costs>
+                    <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="c3f6-8ebc-f20d-4d09" name="Twin Assault Rifle" hidden="false" collective="false" import="true" targetId="e098-3b64-3d3c-33c2" type="selectionEntry">
+                  <costs>
+                    <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="8455-9058-083a-1d60" name="Flame Pistol" hidden="false" collective="false" import="true" targetId="db8f-b317-2b7d-2ed3" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0150-a927-b899-53e0" type="notInstanceOf"/>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7e17-5a1e-78ae-28a6" type="notInstanceOf"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <costs>
+                    <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="a373-056b-d3b7-5cce" name="Noise Rifle" hidden="false" collective="false" import="true" targetId="3451-0886-5024-9483" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fd88-9313-6150-e8c2" type="notInstanceOf"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <costs>
+                    <cost name="pts" typeId="567f-6468-66c6-2ea2" value="10.0"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <costs>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="68be-f405-b132-d510" name="Weapons - Lust Leaders" hidden="false" collective="false" import="true" defaultSelectionEntryId="2f0e-6b0d-a78b-74a5">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="449b-f48b-f019-cd6f" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4a83-9e4e-411c-2080" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="2f0e-6b0d-a78b-74a5" name="Assault Rifle &amp; CCW" hidden="false" collective="false" import="true" type="upgrade">
+          <selectionEntryGroups>
+            <selectionEntryGroup id="7f4f-a3a2-b53b-e38c" name="Melee Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="f94c-4edb-f8e7-434e">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c4f0-0320-67ba-bf15" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a375-1f47-9b2a-3350" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="f94c-4edb-f8e7-434e" name="CCW (A1)" hidden="false" collective="false" import="true" targetId="4761-1567-afe2-c2ed" type="selectionEntry"/>
+                <entryLink id="42a3-05ba-ef39-d9f8" name="Energy Sword" hidden="false" collective="false" import="true" targetId="b085-6801-9084-46f0" type="selectionEntry">
+                  <costs>
+                    <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="d83a-8564-3a65-a84e" name="Energy Fist" hidden="false" collective="false" import="true" targetId="ffff-7bb4-119c-0f59" type="selectionEntry">
+                  <costs>
+                    <cost name="pts" typeId="567f-6468-66c6-2ea2" value="10.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="44c3-69f5-8406-9313" name="Energy Hammer" hidden="false" collective="false" import="true" targetId="ee08-0414-e5c3-908f" type="selectionEntry">
+                  <costs>
+                    <cost name="pts" typeId="567f-6468-66c6-2ea2" value="10.0"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="5f45-850e-dc98-cbff" name="Assault Rifle Attachment:" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="639b-c461-6a0d-e96b" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="1a97-96ac-be39-7455" name="Plasma Rifle" hidden="false" collective="false" import="true" targetId="4cb4-c780-e943-646a" type="selectionEntry">
+                  <costs>
+                    <cost name="pts" typeId="567f-6468-66c6-2ea2" value="15.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="b515-8a22-5e2e-4ab3" name="Flamethrower" hidden="false" collective="false" import="true" targetId="ebb4-9dca-acaa-4dcf" type="selectionEntry">
+                  <costs>
+                    <cost name="pts" typeId="567f-6468-66c6-2ea2" value="15.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="2788-48e8-2989-b4a9" name="Fusion Rifle" hidden="false" collective="false" import="true" targetId="f389-e078-075e-fbff" type="selectionEntry">
+                  <costs>
+                    <cost name="pts" typeId="567f-6468-66c6-2ea2" value="25.0"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <entryLinks>
+            <entryLink id="2956-d591-6b60-41d8" name="Assault Rifle" hidden="false" collective="false" import="true" targetId="a1da-51ac-5a8f-8f95" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="043f-1092-6749-1113" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d714-5b18-7914-6cda" type="min"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <costs>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="037f-3933-3e89-11ea" name="Other Ranged Weapon &amp; CCW" hidden="false" collective="false" import="true" type="upgrade">
+          <selectionEntryGroups>
+            <selectionEntryGroup id="13d0-67ba-74ec-af5d" name="Melee Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="414a-5ca0-ba70-07e6">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="52ed-1763-01b6-69ad" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a0e1-3105-23db-5769" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="414a-5ca0-ba70-07e6" name="CCW (A2)" hidden="false" collective="false" import="true" targetId="2cf5-bae0-bd1b-c205" type="selectionEntry"/>
+                <entryLink id="a979-5034-6bd8-6612" name="Energy Sword" hidden="false" collective="false" import="true" targetId="b085-6801-9084-46f0" type="selectionEntry">
+                  <costs>
+                    <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="d97b-e2b2-df17-73e5" name="Energy Fist" hidden="false" collective="false" import="true" targetId="ffff-7bb4-119c-0f59" type="selectionEntry">
+                  <costs>
+                    <cost name="pts" typeId="567f-6468-66c6-2ea2" value="10.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="e909-dcbe-149b-f1e4" name="Energy Hammer" hidden="false" collective="false" import="true" targetId="ee08-0414-e5c3-908f" type="selectionEntry">
+                  <costs>
+                    <cost name="pts" typeId="567f-6468-66c6-2ea2" value="10.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="f65a-42d0-be12-925e" name="Lust Whip" hidden="false" collective="false" import="true" targetId="1a6f-456a-913d-dd00" type="selectionEntry">
+                  <costs>
+                    <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="14be-3c9a-932e-a562" name="Ranged Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="37b5-b2fd-d509-cd1b">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aaad-1314-743c-8936" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8de7-6aec-713b-afed" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="37b5-b2fd-d509-cd1b" name="Pistol" hidden="false" collective="false" import="true" targetId="bb7e-64f2-5ded-f697" type="selectionEntry"/>
+                <entryLink id="7688-27fe-465d-1be1" name="Plasma Pistol" hidden="false" collective="false" import="true" targetId="b4bf-2a04-6bf7-a1e0" type="selectionEntry">
+                  <costs>
+                    <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="d436-25f9-243c-84b7" name="Twin Assault Rifle" hidden="false" collective="false" import="true" targetId="e098-3b64-3d3c-33c2" type="selectionEntry">
+                  <costs>
+                    <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="34f3-9948-e24f-5589" name="Noise Rifle" hidden="false" collective="false" import="true" targetId="3451-0886-5024-9483" type="selectionEntry">
+                  <costs>
+                    <cost name="pts" typeId="567f-6468-66c6-2ea2" value="10.0"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <costs>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>
     <rule id="15b4-82cd-ca9a-4b75" name="Mutations" publicationId="0087-62dd-65cd-178c" hidden="false">
@@ -7760,6 +7892,42 @@
     </rule>
     <rule id="6173-de17-db0f-1162" name="Very Fast" publicationId="a23a-0fd7-52cd-e3da" hidden="false">
       <description>This model moves 12&quot; when using Advance and 24&quot; when using Rush/Charge.</description>
+    </rule>
+    <rule id="3b59-0eac-e5d8-8b51" name="Psychic Spells (Disciples of Change)" hidden="false">
+      <description>
+- Breath of Change (4+): Target friendly unit within 12” may immediately charge by 3”.
+- Inferno (4+): Target enemy unit within 12” takes 2 automatic hits with AP(2).
+- Cursed Mutations (5+): Target enemy unit within 18” gets -1 to hit next time it shoots.
+- Fire Storm (5+): Target enemy unit within 12” must take a dangerous terrain test.
+- Blessed Mutation (6+): Target friendly unit within 12” gets Regeneration on rolls of 4+ next time it takes wounds.
+- Bolt of Change (6+): Target enemy unit within 12” takes 1 hit with AP(4) and Deadly(6).</description>
+    </rule>
+    <rule id="5a16-f0e9-40d1-8909" name="Psychic Spells (Havoc Brothers)" hidden="false">
+      <description>
+- Dark Sight (4+): Target enemy unit within 12” gets -1 to hit next time it shoots.
+- Havoc Terror (4+): Target enemy unit within 12” takes 2 automatic hits with AP(2).
+- Cursed Sludge (5+): Target enemy unit within 18” moves -6” next time it charges.
+- Havoc Trauma (5+): Target enemy model within 12” takes 1 automatic hit with AP(3).
+- Warp Passage (6+): Target friendly unit within 12” may immediately move by up to 6”.
+- Daemon Fog (6+): Target 2 enemy units within 6” take 8 automatic hits each.</description>
+    </rule>
+    <rule id="fef2-6bba-bfaf-ba8c" name="Psychic Spells (Disciples of Plague)" hidden="false">
+      <description>
+- Blessed Virus (4+): Target friendly unit within 12” gets Stealth next time it’s shot at.
+- Muscular Atrophy (4+): Target enemy unit within 6” must take a dangerous terrain test.
+- Toxic Blades (5+): Target friendly unit within 12” gets AP(+2) in melee next time it fights.
+- Deadly Poison (5+): Target enemy unit within 12” takes 1 hit with AP(4) and Deadly(3).
+- Poison Wind (6+): Target friendly unit within 12” may immediately move by up to 6”.
+- Rot Wave (6+): Target enemy unit within 12” takes 4 automatic hits with AP(2).</description>
+    </rule>
+    <rule id="821a-72ad-c668-8254" name="Psychic Spells (Disciples of Lust)" hidden="false">
+      <description>
+- Twisted Ecstasy (4+): Target enemy unit within 12” gets -1 to hit next time it shoots.
+- Seizure (4+): Target enemy unit within 12” takes 1 hit with AP(2) and Deadly(3).
+- Pleasure (5+): Target friendly unit within 12” gets Regeneration next time it takes wounds.
+- Pain (5+): Target enemy unit within 12” takes 3 automatic hits with AP(2).
+- Frenzy (6+): Target friendly unit within 12” may immediately charge by up to 6” and gets +1 to hit for that melee. 
+- Overload (6+): Target enemy unit within 6” takes 1 automatic hit per model.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
@@ -7854,32 +8022,32 @@
         <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Fear, Mutations, Strider, Tough(6)</characteristic>
       </characteristics>
     </profile>
-    <profile id="1836-f3c4-34d9-87c9" name="Jetpack" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Equipment">
+    <profile id="1836-f3c4-34d9-87c9" name="Jetpack" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Enhancement">
       <characteristics>
         <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">Ambush, Flying</characteristic>
       </characteristics>
     </profile>
-    <profile id="3876-a347-819c-a7b1" name="Bike" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Equipment">
+    <profile id="3876-a347-819c-a7b1" name="Bike" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Enhancement">
       <characteristics>
         <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">Fast, Twin Assault Rifle (24”,A2)</characteristic>
       </characteristics>
     </profile>
-    <profile id="4bde-4b4d-fa85-4701" name="Destroyer Armor" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Equipment">
+    <profile id="4bde-4b4d-fa85-4701" name="Destroyer Armor" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Enhancement">
       <characteristics>
         <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">Ambush, Tough(+3)</characteristic>
       </characteristics>
     </profile>
-    <profile id="cfa1-07b3-b6e3-39a6" name="Wings" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Equipment">
+    <profile id="cfa1-07b3-b6e3-39a6" name="Wings" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Enhancement">
       <characteristics>
         <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">Ambush, Flying</characteristic>
       </characteristics>
     </profile>
-    <profile id="bf9d-7170-296e-e329" name="Chosen" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Equipment">
+    <profile id="bf9d-7170-296e-e329" name="Chosen" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Enhancement">
       <characteristics>
         <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">Fearless</characteristic>
       </characteristics>
     </profile>
-    <profile id="06b7-029f-d99e-1072" name="Chosen Veteran" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Equipment">
+    <profile id="06b7-029f-d99e-1072" name="Chosen Veteran" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Enhancement">
       <characteristics>
         <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">Chosen Veteran</characteristic>
       </characteristics>
@@ -7898,7 +8066,7 @@
         <characteristic name="Special Rules" typeId="9fb1-424b-834c-5e7d">AP(2), Rending</characteristic>
       </characteristics>
     </profile>
-    <profile id="b875-516d-5885-c287" name="Chant" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Equipment">
+    <profile id="b875-516d-5885-c287" name="Chant" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Enhancement">
       <characteristics>
         <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">The hero and his unit get Furious.</characteristic>
       </characteristics>
@@ -8103,7 +8271,7 @@
         <characteristic name="Special Rules" typeId="9fb1-424b-834c-5e7d">AP(1)</characteristic>
       </characteristics>
     </profile>
-    <profile id="7346-62ad-5d73-19c2" name="Spiked Ram" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Equipment">
+    <profile id="7346-62ad-5d73-19c2" name="Spiked Ram" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Enhancement">
       <characteristics>
         <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">Impact(+3)</characteristic>
       </characteristics>
@@ -8221,7 +8389,7 @@
         <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Stealth</characteristic>
       </characteristics>
     </profile>
-    <profile id="ba23-12fe-0f2e-286c" name="Disc of Change" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Equipment">
+    <profile id="ba23-12fe-0f2e-286c" name="Disc of Change" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Enhancement">
       <characteristics>
         <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">Fast, Strider, Impact(1)</characteristic>
       </characteristics>
@@ -8473,7 +8641,7 @@
     <profile id="2b2b-08ab-1ef7-5098" name="Plague Sword" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
       <characteristics>
         <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A2</characteristic>
-        <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">AP(1), Posion</characteristic>
+        <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">AP(1), Poison</characteristic>
       </characteristics>
     </profile>
     <profile id="dbff-b77d-42d6-8812" name="Poison Gauntlet" hidden="false" typeId="3c71-da94-e5b3-d7c8" typeName="Ranged Weapon">
@@ -8635,17 +8803,17 @@
         <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">Poison</characteristic>
       </characteristics>
     </profile>
-    <profile id="5f50-34f2-ee26-5571" name="Combat Bike" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Equipment">
+    <profile id="5f50-34f2-ee26-5571" name="Combat Bike" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Enhancement">
       <characteristics>
         <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">Fast, Impact(1), Twin Assault Rifle</characteristic>
       </characteristics>
     </profile>
-    <profile id="7df7-af34-325e-de17" name="War Chant" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Equipment">
+    <profile id="7df7-af34-325e-de17" name="War Chant" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Enhancement">
       <characteristics>
         <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">War Chant</characteristic>
       </characteristics>
     </profile>
-    <profile id="bdba-abbb-09d7-e3ec" name="Havoc Tactics" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Equipment">
+    <profile id="bdba-abbb-09d7-e3ec" name="Havoc Tactics" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Enhancement">
       <characteristics>
         <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">Havoc Tactics</characteristic>
       </characteristics>
@@ -8712,7 +8880,7 @@
         <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">AP(1), Deadly(3)</characteristic>
       </characteristics>
     </profile>
-    <profile id="7627-3e3c-e8a6-3dbf" name="Blessing of War" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Equipment">
+    <profile id="7627-3e3c-e8a6-3dbf" name="Blessing of War" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Enhancement">
       <characteristics>
         <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">The hero and his unit get +1 to rolls when fighting in melee.</characteristic>
       </characteristics>
@@ -8756,7 +8924,7 @@
         <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">AP(4)</characteristic>
       </characteristics>
     </profile>
-    <profile id="dacf-039c-1034-4979" name="Blessing of Change" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Equipment">
+    <profile id="dacf-039c-1034-4979" name="Blessing of Change" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Enhancement">
       <characteristics>
         <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">Enemies get -1 to their rolls when shooting against the hero and his unit.</characteristic>
       </characteristics>
@@ -8814,7 +8982,7 @@
         <characteristic name="Special Rules" typeId="9fb1-424b-834c-5e7d">AP(1)</characteristic>
       </characteristics>
     </profile>
-    <profile id="2f49-f633-0197-6111" name="Blessing of Plague" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Equipment">
+    <profile id="2f49-f633-0197-6111" name="Blessing of Plague" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Enhancement">
       <characteristics>
         <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">The hero and his unit get +1 to Regeneration rolls.</characteristic>
       </characteristics>
@@ -8837,7 +9005,7 @@
         <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">Poison</characteristic>
       </characteristics>
     </profile>
-    <profile id="8c40-c3d8-3d85-76ea" name="Ring the Bell" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Equipment">
+    <profile id="8c40-c3d8-3d85-76ea" name="Ring the Bell" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Enhancement">
       <characteristics>
         <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">The hero and his unit get the Fast special rule.</characteristic>
       </characteristics>
@@ -8849,7 +9017,7 @@
         <characteristic name="Special Rules" typeId="9fb1-424b-834c-5e7d">AP(3), Blast(3), Indirect</characteristic>
       </characteristics>
     </profile>
-    <profile id="e0ea-d7a1-4f57-99b2" name="Blessing of Lust" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Equipment">
+    <profile id="e0ea-d7a1-4f57-99b2" name="Blessing of Lust" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Enhancement">
       <characteristics>
         <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">The hero and his unit move +3” on Advance and +6” on Rush/Charge actions.</characteristic>
       </characteristics>
@@ -8888,9 +9056,23 @@
         <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Hero, Tough(3)</characteristic>
       </characteristics>
     </profile>
-    <profile id="19bf-713a-30c8-1b2b" name="Combat Bike (Lust)" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Equipment">
+    <profile id="19bf-713a-30c8-1b2b" name="Combat Bike (Lust)" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Enhancement">
       <characteristics>
         <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">Very Fast, Impact(1)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="d206-6259-8e36-0060" name="Fury" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+      <characteristics>
+        <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">4+</characteristic>
+        <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">5+</characteristic>
+        <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Flying</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="d1f5-7793-0532-1fc6" name="2x Twin Laser Cannons" hidden="false" typeId="3c71-da94-e5b3-d7c8" typeName="Ranged Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="79f4-5578-c041-f866">48&quot;</characteristic>
+        <characteristic name="Attacks" typeId="4633-0aa3-94f7-3be7">A2</characteristic>
+        <characteristic name="Special Rules" typeId="9fb1-424b-834c-5e7d">AP(4), Deadly(3)</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
