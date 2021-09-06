@@ -82,7 +82,7 @@ table!
 |Dwarf Guilds|v2.7|Darguth|
 |Elven Jesters|v2.7|Risingstudios|
 |Feudal Guard|v2.8|strongbif|
-|Havoc Brothers|Main v2.11 - Disciples v2.15|no active author|
+|Havoc Brothers|Main v2.12 - Disciples v2.18|nicolasconnault|
 |High Elf Fleets|v2.10|Darguth|
 |Human Defense Force|v2.13|Darguth|
 |Human Inquisition|2.8|Darguth|
