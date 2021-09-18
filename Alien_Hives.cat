@@ -1357,7 +1357,7 @@
                         <entryLink id="dad5-5828-7f63-63a6" name="Spells" hidden="false" collective="false" import="true" targetId="db9a-8ce7-bcc1-14f5" type="selectionEntryGroup"/>
                       </entryLinks>
                       <costs>
-                        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="25.0"/>
+                        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="20.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -1601,18 +1601,18 @@
                 <cost name="pts" typeId="567f-6468-66c6-2ea2" value="10.0"/>
               </costs>
             </entryLink>
-            <entryLink id="8956-7e4d-bcac-c921" name="Razor Claws (A3,AP1)" hidden="false" collective="false" import="true" targetId="5c30-2ce2-c8dc-316a" type="selectionEntry"/>
-            <entryLink id="3514-79ad-3e16-3707" name="Piercing Claws (A3,AP1)" hidden="false" collective="false" import="true" targetId="50ad-68c4-7540-0320" type="selectionEntry">
+            <!-- <entryLink id="8956-7e4d-bcac-c921" name="Razor Claws (A3,AP1)" hidden="false" collective="false" import="true" targetId="5c30-2ce2-c8dc-316a" type="selectionEntry"/> -->
+            <entryLink id="3514-79ad-3e16-3707" name="Piercing Claws (A4,AP1)" hidden="false" collective="false" import="true" targetId="50ad-68c4-7540-0320" type="selectionEntry">
               <costs>
                 <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
               </costs>
             </entryLink>
-            <entryLink id="7009-c44f-b5f7-30d4" name="Sword Claws (A3,AP1)" hidden="false" collective="false" import="true" targetId="6fda-60d4-a266-4432" type="selectionEntry">
+            <entryLink id="7009-c44f-b5f7-30d4" name="Sword Claws (A4,AP1)" hidden="false" collective="false" import="true" targetId="6fda-60d4-a266-4432" type="selectionEntry">
               <costs>
                 <cost name="pts" typeId="567f-6468-66c6-2ea2" value="10.0"/>
               </costs>
             </entryLink>
-            <entryLink id="c8e1-853f-f948-eab3" name="Smashing Claw (A3,AP3)" hidden="false" collective="false" import="true" targetId="2917-6565-e6e7-a157" type="selectionEntry">
+            <entryLink id="c8e1-853f-f948-eab3" name="Smashing Claw (A4,AP3)" hidden="false" collective="false" import="true" targetId="2917-6565-e6e7-a157" type="selectionEntry">
               <costs>
                 <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
               </costs>
@@ -1630,8 +1630,8 @@
                 <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
               </costs>
             </entryLink>
-            <entryLink id="3da8-38b3-f393-e1fb" name="Bio-Carbine" hidden="false" collective="false" import="true" targetId="aaaa-2ae3-b951-327b" type="selectionEntry"/>
-            <entryLink id="4486-10f2-bd52-eb5b" name="Razor Claws (A3,AP1)" hidden="false" collective="false" import="true" targetId="5c30-2ce2-c8dc-316a" type="selectionEntry"/>
+            <!-- <entryLink id="3da8-38b3-f393-e1fb" name="Bio-Carbine" hidden="false" collective="false" import="true" targetId="aaaa-2ae3-b951-327b" type="selectionEntry"/>
+            <entryLink id="4486-10f2-bd52-eb5b" name="Razor Claws (A3,AP1)" hidden="false" collective="false" import="true" targetId="5c30-2ce2-c8dc-316a" type="selectionEntry"/> -->
             <entryLink id="7f12-519b-ca75-fdb3" name="Twin Bio-Pistols" hidden="false" collective="false" import="true" targetId="76ac-3068-350d-19e1" type="selectionEntry">
               <costs>
                 <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
@@ -1685,18 +1685,18 @@
                 <cost name="pts" typeId="567f-6468-66c6-2ea2" value="10.0"/>
               </costs>
             </entryLink>
-            <entryLink id="1cd8-36ce-f153-5353" name="Razor Claws (A3,AP1)" hidden="false" collective="false" import="true" targetId="5c30-2ce2-c8dc-316a" type="selectionEntry"/>
-            <entryLink id="2080-36ba-5de2-9033" name="Piercing Claws (A3,AP1)" hidden="false" collective="false" import="true" targetId="50ad-68c4-7540-0320" type="selectionEntry">
+            <!-- <entryLink id="1cd8-36ce-f153-5353" name="Razor Claws (A3,AP1)" hidden="false" collective="false" import="true" targetId="5c30-2ce2-c8dc-316a" type="selectionEntry"/> -->
+            <entryLink id="2080-36ba-5de2-9033" name="Piercing Claws (A4,AP1)" hidden="false" collective="false" import="true" targetId="50ad-68c4-7540-0320" type="selectionEntry">
               <costs>
                 <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
               </costs>
             </entryLink>
-            <entryLink id="5a1e-0925-fdae-d0f3" name="Sword Claws (A3,AP1)" hidden="false" collective="false" import="true" targetId="6fda-60d4-a266-4432" type="selectionEntry">
+            <entryLink id="5a1e-0925-fdae-d0f3" name="Sword Claws (A4,AP1)" hidden="false" collective="false" import="true" targetId="6fda-60d4-a266-4432" type="selectionEntry">
               <costs>
                 <cost name="pts" typeId="567f-6468-66c6-2ea2" value="10.0"/>
               </costs>
             </entryLink>
-            <entryLink id="8ab9-42c2-5e5e-9782" name="Smashing Claw (A3,AP3)" hidden="false" collective="false" import="true" targetId="2917-6565-e6e7-a157" type="selectionEntry">
+            <entryLink id="8ab9-42c2-5e5e-9782" name="Smashing Claw (A4,AP3)" hidden="false" collective="false" import="true" targetId="2917-6565-e6e7-a157" type="selectionEntry">
               <costs>
                 <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
               </costs>
@@ -1755,7 +1755,7 @@
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eca5-255e-1afd-0438" type="max"/>
                       </constraints>
                       <costs>
-                        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="45.0"/>
+                        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="15.0"/>
                       </costs>
                     </entryLink>
                     <entryLink id="3b67-41e6-7d05-1d6f" name="Psychic Barrier" hidden="false" collective="false" import="true" targetId="2a7a-c32c-2234-9969" type="selectionEntry">
@@ -1812,7 +1812,7 @@
                         <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dac4-dd45-4601-78a8" type="max"/>
                       </constraints>
                       <costs>
-                        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="45.0"/>
+                        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="15.0"/>
                       </costs>
                     </entryLink>
                     <entryLink id="9211-25fc-247e-aec9" name="Psychic Barrier" hidden="false" collective="false" import="true" targetId="2a7a-c32c-2234-9969" type="selectionEntry">
@@ -1827,14 +1827,14 @@
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <costs>
-                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="185.0"/>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="190.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="185.0"/>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="190.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="aaaa-2ae3-b951-327b" name="Bio-Carbine" hidden="false" collective="false" import="true" type="upgrade">
@@ -1865,7 +1865,7 @@
               <entryLinks>
                 <entryLink id="0b76-beed-69f6-2791" name="Bio-Harpoon" hidden="false" collective="false" import="true" targetId="3d83-9c2a-c0d0-5e0d" type="selectionEntry">
                   <costs>
-                    <cost name="pts" typeId="567f-6468-66c6-2ea2" value="40.0"/>
+                    <cost name="pts" typeId="567f-6468-66c6-2ea2" value="30.0"/>
                   </costs>
                 </entryLink>
                 <entryLink id="9d9a-47fc-c8e2-0765" name="Bio-Shock Gun" hidden="false" collective="false" import="true" targetId="7d7a-28eb-e2df-2bc4" type="selectionEntry">
@@ -1877,30 +1877,30 @@
             </selectionEntryGroup>
           </selectionEntryGroups>
           <entryLinks>
-            <entryLink id="dd5d-10cd-23df-f65d" name="Razor Pincers" hidden="false" collective="false" import="true" targetId="3ad1-63ca-437f-86f3" type="selectionEntry">
+            <entryLink id="dd5d-10cd-23df-f65d" name="Piercing Claws" hidden="false" collective="false" import="true" targetId="3ad1-63ca-437f-86f3" type="selectionEntry">
               <costs>
-                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="10.0"/>
               </costs>
             </entryLink>
             <entryLink id="2656-9417-6f06-abda" name="Razor Claws (A3,AP2)" hidden="false" collective="false" import="true" targetId="c76e-deb8-200c-e75a" type="selectionEntry"/>
-            <entryLink id="908a-e50f-ad9c-c90b" name="Smashing Claw (A3,AP4)" hidden="false" collective="false" import="true" targetId="86f9-3f6a-6b08-f085" type="selectionEntry">
+            <entryLink id="908a-e50f-ad9c-c90b" name="Smashing Claw (A4,AP4)" hidden="false" collective="false" import="true" targetId="86f9-3f6a-6b08-f085" type="selectionEntry">
               <costs>
-                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="10.0"/>
               </costs>
             </entryLink>
             <entryLink id="360c-e9d0-66ab-733a" name="Serrated Claws (A6,AP2)" hidden="false" collective="false" import="true" targetId="4339-677c-1361-9190" type="selectionEntry">
               <costs>
-                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="10.0"/>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="15.0"/>
               </costs>
             </entryLink>
             <entryLink id="ce33-ec5e-3728-50e7" name="Sword Claws (A3,AP2)" hidden="false" collective="false" import="true" targetId="5dc8-5fec-55fe-de7a" type="selectionEntry">
               <costs>
-                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="10.0"/>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="15.0"/>
               </costs>
             </entryLink>
             <entryLink id="86a6-0805-1e7b-e47c" name="Whip Limb &amp; Sword Claw (A2,AP1)" hidden="false" collective="false" import="true" targetId="4b6a-becd-466c-f590" type="selectionEntry">
               <costs>
-                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="10.0"/>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="20.0"/>
               </costs>
             </entryLink>
           </entryLinks>
@@ -1988,14 +1988,14 @@
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="325.0"/>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="275.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="325.0"/>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="275.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1a30-5826-3817-83ea" name="Shadow Hunter" hidden="false" collective="false" import="true" type="upgrade">
@@ -2045,7 +2045,7 @@
           <entryLinks>
             <entryLink id="0222-ffe4-fc08-8c49" name="Whip Limb &amp; Sword Claw" hidden="false" collective="false" import="true" targetId="21ef-4484-3b57-ef5e" type="selectionEntry">
               <costs>
-                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="10.0"/>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="20.0"/>
               </costs>
             </entryLink>
             <entryLink id="dd4a-e3ef-142a-7d2e" name="Razor Claws (A3,AP1)" hidden="false" collective="false" import="true" targetId="5c30-2ce2-c8dc-316a" type="selectionEntry"/>
@@ -2056,19 +2056,19 @@
             </entryLink>
             <entryLink id="ea94-1252-29e3-1a46" name="Sword Claws (A3,AP1)" hidden="false" collective="false" import="true" targetId="6fda-60d4-a266-4432" type="selectionEntry">
               <costs>
-                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="10.0"/>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="15.0"/>
               </costs>
             </entryLink>
             <entryLink id="4842-c2cf-e63b-711c" name="Smashing Claw (A3,AP3)" hidden="false" collective="false" import="true" targetId="2917-6565-e6e7-a157" type="selectionEntry">
               <costs>
-                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="10.0"/>
               </costs>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="160.0"/>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="180.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3bd1-21f1-e6e0-d956" name="Ravenous Beast" hidden="false" collective="false" import="true" type="upgrade">
@@ -2196,14 +2196,14 @@
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="195.0"/>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="205.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="195.0"/>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="205.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="62ed-2c0d-dee6-102b" name="Venom Floater" hidden="false" collective="false" import="true" type="upgrade">
