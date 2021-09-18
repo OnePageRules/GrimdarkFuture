@@ -130,7 +130,7 @@
         <categoryLink id="e9c7-20f4-06eb-f5a2" name="New CategoryLink" hidden="false" targetId="c40a-e782-9c9c-ace7" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="8fe7-fa49-68b9-a2e0" name="Invasion Spore" hidden="false" collective="false" import="true" targetId="8ae2-3805-bb4c-a938" type="selectionEntry">
+    <entryLink id="8fe7-fa49-68b9-a2e0" name="Invasion Carrier" hidden="false" collective="false" import="true" targetId="8ae2-3805-bb4c-a938" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="7775-ad6f-b878-b798" name="New CategoryLink" hidden="false" targetId="2ac9-aad6-b0c0-3833" primary="true"/>
       </categoryLinks>
@@ -150,7 +150,7 @@
         <categoryLink id="7e15-4724-a46d-9745" name="New CategoryLink" hidden="false" targetId="4b4e-fbe0-5211-ae65" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="a5a7-973d-1a9f-fc0c" name="Artillery Spore" hidden="false" collective="false" import="true" targetId="5e1f-e642-137c-0b88" type="selectionEntry">
+    <entryLink id="a5a7-973d-1a9f-fc0c" name="Invasion Artillery" hidden="false" collective="false" import="true" targetId="5e1f-e642-137c-0b88" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="67b6-84ed-22de-ee42" name="New CategoryLink" hidden="false" targetId="2ac9-aad6-b0c0-3833" primary="true"/>
       </categoryLinks>
@@ -2265,14 +2265,14 @@
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="225.0"/>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="235.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="225.0"/>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="235.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8ead-2ed9-e43b-0ed6" name="Synapse Floater" hidden="false" collective="false" import="true" type="upgrade">
@@ -2329,7 +2329,7 @@
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="34e3-86c9-df9d-889e" type="max"/>
                       </constraints>
                       <costs>
-                        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="45.0"/>
+                        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="15.0"/>
                       </costs>
                     </entryLink>
                   </entryLinks>
@@ -2364,7 +2364,7 @@
                         <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d877-a190-9321-7f58" type="max"/>
                       </constraints>
                       <costs>
-                        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="45.0"/>
+                        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="15.0"/>
                       </costs>
                     </entryLink>
                   </entryLinks>
@@ -2379,7 +2379,7 @@
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="280.0"/>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="285.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2414,7 +2414,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="175.0"/>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="205.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="cfee-fac3-75fa-6b75" name="Spit Flames" hidden="false" collective="false" import="true" type="upgrade">
@@ -2460,7 +2460,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="260.0"/>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="265.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="67da-2ea6-d09c-74d0" name="Spore" hidden="false" collective="false" import="true" type="upgrade">
@@ -2728,7 +2728,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="275.0"/>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="305.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5ae4-81da-1e36-a3f8" name="Toxico-Rex" hidden="false" collective="false" import="true" type="upgrade">
@@ -2761,7 +2761,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="285.0"/>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="375.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6941-7625-7701-3401" name="Psycho-Rex" hidden="false" collective="false" import="true" type="upgrade">
@@ -2788,7 +2788,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9fb9-7adf-e860-01ec" type="max"/>
               </constraints>
               <costs>
-                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="45.0"/>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="15.0"/>
               </costs>
             </entryLink>
           </entryLinks>
@@ -2812,7 +2812,7 @@
         <entryLink id="7ae9-7320-d818-63d0" name="Weapons - Tail [max 1]" hidden="false" collective="false" import="true" targetId="7e59-feb8-9bd9-307e" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="285.0"/>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="405.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="207d-c013-691e-6946" name="Devourer Beast" hidden="false" collective="false" import="true" type="upgrade">
@@ -2844,7 +2844,7 @@
         <entryLink id="5a70-5fd4-7603-06ad" name="Beast Upgrades - Upgrade with any:" hidden="false" collective="false" import="true" targetId="5885-a779-cf0b-1c64" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="420.0"/>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="490.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="fa8d-78d5-5b25-fe12" name="Artillery Beast" hidden="false" collective="false" import="true" type="upgrade">
@@ -2864,7 +2864,7 @@
             <entryLink id="f712-79c9-e549-0151" name="Bio-Artillery" hidden="false" collective="false" import="true" targetId="146e-4def-ae64-dc20" type="selectionEntry"/>
             <entryLink id="9cc5-7dff-5004-d099" name="Shredder Bio-Artillery" hidden="false" collective="false" import="true" targetId="d369-3277-0fe6-b419" type="selectionEntry">
               <costs>
-                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="-10.0"/>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="-35.0"/>
               </costs>
             </entryLink>
             <entryLink id="9873-8f79-7485-20b7" name="Acid Bio-Artillery" hidden="false" collective="false" import="true" targetId="6bfe-7dde-ef8e-f7c0" type="selectionEntry"/>
@@ -2888,7 +2888,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="425.0"/>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="560.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9b5f-04b5-5552-d58e" name="Tyrant Beast" hidden="false" collective="false" import="true" type="upgrade">
@@ -2907,18 +2907,18 @@
           <entryLinks>
             <entryLink id="d116-3905-dbcd-d32d" name="Bio-Minigun" hidden="false" collective="false" import="true" targetId="4070-e0f1-243c-9a20" type="selectionEntry">
               <costs>
-                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="25.0"/>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="10.0"/>
               </costs>
             </entryLink>
             <entryLink id="f442-fe92-a911-5703" name="Toxic Spray" hidden="false" collective="false" import="true" targetId="a300-531e-35f7-8c52" type="selectionEntry"/>
             <entryLink id="6f89-59b2-be83-1ec3" name="Fracture Cannon" hidden="false" collective="false" import="true" targetId="ea9a-6701-6bb2-96c0" type="selectionEntry">
               <costs>
-                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="15.0"/>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="65.0"/>
               </costs>
             </entryLink>
             <entryLink id="e53e-43db-e1a7-71d5" name="Heavy Fracture Cannon" hidden="false" collective="false" import="true" targetId="aca7-72f6-e42d-2515" type="selectionEntry">
               <costs>
-                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="90.0"/>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="205.0"/>
               </costs>
             </entryLink>
           </entryLinks>
@@ -2943,12 +2943,12 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="17ac-d5c3-d288-0776" type="max"/>
           </constraints>
           <costs>
-            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="15.0"/>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="55.0"/>
           </costs>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="415.0"/>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="505.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4070-e0f1-243c-9a20" name="Bio-Minigun" hidden="false" collective="false" import="true" type="upgrade">
@@ -2989,7 +2989,7 @@
         <entryLink id="6409-0a4d-851c-c18f" name="Beast Upgrades - Upgrade with any:" hidden="false" collective="false" import="true" targetId="5885-a779-cf0b-1c64" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="560.0"/>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="630.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d091-96fd-b993-c5dd" name="Burrower" hidden="false" collective="false" import="true" type="upgrade">
@@ -3017,15 +3017,15 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="445.0"/>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="480.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8ae2-3805-bb4c-a938" name="Invasion Spore" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="8ae2-3805-bb4c-a938" name="Invasion Carrier" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="34a0-fbbe-c9c7-283c" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
         <infoLink id="a20e-2986-7650-ddad" name="Transport Spore" hidden="false" targetId="9c8c-ca69-9384-405f" type="rule"/>
         <infoLink id="4cf0-e8e5-43dd-3af4" name="Fearless" hidden="false" targetId="fe6b-f29d-2128-a0b0" type="rule"/>
-        <infoLink id="847d-60b5-2df0-bbcb" name="Invasion Spore" hidden="false" targetId="9ab4-c533-da67-da0f" type="profile"/>
+        <infoLink id="847d-60b5-2df0-bbcb" name="Invasion Carrier" hidden="false" targetId="9ab4-c533-da67-da0f" type="profile"/>
         <infoLink id="d389-5be8-1b96-dbc3" name="Ambush" hidden="false" targetId="859e-e070-e91c-26e1" type="rule"/>
         <infoLink id="ab1b-9c2b-14b3-09ef" name="Fear" hidden="false" targetId="d21e-0b0f-ebec-46da" type="rule"/>
       </infoLinks>
@@ -3048,7 +3048,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f0b1-c6a1-9983-723a" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="47f7-298a-52ef-7381" name="5x Barb-Cannons" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="47f7-298a-52ef-7381" name="Barb Cannons Array" hidden="false" collective="false" import="true" type="upgrade">
               <entryLinks>
                 <entryLink id="084c-d51b-8e52-24b6" name="Barb-Cannon" hidden="false" collective="false" import="true" targetId="0796-3b38-5f88-4f96" type="selectionEntry">
                   <constraints>
@@ -3058,10 +3058,10 @@
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="65.0"/>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="70.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="bb0d-582a-1120-7e82" name="5x Acid Cannons" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="bb0d-582a-1120-7e82" name="Acid Cannons Array" hidden="false" collective="false" import="true" type="upgrade">
               <entryLinks>
                 <entryLink id="fbda-46f0-84b1-cf66" name="Acid Cannon" hidden="false" collective="false" import="true" targetId="6df6-dafc-66b8-08c8" type="selectionEntry">
                   <constraints>
@@ -3071,10 +3071,10 @@
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="70.0"/>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="75.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="c155-f53c-df0e-4df2" name="5x Shredder Cannons" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="c155-f53c-df0e-4df2" name="Shredder cannons array" hidden="false" collective="false" import="true" type="upgrade">
               <entryLinks>
                 <entryLink id="788d-d5ea-af12-2d17" name="Shredder Cannon" hidden="false" collective="false" import="true" targetId="524d-744a-262a-3a87" type="selectionEntry">
                   <constraints>
@@ -3084,10 +3084,10 @@
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="55.0"/>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="60.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="911d-b76d-a231-88f6" name="5x Bio-Carbines" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="911d-b76d-a231-88f6" name="Bio Carbines array" hidden="false" collective="false" import="true" type="upgrade">
               <entryLinks>
                 <entryLink id="c8ff-e236-9d4f-2873" name="Bio-Carbine" hidden="false" collective="false" import="true" targetId="aede-097e-fe3f-bc18" type="selectionEntry">
                   <constraints>
@@ -3097,10 +3097,10 @@
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="20.0"/>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="25.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="8cb8-b8e2-b250-94c9" name="5x Bio-Guns" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="8cb8-b8e2-b250-94c9" name="BIo Guns array" hidden="false" collective="false" import="true" type="upgrade">
               <entryLinks>
                 <entryLink id="849c-fdb8-ac14-cae6" name="Bio-Gun" hidden="false" collective="false" import="true" targetId="9da1-0240-1e25-76ae" type="selectionEntry">
                   <constraints>
@@ -3110,10 +3110,10 @@
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="c1d5-7d89-aa07-7553" name="5x Bio-Spitters" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="c1d5-7d89-aa07-7553" name="Bio spitter array" hidden="false" collective="false" import="true" type="upgrade">
               <entryLinks>
                 <entryLink id="bbb7-1060-53e3-d6e9" name="Bio-Spitter" hidden="false" collective="false" import="true" targetId="8021-94c2-4f34-b199" type="selectionEntry">
                   <constraints>
@@ -3123,7 +3123,7 @@
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="25.0"/>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="30.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -3138,7 +3138,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="165.0"/>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="160.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6cf3-d758-0964-8c29" name="Rapacious Beast" hidden="false" collective="false" import="true" type="upgrade">
@@ -3192,7 +3192,7 @@
           <entryLinks>
             <entryLink id="02dd-948f-6d24-5d74" name="Stinger Cannon" hidden="false" collective="false" import="true" targetId="fd3b-3312-96b7-175c" type="selectionEntry">
               <costs>
-                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="15.0"/>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="25.0"/>
               </costs>
             </entryLink>
           </entryLinks>
@@ -3337,7 +3337,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f16f-0451-b516-9ac8" type="max"/>
               </constraints>
               <costs>
-                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="45.0"/>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="15.0"/>
               </costs>
             </entryLink>
           </entryLinks>
@@ -3392,6 +3392,9 @@
               </costs>
             </entryLink>
             <entryLink id="e615-e5ad-447e-224f" name="Whip Limb &amp; Sword Claw (A2)" hidden="false" collective="false" import="true" targetId="21ef-4484-3b57-ef5e" type="selectionEntry"/>
+            <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="10.0"/>
+              </costs>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="0e4c-209f-d4fc-8d7a" name="Weapons - Lower Arms [pick 1]" hidden="false" collective="false" import="true" defaultSelectionEntryId="9d4a-794e-0022-a273">
@@ -3408,7 +3411,7 @@
             </entryLink>
             <entryLink id="8e70-7b8d-5946-b223" name="Bio-Spitter" hidden="false" collective="false" import="true" targetId="8021-94c2-4f34-b199" type="selectionEntry">
               <costs>
-                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="10.0"/>
               </costs>
             </entryLink>
             <entryLink id="4047-9ced-caed-90f3" name="Shredder Cannon" hidden="false" collective="false" import="true" targetId="524d-744a-262a-3a87" type="selectionEntry">
@@ -3439,20 +3442,20 @@
             <entryLink id="b4c6-fc5a-cc27-15b3" name="Whip Limb &amp; Sword Claw (A2)" hidden="false" collective="false" import="true" targetId="21ef-4484-3b57-ef5e" type="selectionEntry"/>
             <entryLink id="9c2f-912d-ad9e-f7c3" name="Piercing Claws (A3,AP1)" hidden="false" collective="false" import="true" targetId="50ad-68c4-7540-0320" type="selectionEntry">
               <costs>
-                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="10.0"/>
               </costs>
             </entryLink>
             <entryLink id="5b27-5c95-5900-c594" name="Razor Claws (A3,AP1)" hidden="false" collective="false" import="true" targetId="5c30-2ce2-c8dc-316a" type="selectionEntry"/>
             <entryLink id="916c-5ae8-b047-8ba4" name="Serrated Claws (A6,AP1)" hidden="false" collective="false" import="true" targetId="7be3-6c53-90a5-9537" type="selectionEntry">
               <costs>
-                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="10.0"/>
               </costs>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="110.0"/>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="100.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="524d-744a-262a-3a87" name="Shredder Cannon" hidden="false" collective="false" import="true" type="upgrade">
@@ -3530,7 +3533,7 @@
             </selectionEntry>
           </selectionEntries>
           <entryLinks>
-            <entryLink id="8088-c238-8c23-81db" name="Razor Claws (A2)" hidden="false" collective="false" import="true" targetId="3f92-30c4-b2a1-9ac4" type="selectionEntry">
+            <entryLink id="8088-c238-8c23-81db" name="Razor Claws (A3)" hidden="false" collective="false" import="true" targetId="3f92-30c4-b2a1-9ac4" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c47f-c8b4-0a3f-ddca" type="max"/>
               </constraints>
@@ -3550,7 +3553,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="75.0"/>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="100.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="71b0-062a-79a2-5f7c" name="2x Piercing Claws (A2)" hidden="false" collective="false" import="true" type="upgrade">
@@ -3998,12 +4001,11 @@
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5e1f-e642-137c-0b88" name="Artillery Spore" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="5e1f-e642-137c-0b88" name="Invasion Artillery" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="b9d1-434b-fe4e-938a" name="Artillery Spore" hidden="false" targetId="a9c2-81de-f199-4b18" type="profile"/>
+        <infoLink id="b9d1-434b-fe4e-938a" name="Invasion Artillery" hidden="false" targetId="a9c2-81de-f199-4b18" type="profile"/>
         <infoLink id="fdad-bec4-36fa-534b" name="Ambush" hidden="false" targetId="859e-e070-e91c-26e1" type="rule"/>
         <infoLink id="3e24-f6a1-bdc3-8fb1" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
-        <infoLink id="b30a-b281-c8b1-1b9f" name="Immobile" hidden="false" targetId="2c1d-c23a-cb5d-cb83" type="rule"/>
         <infoLink id="0e03-754a-67f3-f69f" name="Fearless" hidden="false" targetId="fe6b-f29d-2128-a0b0" type="rule"/>
         <infoLink id="baba-e23c-9b7d-22ef" name="Fear" hidden="false" targetId="d21e-0b0f-ebec-46da" type="rule"/>
       </infoLinks>
@@ -4036,7 +4038,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="220.0"/>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="210.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0645-7dfa-099a-e25f" name="Massive Spore" hidden="false" collective="false" import="true" type="upgrade">
@@ -4677,7 +4679,7 @@
         <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Fear, Fearless, Surprise Attack, Tough(18)</characteristic>
       </characteristics>
     </profile>
-    <profile id="9ab4-c533-da67-da0f" name="Invasion Spore" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+    <profile id="9ab4-c533-da67-da0f" name="Invasion Carrier" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
       <characteristics>
         <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">5+</characteristic>
         <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">2+</characteristic>
@@ -5026,7 +5028,7 @@
         <characteristic name="Special Rules" typeId="9fb1-424b-834c-5e7d">AP(2), Blast(3), Indirect</characteristic>
       </characteristics>
     </profile>
-    <profile id="a9c2-81de-f199-4b18" name="Artillery Spore" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+    <profile id="a9c2-81de-f199-4b18" name="Invasion Artillery" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
       <characteristics>
         <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">5+</characteristic>
         <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">2+</characteristic>
