@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="df4c-bebc-a82e-f430" name="Alien Hives" revision="6" battleScribeVersion="2.03" library="false" gameSystemId="d755-5d69-2721-c11b" gameSystemRevision="19" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
-  <readme>18/09/21 - Updated to include v2.13</readme>
+<catalogue id="df4c-bebc-a82e-f430" name="Alien Hives" revision="6" battleScribeVersion="2.03" library="false" gameSystemId="d755-5d69-2721-c11b" gameSystemRevision="20" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <readme>19/09/2021</readme>
   <publications>
     <publication id="3518-c2b3-bfde-3ff1" name="Alien Hives v2.13"/>
   </publications>
@@ -130,7 +130,7 @@
         <categoryLink id="e9c7-20f4-06eb-f5a2" name="New CategoryLink" hidden="false" targetId="c40a-e782-9c9c-ace7" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="8fe7-fa49-68b9-a2e0" name="Invasion Carrier" hidden="false" collective="false" import="true" targetId="8ae2-3805-bb4c-a938" type="selectionEntry">
+    <entryLink id="8fe7-fa49-68b9-a2e0" name="Invasion Spore" hidden="false" collective="false" import="true" targetId="8ae2-3805-bb4c-a938" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="7775-ad6f-b878-b798" name="New CategoryLink" hidden="false" targetId="2ac9-aad6-b0c0-3833" primary="true"/>
       </categoryLinks>
@@ -150,7 +150,7 @@
         <categoryLink id="7e15-4724-a46d-9745" name="New CategoryLink" hidden="false" targetId="4b4e-fbe0-5211-ae65" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="a5a7-973d-1a9f-fc0c" name="Invasion Artillery" hidden="false" collective="false" import="true" targetId="5e1f-e642-137c-0b88" type="selectionEntry">
+    <entryLink id="a5a7-973d-1a9f-fc0c" name="Artillery Spore" hidden="false" collective="false" import="true" targetId="5e1f-e642-137c-0b88" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="67b6-84ed-22de-ee42" name="New CategoryLink" hidden="false" targetId="2ac9-aad6-b0c0-3833" primary="true"/>
       </categoryLinks>
@@ -171,18 +171,18 @@
         <infoLink id="fa6b-1d6c-e310-2a18" name="Hive Lord" hidden="false" targetId="2005-c874-8d25-283d" type="profile"/>
       </infoLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="3d87-fd08-4175-8f50" name="Weapons - Arms [pick 3]" hidden="false" collective="false" import="true" defaultSelectionEntryId="26ed-65af-1f50-6273">
+        <selectionEntryGroup id="3d87-fd08-4175-8f50" name="Weapons - Arms [pick 2]" hidden="false" collective="false" import="true" defaultSelectionEntryId="26ed-65af-1f50-6273">
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8951-6b95-6507-762e" type="min"/>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c47e-99aa-8090-fb95" type="max"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8951-6b95-6507-762e" type="min"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c47e-99aa-8090-fb95" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="26ed-65af-1f50-6273" name="Razor Claws (a4,AP2)" hidden="false" collective="false" import="true" targetId="c76e-deb8-200c-e75a" type="selectionEntry">
+            <entryLink id="26ed-65af-1f50-6273" name="Razor Claws" hidden="false" collective="false" import="true" targetId="c76e-deb8-200c-e75a" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e095-fb44-07a4-0d35" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="ecdf-d337-16a9-704e" name="Piercing Claws (A4,AP2)" hidden="false" collective="false" import="true" targetId="3ad1-63ca-437f-86f3" type="selectionEntry">
+            <entryLink id="ecdf-d337-16a9-704e" name="Piercing Claws" hidden="false" collective="false" import="true" targetId="3ad1-63ca-437f-86f3" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f9ee-3e21-ed36-d6ce" type="max"/>
               </constraints>
@@ -190,7 +190,7 @@
                 <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
               </costs>
             </entryLink>
-            <entryLink id="2ca2-1b1b-3519-7eb9" name="Smashing Claw (A4,AP4)" hidden="false" collective="false" import="true" targetId="86f9-3f6a-6b08-f085" type="selectionEntry">
+            <entryLink id="2ca2-1b1b-3519-7eb9" name="Smashing Claw" hidden="false" collective="false" import="true" targetId="86f9-3f6a-6b08-f085" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4de6-1caf-8d96-dd3f" type="max"/>
               </constraints>
@@ -198,7 +198,7 @@
                 <cost name="pts" typeId="567f-6468-66c6-2ea2" value="10.0"/>
               </costs>
             </entryLink>
-            <entryLink id="d955-ae13-37d9-9f93" name="Serrated Claws (A8,AP2)" hidden="false" collective="false" import="true" targetId="4339-677c-1361-9190" type="selectionEntry">
+            <entryLink id="d955-ae13-37d9-9f93" name="Serrated Claws" hidden="false" collective="false" import="true" targetId="4339-677c-1361-9190" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f6eb-0d80-6501-1adb" type="max"/>
               </constraints>
@@ -206,7 +206,7 @@
                 <cost name="pts" typeId="567f-6468-66c6-2ea2" value="15.0"/>
               </costs>
             </entryLink>
-            <entryLink id="1179-3886-cfea-dd28" name="Sword Claws (A4,AP2)" hidden="false" collective="false" import="true" targetId="5dc8-5fec-55fe-de7a" type="selectionEntry">
+            <entryLink id="1179-3886-cfea-dd28" name="Sword Claws" hidden="false" collective="false" import="true" targetId="5dc8-5fec-55fe-de7a" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ebd6-a7ab-46fd-2915" type="max"/>
               </constraints>
@@ -214,7 +214,7 @@
                 <cost name="pts" typeId="567f-6468-66c6-2ea2" value="15.0"/>
               </costs>
             </entryLink>
-            <entryLink id="beb1-a19d-c112-5ad0" name="Whip Limb &amp; Sword Claw (A3,AP1)" hidden="false" collective="false" import="true" targetId="4b6a-becd-466c-f590" type="selectionEntry">
+            <entryLink id="beb1-a19d-c112-5ad0" name="Whip Limb &amp; Sword Claw" hidden="false" collective="false" import="true" targetId="4b6a-becd-466c-f590" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="00f0-8deb-38d4-dc5a" type="max"/>
               </constraints>
@@ -222,7 +222,7 @@
                 <cost name="pts" typeId="567f-6468-66c6-2ea2" value="20.0"/>
               </costs>
             </entryLink>
-            <entryLink id="fc33-bc8d-2a92-a531" name="Twin Bio-Pistols (A6)" hidden="false" collective="false" import="true" targetId="76ac-3068-350d-19e1" type="selectionEntry">
+            <entryLink id="fc33-bc8d-2a92-a531" name="Twin Bio-Pistols" hidden="false" collective="false" import="true" targetId="76ac-3068-350d-19e1" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8999-71ba-ea16-c195" type="max"/>
               </constraints>
@@ -230,7 +230,7 @@
                 <cost name="pts" typeId="567f-6468-66c6-2ea2" value="-5.0"/>
               </costs>
             </entryLink>
-            <entryLink id="f366-310a-538a-646a" name="Heavy Bio-Carbine (A6,AP1)" hidden="false" collective="false" import="true" targetId="0c5b-9d5b-8488-a3ab" type="selectionEntry">
+            <entryLink id="f366-310a-538a-646a" name="Heavy Bio-Carbine" hidden="false" collective="false" import="true" targetId="0c5b-9d5b-8488-a3ab" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ab60-657f-aea1-bc2d" type="max"/>
               </constraints>
@@ -238,7 +238,7 @@
                 <cost name="pts" typeId="567f-6468-66c6-2ea2" value="10.0"/>
               </costs>
             </entryLink>
-            <entryLink id="05b6-7360-6a12-1ec3" name="Barb-Cannon (A1,AP1)" hidden="false" collective="false" import="true" targetId="0796-3b38-5f88-4f96" type="selectionEntry">
+            <entryLink id="05b6-7360-6a12-1ec3" name="Barb Cannon" hidden="false" collective="false" import="true" targetId="0796-3b38-5f88-4f96" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="887e-abd5-2b8e-0125" type="max"/>
               </constraints>
@@ -367,7 +367,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="daac-1f8d-9953-9fc2" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="5ee4-ea30-7829-0374" name="Beast Tail Upgrades" hidden="false" collective="false" import="true" targetId="7e59-feb8-9bd9-307e" type="selectionEntryGroup"/>
+        <entryLink id="5ee4-ea30-7829-0374" name="Weapons - Tail [max 1]" hidden="false" collective="false" import="true" targetId="7e59-feb8-9bd9-307e" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="345.0"/>
@@ -409,7 +409,7 @@
     </selectionEntry>
     <selectionEntry id="0796-3b38-5f88-4f96" name="Barb Cannon" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="724d-22af-09e4-34f3" name="Barb-Cannon" hidden="false" targetId="659c-4020-d60a-9a32" type="profile"/>
+        <infoLink id="724d-22af-09e4-34f3" name="Barb Cannon" hidden="false" targetId="659c-4020-d60a-9a32" type="profile"/>
         <infoLink id="46af-828b-2aa3-abc5" name="Blast(X)" hidden="false" targetId="187f-6414-7037-a542" type="rule"/>
         <infoLink id="4d40-3628-a15e-c32c" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
       </infoLinks>
@@ -485,7 +485,7 @@
     </selectionEntry>
     <selectionEntry id="1dbe-4977-670d-178c" name="Toxic Bite" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="2c3f-f400-3f30-84ce" name="Poison(X)" hidden="false" targetId="2c45-0e1e-fec5-8dbb" type="rule"/>
+        <infoLink id="2c3f-f400-3f30-84ce" name="Poison" hidden="false" targetId="2c45-0e1e-fec5-8dbb" type="rule"/>
         <infoLink id="4ad9-8f41-e536-a81a" name="Toxic Bite" hidden="false" targetId="1d0e-71cc-f718-7343" type="profile"/>
       </infoLinks>
       <costs>
@@ -516,7 +516,6 @@
       <infoLinks>
         <infoLink id="2349-3466-fec1-edc3" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
         <infoLink id="39f3-5bcd-96b2-3d7e" name="Hero" hidden="false" targetId="5065-c3a4-a9cf-db27" type="rule"/>
-        <infoLink id="21a6-d510-1842-277d" name="Fearless" hidden="false" targetId="fe6b-f29d-2128-a0b0" type="rule"/>
         <infoLink id="db37-17bb-0519-2817" name="Prime Warrior" hidden="false" targetId="b5c8-31f1-f89c-610e" type="profile"/>
         <infoLink id="c9c3-c75c-01c6-de3d" name="Fear" hidden="false" targetId="d21e-0b0f-ebec-46da" type="rule"/>
       </infoLinks>
@@ -560,7 +559,7 @@
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="be99-5a07-6bc9-5b08" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="6621-dd6c-8245-2384" name="Piercing Claws (A3,AP2)" hidden="false" collective="false" import="true" targetId="3ad1-63ca-437f-86f3" type="selectionEntry">
+            <entryLink id="6621-dd6c-8245-2384" name="Piercing Claws" hidden="false" collective="false" import="true" targetId="3ad1-63ca-437f-86f3" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="76ea-b8ec-e5dd-07fc" type="max"/>
               </constraints>
@@ -568,7 +567,7 @@
                 <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
               </costs>
             </entryLink>
-            <entryLink id="098c-2b45-9d32-ceac" name="Smashing Claw (A3,AP4)" hidden="false" collective="false" import="true" targetId="86f9-3f6a-6b08-f085" type="selectionEntry">
+            <entryLink id="098c-2b45-9d32-ceac" name="Smashing Claw" hidden="false" collective="false" import="true" targetId="86f9-3f6a-6b08-f085" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="da7f-0044-2d1a-c24a" type="max"/>
               </constraints>
@@ -576,15 +575,15 @@
                 <cost name="pts" typeId="567f-6468-66c6-2ea2" value="10.0"/>
               </costs>
             </entryLink>
-            <entryLink id="689f-c4a9-e0a3-56de" name="Serrated Claws (A6,AP2)" hidden="false" collective="false" import="true" targetId="4339-677c-1361-9190" type="selectionEntry">
+            <entryLink id="689f-c4a9-e0a3-56de" name="Serrated Claws" hidden="false" collective="false" import="true" targetId="4339-677c-1361-9190" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3394-62b0-46f9-7617" type="max"/>
               </constraints>
               <costs>
-                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="15.0"/>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="10.0"/>
               </costs>
             </entryLink>
-            <entryLink id="cf77-fe20-53b9-79da" name="Sword Claws (A3,AP2)" hidden="false" collective="false" import="true" targetId="5dc8-5fec-55fe-de7a" type="selectionEntry">
+            <entryLink id="cf77-fe20-53b9-79da" name="Sword Claws" hidden="false" collective="false" import="true" targetId="5dc8-5fec-55fe-de7a" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ab93-c58f-6be2-cb88" type="max"/>
               </constraints>
@@ -592,7 +591,7 @@
                 <cost name="pts" typeId="567f-6468-66c6-2ea2" value="15.0"/>
               </costs>
             </entryLink>
-            <entryLink id="ecc9-065f-e7d4-59fb" name="Whip Limb &amp; Sword Claw (A2,AP1)" hidden="false" collective="false" import="true" targetId="4b6a-becd-466c-f590" type="selectionEntry">
+            <entryLink id="ecc9-065f-e7d4-59fb" name="Whip Limb &amp; Sword Claw" hidden="false" collective="false" import="true" targetId="4b6a-becd-466c-f590" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="973e-e3a3-fa31-622e" type="max"/>
               </constraints>
@@ -616,7 +615,7 @@
                 <cost name="pts" typeId="567f-6468-66c6-2ea2" value="10.0"/>
               </costs>
             </entryLink>
-            <entryLink id="d7a8-3eb5-0517-5f10" name="Barb-Cannon" hidden="false" collective="false" import="true" targetId="0796-3b38-5f88-4f96" type="selectionEntry">
+            <entryLink id="d7a8-3eb5-0517-5f10" name="Barb Cannon" hidden="false" collective="false" import="true" targetId="0796-3b38-5f88-4f96" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aa70-609f-2259-d2ea" type="max"/>
               </constraints>
@@ -715,9 +714,9 @@
         <infoLink id="1a5d-e536-a813-4520" name="Hero" hidden="false" targetId="5065-c3a4-a9cf-db27" type="rule"/>
         <infoLink id="8cc0-538b-b7e5-44e4" name="Fast" hidden="false" targetId="f6ca-56fe-a21c-08fa" type="rule"/>
         <infoLink id="dadf-6905-feec-9db4" name="Scout" hidden="false" targetId="7bc7-a892-49bc-ad88" type="rule"/>
-        <infoLink id="156a-80c8-13d9-ea25" name="Fearless" hidden="false" targetId="fe6b-f29d-2128-a0b0" type="rule"/>
-        <infoLink id="137c-3634-8d92-bbc7" name="Soul-Snatcher Lord" hidden="false" targetId="2245-14a4-917b-621a" type="profile"/>
+        <infoLink id="137c-3634-8d92-bbc7" name="Snatcher Lord" hidden="false" targetId="2245-14a4-917b-621a" type="profile"/>
         <infoLink id="a4d1-5660-dfdf-3071" name="Strider" hidden="false" targetId="9dea-b566-200a-0605" type="rule"/>
+        <infoLink id="1051-dac6-8137-39ce" name="Fear" hidden="false" targetId="d21e-0b0f-ebec-46da" type="rule"/>
       </infoLinks>
       <selectionEntries>
         <selectionEntry id="e385-5984-0f10-cc48" name="2x Piercing Claws" hidden="false" collective="false" import="true" type="upgrade">
@@ -726,7 +725,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="97b3-73ba-6aa8-e3ee" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="0d4e-7b07-5ed6-0b92" name="Piercing Claws (A3,AP2)" hidden="false" collective="false" import="true" targetId="11b2-f466-6769-0c50" type="selectionEntry">
+            <entryLink id="0d4e-7b07-5ed6-0b92" name="Piercing Claws" hidden="false" collective="false" import="true" targetId="11b2-f466-6769-0c50" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="96a2-e565-a234-fa3c" type="min"/>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="15b6-c6a2-501a-c716" type="max"/>
@@ -774,12 +773,12 @@
         <entryLink id="2bcf-db90-1cbe-13cc" name="Spells" hidden="false" collective="false" import="true" targetId="db9a-8ce7-bcc1-14f5" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="130.0"/>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="190.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8238-a866-fe92-0d9f" name="Piercing Claws" hidden="false" collective="true" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="8dbb-2b08-5b3b-6643" name="Piercing Claws" hidden="false" targetId="05be-f7be-083d-ea2a" type="profile"/>
+        <infoLink id="8dbb-2b08-5b3b-6643" name="Razor Pincers" hidden="false" targetId="05be-f7be-083d-ea2a" type="profile"/>
         <infoLink id="8c06-2b61-dc20-0992" name="Rending" hidden="false" targetId="9726-accd-9015-f6f6" type="rule"/>
       </infoLinks>
       <costs>
@@ -1022,7 +1021,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="120.0"/>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="130.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c46a-0bd1-1964-fc30" name="Twin Bio-Pistols" hidden="false" collective="true" import="true" type="upgrade">
@@ -1161,7 +1160,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="160.0"/>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="170.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="14bc-89c0-754d-4ad6" name="Winged Grunt (Bio-Gun)" hidden="false" collective="false" import="true" type="upgrade">
@@ -1317,7 +1316,7 @@
     </selectionEntry>
     <selectionEntry id="bdfd-e970-72a7-39e6" name="Soul-Snatcher" hidden="false" collective="false" import="true" type="upgrade">
       <entryLinks>
-        <entryLink id="18cb-0915-2281-789b" name="Razor Pincers" hidden="false" collective="false" import="true" targetId="8238-a866-fe92-0d9f" type="selectionEntry">
+        <entryLink id="18cb-0915-2281-789b" name="Piercing Claws" hidden="false" collective="false" import="true" targetId="8238-a866-fe92-0d9f" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4fc0-55b2-6aa5-796e" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8b68-038e-271a-6b9a" type="min"/>
@@ -1357,7 +1356,7 @@
                         <entryLink id="dad5-5828-7f63-63a6" name="Spells" hidden="false" collective="false" import="true" targetId="db9a-8ce7-bcc1-14f5" type="selectionEntryGroup"/>
                       </entryLinks>
                       <costs>
-                        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="20.0"/>
+                        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="25.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -1369,7 +1368,7 @@
                   </constraints>
                   <entryLinks>
                     <entryLink id="a840-9549-824a-8dbe" name="Soul-Snatcher" hidden="false" collective="false" import="true" targetId="bdfd-e970-72a7-39e6" type="selectionEntry"/>
-                    <entryLink id="2be2-4cb4-c28d-f913" name="Soul-Snatcher (Piercing+Razor Claws)" hidden="false" collective="false" import="true" targetId="3fe1-3200-30ec-cbda" type="selectionEntry">
+                    <entryLink id="2be2-4cb4-c28d-f913" name="Soul-Snatcher (+Razor Claws)" hidden="false" collective="false" import="true" targetId="3fe1-3200-30ec-cbda" type="selectionEntry">
                       <costs>
                         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
                       </costs>
@@ -1390,7 +1389,7 @@
                   </constraints>
                   <entryLinks>
                     <entryLink id="4340-8298-4543-7a7f" name="Soul-Snatcher" hidden="false" collective="false" import="true" targetId="bdfd-e970-72a7-39e6" type="selectionEntry"/>
-                    <entryLink id="5b6a-70d8-35eb-968a" name="Soul-Snatcher (Piercing+Razor Claws)" hidden="false" collective="false" import="true" targetId="3fe1-3200-30ec-cbda" type="selectionEntry">
+                    <entryLink id="5b6a-70d8-35eb-968a" name="Soul-Snatcher (+Razor Claws)" hidden="false" collective="false" import="true" targetId="3fe1-3200-30ec-cbda" type="selectionEntry">
                       <costs>
                         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
                       </costs>
@@ -1410,7 +1409,7 @@
                         <entryLink id="3b78-3366-f224-5c5c" name="Spells" hidden="false" collective="false" import="true" targetId="db9a-8ce7-bcc1-14f5" type="selectionEntryGroup"/>
                       </entryLinks>
                       <costs>
-                        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="20.0"/>
+                        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="25.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -1596,23 +1595,23 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="951e-c931-3752-a3e8" type="min"/>
           </constraints>
           <entryLinks>
-            <entryLink id="bf8c-6213-2ad2-3888" name="Whip Limb &amp; Sword Claw (A2)" hidden="false" collective="false" import="true" targetId="21ef-4484-3b57-ef5e" type="selectionEntry">
+            <entryLink id="bf8c-6213-2ad2-3888" name="Whip Limb &amp; Sword Claw" hidden="false" collective="false" import="true" targetId="21ef-4484-3b57-ef5e" type="selectionEntry">
               <costs>
                 <cost name="pts" typeId="567f-6468-66c6-2ea2" value="10.0"/>
               </costs>
             </entryLink>
-            <!-- <entryLink id="8956-7e4d-bcac-c921" name="Razor Claws (A3,AP1)" hidden="false" collective="false" import="true" targetId="5c30-2ce2-c8dc-316a" type="selectionEntry"/> -->
-            <entryLink id="3514-79ad-3e16-3707" name="Piercing Claws (A4,AP1)" hidden="false" collective="false" import="true" targetId="50ad-68c4-7540-0320" type="selectionEntry">
+            <entryLink id="8956-7e4d-bcac-c921" name="Razor Claws" hidden="false" collective="false" import="true" targetId="5c30-2ce2-c8dc-316a" type="selectionEntry"/>
+            <entryLink id="3514-79ad-3e16-3707" name="Piercing Claws" hidden="false" collective="false" import="true" targetId="50ad-68c4-7540-0320" type="selectionEntry">
               <costs>
                 <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
               </costs>
             </entryLink>
-            <entryLink id="7009-c44f-b5f7-30d4" name="Sword Claws (A4,AP1)" hidden="false" collective="false" import="true" targetId="6fda-60d4-a266-4432" type="selectionEntry">
+            <entryLink id="7009-c44f-b5f7-30d4" name="Sword Claws" hidden="false" collective="false" import="true" targetId="6fda-60d4-a266-4432" type="selectionEntry">
               <costs>
                 <cost name="pts" typeId="567f-6468-66c6-2ea2" value="10.0"/>
               </costs>
             </entryLink>
-            <entryLink id="c8e1-853f-f948-eab3" name="Smashing Claw (A4,AP3)" hidden="false" collective="false" import="true" targetId="2917-6565-e6e7-a157" type="selectionEntry">
+            <entryLink id="c8e1-853f-f948-eab3" name="Smashing Claw" hidden="false" collective="false" import="true" targetId="2917-6565-e6e7-a157" type="selectionEntry">
               <costs>
                 <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
               </costs>
@@ -1627,11 +1626,15 @@
           <entryLinks>
             <entryLink id="54c9-b432-2538-a9bc" name="Bio-Spitter" hidden="false" collective="false" import="true" targetId="8021-94c2-4f34-b199" type="selectionEntry">
               <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="10.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="3da8-38b3-f393-e1fb" name="Bio-Carbine" hidden="false" collective="false" import="true" targetId="aaaa-2ae3-b951-327b" type="selectionEntry"/>
+            <entryLink id="4486-10f2-bd52-eb5b" name="Razor Claws" hidden="false" collective="false" import="true" targetId="5c30-2ce2-c8dc-316a" type="selectionEntry">
+              <costs>
                 <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
               </costs>
             </entryLink>
-            <!-- <entryLink id="3da8-38b3-f393-e1fb" name="Bio-Carbine" hidden="false" collective="false" import="true" targetId="aaaa-2ae3-b951-327b" type="selectionEntry"/>
-            <entryLink id="4486-10f2-bd52-eb5b" name="Razor Claws (A3,AP1)" hidden="false" collective="false" import="true" targetId="5c30-2ce2-c8dc-316a" type="selectionEntry"/> -->
             <entryLink id="7f12-519b-ca75-fdb3" name="Twin Bio-Pistols" hidden="false" collective="false" import="true" targetId="76ac-3068-350d-19e1" type="selectionEntry">
               <costs>
                 <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
@@ -1680,23 +1683,23 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b150-bdae-9bbb-212b" type="min"/>
           </constraints>
           <entryLinks>
-            <entryLink id="500b-3ed7-5a15-b229" name="Whip Limb &amp; Sword Claw (A2)" hidden="false" collective="false" import="true" targetId="21ef-4484-3b57-ef5e" type="selectionEntry">
+            <entryLink id="500b-3ed7-5a15-b229" name="Whip Limb &amp; Sword Claw" hidden="false" collective="false" import="true" targetId="21ef-4484-3b57-ef5e" type="selectionEntry">
               <costs>
                 <cost name="pts" typeId="567f-6468-66c6-2ea2" value="10.0"/>
               </costs>
             </entryLink>
-            <!-- <entryLink id="1cd8-36ce-f153-5353" name="Razor Claws (A3,AP1)" hidden="false" collective="false" import="true" targetId="5c30-2ce2-c8dc-316a" type="selectionEntry"/> -->
-            <entryLink id="2080-36ba-5de2-9033" name="Piercing Claws (A4,AP1)" hidden="false" collective="false" import="true" targetId="50ad-68c4-7540-0320" type="selectionEntry">
+            <entryLink id="1cd8-36ce-f153-5353" name="Razor Claws" hidden="false" collective="false" import="true" targetId="5c30-2ce2-c8dc-316a" type="selectionEntry"/>
+            <entryLink id="2080-36ba-5de2-9033" name="Piercing Claws" hidden="false" collective="false" import="true" targetId="50ad-68c4-7540-0320" type="selectionEntry">
               <costs>
                 <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
               </costs>
             </entryLink>
-            <entryLink id="5a1e-0925-fdae-d0f3" name="Sword Claws (A4,AP1)" hidden="false" collective="false" import="true" targetId="6fda-60d4-a266-4432" type="selectionEntry">
+            <entryLink id="5a1e-0925-fdae-d0f3" name="Sword Claws" hidden="false" collective="false" import="true" targetId="6fda-60d4-a266-4432" type="selectionEntry">
               <costs>
                 <cost name="pts" typeId="567f-6468-66c6-2ea2" value="10.0"/>
               </costs>
             </entryLink>
-            <entryLink id="8ab9-42c2-5e5e-9782" name="Smashing Claw (A4,AP3)" hidden="false" collective="false" import="true" targetId="2917-6565-e6e7-a157" type="selectionEntry">
+            <entryLink id="8ab9-42c2-5e5e-9782" name="Smashing Claw" hidden="false" collective="false" import="true" targetId="2917-6565-e6e7-a157" type="selectionEntry">
               <costs>
                 <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
               </costs>
@@ -1849,7 +1852,7 @@
       <infoLinks>
         <infoLink id="93d4-1c23-a76f-079f" name="Hive Guardian" hidden="false" targetId="57b3-e32c-52a3-9d91" type="profile"/>
         <infoLink id="8bc8-63a2-4212-cd7d" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
-        <infoLink id="b3a1-a767-3491-8ce5" name="Fearless" hidden="false" targetId="fe6b-f29d-2128-a0b0" type="rule"/>
+        <infoLink id="3f9f-902c-6c51-b66f" name="Relentless" hidden="false" targetId="973a-bce3-c43c-b039" type="rule"/>
       </infoLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="9e83-c06a-1748-9238" name="Weapons [pick 2 - max 1 ranged]" hidden="false" collective="false" import="true" defaultSelectionEntryId="2656-9417-6f06-abda">
@@ -1865,7 +1868,7 @@
               <entryLinks>
                 <entryLink id="0b76-beed-69f6-2791" name="Bio-Harpoon" hidden="false" collective="false" import="true" targetId="3d83-9c2a-c0d0-5e0d" type="selectionEntry">
                   <costs>
-                    <cost name="pts" typeId="567f-6468-66c6-2ea2" value="30.0"/>
+                    <cost name="pts" typeId="567f-6468-66c6-2ea2" value="40.0"/>
                   </costs>
                 </entryLink>
                 <entryLink id="9d9a-47fc-c8e2-0765" name="Bio-Shock Gun" hidden="false" collective="false" import="true" targetId="7d7a-28eb-e2df-2bc4" type="selectionEntry">
@@ -1877,30 +1880,30 @@
             </selectionEntryGroup>
           </selectionEntryGroups>
           <entryLinks>
-            <entryLink id="dd5d-10cd-23df-f65d" name="Piercing Claws" hidden="false" collective="false" import="true" targetId="3ad1-63ca-437f-86f3" type="selectionEntry">
+            <entryLink id="dd5d-10cd-23df-f65d" name="Razor Pincers" hidden="false" collective="false" import="true" targetId="3ad1-63ca-437f-86f3" type="selectionEntry">
               <costs>
-                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="10.0"/>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
               </costs>
             </entryLink>
-            <entryLink id="2656-9417-6f06-abda" name="Razor Claws (A3,AP2)" hidden="false" collective="false" import="true" targetId="c76e-deb8-200c-e75a" type="selectionEntry"/>
-            <entryLink id="908a-e50f-ad9c-c90b" name="Smashing Claw (A4,AP4)" hidden="false" collective="false" import="true" targetId="86f9-3f6a-6b08-f085" type="selectionEntry">
+            <entryLink id="2656-9417-6f06-abda" name="Razor Claws" hidden="false" collective="false" import="true" targetId="c76e-deb8-200c-e75a" type="selectionEntry"/>
+            <entryLink id="908a-e50f-ad9c-c90b" name="Smashing Claw (A3,AP4)" hidden="false" collective="false" import="true" targetId="86f9-3f6a-6b08-f085" type="selectionEntry">
               <costs>
-                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="10.0"/>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
               </costs>
             </entryLink>
             <entryLink id="360c-e9d0-66ab-733a" name="Serrated Claws (A6,AP2)" hidden="false" collective="false" import="true" targetId="4339-677c-1361-9190" type="selectionEntry">
               <costs>
-                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="15.0"/>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="10.0"/>
               </costs>
             </entryLink>
             <entryLink id="ce33-ec5e-3728-50e7" name="Sword Claws (A3,AP2)" hidden="false" collective="false" import="true" targetId="5dc8-5fec-55fe-de7a" type="selectionEntry">
               <costs>
-                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="15.0"/>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="10.0"/>
               </costs>
             </entryLink>
-            <entryLink id="86a6-0805-1e7b-e47c" name="Whip Limb &amp; Sword Claw (A2,AP1)" hidden="false" collective="false" import="true" targetId="4b6a-becd-466c-f590" type="selectionEntry">
+            <entryLink id="86a6-0805-1e7b-e47c" name="Whip Limb &amp; Sword Claw" hidden="false" collective="false" import="true" targetId="4b6a-becd-466c-f590" type="selectionEntry">
               <costs>
-                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="20.0"/>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="10.0"/>
               </costs>
             </entryLink>
           </entryLinks>
@@ -2007,7 +2010,6 @@
         <infoLink id="f61e-c8b4-2d12-49ad" name="Shadow Hunter" hidden="false" targetId="21cb-65c8-1133-9c08" type="profile"/>
         <infoLink id="7f09-1a10-c3de-90dd" name="Ambush" hidden="false" targetId="859e-e070-e91c-26e1" type="rule"/>
         <infoLink id="5ff7-7cd8-1722-50df" name="Fast" hidden="false" targetId="f6ca-56fe-a21c-08fa" type="rule"/>
-        <infoLink id="4325-beff-51a2-0635" name="Fearless" hidden="false" targetId="fe6b-f29d-2128-a0b0" type="rule"/>
       </infoLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="6dd8-70eb-9a1d-7979" name="Weapons - Hooks [max 1]" hidden="false" collective="false" import="true">
@@ -2048,18 +2050,18 @@
                 <cost name="pts" typeId="567f-6468-66c6-2ea2" value="20.0"/>
               </costs>
             </entryLink>
-            <entryLink id="dd4a-e3ef-142a-7d2e" name="Razor Claws (A3,AP1)" hidden="false" collective="false" import="true" targetId="5c30-2ce2-c8dc-316a" type="selectionEntry"/>
-            <entryLink id="3526-aa4d-7503-f0ea" name="Piercing Claws (A3,AP1)" hidden="false" collective="false" import="true" targetId="50ad-68c4-7540-0320" type="selectionEntry">
+            <entryLink id="dd4a-e3ef-142a-7d2e" name="Razor Claws" hidden="false" collective="false" import="true" targetId="5c30-2ce2-c8dc-316a" type="selectionEntry"/>
+            <entryLink id="3526-aa4d-7503-f0ea" name="Piercing Claws" hidden="false" collective="false" import="true" targetId="50ad-68c4-7540-0320" type="selectionEntry">
               <costs>
                 <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
               </costs>
             </entryLink>
-            <entryLink id="ea94-1252-29e3-1a46" name="Sword Claws (A3,AP1)" hidden="false" collective="false" import="true" targetId="6fda-60d4-a266-4432" type="selectionEntry">
+            <entryLink id="ea94-1252-29e3-1a46" name="Sword Claws" hidden="false" collective="false" import="true" targetId="6fda-60d4-a266-4432" type="selectionEntry">
               <costs>
                 <cost name="pts" typeId="567f-6468-66c6-2ea2" value="15.0"/>
               </costs>
             </entryLink>
-            <entryLink id="4842-c2cf-e63b-711c" name="Smashing Claw (A3,AP3)" hidden="false" collective="false" import="true" targetId="2917-6565-e6e7-a157" type="selectionEntry">
+            <entryLink id="4842-c2cf-e63b-711c" name="Smashing Claw" hidden="false" collective="false" import="true" targetId="2917-6565-e6e7-a157" type="selectionEntry">
               <costs>
                 <cost name="pts" typeId="567f-6468-66c6-2ea2" value="10.0"/>
               </costs>
@@ -2085,28 +2087,28 @@
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3566-c486-e6b2-318a" type="min"/>
           </constraints>
           <entryLinks>
-            <entryLink id="7e8e-6da9-9b8d-47a4" name="Razor Claws (A3,AP1)" hidden="false" collective="false" import="true" targetId="5c30-2ce2-c8dc-316a" type="selectionEntry"/>
-            <entryLink id="a310-130f-61e3-8157" name="Piercing Claws (A3,AP1)" hidden="false" collective="false" import="true" targetId="50ad-68c4-7540-0320" type="selectionEntry">
+            <entryLink id="7e8e-6da9-9b8d-47a4" name="Razor Claws" hidden="false" collective="false" import="true" targetId="5c30-2ce2-c8dc-316a" type="selectionEntry"/>
+            <entryLink id="a310-130f-61e3-8157" name="Piercing Claws" hidden="false" collective="false" import="true" targetId="50ad-68c4-7540-0320" type="selectionEntry">
               <costs>
                 <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
               </costs>
             </entryLink>
-            <entryLink id="ad76-788c-853c-0eb0" name="Smashing Claw (A3,AP3)" hidden="false" collective="false" import="true" targetId="2917-6565-e6e7-a157" type="selectionEntry">
+            <entryLink id="ad76-788c-853c-0eb0" name="Smashing Claw" hidden="false" collective="false" import="true" targetId="2917-6565-e6e7-a157" type="selectionEntry">
               <costs>
                 <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
               </costs>
             </entryLink>
-            <entryLink id="a5d4-a71f-c2b8-1ab2" name="Serrated Claws (A6,AP1)" hidden="false" collective="false" import="true" targetId="7be3-6c53-90a5-9537" type="selectionEntry">
+            <entryLink id="a5d4-a71f-c2b8-1ab2" name="Serrated Claws" hidden="false" collective="false" import="true" targetId="7be3-6c53-90a5-9537" type="selectionEntry">
               <costs>
                 <cost name="pts" typeId="567f-6468-66c6-2ea2" value="10.0"/>
               </costs>
             </entryLink>
-            <entryLink id="ee5f-1f92-3f14-a54f" name="Sword Claws (A3,AP1)" hidden="false" collective="false" import="true" targetId="6fda-60d4-a266-4432" type="selectionEntry">
+            <entryLink id="ee5f-1f92-3f14-a54f" name="Sword Claws" hidden="false" collective="false" import="true" targetId="6fda-60d4-a266-4432" type="selectionEntry">
               <costs>
                 <cost name="pts" typeId="567f-6468-66c6-2ea2" value="10.0"/>
               </costs>
             </entryLink>
-            <entryLink id="b913-f5cc-ac8a-e594" name="Whip Limb &amp; Sword Claw (A2)" hidden="false" collective="false" import="true" targetId="21ef-4484-3b57-ef5e" type="selectionEntry">
+            <entryLink id="b913-f5cc-ac8a-e594" name="Whip Limb &amp; Sword Claw" hidden="false" collective="false" import="true" targetId="21ef-4484-3b57-ef5e" type="selectionEntry">
               <costs>
                 <cost name="pts" typeId="567f-6468-66c6-2ea2" value="10.0"/>
               </costs>
@@ -2214,10 +2216,10 @@
         <infoLink id="86ff-7856-0cb2-0379" name="Shrouding Mist" hidden="false" targetId="e84b-2811-0895-94c9" type="rule"/>
       </infoLinks>
       <entryLinks>
-        <entryLink id="9af3-11ef-d568-7508" name="Posion Cloud" hidden="false" collective="false" import="true" targetId="05c3-a1e6-75fd-6911" type="selectionEntry">
+        <entryLink id="2fab-13e4-f2d6-f951" name="Whip Limbs" hidden="false" collective="false" import="true" targetId="2811-b63d-e822-d975" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="61bd-9d76-cbee-8b07" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="78a6-50b1-ad21-83c6" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2d23-2512-d647-1845" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e295-e4e0-fd91-d18b" type="min"/>
           </constraints>
         </entryLink>
       </entryLinks>
@@ -2280,9 +2282,9 @@
         <infoLink id="d708-9eb8-ef29-aeab" name="Synapse Floater" hidden="false" targetId="4bf6-d44b-f6a2-bc5f" type="profile"/>
         <infoLink id="7255-003a-344b-fff8" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
         <infoLink id="ac7c-d8ac-5d8a-a2df" name="Regeneration" hidden="false" targetId="dea8-a8f9-1865-4424" type="rule"/>
-        <infoLink id="dd4b-5e4e-2237-242d" name="Fearless" hidden="false" targetId="fe6b-f29d-2128-a0b0" type="rule"/>
         <infoLink id="1380-e708-2df5-4051" name="Psychic Synapse" hidden="false" targetId="8272-5465-c7a2-8ada" type="rule"/>
         <infoLink id="b393-4597-6a21-16d9" name="Psychic(X)" hidden="false" targetId="ba47-b43b-18f8-97c1" type="rule"/>
+        <infoLink id="0901-fd6a-c230-b9e9" name="Stealth" hidden="false" targetId="1b59-5d31-4675-c926" type="rule"/>
       </infoLinks>
       <entryLinks>
         <entryLink id="9e56-2493-f405-1474" name="Psychic Shock" hidden="false" collective="false" import="true" targetId="a26f-27da-0dce-7bd6" type="selectionEntry">
@@ -2452,7 +2454,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7306-ef8e-f868-83b1" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="2b2f-cdfc-c982-1cba" name="Spore Cannon" hidden="false" collective="false" import="true" targetId="283c-76e4-afa9-dd0c" type="selectionEntry">
+        <entryLink id="2b2f-cdfc-c982-1cba" name="Spore Gun" hidden="false" collective="false" import="true" targetId="283c-76e4-afa9-dd0c" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f32a-69c3-c1e9-2d1d" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c78a-ab16-455a-1065" type="min"/>
@@ -2561,7 +2563,7 @@
     <selectionEntry id="c371-5403-81bd-ea00" name="Tongue" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="ae93-f5fe-4427-0b0d" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
-        <infoLink id="d3fb-2ed4-2fdd-22fe" name="Clawed Tongue" hidden="false" targetId="0067-e5e3-a668-1de8" type="profile"/>
+        <infoLink id="d3fb-2ed4-2fdd-22fe" name="Tongue" hidden="false" targetId="0067-e5e3-a668-1de8" type="profile"/>
         <infoLink id="a397-534b-bbd3-088e" name="Sniper" hidden="false" targetId="2943-e3f6-fb44-ae13" type="rule"/>
         <infoLink id="d76d-dafb-ebb8-05f5" name="Deadly(X)" hidden="false" targetId="377b-3864-960e-57ac" type="rule"/>
       </infoLinks>
@@ -2737,6 +2739,8 @@
         <infoLink id="261e-1f07-8e52-ccff" name="Fear" hidden="false" targetId="d21e-0b0f-ebec-46da" type="rule"/>
         <infoLink id="3348-d043-8228-468e" name="Fearless" hidden="false" targetId="fe6b-f29d-2128-a0b0" type="rule"/>
         <infoLink id="adac-5c6f-d81d-3943" name="Toxico-Rex" hidden="false" targetId="69ed-a75a-67d8-4eed" type="profile"/>
+        <infoLink id="d7ce-5e42-895a-98b3" name="Stealth" hidden="false" targetId="1b59-5d31-4675-c926" type="rule"/>
+        <infoLink id="774e-3bab-d857-325d" name="Shrouding Mist" hidden="false" targetId="e84b-2811-0895-94c9" type="rule"/>
       </infoLinks>
       <entryLinks>
         <entryLink id="8088-f3da-ba48-bb43" name="Acid Spurt" hidden="false" collective="false" import="true" targetId="1538-854b-6d77-3e6f" type="selectionEntry">
@@ -2805,8 +2809,8 @@
         <entryLink id="d9da-7e04-e3b7-0e04" name="Rex Upgrades - Upgrade with any:" hidden="false" collective="false" import="true" targetId="d577-b974-641f-0806" type="selectionEntryGroup"/>
         <entryLink id="8566-c5ab-823c-b145" name="Weapons - Beast - Melee" hidden="false" collective="false" import="true" targetId="f2ae-f39e-e790-da86" type="selectionEntryGroup">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a8cf-1cba-cfe0-8a15" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8d41-20ee-7add-902a" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a8cf-1cba-cfe0-8a15" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8d41-20ee-7add-902a" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="7ae9-7320-d818-63d0" name="Weapons - Tail [max 1]" hidden="false" collective="false" import="true" targetId="7e59-feb8-9bd9-307e" type="selectionEntryGroup"/>
@@ -2819,7 +2823,6 @@
       <infoLinks>
         <infoLink id="5753-5476-a1a4-7108" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
         <infoLink id="ed1d-d357-794e-1af8" name="Fear" hidden="false" targetId="d21e-0b0f-ebec-46da" type="rule"/>
-        <infoLink id="fb2e-0b78-4024-c591" name="Fearless" hidden="false" targetId="fe6b-f29d-2128-a0b0" type="rule"/>
         <infoLink id="3817-867c-3661-9924" name="Devourer Beast" hidden="false" targetId="1a84-f563-fed4-3e13" type="profile"/>
       </infoLinks>
       <entryLinks>
@@ -2829,7 +2832,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="43cd-4c0d-9eec-0cc4" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="c8c7-96ed-1b1c-c747" name="Clawed Tongue" hidden="false" collective="false" import="true" targetId="c371-5403-81bd-ea00" type="selectionEntry">
+        <entryLink id="c8c7-96ed-1b1c-c747" name="Tongue" hidden="false" collective="false" import="true" targetId="c371-5403-81bd-ea00" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d420-6a79-e628-715a" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c667-ae4e-85db-641b" type="min"/>
@@ -2851,7 +2854,6 @@
       <infoLinks>
         <infoLink id="afac-b4ef-0ba3-1042" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
         <infoLink id="79fa-3edc-5908-ddde" name="Fear" hidden="false" targetId="d21e-0b0f-ebec-46da" type="rule"/>
-        <infoLink id="1868-5690-b1c8-93f8" name="Fearless" hidden="false" targetId="fe6b-f29d-2128-a0b0" type="rule"/>
         <infoLink id="4847-2e75-8b7c-cdde" name="Artillery Beast" hidden="false" targetId="8b73-1b24-5ddb-543b" type="profile"/>
       </infoLinks>
       <selectionEntryGroups>
@@ -2882,8 +2884,8 @@
         <entryLink id="54fd-7468-eaeb-abe5" name="Beast Upgrades - Upgrade with any:" hidden="false" collective="false" import="true" targetId="5885-a779-cf0b-1c64" type="selectionEntryGroup"/>
         <entryLink id="a901-ec13-1dc8-0ce0" name="Weapons - Beast - Melee" hidden="false" collective="false" import="true" targetId="f2ae-f39e-e790-da86" type="selectionEntryGroup">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d06d-9f2a-d486-c051" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7d95-2bb3-2751-000c" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d06d-9f2a-d486-c051" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7d95-2bb3-2751-000c" type="max"/>
           </constraints>
         </entryLink>
       </entryLinks>
@@ -2895,7 +2897,6 @@
       <infoLinks>
         <infoLink id="9219-414e-61fc-7d9f" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
         <infoLink id="9c69-1672-062d-5ff9" name="Fear" hidden="false" targetId="d21e-0b0f-ebec-46da" type="rule"/>
-        <infoLink id="4949-3930-63d9-9c6e" name="Fearless" hidden="false" targetId="fe6b-f29d-2128-a0b0" type="rule"/>
         <infoLink id="0add-1ce5-abd7-995b" name="Tyrant Beast" hidden="false" targetId="7527-fe3c-9db4-df7f" type="profile"/>
       </infoLinks>
       <selectionEntryGroups>
@@ -2927,8 +2928,8 @@
       <entryLinks>
         <entryLink id="acfe-eed2-4019-dabe" name="Weapons - Beast - Melee" hidden="false" collective="false" import="true" targetId="f2ae-f39e-e790-da86" type="selectionEntryGroup">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ac62-44dc-a9f7-7333" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4260-e036-e4a4-4fd4" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ac62-44dc-a9f7-7333" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4260-e036-e4a4-4fd4" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="fbc6-420a-096a-59b1" name="Stomp (Heavy)" hidden="false" collective="false" import="true" targetId="7e90-7000-7bb7-46b8" type="selectionEntry">
@@ -2963,9 +2964,8 @@
       <infoLinks>
         <infoLink id="2817-d774-795d-1b3d" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
         <infoLink id="4014-da08-0829-4a6e" name="Fear" hidden="false" targetId="d21e-0b0f-ebec-46da" type="rule"/>
-        <infoLink id="4379-4ef0-5cc7-0156" name="Fearless" hidden="false" targetId="fe6b-f29d-2128-a0b0" type="rule"/>
         <infoLink id="d094-dbc4-9d05-939b" name="Spawning Beast" hidden="false" targetId="44bb-7085-520b-1566" type="profile"/>
-        <infoLink id="8909-7b3d-7a1d-e97e" name="Spawn" hidden="false" targetId="9f61-9c21-1e77-176f" type="rule"/>
+        <infoLink id="8909-7b3d-7a1d-e97e" name="Spawn Grunts" hidden="false" targetId="9f61-9c21-1e77-176f" type="rule"/>
       </infoLinks>
       <entryLinks>
         <entryLink id="4f05-bf2e-8887-77de" name="Stomp (Heavy)" hidden="false" collective="false" import="true" targetId="7e90-7000-7bb7-46b8" type="selectionEntry">
@@ -2982,8 +2982,8 @@
         </entryLink>
         <entryLink id="63b9-e08c-f843-6c2d" name="Weapons - Beast - Melee" hidden="false" collective="false" import="true" targetId="f2ae-f39e-e790-da86" type="selectionEntryGroup">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e26e-0137-dee7-6ed6" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4564-daf7-9861-c6c1" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e26e-0137-dee7-6ed6" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4564-daf7-9861-c6c1" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="6409-0a4d-851c-c18f" name="Beast Upgrades - Upgrade with any:" hidden="false" collective="false" import="true" targetId="5885-a779-cf0b-1c64" type="selectionEntryGroup"/>
@@ -2996,7 +2996,6 @@
       <infoLinks>
         <infoLink id="571a-81e7-be31-a2c0" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
         <infoLink id="3af7-51ae-bb21-c5bd" name="Fear" hidden="false" targetId="d21e-0b0f-ebec-46da" type="rule"/>
-        <infoLink id="3caa-4462-a2b3-aa8d" name="Fearless" hidden="false" targetId="fe6b-f29d-2128-a0b0" type="rule"/>
         <infoLink id="b05d-9b0a-15bb-80f2" name="Burrower" hidden="false" targetId="767f-cb91-b35c-132f" type="profile"/>
         <infoLink id="59cb-ddbe-a470-3bc1" name="Surprise Attack" hidden="false" targetId="0bf2-d8cc-a5ce-d06f" type="rule"/>
       </infoLinks>
@@ -3017,7 +3016,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="480.0"/>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="445.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8ae2-3805-bb4c-a938" name="Invasion Carrier" hidden="false" collective="false" import="true" type="upgrade">
@@ -3025,7 +3024,7 @@
         <infoLink id="34a0-fbbe-c9c7-283c" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
         <infoLink id="a20e-2986-7650-ddad" name="Transport Spore" hidden="false" targetId="9c8c-ca69-9384-405f" type="rule"/>
         <infoLink id="4cf0-e8e5-43dd-3af4" name="Fearless" hidden="false" targetId="fe6b-f29d-2128-a0b0" type="rule"/>
-        <infoLink id="847d-60b5-2df0-bbcb" name="Invasion Carrier" hidden="false" targetId="9ab4-c533-da67-da0f" type="profile"/>
+        <infoLink id="847d-60b5-2df0-bbcb" name="Invasion Spore" hidden="false" targetId="9ab4-c533-da67-da0f" type="profile"/>
         <infoLink id="d389-5be8-1b96-dbc3" name="Ambush" hidden="false" targetId="859e-e070-e91c-26e1" type="rule"/>
         <infoLink id="ab1b-9c2b-14b3-09ef" name="Fear" hidden="false" targetId="d21e-0b0f-ebec-46da" type="rule"/>
       </infoLinks>
@@ -3074,7 +3073,7 @@
                 <cost name="pts" typeId="567f-6468-66c6-2ea2" value="75.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="c155-f53c-df0e-4df2" name="Shredder cannons array" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="c155-f53c-df0e-4df2" name="Shredder Cabbibs Array" hidden="false" collective="false" import="true" type="upgrade">
               <entryLinks>
                 <entryLink id="788d-d5ea-af12-2d17" name="Shredder Cannon" hidden="false" collective="false" import="true" targetId="524d-744a-262a-3a87" type="selectionEntry">
                   <constraints>
@@ -3087,7 +3086,7 @@
                 <cost name="pts" typeId="567f-6468-66c6-2ea2" value="60.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="911d-b76d-a231-88f6" name="Bio Carbines array" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="911d-b76d-a231-88f6" name="Bio Carbines Array" hidden="false" collective="false" import="true" type="upgrade">
               <entryLinks>
                 <entryLink id="c8ff-e236-9d4f-2873" name="Bio-Carbine" hidden="false" collective="false" import="true" targetId="aede-097e-fe3f-bc18" type="selectionEntry">
                   <constraints>
@@ -3100,7 +3099,7 @@
                 <cost name="pts" typeId="567f-6468-66c6-2ea2" value="25.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="8cb8-b8e2-b250-94c9" name="BIo Guns array" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="8cb8-b8e2-b250-94c9" name="Bio Guns Array" hidden="false" collective="false" import="true" type="upgrade">
               <entryLinks>
                 <entryLink id="849c-fdb8-ac14-cae6" name="Bio-Gun" hidden="false" collective="false" import="true" targetId="9da1-0240-1e25-76ae" type="selectionEntry">
                   <constraints>
@@ -3113,7 +3112,7 @@
                 <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="c1d5-7d89-aa07-7553" name="Bio spitter array" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="c1d5-7d89-aa07-7553" name="Bio Spitters Array" hidden="false" collective="false" import="true" type="upgrade">
               <entryLinks>
                 <entryLink id="bbb7-1060-53e3-d6e9" name="Bio-Spitter" hidden="false" collective="false" import="true" targetId="8021-94c2-4f34-b199" type="selectionEntry">
                   <constraints>
@@ -3130,7 +3129,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="4fd6-9507-ac22-65d1" name="Razor Claws" hidden="false" collective="false" import="true" targetId="441c-3ab7-3c58-9b5e" type="selectionEntry">
+        <entryLink id="4fd6-9507-ac22-65d1" name="Razor Tendrils" hidden="false" collective="false" import="true" targetId="441c-3ab7-3c58-9b5e" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1941-0fe7-d95f-8477" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9d44-cdd7-f94b-055f" type="min"/>
@@ -3309,7 +3308,6 @@
     <selectionEntry id="795d-eb44-dba6-084f" name="Veteran Warrior" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="9348-794b-0cac-5231" name="Veteran Warrior" hidden="false" targetId="44bf-01c6-d462-2fe9" type="profile"/>
-        <infoLink id="761a-155a-198d-634f" name="Fearless" hidden="false" targetId="fe6b-f29d-2128-a0b0" type="rule"/>
         <infoLink id="c703-0ef3-78c4-c8e9" name="Hero" hidden="false" targetId="5065-c3a4-a9cf-db27" type="rule"/>
         <infoLink id="0b12-1021-03b3-5e11" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
       </infoLinks>
@@ -3375,26 +3373,27 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4eff-8e83-1dd8-a94e" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="bfce-69b4-6e11-8fcf" name="Razor Claws (A3,AP1)" hidden="false" collective="false" import="true" targetId="5c30-2ce2-c8dc-316a" type="selectionEntry"/>
-            <entryLink id="2b3f-01b0-85df-6c8d" name="Piercing Claws (A3,AP1)" hidden="false" collective="false" import="true" targetId="50ad-68c4-7540-0320" type="selectionEntry">
+            <entryLink id="bfce-69b4-6e11-8fcf" name="Razor Claws" hidden="false" collective="false" import="true" targetId="5c30-2ce2-c8dc-316a" type="selectionEntry"/>
+            <entryLink id="2b3f-01b0-85df-6c8d" name="Piercing Claws" hidden="false" collective="false" import="true" targetId="50ad-68c4-7540-0320" type="selectionEntry">
               <costs>
                 <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
               </costs>
             </entryLink>
-            <entryLink id="6134-ce88-084a-ccf1" name="Serrated Claws (A6,AP1)" hidden="false" collective="false" import="true" targetId="7be3-6c53-90a5-9537" type="selectionEntry">
-              <costs>
-                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
-              </costs>
-            </entryLink>
-            <entryLink id="4f7a-2117-d1eb-a63b" name="Sword Claws (A3,AP1)" hidden="false" collective="false" import="true" targetId="6fda-60d4-a266-4432" type="selectionEntry">
+            <entryLink id="6134-ce88-084a-ccf1" name="Serrated Claws" hidden="false" collective="false" import="true" targetId="7be3-6c53-90a5-9537" type="selectionEntry">
               <costs>
                 <cost name="pts" typeId="567f-6468-66c6-2ea2" value="10.0"/>
               </costs>
             </entryLink>
-            <entryLink id="e615-e5ad-447e-224f" name="Whip Limb &amp; Sword Claw (A2)" hidden="false" collective="false" import="true" targetId="21ef-4484-3b57-ef5e" type="selectionEntry"/>
-            <costs>
+            <entryLink id="4f7a-2117-d1eb-a63b" name="Sword Claws" hidden="false" collective="false" import="true" targetId="6fda-60d4-a266-4432" type="selectionEntry">
+              <costs>
                 <cost name="pts" typeId="567f-6468-66c6-2ea2" value="10.0"/>
               </costs>
+            </entryLink>
+            <entryLink id="e615-e5ad-447e-224f" name="Whip Limb &amp; Sword Claw" hidden="false" collective="false" import="true" targetId="21ef-4484-3b57-ef5e" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="10.0"/>
+              </costs>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="0e4c-209f-d4fc-8d7a" name="Weapons - Lower Arms [pick 1]" hidden="false" collective="false" import="true" defaultSelectionEntryId="9d4a-794e-0022-a273">
@@ -3429,24 +3428,28 @@
                 <cost name="pts" typeId="567f-6468-66c6-2ea2" value="15.0"/>
               </costs>
             </entryLink>
-            <entryLink id="5f06-f147-7581-a4f3" name="Smashing Claw (A3,AP3)" hidden="false" collective="false" import="true" targetId="2917-6565-e6e7-a157" type="selectionEntry">
+            <entryLink id="5f06-f147-7581-a4f3" name="Smashing Claw" hidden="false" collective="false" import="true" targetId="2917-6565-e6e7-a157" type="selectionEntry">
               <costs>
                 <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
               </costs>
             </entryLink>
-            <entryLink id="ae6a-2cb0-dff9-a425" name="Sword Claws (A3,AP1)" hidden="false" collective="false" import="true" targetId="6fda-60d4-a266-4432" type="selectionEntry">
+            <entryLink id="ae6a-2cb0-dff9-a425" name="Sword Claws" hidden="false" collective="false" import="true" targetId="6fda-60d4-a266-4432" type="selectionEntry">
               <costs>
                 <cost name="pts" typeId="567f-6468-66c6-2ea2" value="10.0"/>
               </costs>
             </entryLink>
-            <entryLink id="b4c6-fc5a-cc27-15b3" name="Whip Limb &amp; Sword Claw (A2)" hidden="false" collective="false" import="true" targetId="21ef-4484-3b57-ef5e" type="selectionEntry"/>
-            <entryLink id="9c2f-912d-ad9e-f7c3" name="Piercing Claws (A3,AP1)" hidden="false" collective="false" import="true" targetId="50ad-68c4-7540-0320" type="selectionEntry">
+            <entryLink id="b4c6-fc5a-cc27-15b3" name="Whip Limb &amp; Sword Claw" hidden="false" collective="false" import="true" targetId="21ef-4484-3b57-ef5e" type="selectionEntry">
               <costs>
                 <cost name="pts" typeId="567f-6468-66c6-2ea2" value="10.0"/>
               </costs>
             </entryLink>
-            <entryLink id="5b27-5c95-5900-c594" name="Razor Claws (A3,AP1)" hidden="false" collective="false" import="true" targetId="5c30-2ce2-c8dc-316a" type="selectionEntry"/>
-            <entryLink id="916c-5ae8-b047-8ba4" name="Serrated Claws (A6,AP1)" hidden="false" collective="false" import="true" targetId="7be3-6c53-90a5-9537" type="selectionEntry">
+            <entryLink id="9c2f-912d-ad9e-f7c3" name="Piercing Claws" hidden="false" collective="false" import="true" targetId="50ad-68c4-7540-0320" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="5b27-5c95-5900-c594" name="Razor Claws" hidden="false" collective="false" import="true" targetId="5c30-2ce2-c8dc-316a" type="selectionEntry"/>
+            <entryLink id="916c-5ae8-b047-8ba4" name="Serrated Claws" hidden="false" collective="false" import="true" targetId="7be3-6c53-90a5-9537" type="selectionEntry">
               <costs>
                 <cost name="pts" typeId="567f-6468-66c6-2ea2" value="10.0"/>
               </costs>
@@ -3533,7 +3536,7 @@
             </selectionEntry>
           </selectionEntries>
           <entryLinks>
-            <entryLink id="8088-c238-8c23-81db" name="Razor Claws (A3)" hidden="false" collective="false" import="true" targetId="3f92-30c4-b2a1-9ac4" type="selectionEntry">
+            <entryLink id="8088-c238-8c23-81db" name="Razor Claws" hidden="false" collective="false" import="true" targetId="3f92-30c4-b2a1-9ac4" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c47f-c8b4-0a3f-ddca" type="max"/>
               </constraints>
@@ -3553,10 +3556,10 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="100.0"/>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="80.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="71b0-062a-79a2-5f7c" name="2x Piercing Claws (A2)" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="71b0-062a-79a2-5f7c" name="2x Piercing Claws (A3)" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="50ea-9422-87ae-24cb" name="2x Piercing Claws (A2)" hidden="false" targetId="e575-1469-c036-70eb" type="profile"/>
         <infoLink id="8e6e-aaae-b39e-b8a0" name="Rending" hidden="false" targetId="9726-accd-9015-f6f6" type="rule"/>
@@ -3707,22 +3710,22 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b385-a783-34d9-787c" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="24ec-1626-7f46-b51c" name="Sword Claws (A2)" hidden="false" collective="false" import="true" targetId="2832-64ca-06a5-6725" type="selectionEntry">
+            <entryLink id="24ec-1626-7f46-b51c" name="Sword Claws" hidden="false" collective="false" import="true" targetId="2832-64ca-06a5-6725" type="selectionEntry">
               <costs>
                 <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
               </costs>
             </entryLink>
-            <entryLink id="d3c9-9562-cd29-b5ef" name="Serrated Claws (A4)" hidden="false" collective="false" import="true" targetId="0c37-4212-8856-3480" type="selectionEntry">
+            <entryLink id="d3c9-9562-cd29-b5ef" name="Serrated Claws" hidden="false" collective="false" import="true" targetId="0c37-4212-8856-3480" type="selectionEntry">
               <costs>
                 <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
               </costs>
             </entryLink>
-            <entryLink id="c333-7855-96a9-8f53" name="Smashing Claw (A2,AP2)" hidden="false" collective="false" import="true" targetId="4764-2fc1-e9be-f1b5" type="selectionEntry">
+            <entryLink id="c333-7855-96a9-8f53" name="Smashing Claw" hidden="false" collective="false" import="true" targetId="4764-2fc1-e9be-f1b5" type="selectionEntry">
               <costs>
                 <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
               </costs>
             </entryLink>
-            <entryLink id="ff54-8de5-5458-3950" name="Piercing Claws (A2)" hidden="false" collective="false" import="true" targetId="0805-b28f-ca7e-9159" type="selectionEntry">
+            <entryLink id="ff54-8de5-5458-3950" name="Piercing Claws" hidden="false" collective="false" import="true" targetId="0805-b28f-ca7e-9159" type="selectionEntry">
               <costs>
                 <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
               </costs>
@@ -4008,6 +4011,7 @@
         <infoLink id="3e24-f6a1-bdc3-8fb1" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
         <infoLink id="0e03-754a-67f3-f69f" name="Fearless" hidden="false" targetId="fe6b-f29d-2128-a0b0" type="rule"/>
         <infoLink id="baba-e23c-9b7d-22ef" name="Fear" hidden="false" targetId="d21e-0b0f-ebec-46da" type="rule"/>
+        <infoLink id="5e8d-f2fd-19a6-1a04" name="Slow" hidden="false" targetId="394b-1b64-d270-f49e" type="rule"/>
       </infoLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="3c28-c9f2-864a-6b87" name="Upgrade with:" hidden="false" collective="false" import="true">
@@ -4122,28 +4126,28 @@
     </selectionEntryGroup>
     <selectionEntryGroup id="f2ae-f39e-e790-da86" name="Weapons - Beast - Melee" hidden="false" collective="false" import="true" defaultSelectionEntryId="c0d9-1129-6c99-acc9">
       <entryLinks>
-        <entryLink id="c0d9-1129-6c99-acc9" name="Razor Claws (A3,AP2)" hidden="false" collective="false" import="true" targetId="c76e-deb8-200c-e75a" type="selectionEntry"/>
-        <entryLink id="7634-8b1b-5025-24d1" name="Piercing Claws (A3,AP2)" hidden="false" collective="false" import="true" targetId="3ad1-63ca-437f-86f3" type="selectionEntry">
+        <entryLink id="c0d9-1129-6c99-acc9" name="Razor Claws" hidden="false" collective="false" import="true" targetId="c76e-deb8-200c-e75a" type="selectionEntry"/>
+        <entryLink id="7634-8b1b-5025-24d1" name="Piercing Claws" hidden="false" collective="false" import="true" targetId="3ad1-63ca-437f-86f3" type="selectionEntry">
           <costs>
             <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
           </costs>
         </entryLink>
-        <entryLink id="2276-810e-6fb0-a17a" name="Smashing Claw (A4,AP4)" hidden="false" collective="false" import="true" targetId="86f9-3f6a-6b08-f085" type="selectionEntry">
+        <entryLink id="2276-810e-6fb0-a17a" name="Smashing Claw" hidden="false" collective="false" import="true" targetId="86f9-3f6a-6b08-f085" type="selectionEntry">
           <costs>
             <cost name="pts" typeId="567f-6468-66c6-2ea2" value="10.0"/>
           </costs>
         </entryLink>
-        <entryLink id="43a3-e211-e8f5-123c" name="Serrated Claws (A8,AP2)" hidden="false" collective="false" import="true" targetId="4339-677c-1361-9190" type="selectionEntry">
+        <entryLink id="43a3-e211-e8f5-123c" name="Serrated Claws" hidden="false" collective="false" import="true" targetId="4339-677c-1361-9190" type="selectionEntry">
           <costs>
             <cost name="pts" typeId="567f-6468-66c6-2ea2" value="15.0"/>
           </costs>
         </entryLink>
-        <entryLink id="a573-bf99-a574-f74b" name="Sword Claws (A4,AP2)" hidden="false" collective="false" import="true" targetId="5dc8-5fec-55fe-de7a" type="selectionEntry">
+        <entryLink id="a573-bf99-a574-f74b" name="Sword Claws" hidden="false" collective="false" import="true" targetId="5dc8-5fec-55fe-de7a" type="selectionEntry">
           <costs>
             <cost name="pts" typeId="567f-6468-66c6-2ea2" value="15.0"/>
           </costs>
         </entryLink>
-        <entryLink id="17a6-cd29-3029-9a03" name="Whip Limb &amp; Sword Claw (A4,AP2)" hidden="false" collective="false" import="true" targetId="4b6a-becd-466c-f590" type="selectionEntry">
+        <entryLink id="17a6-cd29-3029-9a03" name="Whip Limb &amp; Sword Claw" hidden="false" collective="false" import="true" targetId="4b6a-becd-466c-f590" type="selectionEntry">
           <costs>
             <cost name="pts" typeId="567f-6468-66c6-2ea2" value="20.0"/>
           </costs>
@@ -4152,28 +4156,28 @@
     </selectionEntryGroup>
     <selectionEntryGroup id="7328-3d8a-c3a9-b190" name="Weapons - Beast - Melee &amp; Ranged" hidden="false" collective="false" import="true" defaultSelectionEntryId="4087-7224-906e-efed">
       <entryLinks>
-        <entryLink id="4087-7224-906e-efed" name="Razor Claws (A3,AP2)" hidden="false" collective="false" import="true" targetId="c76e-deb8-200c-e75a" type="selectionEntry"/>
-        <entryLink id="b495-7fcd-0a06-1ba1" name="Piercing Claws (A3,AP2)" hidden="false" collective="false" import="true" targetId="3ad1-63ca-437f-86f3" type="selectionEntry">
+        <entryLink id="4087-7224-906e-efed" name="Razor Claws" hidden="false" collective="false" import="true" targetId="c76e-deb8-200c-e75a" type="selectionEntry"/>
+        <entryLink id="b495-7fcd-0a06-1ba1" name="Piercing Claws" hidden="false" collective="false" import="true" targetId="3ad1-63ca-437f-86f3" type="selectionEntry">
           <costs>
             <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
           </costs>
         </entryLink>
-        <entryLink id="1608-65bf-c40c-94d8" name="Smashing Claw (A4,AP4)" hidden="false" collective="false" import="true" targetId="86f9-3f6a-6b08-f085" type="selectionEntry">
+        <entryLink id="1608-65bf-c40c-94d8" name="Smashing Claw" hidden="false" collective="false" import="true" targetId="86f9-3f6a-6b08-f085" type="selectionEntry">
           <costs>
             <cost name="pts" typeId="567f-6468-66c6-2ea2" value="10.0"/>
           </costs>
         </entryLink>
-        <entryLink id="70f2-aa74-dfb9-750b" name="Serrated Claws (A8,AP2)" hidden="false" collective="false" import="true" targetId="4339-677c-1361-9190" type="selectionEntry">
+        <entryLink id="70f2-aa74-dfb9-750b" name="Serrated Claws" hidden="false" collective="false" import="true" targetId="4339-677c-1361-9190" type="selectionEntry">
           <costs>
             <cost name="pts" typeId="567f-6468-66c6-2ea2" value="15.0"/>
           </costs>
         </entryLink>
-        <entryLink id="7f3f-8dfb-f6ab-f98c" name="Sword Claws (A3,AP2)" hidden="false" collective="false" import="true" targetId="5dc8-5fec-55fe-de7a" type="selectionEntry">
+        <entryLink id="7f3f-8dfb-f6ab-f98c" name="Sword Claws" hidden="false" collective="false" import="true" targetId="5dc8-5fec-55fe-de7a" type="selectionEntry">
           <costs>
             <cost name="pts" typeId="567f-6468-66c6-2ea2" value="15.0"/>
           </costs>
         </entryLink>
-        <entryLink id="2030-fdb5-a957-076b" name="Whip Limb &amp; Sword Claw (A2,AP1)" hidden="false" collective="false" import="true" targetId="4b6a-becd-466c-f590" type="selectionEntry">
+        <entryLink id="2030-fdb5-a957-076b" name="Whip Limb &amp; Sword Claw" hidden="false" collective="false" import="true" targetId="4b6a-becd-466c-f590" type="selectionEntry">
           <costs>
             <cost name="pts" typeId="567f-6468-66c6-2ea2" value="20.0"/>
           </costs>
@@ -4226,7 +4230,7 @@
       <description>If this model is ever engaged in melee it is immediately killed and the enemy takes 3 hits for Spores and 9 hits for a Massive Spore. Additionally this model automatically passes all morale tests.</description>
     </rule>
     <rule id="b7c0-78ce-1622-6361" name="Pheromones" publicationId="3518-c2b3-bfde-3ff1" hidden="false">
-      <description>When this unit is activated pick 2 friendly units within 12&quot;, which take one wound next time they fail a morale test, and the test counts as passed instead.</description>
+      <description>When this unit is activated, pick 2 friendly units within 12”, which take one wound next time they fail a morale test, and the test counts as passed instead.</description>
     </rule>
     <rule id="e84b-2811-0895-94c9" name="Shrouding Mist" publicationId="3518-c2b3-bfde-3ff1" hidden="false">
       <description>When this unit is activated pick 2 friendly units within 6”, which get Stealth next time they are shot at.</description>
@@ -4262,7 +4266,7 @@
       <characteristics>
         <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">3+</characteristic>
         <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">2+</characteristic>
-        <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Fear, Fearless, Hero, Tough(6)</characteristic>
+        <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Fear, Hero, Tough(6)</characteristic>
       </characteristics>
     </profile>
     <profile id="2245-14a4-917b-621a" name="Snatcher Lord" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
@@ -4325,7 +4329,7 @@
       <characteristics>
         <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">3+</characteristic>
         <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">3+</characteristic>
-        <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Ambush, Fast, Fear, Fearless, Stealth, Strider, Tough(6)</characteristic>
+        <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Ambush, Fast, Fear, Stealth, Strider, Tough(6)</characteristic>
       </characteristics>
     </profile>
     <profile id="af43-128b-9c47-fe06" name="Ravenous Beast" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
@@ -4346,7 +4350,7 @@
       <characteristics>
         <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">4+</characteristic>
         <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">3+</characteristic>
-        <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Fearless, Regeneration, Psychic Synapse, Tough(3)</characteristic>
+        <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Stealth, Regeneration, Psychic Synapse, Tough(3)</characteristic>
       </characteristics>
     </profile>
     <profile id="bd41-6d79-0658-f9ca" name="Flamer Beast" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
@@ -4385,8 +4389,8 @@
     </profile>
     <profile id="05be-f7be-083d-ea2a" name="Piercing Claws" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
       <characteristics>
-        <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A4</characteristic>
-        <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">Rending, AP(2)</characteristic>
+        <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A3</characteristic>
+        <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">Rending</characteristic>
       </characteristics>
     </profile>
     <profile id="bd2a-8eff-3717-9995" name="Bio-Gun" hidden="false" typeId="3c71-da94-e5b3-d7c8" typeName="Ranged Weapon">
@@ -4420,7 +4424,6 @@
         <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">Poison</characteristic>
       </characteristics>
     </profile>
-    <!-- Doesnt seem to be used ^^^^ -->
     <profile id="d221-7f18-b2a8-85b2" name="Psychic Shock" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
       <characteristics>
         <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A1</characteristic>
@@ -4447,7 +4450,6 @@
         <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022"/>
       </characteristics>
     </profile>
-    <!-- Doesnt seem to be used ^^^^ at all?-->
     <profile id="0212-cf33-59fc-72e2" name="Twin Bio-Pistols" hidden="false" typeId="3c71-da94-e5b3-d7c8" typeName="Ranged Weapon">
       <characteristics>
         <characteristic name="Range" typeId="79f4-5578-c041-f866">12&quot;</characteristic>
@@ -4499,7 +4501,7 @@
     </profile>
     <profile id="013d-25a5-22b3-3a53" name="Piercing Claws" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
       <characteristics>
-        <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A4</characteristic>
+        <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A3</characteristic>
         <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">AP(2), Rending</characteristic>
       </characteristics>
     </profile>
@@ -4509,12 +4511,12 @@
         <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">AP(2), Deadly(3)</characteristic>
       </characteristics>
     </profile>
-    <profile id="c3be-dacb-2e19-9d93" name="Adrenaline" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Equipment">
+    <profile id="c3be-dacb-2e19-9d93" name="Adrenaline" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Enhancement">
       <characteristics>
         <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">Furious</characteristic>
       </characteristics>
     </profile>
-    <profile id="7766-582a-8108-fa3f" name="Wings" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Equipment">
+    <profile id="7766-582a-8108-fa3f" name="Wings" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Enhancement">
       <characteristics>
         <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">Ambush, Flying</characteristic>
       </characteristics>
@@ -4533,7 +4535,7 @@
     </profile>
     <profile id="5667-c5d3-208c-fe4c" name="Heavy Shock-Gun" hidden="false" typeId="3c71-da94-e5b3-d7c8" typeName="Ranged Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="79f4-5578-c041-f866">24&quot;</characteristic>
+        <characteristic name="Range" typeId="79f4-5578-c041-f866">18&quot;24&quot;</characteristic>
         <characteristic name="Attacks" typeId="4633-0aa3-94f7-3be7">A1</characteristic>
         <characteristic name="Special Rules" typeId="9fb1-424b-834c-5e7d">AP(2), Blast(3)</characteristic>
       </characteristics>
@@ -4560,14 +4562,14 @@
       </characteristics>
     </profile>
     <profile id="c24b-8c9b-bbe2-65ae" name="Twin Bio-Rifle" hidden="false" typeId="3c71-da94-e5b3-d7c8" typeName="Ranged Weapon">
+      <comment>Not in use?</comment>
       <characteristics>
         <characteristic name="Range" typeId="79f4-5578-c041-f866">18&quot;</characteristic>
         <characteristic name="Attacks" typeId="4633-0aa3-94f7-3be7">A2</characteristic>
         <characteristic name="Special Rules" typeId="9fb1-424b-834c-5e7d"/>
       </characteristics>
     </profile>
-    <!-- Doesnt seem to be used ^^^^ at all?-->
-    <profile id="1d0e-71cc-f718-7343" name="Toxic Bite" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Equipment">
+    <profile id="1d0e-71cc-f718-7343" name="Toxic Bite" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Enhancement">
       <characteristics>
         <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">Poison in melee</characteristic>
       </characteristics>
@@ -4578,7 +4580,7 @@
         <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">AP(2), Rending</characteristic>
       </characteristics>
     </profile>
-    <profile id="c8dc-e1fa-2eb3-78d4" name="Burrow Attack" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Equipment">
+    <profile id="c8dc-e1fa-2eb3-78d4" name="Burrow Attack" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Enhancement">
       <characteristics>
         <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">Ambush</characteristic>
       </characteristics>
@@ -4637,19 +4639,20 @@
       <characteristics>
         <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">4+</characteristic>
         <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">2+</characteristic>
-        <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Fear, Fearless, Tough(12)</characteristic>
+        <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Fear, Fearless, Shrouding Mist,
+Stealth, Tough(12)</characteristic>
       </characteristics>
     </profile>
     <profile id="2d3e-9193-cbdd-f378" name="Psycho-Rex" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
       <characteristics>
         <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">4+</characteristic>
         <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">2+</characteristic>
-        <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Fear, Fearless, Psychic(2), Tough(12)</characteristic>
+        <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Fear, Fearless, Psychic(2), Tough(12), Regeneration, Stealth</characteristic>
       </characteristics>
     </profile>
     <profile id="1a84-f563-fed4-3e13" name="Devourer Beast" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
       <characteristics>
-        <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">3+</characteristic>
+        <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">4+</characteristic>
         <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">2+</characteristic>
         <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Fear, Fearless, Tough(18)</characteristic>
       </characteristics>
@@ -4658,26 +4661,26 @@
       <characteristics>
         <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">3+</characteristic>
         <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">2+</characteristic>
-        <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Fear, Fearless, Tough(18)</characteristic>
+        <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Fear, Tough(18)</characteristic>
       </characteristics>
     </profile>
     <profile id="7527-fe3c-9db4-df7f" name="Tyrant Beast" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
       <characteristics>
         <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">3+</characteristic>
         <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">2+</characteristic>
-        <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Fear, Fearless, Tough(18)</characteristic>
+        <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Fear, Tough(18)</characteristic>
       </characteristics>
     </profile>
     <profile id="44bb-7085-520b-1566" name="Spawning Beast" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
       <characteristics>
         <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">3+</characteristic>
         <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">2+</characteristic>
-        <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Fear, Fearless, Spawn Grunts, Tough(18)</characteristic>
+        <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Fear, Spawn Grunts, Tough(18)</characteristic>
       </characteristics>
     </profile>
     <profile id="767f-cb91-b35c-132f" name="Burrower" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
       <characteristics>
-        <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">3+</characteristic>
+        <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">4+</characteristic>
         <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">2+</characteristic>
         <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Fear, Fearless, Surprise Attack, Tough(18)</characteristic>
       </characteristics>
@@ -4755,7 +4758,7 @@
         <characteristic name="Special Rules" typeId="9fb1-424b-834c-5e7d">AP(2)</characteristic>
       </characteristics>
     </profile>
-    <profile id="2fac-61eb-f9f8-c042" name="Bio-Recovery" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Equipment">
+    <profile id="2fac-61eb-f9f8-c042" name="Bio-Recovery" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Enhancement">
       <characteristics>
         <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">Regeneration</characteristic>
       </characteristics>
@@ -4813,7 +4816,7 @@
         <characteristic name="Special Rules" typeId="9fb1-424b-834c-5e7d">AP(3), Deadly(6)</characteristic>
       </characteristics>
     </profile>
-    <profile id="2370-05ff-684b-4fa8" name="Twin Heavy Barb-Cannon" hidden="false" typeId="3c71-da94-e5b3-d7c8" typeName="Ranged Weapon">
+    <profile id="2370-05ff-684b-4fa8" name="Twin Heavy Barb Cannon" hidden="false" typeId="3c71-da94-e5b3-d7c8" typeName="Ranged Weapon">
       <characteristics>
         <characteristic name="Range" typeId="79f4-5578-c041-f866">36&quot;</characteristic>
         <characteristic name="Attacks" typeId="4633-0aa3-94f7-3be7">A2</characteristic>
@@ -4879,12 +4882,12 @@
         <characteristic name="Special Rules" typeId="9fb1-424b-834c-5e7d">Deadly(3)</characteristic>
       </characteristics>
     </profile>
-    <profile id="6152-39e9-47e6-d95e" name="Pheromones" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Equipment">
+    <profile id="6152-39e9-47e6-d95e" name="Pheromones" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Enhancement">
       <characteristics>
-        <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">When this unit is activated pick 2 friendly units within 12&quot;, which take one wound next time they fail a morale test, and the test counts as passed instead.</characteristic>
+        <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">When this unit is activated, pick 2 friendly units within 12”, which take one wound next time they fail a morale test, and the test counts as passed instead.</characteristic>
       </characteristics>
     </profile>
-    <profile id="961e-5970-1890-3f9d" name="Psychic Barrier" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Equipment">
+    <profile id="961e-5970-1890-3f9d" name="Psychic Barrier" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Enhancement">
       <characteristics>
         <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">This model may block spells as if it had the Psychic(2) special rule. If it is a Psychic then it gets +1 to spell block rolls.</characteristic>
       </characteristics>
@@ -4940,9 +4943,9 @@
         <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Fast, Hero, Scout, Strider, Tough(3)</characteristic>
       </characteristics>
     </profile>
-    <profile id="e575-1469-c036-70eb" name="2x Piercing Claws (A2)" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+    <profile id="e575-1469-c036-70eb" name="2x Piercing Claws (A3)" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
       <characteristics>
-        <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A2</characteristic>
+        <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A3</characteristic>
         <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">Rending</characteristic>
       </characteristics>
     </profile>
@@ -4986,12 +4989,12 @@
         <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">Deadly(3)</characteristic>
       </characteristics>
     </profile>
-    <profile id="f3dd-613f-c7df-e1f7" name="Adrenaline Rush" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Equipment">
+    <profile id="f3dd-613f-c7df-e1f7" name="Adrenaline Rush" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Enhancement">
       <characteristics>
         <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">Scout</characteristic>
       </characteristics>
     </profile>
-    <profile id="e589-3a78-197f-fa45" name="Battering Tusks" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Equipment">
+    <profile id="e589-3a78-197f-fa45" name="Battering Tusks" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Enhancement">
       <characteristics>
         <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">Impact(3)</characteristic>
       </characteristics>
