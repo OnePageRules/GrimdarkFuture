@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="1ef1-1f77-62c2-8cc5" name="Robot Legions" revision="7" battleScribeVersion="2.03" library="false" gameSystemId="d755-5d69-2721-c11b" gameSystemRevision="20" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="1ef1-1f77-62c2-8cc5" name="Robot Legions" revision="8" battleScribeVersion="2.03" library="false" gameSystemId="d755-5d69-2721-c11b" gameSystemRevision="20" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
-    <publication id="14f7-853d-2d82-efca" name="Robot Legions v2.12"/>
-    <publication id="9e11-5792-d0c9-6571" name="Robot Legions v2.18"/>
+    <publication id="9e11-5792-d0c9-6571" name="Robot Legions v2.19"/>
   </publications>
   <entryLinks>
     <entryLink id="02a4-8be6-717e-8eec" name="Annihilator Overseer" hidden="false" collective="false" import="true" targetId="29c0-92c6-c1da-02e9" type="selectionEntry">
@@ -3259,14 +3258,14 @@
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>
-    <rule id="f3f7-52df-ba4d-7507" name="Flux" publicationId="14f7-853d-2d82-efca" hidden="false">
+    <rule id="f3f7-52df-ba4d-7507" name="Flux" publicationId="9e11-5792-d0c9-6571" hidden="false">
       <description>For each unmodified result of 6 you roll to hit that hit is multiplied by 4.</description>
     </rule>
-    <rule id="cd38-1163-c1ed-2ef5" name="Hunter" publicationId="14f7-853d-2d82-efca" hidden="false">
+    <rule id="cd38-1163-c1ed-2ef5" name="Hunter" publicationId="9e11-5792-d0c9-6571" hidden="false">
       <description>On a round in which this unit arrives from Ambush it gets AP(+3).</description>
     </rule>
-    <rule id="68cf-94ce-01a0-a6c5" name="Repair" publicationId="14f7-853d-2d82-efca" hidden="false">
-      <description>Once per turn, if within 2&quot; of a unit with Tough, roll one die. On a 4+ you may repair 1 wound from the target.</description>
+    <rule id="68cf-94ce-01a0-a6c5" name="Repair" publicationId="9e11-5792-d0c9-6571" hidden="false">
+      <description>Once per turn, if within 2” of a unit with Tough, roll one die. On a 2+ you may repair 1 wound from the target.</description>
     </rule>
     <rule id="2fdd-5905-dcb6-9ec8" name="Bot Fabricator" publicationId="9e11-5792-d0c9-6571" hidden="false">
       <description>When this unit is activated place 1 Bot Swarm fully within 6” of this unit.</description>
@@ -3290,7 +3289,7 @@
       <description>Enemies get -1 to hit when they attack units where all models have this rule.</description>
     </rule>
     <rule id="fd11-6c1c-499a-ef94" name="Royal March Order" publicationId="9e11-5792-d0c9-6571" hidden="false">
-      <description>When the hero is activated pick one friendly unit within 12”, which may ignore the Slow special rule next time it moves.</description>
+      <description>When this model is activated pick one friendly unit within 12”, which may ignore the Slow special rule next time it moves.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
@@ -3707,7 +3706,7 @@
     </profile>
     <profile id="5807-4462-48b0-0645" name="Gloom-Protocol" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Enhancement">
       <characteristics>
-        <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">This model may block spells as if it had the Psychic special rule. If it is a Psychic then it gets +1 to spell block rolls.</characteristic>
+        <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">This model may block spells as if it had the Psychic(2) special rule.</characteristic>
       </characteristics>
     </profile>
     <profile id="6f3e-82f9-e413-fde7" name="Nightmare-Protocol" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Enhancement">
