@@ -3584,11 +3584,6 @@
         <characteristic name="Special Rules" typeId="9fb1-424b-834c-5e7d">AP(4), Deadly(6)</characteristic>
       </characteristics>
     </profile>
-    <profile id="b3fe-c618-103c-62c3" name="Combat Shield" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Enhancement">
-      <characteristics>
-        <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">Stealth</characteristic>
-      </characteristics>
-    </profile>
     <profile id="891a-e187-3782-4225" name="Antimatter Pistol" hidden="false" typeId="3c71-da94-e5b3-d7c8" typeName="Ranged Weapon">
       <characteristics>
         <characteristic name="Range" typeId="79f4-5578-c041-f866">12&quot;</characteristic>
