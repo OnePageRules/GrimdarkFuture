@@ -3891,7 +3891,7 @@
       <characteristics>
         <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">3+</characteristic>
         <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">2+</characteristic>
-        <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Hero, Fearless, Regeneration, Slow, Tough(3)</characteristic>
+        <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Hero, Fearless, Regeneration, Royal March, Slow, Tough(3)</characteristic>
       </characteristics>
     </profile>
     <profile id="99ad-5353-895c-09c8" name="Heavy Reaper Rifle" hidden="false" typeId="3c71-da94-e5b3-d7c8" typeName="Ranged Weapon">
