@@ -2654,6 +2654,8 @@
         <infoLink id="06cb-051b-492e-c2bd" name="Relentless" hidden="false" targetId="973a-bce3-c43c-b039" type="rule"/>
         <infoLink id="f64c-a0f8-f85b-2ae8" name="Strider" hidden="false" targetId="9dea-b566-200a-0605" type="rule"/>
         <infoLink id="4bfc-964c-6bbd-2824" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
+        <infoLink id="afd1-3235-6d4e-2e38" name="Ambush" hidden="false" targetId="859e-e070-e91c-26e1" type="rule"/>
+        <infoLink id="936c-be59-76e1-36a0" name="Hunter" hidden="false" targetId="cd38-1163-c1ed-2ef5" type="rule"/>
       </infoLinks>
       <entryLinks>
         <entryLink id="96b6-7254-f897-0688" name="Disintegration Pistol" hidden="false" collective="false" import="true" targetId="e448-6c66-f2fd-3574" type="selectionEntry">
@@ -2670,7 +2672,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="220.0"/>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="155.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="856d-7681-0d24-a3a7" name="Exterminator Cannon" hidden="false" collective="false" import="true" type="upgrade">
@@ -3969,7 +3971,7 @@
       <characteristics>
         <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">3+</characteristic>
         <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">2+</characteristic>
-        <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Fearless, Regeneration, Relentless, Tough(6)</characteristic>
+        <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Ambush, Fearless, Hunter, Regeneration, Relentless, Strider, Tough(3)</characteristic>
       </characteristics>
     </profile>
     <profile id="307d-9371-f61e-d2a7" name="Disintegration Pistol" hidden="false" typeId="3c71-da94-e5b3-d7c8" typeName="Ranged Weapon">
