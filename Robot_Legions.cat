@@ -197,7 +197,7 @@
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4e9e-26fa-5540-705b" name="Swarm Attack" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="4e9e-26fa-5540-705b" name="Swarm Attacks" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="9843-def6-55e9-19f1" name="Swarm Attack" hidden="false" targetId="e261-2b89-5e2d-dff1" type="profile"/>
         <infoLink id="afb1-c31a-30b7-7743" name="Rending" hidden="false" targetId="9726-accd-9015-f6f6" type="rule"/>
@@ -1485,7 +1485,7 @@
           <selectionEntries>
             <selectionEntry id="ebf2-933f-51f5-f631" name="Single Unit [3 models]" hidden="false" collective="false" import="true" type="upgrade">
               <entryLinks>
-                <entryLink id="1c01-346b-e4b3-5d81" name="Swarm Attack" hidden="false" collective="false" import="true" targetId="4e9e-26fa-5540-705b" type="selectionEntry">
+                <entryLink id="1c01-346b-e4b3-5d81" name="Swarm Attacks" hidden="false" collective="false" import="true" targetId="4e9e-26fa-5540-705b" type="selectionEntry">
                   <constraints>
                     <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="82d8-3ec9-dbf9-65e0" type="max"/>
                     <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fcab-3ef8-3433-f630" type="min"/>
@@ -3474,9 +3474,9 @@
         <characteristic name="Special Rules" typeId="9fb1-424b-834c-5e7d">AP(1), Sniper</characteristic>
       </characteristics>
     </profile>
-    <profile id="e261-2b89-5e2d-dff1" name="Swarm Attack" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+    <profile id="e261-2b89-5e2d-dff1" name="Swarm Attacks" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
       <characteristics>
-        <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A4</characteristic>
+        <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A3</characteristic>
         <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">Rending</characteristic>
       </characteristics>
     </profile>
