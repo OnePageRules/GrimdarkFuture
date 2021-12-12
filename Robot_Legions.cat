@@ -1498,7 +1498,7 @@
             </selectionEntry>
             <selectionEntry id="b9e9-a35e-6a70-08f4" name="Combined Unit [6 models]" hidden="false" collective="false" import="true" type="upgrade">
               <entryLinks>
-                <entryLink id="d0a3-cbf1-b7a0-3491" name="Swarm Attack" hidden="false" collective="false" import="true" targetId="4e9e-26fa-5540-705b" type="selectionEntry">
+                <entryLink id="d0a3-cbf1-b7a0-3491" name="Swarm Attacks" hidden="false" collective="false" import="true" targetId="4e9e-26fa-5540-705b" type="selectionEntry">
                   <constraints>
                     <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="42ba-2c2d-204a-b259" type="max"/>
                     <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c2d5-d9d8-6b83-ef0f" type="min"/>
