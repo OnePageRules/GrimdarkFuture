@@ -1805,7 +1805,7 @@
         <infoLink id="453f-152f-0371-8580" name="Transport(X)" hidden="false" targetId="3460-57e3-8a15-7977" type="rule"/>
       </infoLinks>
       <entryLinks>
-        <entryLink id="26d5-23c0-fd03-4238" name="Gauss Rifle Array" hidden="false" collective="false" import="true" targetId="cfac-06ea-c04f-519f" type="selectionEntry">
+        <entryLink id="26d5-23c0-fd03-4238" name="Defensive Array" hidden="false" collective="false" import="true" targetId="cfac-06ea-c04f-519f" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="30de-53df-e540-6136" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6cbe-2b13-7fc2-8cdd" type="min"/>
@@ -3502,7 +3502,7 @@
         <characteristic name="Special Rules" typeId="9fb1-424b-834c-5e7d">AP(1), Rending</characteristic>
       </characteristics>
     </profile>
-    <profile id="05c2-fed7-d60f-d497" name="Gauss Rifle Array" hidden="false" typeId="3c71-da94-e5b3-d7c8" typeName="Ranged Weapon">
+    <profile id="05c2-fed7-d60f-d497" name="Defensive Array" hidden="false" typeId="3c71-da94-e5b3-d7c8" typeName="Ranged Weapon">
       <characteristics>
         <characteristic name="Range" typeId="79f4-5578-c041-f866">24&quot;</characteristic>
         <characteristic name="Attacks" typeId="4633-0aa3-94f7-3be7">A5</characteristic>
