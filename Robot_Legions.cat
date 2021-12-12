@@ -3749,7 +3749,7 @@
     </profile>
     <profile id="72a9-9ed4-d638-b5df" name="Void Sword" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
       <characteristics>
-        <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A6</characteristic>
+        <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A4</characteristic>
         <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">AP(1)</characteristic>
       </characteristics>
     </profile>
@@ -3761,8 +3761,8 @@
     </profile>
     <profile id="e8f8-522e-dc5a-f146" name="War Scythe" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
       <characteristics>
-        <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A3</characteristic>
-        <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">AP(2), Deadly(3)</characteristic>
+        <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A2</characteristic>
+        <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">AP(4)</characteristic>
       </characteristics>
     </profile>
     <profile id="e2c2-23fe-7fd8-9a9f" name="Flame Caster" hidden="false" typeId="3c71-da94-e5b3-d7c8" typeName="Ranged Weapon">
