@@ -944,10 +944,10 @@
                     </selectionEntry>
                     <selectionEntry id="4f8a-9d2c-2068-4321" name="Hyper Swords &amp; Combat Shields" hidden="false" collective="false" import="true" type="upgrade">
                       <infoLinks>
-                        <infoLink id="236d-1dd8-a270-aa11" name="Hyper Sword" hidden="false" targetId="36eb-a4e0-dcc3-b292" type="profile"/>
                         <infoLink id="6df7-587b-a0a2-ae1c" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
                         <infoLink id="9072-1c9b-04e7-775f" name="Rending" hidden="false" targetId="9726-accd-9015-f6f6" type="rule"/>
-                        <infoLink id="aeaa-b400-0f10-0f1e" name="Combat Shield" hidden="false" targetId="b3fe-c618-103c-62c3" type="profile"/>
+                        <infoLink id="0566-7130-6ba7-7c6b" name="Hyper Sword and Combat Shield" hidden="false" targetId="989d-0b5d-60a4-83bc" type="profile"/>
+                        <infoLink id="25bd-3796-9ad7-afeb" name="Shield Wall" hidden="false" targetId="c724-1a53-5440-b0f6" type="rule"/>
                       </infoLinks>
                       <costs>
                         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="20.0"/>
@@ -1010,12 +1010,12 @@
                         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="10.0"/>
                       </costs>
                     </selectionEntry>
-                    <selectionEntry id="e62e-062e-11e2-9c7f" name="Hyper Swords &amp; Shields" hidden="false" collective="false" import="true" type="upgrade">
+                    <selectionEntry id="e62e-062e-11e2-9c7f" name="Hyper Swords and Combat Shields" hidden="false" collective="false" import="true" type="upgrade">
                       <infoLinks>
-                        <infoLink id="0fdd-9e27-7d7d-2b8a" name="Hyper Sword" hidden="false" targetId="36eb-a4e0-dcc3-b292" type="profile"/>
                         <infoLink id="a4b6-1fb5-2586-49c1" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
                         <infoLink id="ef4b-faf8-fafa-4781" name="Rending" hidden="false" targetId="9726-accd-9015-f6f6" type="rule"/>
-                        <infoLink id="02fb-10ef-22b8-1c37" name="Combat Shield" hidden="false" targetId="b3fe-c618-103c-62c3" type="profile"/>
+                        <infoLink id="5a5a-3cd4-a0c4-5eab" name="Hyper Sword and Combat Shield" hidden="false" targetId="989d-0b5d-60a4-83bc" type="profile"/>
+                        <infoLink id="0899-9237-d342-4b5b" name="Shield Wall" hidden="false" targetId="c724-1a53-5440-b0f6" type="rule"/>
                       </infoLinks>
                       <costs>
                         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="20.0"/>
@@ -3757,7 +3757,7 @@
     </profile>
     <profile id="36eb-a4e0-dcc3-b292" name="Hyper Sword" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
       <characteristics>
-        <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A2</characteristic>
+        <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A3</characteristic>
         <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">AP(1), Rending</characteristic>
       </characteristics>
     </profile>
@@ -4067,6 +4067,12 @@
     <profile id="a11e-c504-182a-dc4c" name="Nanobot Wraith-Shard (Fortress of Destruction)" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Enhancement">
       <characteristics>
         <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">Psychic(3)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="989d-0b5d-60a4-83bc" name="Hyper Sword and Combat Shield" publicationId="9e11-5792-d0c9-6571" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+      <characteristics>
+        <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A2</characteristic>
+        <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">AP(1), Rending, Shield Wall</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
