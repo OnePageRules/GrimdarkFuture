@@ -2604,7 +2604,7 @@
           <selectionEntries>
             <selectionEntry id="292c-5210-af7e-2d59" name="Single Unit [3 models]" hidden="false" collective="false" import="true" type="upgrade">
               <entryLinks>
-                <entryLink id="b956-604b-6dfd-8b14" name="Upgrade List K (single unit)" hidden="false" collective="false" import="true" targetId="429b-9f60-0419-5e00" type="selectionEntryGroup"/>
+                <entryLink id="b956-604b-6dfd-8b14" name="Upgrade List L (single unit)" hidden="false" collective="false" import="true" targetId="429b-9f60-0419-5e00" type="selectionEntryGroup"/>
                 <entryLink id="8d73-0065-00ed-a62a" name="Metal Fangs" hidden="false" collective="false" import="true" targetId="fbee-5fee-b23b-51ed" type="selectionEntry">
                   <constraints>
                     <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="17e6-3f05-39e3-b45e" type="min"/>
@@ -2618,7 +2618,7 @@
             </selectionEntry>
             <selectionEntry id="37a0-99b1-da9e-e073" name="Combined Unit [6 models]" hidden="false" collective="false" import="true" type="upgrade">
               <entryLinks>
-                <entryLink id="938a-23b2-f743-fe52" name="Upgrade List K (combined unit)" hidden="false" collective="false" import="true" targetId="e981-6061-8d1f-e648" type="selectionEntryGroup"/>
+                <entryLink id="938a-23b2-f743-fe52" name="Upgrade List L (combined unit)" hidden="false" collective="false" import="true" targetId="e981-6061-8d1f-e648" type="selectionEntryGroup"/>
                 <entryLink id="dbac-e690-ec86-5997" name="Metal Fangs" hidden="false" collective="false" import="true" targetId="fbee-5fee-b23b-51ed" type="selectionEntry">
                   <constraints>
                     <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="baf5-6ff4-d34e-4c50" type="min"/>
