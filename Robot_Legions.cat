@@ -2128,7 +2128,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eb31-95c6-28a6-24cd" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="c36e-6672-b368-3b2c" name="Gauss Machinegun" hidden="false" collective="false" import="true" targetId="43d0-3daf-4f5f-5b00" type="selectionEntry">
+        <entryLink id="c36e-6672-b368-3b2c" name="4x Gauss Machineguns" hidden="false" collective="false" import="true" targetId="43d0-3daf-4f5f-5b00" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="53ad-d32b-8a20-5c02" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d15f-28d3-b421-4d24" type="min"/>
@@ -2169,7 +2169,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ab53-b77e-3ef4-99dd" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="a01d-76bd-ddde-3c64" name="Nanobot Wraith-Shard (Fortress of Destruction)" hidden="false" collective="false" import="true" targetId="015e-9651-1647-0a4a" type="selectionEntry">
+            <entryLink id="a01d-76bd-ddde-3c64" name="Nanobot Wraith-Shard" hidden="false" collective="false" import="true" targetId="015e-9651-1647-0a4a" type="selectionEntry">
               <costs>
                 <cost name="pts" typeId="567f-6468-66c6-2ea2" value="-10.0"/>
               </costs>
@@ -2723,7 +2723,6 @@
     </selectionEntry>
     <selectionEntry id="2b02-e971-892e-55c5" name="Chained Tyrant Monolith" hidden="false" collective="false" import="true" type="model">
       <infoLinks>
-        <infoLink id="967f-00d3-782d-aeaa" name="Monolith Beam" hidden="false" targetId="e8a1-e41f-2b71-18e0" type="profile"/>
         <infoLink id="51da-2e4a-8268-2896" name="Stomp (Tyrant Monolith)" hidden="false" targetId="220d-cd34-88e0-7fb9" type="profile"/>
         <infoLink id="08d7-7648-6ddd-2725" name="Crushing Legs (Tyrant monolith)" hidden="false" targetId="3973-497a-0940-455a" type="profile"/>
         <infoLink id="6089-0279-211a-8dfd" name="Fear" hidden="false" targetId="d21e-0b0f-ebec-46da" type="rule"/>
@@ -2732,6 +2731,7 @@
         <infoLink id="e8de-731b-d322-1cc3" name="Strider" hidden="false" targetId="9dea-b566-200a-0605" type="rule"/>
         <infoLink id="f61b-5914-48dc-b4fd" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
         <infoLink id="6ee7-c714-69c0-f96a" name="Chained Tyrant Monolith" hidden="false" targetId="a897-dee5-19e1-d2de" type="profile"/>
+        <infoLink id="397d-88ed-b4c6-54a4" name="Psychic Blast" hidden="false" targetId="6799-68bc-57b6-fb17" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="7e49-c513-f2ae-3ebd" name="Vehicles: Super-Heavy" hidden="false" targetId="7528-ccdf-679c-8613" primary="true"/>
@@ -2925,6 +2925,9 @@
         <infoLink id="2338-fed2-4a97-ed12" name="Royal March Order" hidden="false" targetId="fd11-6c1c-499a-ef94" type="rule"/>
         <infoLink id="a915-d164-f4bc-50c9" name="Tripod Queen" hidden="false" targetId="805c-9be6-69d6-7930" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
@@ -4096,6 +4099,13 @@
     <profile id="805c-9be6-69d6-7930" name="Tripod Queen" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Enhancement">
       <characteristics>
         <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">Royal March Order</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="6799-68bc-57b6-fb17" name="Psychic Blast" hidden="false" typeId="3c71-da94-e5b3-d7c8" typeName="Ranged Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="79f4-5578-c041-f866">24&quot;</characteristic>
+        <characteristic name="Attacks" typeId="4633-0aa3-94f7-3be7">2</characteristic>
+        <characteristic name="Special Rules" typeId="9fb1-424b-834c-5e7d">AP(2), Blast(6)</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
