@@ -2209,8 +2209,8 @@
     </selectionEntry>
     <selectionEntry id="9885-451d-043e-5304" name="Void Sword" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="d1e4-5f0b-708e-51c8" name="Void Sword" hidden="false" targetId="72a9-9ed4-d638-b5df" type="profile"/>
         <infoLink id="ebd9-012d-0399-e4ec" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+        <infoLink id="2ce8-8bd0-ccff-f10a" name="Void Sword (Overseers)" hidden="false" targetId="bbbe-c43c-0f90-79f6" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
@@ -4074,6 +4074,12 @@
       <characteristics>
         <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A3</characteristic>
         <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">AP(2), Deadly(3)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="bbbe-c43c-0f90-79f6" name="Void Sword (Overseers)" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+      <characteristics>
+        <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A6</characteristic>
+        <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">AP(1)</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
