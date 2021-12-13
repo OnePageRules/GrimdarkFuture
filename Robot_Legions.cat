@@ -3956,7 +3956,7 @@
     </profile>
     <profile id="86e1-a6ed-cafc-d09e" name="Reanimator" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Enhancement">
       <characteristics>
-        <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">When this unit is activated pick one firendly unit within 12&quot;, which may ignroe wounds from Regeneration on 4+ next time it takes wounds.</characteristic>
+        <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">When this unit is activated pick one friendly unit within 12”, which may ignore wounds from Regeneration on 4+ next time it takes wounds.</characteristic>
       </characteristics>
     </profile>
     <profile id="2499-c27a-8996-cb7e" name="Twin Flux Rifle" hidden="false" typeId="3c71-da94-e5b3-d7c8" typeName="Ranged Weapon">
