@@ -4005,7 +4005,7 @@
       <characteristics>
         <characteristic name="Range" typeId="79f4-5578-c041-f866">24&quot;</characteristic>
         <characteristic name="Attacks" typeId="4633-0aa3-94f7-3be7">A1</characteristic>
-        <characteristic name="Special Rules" typeId="9fb1-424b-834c-5e7d">AP(2), Blast(3)</characteristic>
+        <characteristic name="Special Rules" typeId="9fb1-424b-834c-5e7d">AP(4), Blast(3)</characteristic>
       </characteristics>
     </profile>
     <profile id="ff16-677d-89cf-ea37" name="Heavy Doom Blaster" hidden="false" typeId="3c71-da94-e5b3-d7c8" typeName="Ranged Weapon">
