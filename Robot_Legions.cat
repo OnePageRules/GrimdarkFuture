@@ -2226,11 +2226,11 @@
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="393e-f2e9-68bf-d7e4" name="War Scythe" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="393e-f2e9-68bf-d7e4" name="War Scythe (Overseers)" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="d3e5-c56d-fe84-4c45" name="War Scythe" hidden="false" targetId="e8f8-522e-dc5a-f146" type="profile"/>
         <infoLink id="c22d-6fe9-374e-ab3e" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
         <infoLink id="d41b-49df-4217-5028" name="Deadly(X)" hidden="false" targetId="377b-3864-960e-57ac" type="rule"/>
+        <infoLink id="e6d8-bf2e-c748-56bf" name="War Scythe (Overseers)" hidden="false" targetId="e5f5-9324-8403-149b" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
@@ -4068,6 +4068,12 @@
       <characteristics>
         <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A2</characteristic>
         <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">AP(1), Rending, Shield Wall</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="e5f5-9324-8403-149b" name="War Scythe (Overseers)" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+      <characteristics>
+        <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A3</characteristic>
+        <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">AP(2), Deadly(3)</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
