@@ -2920,6 +2920,12 @@
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="ca8c-87a3-404c-f718" name="Tripod Queen" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="2338-fed2-4a97-ed12" name="Royal March Order" hidden="false" targetId="fd11-6c1c-499a-ef94" type="rule"/>
+        <infoLink id="a915-d164-f4bc-50c9" name="Tripod Queen" hidden="false" targetId="805c-9be6-69d6-7930" type="profile"/>
+      </infoLinks>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="0da2-7341-2e9d-0184" name="Psychic Spells" hidden="false" collective="false" import="true">
@@ -3163,6 +3169,11 @@
             <entryLink id="7c22-1cc0-7f02-dd52" name="Reanimator" hidden="false" collective="false" import="true" targetId="b541-3b58-dcbb-fb0c" type="selectionEntry">
               <costs>
                 <cost name="pts" typeId="567f-6468-66c6-2ea2" value="90.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="dd41-6492-f305-fcd2" name="Tripod Queen" hidden="false" collective="false" import="true" targetId="ca8c-87a3-404c-f718" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="60.0"/>
               </costs>
             </entryLink>
           </entryLinks>
@@ -4080,6 +4091,11 @@
       <characteristics>
         <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A6</characteristic>
         <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">AP(1)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="805c-9be6-69d6-7930" name="Tripod Queen" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Enhancement">
+      <characteristics>
+        <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">Royal March Order</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
