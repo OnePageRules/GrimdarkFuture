@@ -1,3 +1,11 @@
+# INACTIVE!
+
+## These files are no longer maintained.
+
+Please use the [OPR Webapp](https://webapp.onepagerules.com/).
+
+-----
+
 ![CI](https://github.com/sprutton1/GrimdarkFutureBattlescribe/workflows/CI/badge.svg?branch=master)
 
 <!-- TOC -->
